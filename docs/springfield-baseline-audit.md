@@ -47,31 +47,46 @@ Market-specific values live in page comments and Formspree hidden fields. Reusab
 
 | Item | Live status |
 |---|---|
-| Deploy | PR #11 merged; Cloudflare success on `2006f8b` |
+| Deploy | PR #11 `2006f8b` + PR #12 `57b7b8c` + PR #13 `ef037f3` merged; Cloudflare success |
 | Homepage | 200 OK |
-| Sitemap URLs | 30/30 return 200 (after 308 redirect follow) |
+| Sitemap URLs | 30/30 extensionless; 0 `.html` locs |
 | robots.txt / sitemap.xml | 200 OK |
 | H1 per page | 1 on all 30 pages |
 | Internal links | 691 local check, 0 broken |
 | GTM / Formspree / tel / analytics | Verified on all HTML pages |
 | Schema | LocalBusiness all pages; FAQPage where FAQ exists |
 
-**Routing note:** Production serves 308 from `.html` to extensionless URLs. Full URL canonical-alignment (sitemap, canonical tags, Open Graph page URLs, JSON-LD page URLs, internal navigation) **prepared on branch `cursor/springfield-sitemap-canonical-alignment`, not deployed**. Local HTML source filenames remain `*.html`.
+**Routing:** Cloudflare serves 308 from `.html` to extensionless URLs. Full URL canonical-alignment **deployed** (PR #12, `57b7b8c`).
 
-**GSC:** Property already set up — verify existing property, confirm sitemap status, capture baseline; do not create new property or submit indexing requests without approval.
+**GSC:** Existing **verified domain property** (`springfieldjunkremovalservice.com`). Baseline captured 2026-07-11:
 
-Full record: `production-baseline-2026-07-11.md`
+| Item | Value |
+|---|---|
+| Sitemap | Success; 30 discovered; read July 11, 2026; extensionless URLs |
+| Performance (28d) | 6 clicks, 4.64K impressions, 0.1% CTR, avg position 41.4 |
+| Performance (7d) | 2 clicks, 1.47K impressions, 0.1% CTR, avg position 40.9 |
+| Page indexing | 37 indexed, 35 not indexed |
+| Notable exclusions | 14 redirect, 9 alternate canonical, 8 redirect error, 3 crawled-not-indexed, 1 discovered-not-indexed |
+| Redirect errors | Legacy `.html` URLs crawled pre-PR #12 — recheck after recrawl, not active production defect |
+| Hub JSON-LD | Unparsable structured data on 3 hubs → fixed PR #13 (`ef037f3`); live tests passed |
+| Indexing requests | 8 URLs submitted 2026-07-11 (3 hubs + 5 service pages) |
+| Recheck window | July 18–25, 2026 |
+
+Full record: `production-baseline-2026-07-11.md`, `indexing-priority-tracker.md`
 
 ## Current phase
 
-**Indexing + tracking verification + authority preparation** (mirrors Auburn post-launch workflow)
+**Post-baseline monitoring + conversion verification + authority preparation**
+
+Proof-of-life: technically live, indexed, receiving impressions/clicks, early rankings visible. **Not yet renter-ready** — call/form conversion verification and authority/citation work incomplete.
 
 ## Outstanding watch items
 
 - Meta keywords still include SEO terms like `hoarding`, `demolition` — intentional for URL/search targeting, not body operator claims
 - Same-day page retains FAQ question "Is same-day service guaranteed?" with explicit **No** answer
 - Static HTML duplicates CSS per page — acceptable for current repo pattern; future refactor could extract shared stylesheet
-- GSC baseline not yet captured in docs — verify existing property (do not create new)
-- Full URL canonical-alignment prepared on branch — **not deployed**; local source filenames remain `*.html`
+- Recheck GSC indexing for eight requested URLs — **July 18–25, 2026**
+- Monitor legacy `.html` redirect-error coverage clearing after PR #12 recrawl
 - Conversion tests (call/form) not yet run live — awaiting separate approval
 - Citations: research prepared, zero live listings
+- Additional indexing requests — **require separate approval**
