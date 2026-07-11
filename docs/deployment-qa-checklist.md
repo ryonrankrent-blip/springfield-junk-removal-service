@@ -37,13 +37,9 @@
 
 ## Known sitemap / canonical alignment note
 
-The live `sitemap.xml` lists `.html` URLs that **308-redirect** to extensionless canonical URLs.
+**Production (`2006f8b`):** `sitemap.xml` lists `.html` locs that 308-redirect to extensionless URLs (non-blocking).
 
-| Classification | Detail |
-|---|---|
-| Live site | **Non-blocking** — final pages return 200 |
-| Cleanup | **Recommended** — align sitemap locs to extensionless 200 URLs in a **separate approved production change** |
-| This batch | Do not edit `sitemap.xml` |
+**Branch prepared (not deployed):** `cursor/springfield-sitemap-canonical-alignment` — `sitemap.xml`, canonical tags, Open Graph page URLs, JSON-LD page URLs, and internal navigation aligned to extensionless URLs. Local HTML source filenames remain `*.html`.
 
 Inspect GSC using extensionless canonical URLs per `indexing-priority-tracker.md`.
 

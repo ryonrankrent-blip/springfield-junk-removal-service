@@ -59,22 +59,23 @@ Cloudflare serves **308 permanent redirects** from `.html` paths to extensionles
 | Final canonical URL | `/junk-removal-springfield-mo` → **200** |
 | Homepage | `/` → **200** (no redirect) |
 
-### Current mismatch
+### Current mismatch (production baseline)
 
-| Source | Current state |
+| Source | State on production (`2006f8b`) |
 |---|---|
-| `sitemap.xml` | Lists **29 `.html` URLs** + homepage `/` |
-| Live 200 destination | **Extensionless** URLs for all non-homepage pages |
-| HTML `<link rel="canonical">` | Still references `.html` paths (matches sitemap, not final 200 URL) |
+| `sitemap.xml` | Listed **29 `.html` URLs** + homepage `/` |
+| Live routing | `.html` → **308** → extensionless **200** |
+| HTML `<link rel="canonical">` | Still references `.html` on 29 pages |
 
-### Classification
+### Sitemap alignment correction (branch — not deployed)
 
-| Level | Assessment |
+| Item | Detail |
 |---|---|
-| **Live site** | **Non-blocking** — all content reachable at 200 after redirect |
-| **Technical debt** | **Recommended cleanup** — sitemap locs and canonical tags should match final extensionless 200 URLs |
-| **This batch** | Documentation only — **do not edit `sitemap.xml` or HTML** |
-| **Future fix** | Separate approved production change: align sitemap + canonical tags to extensionless URLs |
+| Branch | `cursor/springfield-sitemap-canonical-alignment` |
+| Change | `sitemap.xml`, canonical tags, Open Graph page URLs, JSON-LD page URLs, and internal navigation aligned to extensionless URLs |
+| Local source files | HTML filenames remain `*.html` on disk |
+| Deployment | **Prepared only — not deployed** |
+| Live routing | Cloudflare serves extensionless URLs with **200**; `.html` paths **308** redirect |
 
 ### GSC inspection rule
 
@@ -128,7 +129,7 @@ Inspect and track indexing status using **extensionless canonical URLs** (see `i
 2. **Verify** the existing Google Search Console property and current sitemap submission status (read-only)
 3. **Capture** GSC Page Indexing baseline data
 4. **Manually inspect** Tier 1 extensionless canonical URLs — record indexed / not indexed / discovered / crawled
-5. **Prepare**, but do not execute, a sitemap canonical-alignment correction (separate approved production change)
+5. **Sitemap canonical-alignment** — prepared on branch `cursor/springfield-sitemap-canonical-alignment`, **not deployed**
 6. **Request separate approval** for live conversion tests and indexing requests
 
 Do not create a new GSC property. Do not submit sitemaps or indexing requests in this batch.

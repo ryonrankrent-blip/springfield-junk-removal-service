@@ -21,14 +21,15 @@ Use **extensionless** URLs as the final canonical destination for all non-homepa
 
 ## Sitemap / canonical alignment note
 
-The live `sitemap.xml` currently lists **29 `.html` URLs** (plus homepage `/`) that **308-redirect** to extensionless canonical URLs.
+**Branch prepared (not deployed):** `cursor/springfield-sitemap-canonical-alignment`
 
-| Classification | Detail |
+| State | Detail |
 |---|---|
-| **Live site impact** | Non-blocking — all pages return 200 after redirect |
-| **Technical cleanup** | Recommended — sitemap locs should match final 200 canonical URLs |
-| **This batch** | Documentation only — **do not edit `sitemap.xml`** |
-| **Future fix** | Separate approved production change: update sitemap + HTML canonical tags to extensionless URLs |
+| **Before (production)** | `sitemap.xml` listed 29 `.html` locs that 308-redirected to extensionless URLs |
+| **Correction (branch)** | `sitemap.xml`, canonical tags, `og:url`, JSON-LD page URLs, and internal navigation aligned to extensionless locs matching live 200 destinations |
+| **Deployment** | **Not yet deployed** — prepared on branch only |
+| **Local source files** | HTML filenames remain `*.html` on disk |
+| **QA** | `link-check.sh` maps extensionless internal paths to local `*.html` files |
 
 ---
 
@@ -51,15 +52,15 @@ Leave blank until manual inspection: `Indexed` / `Discovered` / `Crawled` / `Not
 | Canonical URL (inspect this) | Sitemap loc | Live status | Internal links (local) | Priority | Reason | GSC status |
 |---|---|---:|---:|---|---|---|
 | https://springfieldjunkremovalservice.com/ | `/` | 200 | 67 | Tier 1 | Brand + nav hub; highest link equity | |
-| https://springfieldjunkremovalservice.com/junk-removal-springfield-mo | `…-mo.html` | 200 | 38 | Tier 1 | Primary money page | |
-| https://springfieldjunkremovalservice.com/junk-removal-services-springfield-mo | `…-mo.html` | 200 | 29 | Tier 1 | New services hub; crawl discovery | |
-| https://springfieldjunkremovalservice.com/junk-removal-service-areas-springfield-mo | `…-mo.html` | 200 | 21 | Tier 1 | New geo hub | |
-| https://springfieldjunkremovalservice.com/junk-removal-guides-springfield-mo | `…-mo.html` | 200 | 18 | Tier 1 | New guides hub | |
-| https://springfieldjunkremovalservice.com/furniture-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 1 | Core high-volume service | |
-| https://springfieldjunkremovalservice.com/appliance-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 1 | Core high-volume service | |
-| https://springfieldjunkremovalservice.com/house-cleanout-springfield-mo | `…-mo.html` | 200 | 17 | Tier 1 | High-intent cleanout | |
-| https://springfieldjunkremovalservice.com/estate-cleanout-springfield-mo | `…-mo.html` | 200 | 17 | Tier 1 | High-intent cleanout | |
-| https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo | `…-mo.html` | 200 | 20 | Tier 1 | Commercial buyer intent | |
+| https://springfieldjunkremovalservice.com/junk-removal-springfield-mo | Aligned | 200 | 38 | Tier 1 | Primary money page | |
+| https://springfieldjunkremovalservice.com/junk-removal-services-springfield-mo | Aligned | 200 | 29 | Tier 1 | New services hub; crawl discovery | |
+| https://springfieldjunkremovalservice.com/junk-removal-service-areas-springfield-mo | Aligned | 200 | 21 | Tier 1 | New geo hub | |
+| https://springfieldjunkremovalservice.com/junk-removal-guides-springfield-mo | Aligned | 200 | 18 | Tier 1 | New guides hub | |
+| https://springfieldjunkremovalservice.com/furniture-removal-springfield-mo | Aligned | 200 | 9 | Tier 1 | Core high-volume service | |
+| https://springfieldjunkremovalservice.com/appliance-removal-springfield-mo | Aligned | 200 | 9 | Tier 1 | Core high-volume service | |
+| https://springfieldjunkremovalservice.com/house-cleanout-springfield-mo | Aligned | 200 | 17 | Tier 1 | High-intent cleanout | |
+| https://springfieldjunkremovalservice.com/estate-cleanout-springfield-mo | Aligned | 200 | 17 | Tier 1 | High-intent cleanout | |
+| https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo | Aligned | 200 | 20 | Tier 1 | Commercial buyer intent | |
 
 ---
 
@@ -67,18 +68,18 @@ Leave blank until manual inspection: `Indexed` / `Discovered` / `Crawled` / `Not
 
 | Canonical URL (inspect this) | Sitemap loc | Live status | Internal links (local) | Priority | Reason | GSC status |
 |---|---|---:|---:|---|---|---|
-| https://springfieldjunkremovalservice.com/garage-cleanout-springfield-mo | `…-mo.html` | 200 | 17 | Tier 2 | Strong cleanout intent | |
-| https://springfieldjunkremovalservice.com/mattress-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 2 | Single-item long-tail | |
-| https://springfieldjunkremovalservice.com/couch-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 2 | Single-item long-tail | |
-| https://springfieldjunkremovalservice.com/construction-debris-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 2 | Contractor / renovation intent | |
-| https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 2 | Seasonal outdoor intent | |
-| https://springfieldjunkremovalservice.com/same-day-junk-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 2 | Urgency intent; claim-safe FAQ | |
-| https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo | `…-mo.html` | 200 | 30 | Tier 2 | Research / BOFU guide | |
-| https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo | `…-mo.html` | 200 | 25 | Tier 2 | Research / acceptance guide | |
-| https://springfieldjunkremovalservice.com/how-junk-removal-works-springfield-mo | `…-mo.html` | 200 | 30 | Tier 2 | Process / trust guide | |
-| https://springfieldjunkremovalservice.com/junk-removal-nixa-mo | `…-mo.html` | 200 | 15 | Tier 2 | Top satellite city | |
-| https://springfieldjunkremovalservice.com/junk-removal-ozark-mo | `…-mo.html` | 200 | 15 | Tier 2 | Top satellite city | |
-| https://springfieldjunkremovalservice.com/junk-removal-republic-mo | `…-mo.html` | 200 | 15 | Tier 2 | Top satellite city | |
+| https://springfieldjunkremovalservice.com/garage-cleanout-springfield-mo | Aligned | 200 | 17 | Tier 2 | Strong cleanout intent | |
+| https://springfieldjunkremovalservice.com/mattress-removal-springfield-mo | Aligned | 200 | 9 | Tier 2 | Single-item long-tail | |
+| https://springfieldjunkremovalservice.com/couch-removal-springfield-mo | Aligned | 200 | 9 | Tier 2 | Single-item long-tail | |
+| https://springfieldjunkremovalservice.com/construction-debris-removal-springfield-mo | Aligned | 200 | 9 | Tier 2 | Contractor / renovation intent | |
+| https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo | Aligned | 200 | 9 | Tier 2 | Seasonal outdoor intent | |
+| https://springfieldjunkremovalservice.com/same-day-junk-removal-springfield-mo | Aligned | 200 | 9 | Tier 2 | Urgency intent; claim-safe FAQ | |
+| https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo | Aligned | 200 | 30 | Tier 2 | Research / BOFU guide | |
+| https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo | Aligned | 200 | 25 | Tier 2 | Research / acceptance guide | |
+| https://springfieldjunkremovalservice.com/how-junk-removal-works-springfield-mo | Aligned | 200 | 30 | Tier 2 | Process / trust guide | |
+| https://springfieldjunkremovalservice.com/junk-removal-nixa-mo | Aligned | 200 | 15 | Tier 2 | Top satellite city | |
+| https://springfieldjunkremovalservice.com/junk-removal-ozark-mo | Aligned | 200 | 15 | Tier 2 | Top satellite city | |
+| https://springfieldjunkremovalservice.com/junk-removal-republic-mo | Aligned | 200 | 15 | Tier 2 | Top satellite city | |
 
 ---
 
@@ -86,16 +87,16 @@ Leave blank until manual inspection: `Indexed` / `Discovered` / `Crawled` / `Not
 
 | Canonical URL (inspect this) | Sitemap loc | Live status | Internal links (local) | Priority | Reason | GSC status |
 |---|---|---:|---:|---|---|---|
-| https://springfieldjunkremovalservice.com/trash-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 3 | Specialty service | |
-| https://springfieldjunkremovalservice.com/hot-tub-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 3 | Specialty; scope confirmation | |
-| https://springfieldjunkremovalservice.com/shed-removal-springfield-mo | `…-mo.html` | 200 | 9 | Tier 3 | Specialty; teardown scope | |
-| https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo | `…-mo.html` | 200 | 9 | Tier 3 | Property-manager niche | |
-| https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo | `…-mo.html` | 200 | 20 | Tier 3 | Landlord niche | |
-| https://springfieldjunkremovalservice.com/hoarder-cleanout-springfield-mo | `…-mo.html` | 200 | 20 | Tier 3 | Heavy clutter; URL retained | |
-| https://springfieldjunkremovalservice.com/junk-removal-battlefield-mo | `…-mo.html` | 200 | 15 | Tier 3 | Secondary geo | |
-| https://springfieldjunkremovalservice.com/junk-removal-willard-mo | `…-mo.html` | 200 | 15 | Tier 3 | Secondary geo | |
+| https://springfieldjunkremovalservice.com/trash-removal-springfield-mo | Aligned | 200 | 9 | Tier 3 | Specialty service | |
+| https://springfieldjunkremovalservice.com/hot-tub-removal-springfield-mo | Aligned | 200 | 9 | Tier 3 | Specialty; scope confirmation | |
+| https://springfieldjunkremovalservice.com/shed-removal-springfield-mo | Aligned | 200 | 9 | Tier 3 | Specialty; teardown scope | |
+| https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo | Aligned | 200 | 9 | Tier 3 | Property-manager niche | |
+| https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo | Aligned | 200 | 20 | Tier 3 | Landlord niche | |
+| https://springfieldjunkremovalservice.com/hoarder-cleanout-springfield-mo | Aligned | 200 | 20 | Tier 3 | Heavy clutter; URL retained | |
+| https://springfieldjunkremovalservice.com/junk-removal-battlefield-mo | Aligned | 200 | 15 | Tier 3 | Secondary geo | |
+| https://springfieldjunkremovalservice.com/junk-removal-willard-mo | Aligned | 200 | 15 | Tier 3 | Secondary geo | |
 
-*Sitemap loc shorthand: each non-homepage entry in `sitemap.xml` uses the same slug with `.html` suffix (e.g. `junk-removal-springfield-mo.html`).*
+*On branch `cursor/springfield-sitemap-canonical-alignment`, sitemap locs match extensionless canonical URLs (prepared, not deployed).*
 
 ---
 
@@ -135,5 +136,5 @@ Search Console is **already set up** for Springfield. Do not create a new proper
 2. Verify the existing GSC property and current sitemap status
 3. Capture GSC baseline data
 4. Manually inspect Tier 1 extensionless canonical URLs
-5. Prepare, but do not execute, a sitemap canonical-alignment correction
+5. Prepare, but do not execute, a sitemap canonical-alignment correction — **prepared on branch `cursor/springfield-sitemap-canonical-alignment`, not deployed**
 6. Request separate approval for live conversion tests and indexing requests

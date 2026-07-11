@@ -26,6 +26,14 @@
 - GSC workflow corrected for existing property
 - Citation guardrails strengthened (planning research only)
 
+### Sitemap canonical-alignment (branch — not deployed)
+- Branch: `cursor/springfield-sitemap-canonical-alignment`
+- `sitemap.xml` locs changed from `.html` to extensionless URLs (29 pages)
+- HTML canonical tags, `og:url`, JSON-LD page `url` fields, and internal navigation links aligned to extensionless URLs
+- Local source filenames remain `*.html`; Cloudflare serves final extensionless URLs with 200 responses
+- `scripts/link-check.sh` updated to map extensionless internal paths to local `*.html` files during QA
+- Not committed, pushed, or deployed yet
+
 ### Post-deploy documentation added (local, not committed)
 - `production-baseline-2026-07-11.md`
 - `conversion-verification-checklist.md`

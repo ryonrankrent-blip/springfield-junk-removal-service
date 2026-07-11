@@ -56,7 +56,7 @@ Market-specific values live in page comments and Formspree hidden fields. Reusab
 | GTM / Formspree / tel / analytics | Verified on all HTML pages |
 | Schema | LocalBusiness all pages; FAQPage where FAQ exists |
 
-**Routing note:** Cloudflare serves 308 from `.html` to extensionless URLs. **Non-blocking** for live site; **recommended cleanup** to align `sitemap.xml` and HTML canonical tags in a separate approved production change. GSC inspection uses extensionless canonical URLs.
+**Routing note:** Production serves 308 from `.html` to extensionless URLs. Full URL canonical-alignment (sitemap, canonical tags, Open Graph page URLs, JSON-LD page URLs, internal navigation) **prepared on branch `cursor/springfield-sitemap-canonical-alignment`, not deployed**. Local HTML source filenames remain `*.html`.
 
 **GSC:** Property already set up — verify existing property, confirm sitemap status, capture baseline; do not create new property or submit indexing requests without approval.
 
@@ -72,6 +72,6 @@ Full record: `production-baseline-2026-07-11.md`
 - Same-day page retains FAQ question "Is same-day service guaranteed?" with explicit **No** answer
 - Static HTML duplicates CSS per page — acceptable for current repo pattern; future refactor could extract shared stylesheet
 - GSC baseline not yet captured in docs — verify existing property (do not create new)
-- Sitemap lists `.html` locs that redirect — recommended alignment fix in separate approved production change
+- Full URL canonical-alignment prepared on branch — **not deployed**; local source filenames remain `*.html`
 - Conversion tests (call/form) not yet run live — awaiting separate approval
 - Citations: research prepared, zero live listings
