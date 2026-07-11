@@ -34,6 +34,19 @@ for f in *.html; do
     # Normalize leading slash
     target="${target#/}"
 
+    # Extensionless internal paths map to local *.html source files
+    if [[ "$target" == *.html ]]; then
+      if [ ! -f "$target" ]; then
+        echo "BROKEN: $f -> $href"
+        BROKEN=$((BROKEN + 1))
+      fi
+      continue
+    fi
+
+    if [ -f "${target}.html" ]; then
+      continue
+    fi
+
     if [ ! -f "$target" ]; then
       echo "BROKEN: $f -> $href"
       BROKEN=$((BROKEN + 1))

@@ -8,7 +8,7 @@
 - [x] Internal linking strengthened
 - [x] Technical integrity verified locally (GTM, Formspree, tel, canonical)
 - [x] Documentation in `docs/`
-- [ ] Live deployment verified
+- [x] Live deployment verified (2026-07-11, PR #11)
 - [ ] CallRail routing confirmed on production
 - [ ] Real reviews/testimonials (placeholder acceptable for launch)
 
