@@ -2,9 +2,9 @@
 
 **Site:** https://springfieldjunkremovalservice.com  
 **Started:** 2026-07-11 (post PR #11 production deploy)  
+**GSC baseline captured:** 2026-07-11  
+**Recheck window:** July 18–25, 2026  
 **Update cadence:** Weekly (Monday recommended)
-
-Leave metric cells blank until data is collected manually. Do not invent numbers.
 
 ---
 
@@ -12,7 +12,7 @@ Leave metric cells blank until data is collected manually. Do not invent numbers
 
 | Week ending | Indexed pages | Impressions | Clicks | Avg position | Top queries | Top landing pages | Phone calls | Form leads | Spam leads | Citations live | Backlinks found | Renter-readiness | Notes / actions |
 |---|---:|---:|---:|---:|---|---|---|---:|---:|---:|---:|---|---|
-| 2026-07-11 | | | | | | | | | | 0 | | Pre-launch baseline | Production live; verify existing GSC property + baseline |
+| 2026-07-11 | 37 | 4.64K (28d) / 1.47K (7d) | 6 (28d) / 2 (7d) | 41.4 (28d) / 40.9 (7d) | construction debris removal (~5.9); commercial junk removal (~15.7); yard waste removal services (1 click, 10.0); junk removal (75 imp, 24.2) | Pending export | — | — | — | 0 | — | Not renter-ready | PR #12+13 deployed; GSC baseline captured; 4 Tier 1 indexed, 8 indexing requests submitted; hub JSON-LD fixed; recheck July 18–25 |
 | 2026-07-18 | | | | | | | | | | | | | |
 | 2026-07-25 | | | | | | | | | | | | | |
 | 2026-08-01 | | | | | | | | | | | | | |
