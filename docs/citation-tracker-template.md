@@ -6,15 +6,18 @@
 **Market:** Springfield, MO  
 **Niche:** Junk Removal
 
+**Research sheet:** See `citation-candidate-research.md` for full platform analysis (2026-07-11). **Planning research only — no recommendation authorizes listing creation.**
+
 | Platform | URL | Status | NAP Match | Notes |
 |---|---|---|---|---|
-| Google Business Profile | | Not started | | Do not create without approval |
-| Bing Places | | Not started | | |
-| Apple Maps | | Not started | | |
+| Google Business Profile | | Not started | | Research only — do not create without approval; no fake address |
+| Bing Places | | Not started | | Research candidate — not authorized |
+| Apple Business Connect | | Not started | | Research candidate — not authorized |
 | Yelp | | Not started | | |
 | Facebook | | Not started | | |
-| BBB | | Not started | | |
-| Local chamber | | Not started | | |
+| ShowMeLocal | | Not started | | Candidate — inspect for existing listing |
+| BBB | | Not started | | Defer — address rules |
+| Local chamber | | Not started | | Paid membership |
 
 ## NAP consistency rules
 

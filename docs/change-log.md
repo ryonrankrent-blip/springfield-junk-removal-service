@@ -1,5 +1,41 @@
 # Change Log
 
+## 2026-07-11 — Production deploy (PR #11)
+
+### Deployed
+- Merged PR #11 to `main` — merge commit `2006f8bc8baff01a9c8c050be72e893d07473ccf`
+- Cloudflare Pages production deployment — success
+- Live site: https://springfieldjunkremovalservice.com
+- 30 sitemap URLs verified live (200 after redirect follow)
+
+### Protected values (unchanged)
+- Phone: (417) 242-5370 / `tel:4172425370`
+- Formspree: `mojzdkvg`
+- GTM: `GTM-GDJF54DV`
+- Canonical domain: springfieldjunkremovalservice.com
+- `analytics-events.js` event hooks
+
+### External systems (unchanged)
+- DNS, CallRail routing, GA4/GTM config, citations, listings, renter outreach
+
+### Known routing note
+- Cloudflare 308: `.html` sitemap locs → extensionless canonical URLs (non-blocking; recommended sitemap/canonical alignment in separate approved production change)
+
+### Documentation correction (pre-commit)
+- Indexing tracker URLs updated to extensionless canonical form
+- GSC workflow corrected for existing property
+- Citation guardrails strengthened (planning research only)
+
+### Post-deploy documentation added (local, not committed)
+- `production-baseline-2026-07-11.md`
+- `conversion-verification-checklist.md`
+- `proof-of-life-weekly-tracker.md`
+- `citation-candidate-research.md`
+- `authority-gap-review.md`
+- Updated indexing, deployment QA, proof-of-life checklists
+
+---
+
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
 
 ### Added

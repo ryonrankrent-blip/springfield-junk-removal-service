@@ -43,8 +43,35 @@ Converted 27 existing pages to claim-safe request-and-confirm language, added 3 
 
 Market-specific values live in page comments and Formspree hidden fields. Reusable patterns documented in `reusable-patterns.md`. Scripts in `scripts/` can be adapted for future niches/locations.
 
+## Production baseline (2026-07-11)
+
+| Item | Live status |
+|---|---|
+| Deploy | PR #11 merged; Cloudflare success on `2006f8b` |
+| Homepage | 200 OK |
+| Sitemap URLs | 30/30 return 200 (after 308 redirect follow) |
+| robots.txt / sitemap.xml | 200 OK |
+| H1 per page | 1 on all 30 pages |
+| Internal links | 691 local check, 0 broken |
+| GTM / Formspree / tel / analytics | Verified on all HTML pages |
+| Schema | LocalBusiness all pages; FAQPage where FAQ exists |
+
+**Routing note:** Cloudflare serves 308 from `.html` to extensionless URLs. **Non-blocking** for live site; **recommended cleanup** to align `sitemap.xml` and HTML canonical tags in a separate approved production change. GSC inspection uses extensionless canonical URLs.
+
+**GSC:** Property already set up — verify existing property, confirm sitemap status, capture baseline; do not create new property or submit indexing requests without approval.
+
+Full record: `production-baseline-2026-07-11.md`
+
+## Current phase
+
+**Indexing + tracking verification + authority preparation** (mirrors Auburn post-launch workflow)
+
 ## Outstanding watch items
 
 - Meta keywords still include SEO terms like `hoarding`, `demolition` — intentional for URL/search targeting, not body operator claims
 - Same-day page retains FAQ question "Is same-day service guaranteed?" with explicit **No** answer
 - Static HTML duplicates CSS per page — acceptable for current repo pattern; future refactor could extract shared stylesheet
+- GSC baseline not yet captured in docs — verify existing property (do not create new)
+- Sitemap lists `.html` locs that redirect — recommended alignment fix in separate approved production change
+- Conversion tests (call/form) not yet run live — awaiting separate approval
+- Citations: research prepared, zero live listings
