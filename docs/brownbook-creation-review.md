@@ -1,9 +1,10 @@
 # Brownbook Creation Review — Springfield
 
-**Status:** Research and draft complete — **listing creation not authorized**  
-**Main commit:** `dc97558024c46b08683dc9899ebe041c92494628`  
-**Review date:** 2026-07-12  
-**Mode:** Read-only policy reverification + claim-safe draft preparation  
+**Status:** Pre-submission inspection complete — field decisions approved — **listing creation not authorized**  
+**Main commit:** `5486caae19d7f35ec9808f8f19a92d4915bdd897`  
+**Creation review date:** 2026-07-12  
+**Pre-submission inspection date:** 2026-07-12  
+**Mode:** Read-only policy reverification, claim-safe draft, live pre-submission inspection  
 **Identity source:** `citation-identity-sheet.md` (owner-approved 2026-07-12)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` — Brownbook: **0 matches**
 
@@ -13,44 +14,173 @@
 
 - No Brownbook account created
 - No login, listing create/claim/edit/submit/verify
+- No credentials entered during inspection
 - No address entered
-- No private contact information entered
+- No private contact information published
 - No images uploaded
 - No Brownbook support contact
 - No spend
 - No production, DNS, tracking, routing, or form changes
 - No commit, push, or deploy in this batch
 
-**Stop for owner approval before any Brownbook submission or commit of this documentation.**
+**Stop for owner approval before any Brownbook account creation, listing submission, or commit of this documentation.**
 
 ---
 
-## 1. Current Brownbook policy and workflow (reverified 2026-07-12)
+## Owner-approved Brownbook field configuration (2026-07-12)
+
+| Field | Approved value | Notes |
+|---|---|---|
+| **Business name** | Springfield Junk Removal Service | Public listing identity |
+| **Category (Brownbook label)** | **Other Waste Collection** | Owner-approved |
+| **Category breadcrumb** | Administrative and Support and Waste Management and Remediation Services > Waste Management and Remediation Services > Waste Collection > Other Waste Collection | Brownbook displays label + breadcrumb, **not NAICS code** |
+| **Standard NAICS reference** | **562119** | Reference only — not shown in Brownbook UI |
+| **Public address** | **Leave blank** | No invented address |
+| **City** | Springfield | |
+| **Country** | United States | Select **United States of America** in UI |
+| **Zip Code** | **Leave blank** | |
+| **Phone** | (417) 242-5370 | Approved CallRail number |
+| **Website** | https://springfieldjunkremovalservice.com | |
+| **Display Website** | https://springfieldjunkremovalservice.com | Same URL |
+| **Public listing email** | **Leave blank** | Optional listing email is public when entered |
+| **Private account/login email** | ryon.rankrent@gmail.com | Account step only — **not registered** |
+| **Account Name*** | Ryon O'Neill | Required for truthful private registration as asset owner and authorized representative |
+| **Public owner/contact name** | **Omit** | Do not add to listing |
+| **Hours** | **Omit** | |
+| **Description / Business overview** | **Defer** — add only later if published listing supports editing | Approved draft text retained below for future use |
+| **Logo / photos** | **Defer** | |
+| **Business tags** | junk removal; furniture removal; appliance removal; garage cleanout; construction debris removal | Trim at submission if needed |
+| **Location tags** | Springfield; Greene County; Missouri | |
+
+### Account-owner boundaries (approved)
+
+- Ryon O'Neill is the **private account owner and authorized representative** of the lead-generation asset.
+- **Do not** imply he is the hauling contractor, service provider, dispatcher, crew operator, or local field operator.
+- **Do not** publish personal address, private phone number, or personal email on the listing.
+- **Execution stop rule:** If the live workflow indicates Ryon O'Neill will be **publicly displayed** as business owner, operator, or contact, **stop** before account creation or listing submission.
+
+### Authorization gates (unchanged)
+
+| Action | Status |
+|---|---|
+| Documentation update | This batch |
+| Account creation | **Not authorized** |
+| Listing creation / submission | **Not authorized** |
+| Claiming / verification | **Not authorized** |
+| GBP | **Blocked / not eligible now** |
+
+---
+
+## 1. Live pre-submission inspection findings (2026-07-12)
+
+**URL inspected:** https://www.brownbook.net/add-business  
+**Method:** Public browser inspection only — advanced to step 2 without account creation, CAPTCHA, or listing publish.
+
+### Category typeahead results
+
+Placeholder: **“Type to search categories (min 2 characters)…”**  
+Brownbook shows **category label + breadcrumb only** — NAICS codes are not displayed in the UI.
+
+| Search query | Result |
+|---|---|
+| **Junk Removal Service** | **No junk-removal label.** False positives matching “Service” (Postal Service, Limousine Service, Food Service Contractors, etc.) |
+| **Junk Removal** | **No junk-removal label.** Same irrelevant “Service” matches |
+| **Debris Removal** | **No debris/waste category label** returned |
+| **Waste Collection** | Waste Collection; Solid Waste Collection; Hazardous Waste Collection; **Other Waste Collection**; plus tangential matches (Collection Agencies, landfills, septic, etc.) |
+| **Other Waste Collection** | Same waste-related labels as above |
+
+**Available relevant labels observed:**
+- Waste Collection
+- Solid Waste Collection
+- Hazardous Waste Collection
+- **Other Waste Collection**
+
+**Owner-approved and recommended label:**
+- **Other Waste Collection** (standard NAICS reference: **562119**)
+
+**Avoid:**
+- Solid Waste Collection — municipal garbage connotation
+- Hazardous Waste Collection — wrong service type
+- Broad parent **Waste Collection** — too generic
+- Collection Agencies — debt collection, not hauling
+
+### Step 1 requirements (verified live)
+
+| Field | Required? |
+|---|---|
+| Business name* | **Yes** |
+| Business category* | **Yes** |
+| Country* | **Yes** |
+| Address, City, Zip, Phone, Website, Email, social, tags | Optional |
+
+Clicking **Next** with only name + category + country advances to step 2. **Does not publish the listing.**
+
+### Step 2 requirements (verified live)
+
+**Heading:** `Confirm changes (step 2 of 2)`
+
+**Subheading:** `Create an account to validate your email address and complete your listing.`
+
+| Field | Required? | Notes |
+|---|---|---|
+| Email* | **Yes** | Private account email — approved: `ryon.rankrent@gmail.com` (not entered) |
+| Password* | **Yes** | Not entered |
+| Password (Confirm)* | **Yes** | Observed in form DOM |
+| Name* | **Yes** | Approved: Ryon O'Neill (not entered) |
+| I've read and accept terms and conditions | **Yes** | Checkbox |
+| reCAPTCHA | **Yes** | Required before Next |
+| Next | — | Creates account; listing publishes only after email VERIFY link |
+
+**Alternate path:** Already have an account? **Login** (Email*, Password*, Remember Me)
+
+**Not on step 2:** description, phone, website, address, logo, hours
+
+### Inspection actions not performed
+
+- No account created
+- No email or name entered
+- No CAPTCHA completed
+- No listing published (post-inspection search: **0 results** for approved business name)
+
+### Operational blocker observed
+
+Live reCAPTCHA displayed:
+
+> **This site is exceeding reCAPTCHA Enterprise free quota.**
+
+Treat as a **possible execution blocker**. Do not attempt repeated CAPTCHA submissions.
+
+---
+
+## 2. Privacy findings (verified live)
+
+| Item | Finding |
+|---|---|
+| **Listing email** (step 1, optional) | **Public when entered** — example listings show email under Contact Details. **Must remain blank.** |
+| **Account email** (step 2) | **Private** — login and email verification only; separate from listing email |
+| **Account Name*** (step 2) | **Required** for registration. **Public exposure unconfirmed** — stop if live workflow shows name as public owner/operator/contact |
+| **Claim-step name** | BrightLocal (2023, secondary): claim may ask full name + confirmation checkbox. **Claim-name public visibility unresolved** |
+| **Private address / personal contact** | **Must not be published** on listing |
+
+---
+
+## 3. Current Brownbook policy and workflow (reverified 2026-07-12)
 
 | Item | Finding |
 |---|---|
 | **Official add-business URL** | https://www.brownbook.net/add-business (step 1 of 2) |
 | **Official register URL** | https://www.brownbook.net/register |
 | **Official claim info URL** | https://www.brownbook.net/free-claim |
-| **Free or paid** | **Free basic listing** and **free claim** advertised. Paid **Profile+** and partner upsells (Uberall Listing Manager, BLINX) exist but are optional. |
-| **Account required** | **Not required** to add a basic listing anonymously. **Required** to claim, lock edits, add logo/photos, and manage listing long-term. Register/login available at https://www.brownbook.net/login |
-| **Email verification required** | **Yes for registered accounts** — register page states user must click VERIFY link in email before account is active. Listing email field on add form is separate and optional. |
-| **Public address required or optional** | **Optional on step 1** — only Business name*, Business category*, and Country* are marked required. Address, City, and Zip Code have no asterisk and JS validation treats them as optional. |
-| **Service-area business compatibility** | **Partial / informal** — no dedicated service-area field. Location is conveyed via optional **City**, **Location Tags**, and published city/country display. Listings without street address are possible; example profiles show city + state only. |
-| **Website allowed** | **Yes** — Website and Display Website fields on add form. |
-| **Phone allowed** | **Yes** — Phone and Mobile fields on add form. |
-| **Owner/contact name public** | **Not on add-business step 1.** BrightLocal documentation (2023) reports claim confirmation asks for **full name** with checkbox that business is yours — this appears to be **account/claim verification**, not a published listing owner field. **Reverify at claim time.** |
-| **Business description supported** | **Yes** — add-business form schema includes `description` field. Published listings display **Business overview** (see example: Movin and Removin). Long text appears supported post-create and on profile pages. |
-| **Category options** | **NAICS-based typeahead** — UI placeholder: “Search for a category…” / “Select category”. Uses `naics_code`, `naics_title`, `naics_category_breadcrumb`. Exact “Junk Removal Service” label **not confirmed live** without interactive typeahead (blocked from form submission during this review). Likely matches: **562119 Other Waste Collection** (debris/rubble removal) or **562111 Solid Waste Collection** — **owner must confirm exact label at submission.** |
-| **Image/logo support** | **Yes after claim** — homepage and free-claim page advertise logos, photos, video via claim/Profile+. Not part of required step-1 fields. |
-| **Business tags / location tags** | **Optional** — combobox fields; custom tags allowed (min 2 characters). |
-| **Hours field** | **Not observed** on add-business step 1. |
-| **Service list field** | **Not observed** as structured multi-select on step 1. Services may be expressed in description and business tags only. |
-| **Claim/edit workflow** | 1) Add listing (anonymous or logged in) → 2) Listing publishes → 3) **Claim this listing for FREE** → 4) Registered user confirms identity (full name + confirmation checkbox per BrightLocal) → 5) Claimed & Verified badge → 6) Edit/add overview, logo, photos via account dashboard |
-| **Step 2 of add-business** | UI shows “step 1 of 2”. Step 2 not fully observed without submitting form. JS confirms **reCAPTCHA** on submit and confirm/final dialogs (`confirmDialogOpen`, `finalDialogOpen`). Description field exists in form schema. |
-| **Moderation / rejection risk** | Terms require **genuine listings**, accurate updates, and authorized add/claim only. Brownbook may remove obscene/illegal content; no heavy pre-vetting stated. **False claim disputes** can transfer listing to rightful claimant with forfeiture of paid claim period. User-generated edits mean vandalism/spam risk on unclaimed listings. |
-| **Lead-generation / intermediary restrictions** | Terms **do not explicitly ban** lead-generation or rank-and-rent sites. Terms **do** require genuine business listings and authorized representation. **Limit:** no more than **5 listings for commercial gain** (SEO services for others) without official API/commercial agreement — **not applicable** to a single Springfield asset. About page explicitly welcomes **business owners and their agents**. |
-| **Current policy sources** | https://www.brownbook.net/add-business (live form, 2026-07-12); https://www.brownbook.net/terms-conditions (last updated **2022-08-24**); https://www.brownbook.net/about; https://www.brownbook.net/register; https://www.brownbook.net/free-claim; BrightLocal claim guide (2023-07-03, secondary); example listing https://brownbook.net/business/54043832/movin-and-removin |
+| **Free or paid** | Free basic listing + free claim; optional paid Profile+ / partner upsells |
+| **Account required to complete listing** | **Yes** — step 2 requires account creation or login + email verification |
+| **Public address** | **Optional** on step 1 |
+| **Service-area compatibility** | Informal — City + Location Tags; no dedicated service-area field |
+| **Website / phone** | Allowed |
+| **Business description** | Supported post-publish as **Business overview** — not on step 2 |
+| **Image/logo** | Post-claim / Profile+ — deferred |
+| **Claim workflow** | Add → account + email verify → listing publishes → claim → edit/enrich |
+| **Lead-gen restrictions** | No explicit ban; agents allowed; 5-listing SEO commercial limit N/A for single asset |
+| **Policy sources** | Live add-business form (2026-07-12); [Terms 2022-08-24](https://www.brownbook.net/terms-conditions); [About](https://www.brownbook.net/about); [Register](https://www.brownbook.net/register); [Free claim](https://www.brownbook.net/free-claim) |
 
 ### Duplicate status (reconfirmed)
 
@@ -59,161 +189,97 @@
 | `Springfield Junk Removal Service` on Brownbook | 0 results |
 | `springfieldjunkremovalservice.com` | 0 results |
 | `(417) 242-5370` | 0 results |
-| `junk removal springfield missouri` on Brownbook | 0 results |
-
-Full inspection record: `tier-a-duplicate-inspection.md`.
+| Post-inspection search (2026-07-12) | 0 results |
 
 ---
 
-## 2. Field map (every observed Brownbook field)
+## 4. Field map (updated after pre-submission inspection)
 
-| Field name (Brownbook UI) | Required? | Approved value | Omit | Unresolved | Risk | Approval needed |
-|---|---|---|---|---|---|---|
-| **Business name*** | **Yes** | Springfield Junk Removal Service | | | Low — matches approved identity | **Approved** |
-| **Business category*** (NAICS typeahead) | **Yes** | Map to closest NAICS match for junk/debris removal | | **Exact NAICS label** — must pick live from typeahead | Medium — wrong category weakens relevance | **Yes — owner confirms label at submission** |
-| **Address** | Optional | — | **Omit** | | Low if omitted; inventing address is prohibited | **Approved omit** |
-| **City** | Optional | Springfield | | Whether city alone is sufficient for Greene County coverage | Low–medium — may under-represent county-wide service | **Approved** (city only) |
-| **Country*** | **Yes** | United States | | | Low | **Approved** |
-| **Zip Code** | Optional | — | **Omit** (no public address) | | Low if omitted | **Approved omit** |
-| **Phone** | Optional | (417) 242-5370 | | | Low — approved CallRail number | **Approved** |
-| **Mobile** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Fax** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Email** (listing) | Optional | — | **Omit** from public display | | Low | **Approved omit** |
-| **Website** | Optional | https://springfieldjunkremovalservice.com | | | Low | **Approved** |
-| **Display Website** | Optional | https://springfieldjunkremovalservice.com | | Duplicate of Website — use same URL or omit | Low | **Approved** (same URL) |
-| **Blog** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Twitter** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Facebook** | Optional | — | **Omit** (platform deferred) | | Low | **Approved omit** |
-| **Instagram** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **LinkedIn** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **TikTok** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Video** (Skype/video calling) | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Instant messenger** | Optional | — | **Omit** | | Low | **Approved omit** |
-| **Business Tags** | Optional | `junk removal`, `furniture removal`, `cleanout`, `debris removal` (subset) | | Final tag list vs platform suggestions | Low — keep claim-safe | **Approved subset** — trim at submission if needed |
-| **Location Tags** | Optional | `Springfield`, `Greene County`, `Missouri` | | | Low | **Approved** |
-| **Description / Business overview** | Optional (form schema) | See claim-safe drafts below | | Whether required on step 2 | Low if claim-safe text used | **Approved** (text below) |
-| **Hours** | Not on step 1 | — | **Omit** | | Low | **Approved omit** |
-| **Logo / photos** | Post-claim / Profile+ | `site-icon-512.png` only when authorized | **Omit at create** | Upload not authorized in this review | Low — defer to post-claim task | **Separate approval for upload** |
-| **reCAPTCHA** (step 2) | Expected at submit | Complete at submission only | | | Low | **At submission** |
-| **Register: account email** | Required to claim | Private operations email — **not specified in identity sheet** | | Which email to use | Medium — account recovery, verification | **Yes — owner designates private account email** |
-| **Register: password** | Required to claim | Private — not documented | | | Low | **At account creation** |
-| **Claim: full name** | Reported at claim step | Ryon O'Neill — **private account only** | **Do not publish on listing** | Whether Brownbook displays claimant name publicly | Medium — privacy boundary | **Yes — confirm claim UI before entering** |
-| **Claim: “this is your business” checkbox** | At claim | Authorized representative attestation | | Wording vs lead-gen asset model | Medium — must be truthful as asset representative, not as hauling operator | **Yes — owner/legal comfort check** |
-| **Secondary category** | Not observed | — | **Omit** | Brownbook appears single-category (NAICS) | Low | **Approved omit** |
-| **Structured service list** | Not observed | — | Use description + tags only | | Low | N/A |
-| **License / insurance / employees / trucks / years** | Not observed | — | **Omit** | | High if invented | **Approved prohibit** |
+| Field name (Brownbook UI) | Required? | Approved value | Omit | Unresolved | Approval |
+|---|---|---|---|---|---|
+| **Business name*** | **Yes** | Springfield Junk Removal Service | | | **Approved** |
+| **Business category*** | **Yes** | **Other Waste Collection** (NAICS ref 562119) | | | **Approved** |
+| **Address** | Optional | — | **Omit** | | **Approved omit** |
+| **City** | Optional | Springfield | | | **Approved** |
+| **Country*** | **Yes** | United States | | | **Approved** |
+| **Zip Code** | Optional | — | **Omit** | | **Approved omit** |
+| **Phone** | Optional | (417) 242-5370 | | | **Approved** |
+| **Email** (listing) | Optional | — | **Omit** | | **Approved omit** |
+| **Website** | Optional | https://springfieldjunkremovalservice.com | | | **Approved** |
+| **Display Website** | Optional | Same as website | | | **Approved** |
+| **Social / blog / IM** | Optional | — | **Omit** | | **Approved omit** |
+| **Business Tags** | Optional | Approved subset (see above) | | | **Approved** |
+| **Location Tags** | Optional | Springfield; Greene County; Missouri | | | **Approved** |
+| **Description / overview** | Post-publish | Defer — use approved draft later if editable | **Defer at create** | | **Deferred** |
+| **Hours** | Not on form | — | **Omit** | | **Approved omit** |
+| **Logo / photos** | Post-claim | — | **Defer** | | **Deferred** |
+| **Account email** (step 2) | **Yes** | ryon.rankrent@gmail.com | | | **Approved** (not registered) |
+| **Account Name*** (step 2) | **Yes** | Ryon O'Neill | | Public exposure unconfirmed | **Approved** (private registration) |
+| **Account password** | **Yes** | Private — at execution | | | **At execution** |
+| **reCAPTCHA** (step 2) | **Yes** | — | | Quota blocker possible | **Check at execution** |
+| **Claim: full name** | At claim | — | | Public visibility unresolved | **Stop-check at claim** |
+| **License / insurance / crews / trucks** | — | — | **Omit** | | **Prohibited** |
 
 ---
 
-## 3. Claim-safe Brownbook draft listing
+## 5. Claim-safe draft text (retained for post-publish edit)
 
-### Public fields (submission-ready copy)
+Use only if Business overview editing is confirmed after listing is live.
 
-| Field | Draft value |
-|---|---|
-| **Business name** | Springfield Junk Removal Service |
-| **Phone** | (417) 242-5370 |
-| **Website** | https://springfieldjunkremovalservice.com |
-| **Display Website** | https://springfieldjunkremovalservice.com |
-| **Country** | United States |
-| **City** | Springfield |
-| **Address** | *(leave blank)* |
-| **Zip Code** | *(leave blank)* |
-| **Email** | *(leave blank)* |
-| **Primary category** | *[Select at submission — prefer NAICS title closest to “Junk Removal” or “Other Waste Collection” / debris removal; avoid unrelated categories]* |
-| **Business tags** | junk removal; furniture removal; appliance removal; garage cleanout; construction debris removal |
-| **Location tags** | Springfield; Greene County; Missouri |
-
-### Short description (~150 chars)
-
+**Short (~150 chars):**
 > Junk removal requests in Springfield, MO and nearby Greene County areas. Furniture, appliances, cleanouts, yard waste, and construction debris. Call or request a quote online.
 
-### Long description / Business overview (~400 chars)
-
+**Long (~400 chars):**
 > Springfield Junk Removal Service helps homeowners, renters, landlords, and businesses request junk hauling and cleanout help in Springfield, MO and nearby communities. Services can include furniture removal, appliance pickup, garage and house cleanouts, yard waste hauling, and construction debris removal. Call (417) 242-5370 or use the online quote form for a free estimate. Availability and scope are confirmed before scheduling.
 
-### Service list (narrative — no structured field)
-
-Use in description or tags only:
-
-- General junk removal
-- Furniture removal
-- Appliance removal
-- Garage cleanout
-- House cleanout
-- Estate cleanout
-- Commercial junk removal
-- Construction debris removal
-- Yard waste removal
-- Trash removal
-
-### Explicitly omitted
-
-- Hours
-- Public email
-- Street address, suite, map pin
-- License, insurance, employees, crews, trucks
-- Years in business
-- Locally owned / family-owned
-- Direct-service, dispatcher, or operator identity claims
-- Social profiles (Facebook deferred; others not approved)
-- Logo/photo upload (defer until separate upload approval)
-
 ---
 
-## 4. Suitability assessment
+## 6. Suitability and readiness
 
-### Recommendation: **Suitable only after specific missing information is resolved**
+### Platform fit: **Viable for no-public-address model**
 
-Brownbook is the **strongest Tier A fit** for the approved no-public-address model (address optional; phone + website supported; duplicate risk none; agents explicitly allowed). It is **not** blocked like GBP. However, submission should wait until the unresolved items below are closed.
+Brownbook remains the **strongest Tier A fit**: address optional, phone + website supported, duplicate risk none, agents explicitly allowed, category decision resolved.
 
-| Resolved now | Still unresolved before submission |
+### Readiness status
+
+| Item | Status |
 |---|---|
-| Approved public NAP + descriptions | Exact **NAICS category label** from live typeahead |
-| No duplicate listing | **Private Brownbook account email** for register/verify |
-| Terms allow authorized representatives | **Claim-step UI** — confirm full name is private, not published |
-| Address can be omitted | **Step 2 fields** — reverify immediately before submit (not fully observed without submission) |
-| Identity sheet approved | **Verified hauling/service-provider entity** still not established (moderate representation risk across all directories) |
-| | **Logo upload** — separate approval if desired post-claim |
+| Pre-submission inspection | **Complete** |
+| Category decision | **Approved** — Other Waste Collection |
+| Private email strategy | **Approved** — `ryon.rankrent@gmail.com` (account only) |
+| Account-name strategy | **Approved** — Ryon O'Neill (private registration; not public listing identity) |
+| Step 2 workflow | **Documented** |
+| Account creation | **Not authorized** |
+| Listing submission | **Not authorized** |
+| Claiming / verification | **Not authorized** |
+| GBP | **Blocked** |
 
-### Not recommended as unsuitable
+### Execution-time stop conditions
 
-Brownbook does **not** require a public storefront address and does **not** explicitly prohibit lead-generation asset listings under current terms. Deferral is due to **execution gaps**, not platform incompatibility.
+1. **Public account-name exposure** — if step 2 or post-login UI shows Ryon O'Neill as public owner/operator/contact → **stop**
+2. **Claim-name public visibility** — unresolved; confirm at claim before proceeding → **stop if public**
+3. **reCAPTCHA quota error** — if quota message persists → **stop**; do not retry repeatedly
+4. **Verified service-provider entity** — still not established (cross-platform representation risk)
+5. **Any prompt for private address** — do not invent; **stop**
 
 ---
 
-## 5. Creation approval gate
+## 7. Creation approval gate
 
 | Decision | Status |
 |---|---|
-| **Documentation / draft** | Complete in this file |
-| **Listing creation on Brownbook** | **Not authorized** |
-| **Owner creation approval** | **Deferred** — await explicit go-ahead after resolving unresolved fields |
+| **Pre-submission inspection** | **Complete** |
+| **Field configuration** | **Owner-approved** |
+| **Account creation** | **Not authorized** — separate explicit approval required |
+| **Listing creation** | **Not authorized** |
 | **Commit of this documentation** | **Deferred** — await owner approval |
 
 ### Proposed next approval action
 
-1. Owner reviews this document and sections A–J in the task response.
-2. Owner approves **doc commit** (if desired) and/or **Brownbook creation** as separate decisions.
-3. If creation approved: designate **private account email**; reverify add-business form live; select **NAICS category**; submit step 1–2 with claim-safe draft; **omit address and public email**; claim listing with authorized-representative attestation; **do not upload logo** until upload separately approved.
-4. If creation not approved: remain at **Inspected + creation-review complete** in tracker; proceed to next Tier A creation review (Bing Places or Yelp).
+1. Owner reviews this update and approves **doc commit** (if desired).
+2. Owner separately approves **Brownbook account + listing execution** as a distinct decision.
+3. At execution: reverify live form; confirm reCAPTCHA works; confirm account Name* is not publicly displayed; submit step 1 with approved fields; complete step 2 account creation only if stop conditions pass; omit listing email and address; defer description and logo; claim only after separate approval.
 
 ---
 
-## 6. Public / private information risk summary
-
-| Risk | Severity | Mitigation |
-|---|---|---|
-| Invented address | **High** | Omit address, city only |
-| Public owner as hauling operator | **High** | Use business name only; no operator claims in descriptions |
-| Account owner name published | **Medium** | Confirm claim UI; use name only if required for private claim verification |
-| Personal email/phone exposed | **Medium** | Use designated ops email for account; omit listing email |
-| Category mismatch | **Medium** | Live NAICS selection with owner sign-off |
-| Unclaimed listing vandalism | **Low–medium** | Claim promptly after create |
-| Lead-gen / genuine-business representation | **Medium** | Request-and-confirm copy only; no crew/truck/license claims |
-| SEO agency 5-listing limit | **Low** | Single asset — within terms |
-| Paid upsell traps | **Low** | Decline Profile+/Uberall unless separately approved |
-
----
-
-*Research and draft only. No listing created. No commit performed in this batch unless owner approves.*
+*Pre-submission inspection complete. No account, listing, claim, or verification performed. No commit in this batch unless owner approves.*
