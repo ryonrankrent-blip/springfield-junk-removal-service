@@ -1,5 +1,47 @@
 # Change Log
 
+## 2026-07-11 — Authority and citation research phase (research only)
+
+### Production state
+- Main commit: `4d5d955` (PR #15 docs merge)
+- No HTML, scripts, tracking, DNS, or production configuration changes
+
+### Research completed
+- **Citation identity sheet** — proposed NAP, descriptions, services, assets; address blank; owner-approval flags
+- **Citation candidate research** — 20+ platforms reviewed with current policy sources; tiers A/B/C/Reject
+- **GBP eligibility review** — recommendation: **not eligible now** (lead-gen model; no verified operator/address)
+- **Local authority opportunities** — Springfield city/county disposal, recycling, donation, hazmat resources mapped
+- **Content authority roadmap** — GSC-driven clusters for construction debris, commercial, yard waste, cost, items, cleanouts
+- **Backlink research framework** — read-only SERP/citation/backlink process with scoring matrix
+- **Citation tracker template** — submission tracker with approval column (all blank)
+- **Authority gap review** — updated post-conversion status
+
+### Key findings
+- **Tier A (first inspection batch):** Bing Places, ShowMeLocal, Yelp, Facebook Page, Nextdoor, Brownbook
+- **Tier B (defer):** GBP, Apple Business Connect, YP/MapQuest, Foursquare, BBB, Chamber
+- **Reject:** Angi, HomeAdvisor, Thumbtack paid leads; fake/virtual addresses; lead aggregators
+- Springfield remains **technically lead-ready** but **not fully renter-ready**
+
+### Not performed
+- No listings created or claimed
+- No GBP, Bing, Yelp, or any platform submission
+- No outreach, spend, renter contact, or content publish
+- No commit, push, or deploy in this batch
+
+### Documentation created/updated
+- `citation-identity-sheet.md` (new)
+- `gbp-eligibility-review.md` (new)
+- `local-authority-opportunities.md` (new)
+- `content-authority-roadmap.md` (new)
+- `backlink-research-framework.md` (new)
+- `citation-candidate-research.md` (updated)
+- `citation-tracker-template.md` (updated)
+- `authority-gap-review.md` (updated)
+- `renter-readiness-checklist.md` (updated)
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-11 — Conversion verification live tests complete (PASS)
 
 ### Production state

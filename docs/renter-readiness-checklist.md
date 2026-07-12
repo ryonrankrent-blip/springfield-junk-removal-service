@@ -1,9 +1,10 @@
 # Renter-Readiness Checklist
 
 **Conversion verification phase:** 2026-07-11 — **live tests PASS**  
+**Authority/citation research phase:** 2026-07-11 — **research complete** (no listings created)  
 **Live conversion tests:** Complete — see `conversion-verification-checklist.md`  
 **Technical lead-readiness:** **Yes** (call, form, GTM, GA4 verified)  
-**Full renter-readiness:** **No** — authority/citation work and proof-of-life lead volume still required
+**Full renter-readiness:** **No** — citations, operator handoff, and proof-of-life lead volume still required
 
 ## Site quality
 
@@ -43,14 +44,30 @@
 | CallRail routing | **PASS** — no configuration changes |
 | Production code changes | **None required** |
 
+## Authority / citation research (2026-07-11)
+
+- [x] Citation identity sheet drafted — `citation-identity-sheet.md`
+- [x] Platform candidate research with tiers A/B/C/Reject — `citation-candidate-research.md`
+- [x] GBP eligibility review — **not eligible now** — `gbp-eligibility-review.md`
+- [x] Local authority opportunities mapped — `local-authority-opportunities.md`
+- [x] Content authority roadmap (GSC-driven) — `content-authority-roadmap.md`
+- [x] Backlink research framework — `backlink-research-framework.md`
+- [x] Citation tracker template prepared — `citation-tracker-template.md`
+- [ ] Owner approval of citation identity sheet
+- [ ] Verified operator identified for listings
+- [ ] Tier A duplicate inspection (Bing, ShowMeLocal, Yelp, Facebook, Nextdoor)
+- [ ] Any live citation submitted
+
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations (0 live listings) | Pending approval |
+| Authority / citations (0 live listings) | Research complete — **submission pending approval** |
+| GBP eligibility | **Not eligible now** — operator verification required |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
 | Renter notification / agreement | Not started |
 | Real reviews/testimonials | Placeholder acceptable; not yet added |
+| Authority content clusters | Roadmap drafted — **publish pending approval** |
 
 ## Conversion test log
 
@@ -79,4 +96,5 @@
 - [x] Claim correction log
 - [x] Deployment QA checklist
 - [x] Conversion verification checklist (live results recorded)
-- [ ] Citation/listing plan (not executed — awaiting approval)
+- [x] Citation/listing research plan (2026-07-11 — not executed)
+- [ ] Citation submissions (awaiting owner + operator approval)
