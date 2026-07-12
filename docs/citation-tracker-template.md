@@ -6,8 +6,9 @@
 **Market:** Springfield, MO  
 **Identity sheet:** `citation-identity-sheet.md`  
 **Research:** `citation-candidate-research.md` (2026-07-11)  
+**Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11)  
 **GBP review:** `gbp-eligibility-review.md`  
-**Status:** Planning only — **no listings authorized**
+**Status:** Duplicate inspection complete — **no listings authorized**
 
 ---
 
@@ -15,12 +16,12 @@
 
 | Platform | URL | Tier | Status | NAP match | Verified operator | Notes | Approval |
 |---|---|---|---|---|---|---|---|
-| Bing Places | https://www.bingplaces.com | A | Not started | | | HideAddress supported | |
-| ShowMeLocal | https://www.showmelocal.com | A | Not started | | | Can hide street address | |
-| Yelp | https://biz.yelp.com | A | Not started | | | Service area; category-dependent | |
-| Facebook Page | https://www.facebook.com/business | A | Not started | | | Service area option | |
-| Nextdoor Business | https://business.nextdoor.com | A | Not started | | | Hide address from public | |
-| Brownbook | https://www.brownbook.net | A | Not started | | | General directory | |
+| Bing Places | https://www.bingplaces.com | A | **Inspected** | No listing found | | Duplicate risk: none; see inspection doc | |
+| ShowMeLocal | https://www.showmelocal.com | A | **Inspected** | No indexed match | | Inconclusive — bot check blocked on-platform search | |
+| Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Duplicate risk: none | |
+| Facebook Page | https://www.facebook.com/business | A | **Inspected** | No listing found | | Duplicate risk: none; on-platform search not logged in | |
+| Nextdoor Business | https://business.nextdoor.com | A | **Inspected** | No listing found | | Duplicate risk: none; on-platform search not logged in | |
+| Brownbook | https://www.brownbook.net | A | **Inspected** | No listing found | | Duplicate risk: none; 0 results on direct search | |
 
 ## Tier B — After operator strategy confirmed
 
