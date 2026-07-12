@@ -1,5 +1,10 @@
 # Renter-Readiness Checklist
 
+**Conversion verification phase:** 2026-07-11 — **live tests PASS**  
+**Live conversion tests:** Complete — see `conversion-verification-checklist.md`  
+**Technical lead-readiness:** **Yes** (call, form, GTM, GA4 verified)  
+**Full renter-readiness:** **No** — authority/citation work and proof-of-life lead volume still required
+
 ## Site quality
 
 - [x] Claim-safe request-and-confirm copy sitewide
@@ -8,17 +13,58 @@
 - [x] Internal linking strengthened
 - [x] Technical integrity verified locally (GTM, Formspree, tel, canonical)
 - [x] Documentation in `docs/`
-- [x] Live deployment verified (2026-07-11, PR #11)
-- [ ] CallRail routing confirmed on production
+- [x] Live deployment verified (2026-07-11, PR #11–#13)
+- [x] GSC baseline captured (2026-07-11)
+- [x] CallRail routing confirmed on production (2026-07-11 live test)
+- [x] Conversion events verified live (GTM Tag Assistant + GA4 Realtime)
 - [ ] Real reviews/testimonials (placeholder acceptable for launch)
 
 ## Lead routing
 
-- [x] Formspree endpoint configured
-- [x] Per-page `service` hidden field on service pages
-- [x] Homepage service dropdown on form
+- [x] Formspree endpoint configured (`mojzdkvg`)
+- [x] Per-page `service` hidden field on 29 service pages
+- [x] Homepage `service` dropdown on form
+- [x] Static audit: `analytics-events.js` tracks `submit_lead_form` with market/niche/service
+- [x] Live Formspree test submission confirmed (one controlled test — **not a real lead**)
+- [x] `click_call` and `click_quote_button` confirmed in GTM/GA4
 - [ ] Renter notified of lead flow
 - [ ] Renter agreement / offer documented
+
+## Conversion verification results (2026-07-11)
+
+| Area | Result |
+|---|---|
+| Conversion path | **PASS** |
+| Call path | **PASS** |
+| Form path | **PASS** |
+| GTM (`GTM-GDJF54DV` → `G-GWT8GR7QJC`) | **PASS** |
+| GA4 Realtime (all 3 key events) | **PASS** |
+| Duplicate-event check | **PASS** |
+| CallRail routing | **PASS** — no configuration changes |
+| Production code changes | **None required** |
+
+## Remaining blockers (renter-readiness)
+
+| Blocker | Status |
+|---|---|
+| Authority / citations (0 live listings) | Pending approval |
+| Proof-of-life lead volume (real leads over time) | Not yet sufficient |
+| Renter notification / agreement | Not started |
+| Real reviews/testimonials | Placeholder acceptable; not yet added |
+
+## Conversion test log
+
+| Test date | Tester | Page | Device / browser | Event observed | CallRail result | Formspree result | GA4 result | Pass / fail | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-07-11 | RankRentOS | `/` | Desktop / Chrome | `click_call`, `click_quote_button`, `submit_lead_form` | Pass | Pass — test only | Pass — key events | Pass | Formspree success page confirmed |
+| 2026-07-11 | RankRentOS | `/junk-removal-springfield-mo` | Desktop / Chrome | `click_call` | N/A | N/A | Pass | Pass | Money-page `page_path` correct |
+| 2026-07-11 | RankRentOS | `/` | Mobile emulation | `click_call` | N/A | N/A | Pass | Pass | Mobile dialer behavior correct |
+
+## GA4 account note (non-blocking)
+
+- Unused property/tag `G-XPH099Y4DW` created during account recovery — not installed on site, not connected to production
+- No action required in this batch
+- Live site: `GTM-GDJF54DV` → `G-GWT8GR7QJC` only
 
 ## Compliance
 
@@ -32,4 +78,5 @@
 - [x] Page inventory
 - [x] Claim correction log
 - [x] Deployment QA checklist
+- [x] Conversion verification checklist (live results recorded)
 - [ ] Citation/listing plan (not executed — awaiting approval)
