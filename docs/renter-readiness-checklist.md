@@ -61,14 +61,15 @@
 - [x] Owner approval of citation identity configuration — 2026-07-12
 - [x] Account-owner strategy approved — Ryon O'Neill (lead-generation asset; private)
 - [ ] Verified service provider identified for fulfilled jobs
-- [ ] Brownbook creation review approved (separate task)
+- [x] Brownbook creation review completed — `brownbook-creation-review.md` (2026-07-12; draft only)
+- [ ] Brownbook listing creation approved by owner (separate decision)
 - [ ] Any live citation submitted
 
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations (0 live listings) | Identity approved — **Brownbook creation review pending separate approval** |
+| Authority / citations (0 live listings) | Identity approved — **Brownbook creation review complete; listing creation deferred** |
 | GBP eligibility | **Blocked / not eligible now** |
 | Service provider / renter operator | **Not established** |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |

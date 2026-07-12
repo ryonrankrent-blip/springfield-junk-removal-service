@@ -9,6 +9,7 @@
 **Research:** `citation-candidate-research.md` (2026-07-11)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; complete)  
 **GBP review:** `gbp-eligibility-review.md`  
+**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — draft only)  
 **Status:** Identity configuration approved — **no listings authorized**
 
 ---
@@ -22,7 +23,7 @@
 | Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
-| Brownbook | https://www.brownbook.net | A | **Inspected** | No listing found | | **First creation-review candidate** — not creation-authorized | |
+| Brownbook | https://www.brownbook.net | A | **Creation review complete** | No listing found | | Draft ready — **creation deferred** pending owner approval; see `brownbook-creation-review.md` | |
 
 ## Tier B — After operator strategy confirmed
 
@@ -87,7 +88,8 @@
 - [x] Account-owner strategy approved
 - [ ] Verified service provider identified
 - [ ] Private verification address confirmed (if required)
-- [ ] Brownbook creation review approved (separate task)
+- [x] Brownbook creation review completed (2026-07-12 — `brownbook-creation-review.md`)
+- [ ] Brownbook listing creation approved by owner (separate decision)
 - [ ] No invented hours, license, insurance, or review claims
 - [ ] Separate approval recorded in Approval column
 
