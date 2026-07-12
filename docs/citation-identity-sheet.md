@@ -1,27 +1,33 @@
-# Citation Identity Sheet — Springfield (Proposed)
+# Citation Identity Sheet — Springfield (Owner-Approved)
 
-**Status:** Research draft only — **no listings created**  
-**Main commit:** `4d5d955`  
-**Date:** 2026-07-11  
-**Purpose:** Single approved NAP + messaging source for future citation work
+**Status:** Owner-approved identity configuration — **no listings created**  
+**Main commit:** `a494e92`  
+**Date:** 2026-07-12 (identity decisions approved)  
+**Purpose:** Single approved NAP + messaging source for future citation work  
+**Approval packet:** `citation-identity-approval-packet.md`
 
 ---
 
-## Verified fields (safe to reuse in citations)
+## Approved public identity (use on all citations)
 
-| Field | Proposed value | Source | Owner approval |
-|---|---|---|---|
-| Business / site name | Springfield Junk Removal Service | `index.html` site variables | **Required** before any listing |
-| Domain | springfieldjunkremovalservice.com | Production site | Verified |
-| Website URL | https://springfieldjunkremovalservice.com | Production canonical | Verified |
-| CallRail phone (display) | (417) 242-5370 | Site + live conversion test | Verified |
-| CallRail phone (`tel:`) | tel:4172425370 | All 30 pages | Verified |
-| Service area (primary) | Springfield, MO | Hidden form field `market` | Verified |
-| Service area (county) | Greene County, MO | Site copy + city pages | Verified |
-| Primary category | Junk Removal Service | GBP/Yelp/Bing taxonomy fit | **Required** — confirm exact platform label |
-| Niche | Junk Removal | Hidden form field `niche` | Verified |
+| Field | Approved value | Owner approval |
+|---|---|---|
+| **Public business name** | Springfield Junk Removal Service | **Approved** 2026-07-12 |
+| **Domain** | springfieldjunkremovalservice.com | Verified |
+| **Website URL** | https://springfieldjunkremovalservice.com | Verified |
+| **Phone (display)** | (417) 242-5370 | Verified |
+| **Phone (`tel:`)** | tel:4172425370 | Verified |
+| **Public address** | **None** | **Approved** — do not invent |
+| **Service area** | Springfield, Missouri and Greene County, Missouri | **Approved** |
+| **Primary category** | Junk Removal Service | **Approved** — map to exact platform label at submission |
+| **Secondary categories** | One closely related category at most | **Approved** |
+| **Hours** | **Omit** | **Approved** |
+| **Public email** | **Omit** | **Approved** |
+| **Description style** | Request-and-confirm language only | **Approved** |
+| **Images** | Existing approved site icon/logo assets only | **Approved** |
+| **Niche** | Junk Removal | Verified |
 
-### Service-area cities (already on site)
+### Service-area cities (on site; use in directories as field limits allow)
 
 | City | Page |
 |---|---|
@@ -34,19 +40,19 @@
 
 ---
 
-## Proposed descriptions (claim-safe — no unverified claims)
+## Approved descriptions (claim-safe — request-and-confirm only)
 
 ### Short description (~150 chars)
 
 > Junk removal requests in Springfield, MO and nearby Greene County areas. Furniture, appliances, cleanouts, yard waste, and construction debris. Call or request a quote online.
 
-**Approval:** **Required** — owner must confirm wording before any citation use.
+**Approval:** **Approved** 2026-07-12
 
 ### Long description (~400 chars)
 
 > Springfield Junk Removal Service helps homeowners, renters, landlords, and businesses request junk hauling and cleanout help in Springfield, MO and nearby communities. Services can include furniture removal, appliance pickup, garage and house cleanouts, yard waste hauling, and construction debris removal. Call (417) 242-5370 or use the online quote form for a free estimate. Availability and scope are confirmed before scheduling.
 
-**Approval:** **Required** — must stay claim-safe (no licensed/insured/crew/truck/ownership claims).
+**Approval:** **Approved** 2026-07-12 — no licensed/insured/crew/truck/operator claims.
 
 ### Service list (for directory service fields)
 
@@ -68,7 +74,7 @@ Use only services already represented on the site:
 - Shed removal
 - Hoarding / heavy-clutter cleanout (confirmation language only)
 
-**Approval:** **Required** — confirm final subset per platform field limits.
+**Approval:** **Approved** — confirm final subset per platform field limits at creation review.
 
 ---
 
@@ -81,9 +87,35 @@ Use only services already represented on the site:
 | Apple touch icon | `apple-touch-icon.png` | Mobile icon |
 | Site icon 512 | `site-icon-512.png` | Largest bundled brand image |
 
-**Note:** No dedicated logo wordmark or truck/crew photography exists in repo. Directory photo fields will need owner-supplied images or defer until approved.
+**Approval:** **Approved** 2026-07-12 — bundled icons only; no truck/crew photography.
 
-**Approval:** **Required** for any public listing images beyond bundled favicon/icon files.
+---
+
+## Account-owner strategy (approved — private)
+
+| Field | Approved value | Public visibility |
+|---|---|---|
+| **Private account owner / authorized representative** | Ryon O'Neill | Private — platform account management only |
+| **Public owner name** | **Omit** | Unless a platform explicitly requires it |
+| **Role scope** | Owner and authorized representative of the **lead-generation asset** | Not the hauling contractor, service provider, dispatcher, crew operator, or local field operator |
+
+### Account-owner boundaries (approved)
+
+- Ryon O'Neill may create, verify, and manage citation **accounts** for the lead-generation asset.
+- Public-facing listing fields must use the **approved public business identity** above.
+- **Do not** imply that the account owner owns trucks, employs crews, performs junk removal, holds licenses, carries insurance, or directly fulfills service.
+- **Do not** publish personal address, private phone number, or personal email in any listing or documentation.
+
+---
+
+## Platform decisions (approved)
+
+| Platform | Decision |
+|---|---|
+| **Facebook Page** | **Defer** |
+| **Nextdoor Business** | **Defer** |
+| **Google Business Profile** | **Blocked** — not eligible now |
+| **First creation-review candidate** | **Brownbook** — separate task; not authorized for creation by this approval |
 
 ---
 
@@ -91,35 +123,34 @@ Use only services already represented on the site:
 
 | Field | Value | Reason |
 |---|---|---|
-| Street address | **None** | Not approved; do not invent |
+| Street address (public) | **None** | Owner-approved |
 | Suite / unit | **None** | — |
-| Public map pin address | **None** | No verified customer-facing location |
-| Hours of operation | **Pending approval** | Do not invent; site does not publish hours |
-| Owner / operator name | **None** | Do not claim |
+| Public map pin address | **None** | No storefront |
+| Hours of operation | **Omit** | Owner-approved |
+| Public owner / operator name | **Omit** | Unless platform requires |
+| Public email | **Omit** | Owner-approved |
 | Years in business | **None** | Do not invent |
 | License number | **None** | Claim-safe policy |
 | Insurance claims | **None** | Claim-safe policy |
 | Review count / rating | **None** | No verified reviews |
 | Employee / crew / truck claims | **None** | Claim-safe policy |
-| “Locally owned” / “family owned” | **None** | Unverified |
-| Email for public listings | **Pending approval** | Use owner-controlled address only when approved |
+| “Locally owned” / “family owned” | **None** | Unverified for service provider |
+| Service-provider identity | **Unresolved** | See operational gaps below |
 
 ---
 
-## Fields requiring owner approval before any citation
+## Operational facts still unresolved (do not invent)
 
-| # | Field | Why |
-|---|---|---|
-| 1 | Final business name formatting | Must match legal/operating entity if different |
-| 2 | Public listing descriptions | Legal + brand review |
-| 3 | Primary + secondary categories per platform | Taxonomy differs by site |
-| 4 | Service list subset per platform | Field limits vary |
-| 5 | Hours | Only if owner provides real staffed hours |
-| 6 | Physical address for **private** verification | Required by some platforms even when hidden publicly |
-| 7 | Verified operator identity | GBP and some directories require real business representative |
-| 8 | Logo / truck / job photos | No suitable marketing photos in repo |
-| 9 | Public contact email | Must be owner-controlled |
-| 10 | Renter vs RankRentOS listing owner | Who claims and verifies each platform |
+| Fact | Status |
+|---|---|
+| Verified hauling / service-provider business or legal entity | **Not established** |
+| Local field operator / dispatcher / contractor | **Not established** |
+| Legitimate private verification address (for platforms that require one) | **Not established** |
+| Direct service fulfillment responsibility | **Not established** |
+| License status | **Not established** |
+| Insurance status | **Not established** |
+| Employees, crews, trucks, years in business | **Not established** |
+| Renter handoff / operating partner | **Not established** |
 
 ---
 
@@ -128,9 +159,9 @@ Use only services already represented on the site:
 - **Name:** Springfield Junk Removal Service (exact)
 - **Phone:** (417) 242-5370 / `4172425370` — never alternate numbers on citations
 - **Website:** https://springfieldjunkremovalservice.com (no trailing path unless platform requires landing page)
-- **Address:** Omit publicly unless owner approves a verified private address workflow
+- **Address:** None publicly — do not invent
 - **Do not** add UTM parameters to citation website URLs unless platform requires tracking
 
 ---
 
-*No listings created. No NAP published externally. Await explicit approval before any submission.*
+*Owner-approved identity configuration. Listing creation is not authorized. Await separate creation-review approval before any submission.*
