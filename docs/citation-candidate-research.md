@@ -4,9 +4,10 @@
 **Website:** https://springfieldjunkremovalservice.com  
 **Phone:** (417) 242-5370  
 **Market:** Springfield, MO / Greene County  
-**Main commit:** `4d5d955`  
+**Main commit:** `7eeaf73`  
 **Research date:** 2026-07-11  
-**Status:** Research only — **no listings created or submitted**
+**Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11)  
+**Status:** Research + Tier A duplicate inspection complete — **no listings created or submitted**
 
 ## Mandatory guardrails
 
@@ -111,14 +112,32 @@ Google is the strictest — explicitly excluding lead-generation agents. Even on
 
 ---
 
-## Recommended inspection order (when approved)
+## Tier A duplicate inspection results (2026-07-11)
 
-1. Search each Tier A platform for **existing listings** (avoid duplicates)
-2. Compare live NAP vs `citation-identity-sheet.md`
-3. Confirm operator identity and private verification address availability
-4. Start with **Bing Places + ShowMeLocal + Yelp** (broadest free reach)
-5. Add **Facebook Page + Nextdoor** for social/neighborhood presence
-6. Defer **GBP, Apple, BBB, Chamber** until operator strategy resolved
+Read-only public search completed for all six Tier A platforms. Full report: `tier-a-duplicate-inspection.md`.
+
+| Platform | Exact match | Possible match | Duplicate risk | Notes |
+|---|---|---|---|---|
+| Bing Places | No | No | None | Maps shows unrelated MO competitors only |
+| ShowMeLocal | No | No | Low | No indexed match; on-platform search blocked by bot check |
+| Yelp | No | No | None | No `site:yelp.com` hits for approved identifiers |
+| Facebook | No | No | None | No indexed Facebook page for approved identifiers |
+| Nextdoor | No | No | None | No indexed Nextdoor business page |
+| Brownbook | No | No | None | Direct search returned 0 for name, domain, phone |
+
+**Identity conflicts:** None. `citation-identity-sheet.md` unchanged.
+
+**Unrelated name collisions:** springfieldjunkremoval.com (MA), springfieldjunkremoval.org, springfieldjunkremovalco.com (different phone), 417 Junk and Debris, The Junk Pirates, J&T Services, etc.
+
+---
+
+## Recommended next steps (after owner approval)
+
+1. ~~Search each Tier A platform for **existing listings**~~ — **Done** (see inspection doc)
+2. Approve citation identity sheet and verified operator
+3. Complete ShowMeLocal follow-up on-platform search (human pass)
+4. If approved, begin **creation review** (separate task): Bing Places → Brownbook → Yelp → Facebook → Nextdoor → ShowMeLocal
+5. Defer **GBP, Apple, BBB, Chamber** until operator strategy resolved
 
 ---
 

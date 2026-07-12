@@ -1,7 +1,7 @@
 # Authority / Content Gap Review — Springfield
 
-**Date:** 2026-07-11 (updated after conversion verification PASS)  
-**Main commit:** `4d5d955`  
+**Date:** 2026-07-11 (updated after Tier A duplicate inspection)  
+**Main commit:** `7eeaf73`  
 **Springfield site:** https://springfieldjunkremovalservice.com (30 pages, static HTML)  
 **Auburn reference:** auburnsepticpumping.com (57+ pages, Next.js)  
 **Purpose:** Gap analysis + guarded authority roadmap
@@ -15,7 +15,7 @@
 | Technically lead-ready | **Yes** — conversion path PASS (2026-07-11) |
 | GSC proof-of-life | **Yes** — 37 indexed, 4.64K imp / 6 clicks (28d) |
 | Conversion verification | **PASS** — GTM, GA4, Formspree, CallRail |
-| Live citations / listings | **0** — by design |
+| Live citations / listings | **0** — by design; Tier A duplicate check complete |
 | GBP | **Not created** — not eligible now |
 | Authority content cluster | **Partial** — 3 guides; gaps remain |
 | Backlink / outreach program | **Not started** |
@@ -38,6 +38,7 @@
 | GSC baseline + indexing tracker | ✅ |
 | Conversion verification docs | ✅ PASS recorded |
 | Citation research docs | ✅ This batch |
+| Tier A duplicate inspection | ✅ No matches found — `tier-a-duplicate-inspection.md` |
 | QA scripts | ✅ |
 
 ---
@@ -74,7 +75,7 @@
 | # | Task | Est. time | Approval | Status |
 |---|---|---:|---|---|
 | 1 | Citation identity sheet review with owner | 30 min | **Yes** | Draft complete |
-| 2 | Tier A platform duplicate check (read-only) | 2 hrs | **Yes** before claim | Not started |
+| 2 | Tier A platform duplicate check (read-only) | 2 hrs | **Yes** | **Complete** — no duplicates |
 | 3 | GBP eligibility decision with operator | 1 hr | **Yes** | **Not eligible now** |
 | 4 | Construction debris content cluster | 2–3 hrs | **Yes** | Not started |
 | 5 | Yard waste + items guide expansion | 3 hrs | **Yes** | Not started |

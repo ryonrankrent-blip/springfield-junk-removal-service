@@ -2,6 +2,7 @@
 
 **Conversion verification phase:** 2026-07-11 — **live tests PASS**  
 **Authority/citation research phase:** 2026-07-11 — **research complete** (no listings created)  
+**Tier A duplicate inspection:** 2026-07-11 — **complete** (no duplicates found)  
 **Live conversion tests:** Complete — see `conversion-verification-checklist.md`  
 **Technical lead-readiness:** **Yes** (call, form, GTM, GA4 verified)  
 **Full renter-readiness:** **No** — citations, operator handoff, and proof-of-life lead volume still required
@@ -53,16 +54,17 @@
 - [x] Content authority roadmap (GSC-driven) — `content-authority-roadmap.md`
 - [x] Backlink research framework — `backlink-research-framework.md`
 - [x] Citation tracker template prepared — `citation-tracker-template.md`
+- [x] Tier A duplicate inspection (Bing, ShowMeLocal, Yelp, Facebook, Nextdoor, Brownbook) — `tier-a-duplicate-inspection.md` — **no matches**
 - [ ] Owner approval of citation identity sheet
 - [ ] Verified operator identified for listings
-- [ ] Tier A duplicate inspection (Bing, ShowMeLocal, Yelp, Facebook, Nextdoor)
+- [ ] ShowMeLocal follow-up on-platform search (bot check blocked)
 - [ ] Any live citation submitted
 
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations (0 live listings) | Research complete — **submission pending approval** |
+| Authority / citations (0 live listings) | Duplicate inspection complete — **submission pending approval** |
 | GBP eligibility | **Not eligible now** — operator verification required |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
 | Renter notification / agreement | Not started |

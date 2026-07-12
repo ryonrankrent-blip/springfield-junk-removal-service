@@ -1,5 +1,40 @@
 # Change Log
 
+## 2026-07-11 — Tier A citation duplicate inspection (read-only)
+
+### Production state
+- Main commit: `7eeaf73` (PR #16 authority research merge)
+- No HTML, scripts, tracking, DNS, or production configuration changes
+
+### Inspection completed
+- **Tier A duplicate inspection** — read-only public search across Bing Places, ShowMeLocal, Yelp, Facebook, Nextdoor, Brownbook
+- **General web search** — approved business name, domain, and phone
+- **Result:** 0 exact matches, 0 possible matches (≥2 identifiers), 0 identity conflicts
+- **Identity sheet:** unchanged (`citation-identity-sheet.md`)
+
+### Key findings
+- **Bing Places:** No listing for approved name, phone, or domain; unrelated MO competitors visible on Maps
+- **ShowMeLocal:** No indexed matches; on-platform search blocked by bot protection — follow-up needed
+- **Yelp / Facebook / Nextdoor:** No indexed listings for approved identifiers
+- **Brownbook:** Direct search returned 0 for name, domain, and phone
+- **Unrelated collisions:** springfieldjunkremoval.com (MA), springfieldjunkremoval.org, springfieldjunkremovalco.com (different phone), 417 Junk and Debris, etc.
+
+### Not performed
+- No listings created, claimed, edited, or verified
+- No platform logins, claims, address entry, or spend
+- No production, renter, or support contact
+- No commit, push, or deploy in this batch (pending approval)
+
+### Documentation created/updated
+- `tier-a-duplicate-inspection.md` (new)
+- `citation-tracker-template.md` (updated — Tier A status → Inspected)
+- `citation-candidate-research.md` (updated — inspection results)
+- `authority-gap-review.md` (updated)
+- `renter-readiness-checklist.md` (updated)
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-11 — Authority and citation research phase (research only)
 
 ### Production state
