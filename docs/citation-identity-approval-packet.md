@@ -1,8 +1,8 @@
 # Citation Identity Approval Packet — Springfield
 
-**Status:** Documentation and recommendation only — **no listings authorized**  
-**Main commit:** `eef8526de7c8db04d20e65d966bc7abb9fe15931`  
-**Date:** 2026-07-12  
+**Status:** Owner decisions approved — **no listings authorized**  
+**Main commit:** `a494e92a010063dc298c09a70227289243a191d1`  
+**Date:** 2026-07-12 (owner identity decisions approved)  
 **Purpose:** Consolidate verified identity facts, owner decisions, operational gaps, and platform readiness for citation work
 
 **Source documents reviewed:**
@@ -16,7 +16,47 @@
 **Prerequisites complete:**
 - Tier A duplicate inspection: **complete** (all six platforms; 0 exact matches; 0 possible matches; no identity conflicts)
 - Conversion verification: **PASS**
-- GBP: **not eligible now**
+- Owner identity decisions: **approved** 2026-07-12
+- Account-owner strategy: **approved** 2026-07-12
+- GBP: **blocked / not eligible now**
+
+---
+
+## Owner-approved identity configuration (2026-07-12)
+
+| Field | Approved value |
+|---|---|
+| **Public business name** | Springfield Junk Removal Service |
+| **Phone** | (417) 242-5370 |
+| **Website** | https://springfieldjunkremovalservice.com |
+| **Public address** | None |
+| **Service area** | Springfield, Missouri and Greene County, Missouri |
+| **Primary category** | Junk Removal Service |
+| **Secondary categories** | One closely related category at most |
+| **Hours** | Omit |
+| **Public email** | Omit |
+| **Description style** | Request-and-confirm language only; no operator claims |
+| **Images** | Existing approved site icon/logo assets only |
+| **Facebook Page** | Defer |
+| **Nextdoor Business** | Defer |
+| **GBP** | Blocked / not eligible now |
+| **First creation-review candidate** | Brownbook (separate task — not creation-authorized here) |
+
+### Account-owner strategy (approved)
+
+| Field | Approved value |
+|---|---|
+| **Private account owner / authorized representative** | Ryon O'Neill |
+| **Public owner name** | Omit unless a platform explicitly requires it |
+| **Approved role** | Owner and authorized representative of the **lead-generation asset** |
+| **Not approved to claim** | Hauling contractor, service provider, dispatcher, crew operator, or local field operator |
+
+**Boundaries (approved):**
+- Do not imply trucks, crews, junk removal performance, licenses, insurance, or direct service fulfillment.
+- Do not publish personal address, private phone number, or personal email.
+- Use the approved public business identity for all public-facing listing fields.
+
+**Listing creation is still not authorized by this approval.**
 
 ---
 
@@ -35,9 +75,9 @@ These fields are already established on the production site or in prior verifica
 | **Satellite cities on site** | Nixa, Ozark, Republic, Battlefield, Willard | City pages | Already published on site |
 | **Niche** | Junk Removal | Form hidden field | Verified |
 | **Approved service list (site-backed)** | See service list below | 18 service pages + hubs | Subset per platform may be required |
-| **Short description (draft)** | See `citation-identity-sheet.md` § Short description | Claim-safe draft | Wording approval still required |
-| **Long description (draft)** | See `citation-identity-sheet.md` § Long description | Claim-safe draft | Wording approval still required |
-| **Logo/icon assets (bundled)** | `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `site-icon-512.png` | Repo assets | Icons only — no wordmark or truck/crew photos |
+| **Short description (draft)** | See `citation-identity-sheet.md` § Short description | Claim-safe draft | **Approved** 2026-07-12 |
+| **Long description (draft)** | See `citation-identity-sheet.md` § Long description | Claim-safe draft | **Approved** 2026-07-12 |
+| **Logo/icon assets (bundled)** | `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `site-icon-512.png` | Repo assets | **Approved** — icons only |
 
 ### Approved service list (from existing site pages)
 
@@ -59,7 +99,7 @@ Use only services already represented on the site. Final subset may vary by plat
 - Shed removal
 - Hoarding / heavy-clutter cleanout (confirmation language only)
 
-### Draft descriptions (from identity sheet — pending owner sign-off)
+### Approved descriptions (owner-approved 2026-07-12)
 
 **Short (~150 chars):**
 > Junk removal requests in Springfield, MO and nearby Greene County areas. Furniture, appliances, cleanouts, yard waste, and construction debris. Call or request a quote online.
@@ -69,25 +109,24 @@ Use only services already represented on the site. Final subset may vary by plat
 
 ---
 
-## 2. Owner decision required
+## 2. Owner decisions — approved (2026-07-12)
 
-These fields must be explicitly decided before any citation submission. Do not assume defaults.
-
-| # | Field | Current draft / state | Decision needed |
-|---|---|---|---|
-| 1 | **Final public business name** | Springfield Junk Removal Service | Confirm exact formatting; confirm whether legal/operating entity name differs |
-| 2 | **Primary category** | Junk Removal Service (taxonomy label TBD per platform) | Confirm exact Bing / Yelp / Facebook / Nextdoor / ShowMeLocal / Brownbook category labels |
-| 3 | **Secondary categories** | None selected | Confirm 0–3 secondary categories per platform where supported |
-| 4 | **Public hours** | Not published on site | Publish only if owner provides real staffed hours; otherwise omit or use “by appointment” only if platform allows without implying storefront |
-| 5 | **Service-area scope** | Springfield + Greene County + 5 satellite cities on site | Decide: Springfield-only vs broader Greene County coverage in directory service-area fields |
-| 6 | **Short business description** | Draft in identity sheet | Approve wording or revise |
-| 7 | **Long business description** | Draft in identity sheet | Approve wording or revise |
-| 8 | **Approved public email** | None | Decide whether to add owner-controlled email; if none, omit on platforms that allow phone+website only |
-| 9 | **Approved image/logo set** | Bundled icons only | Decide whether bundled icons are sufficient or owner will supply logo/truck/job photos |
-| 10 | **Facebook Page appropriateness** | Tier A candidate | Decide whether a service-area Page under current lead-gen model is acceptable before any Page creation |
-| 11 | **Nextdoor Business appropriateness** | Tier A candidate | Decide whether neighborhood business page is acceptable given verification/address requirements |
-| 12 | **Listing owner / claimant** | Undecided | RankRentOS vs verified operator vs joint workflow |
-| 13 | **Service list subset** | Full site list available | Confirm which services appear on each platform given field limits |
+| # | Field | Approved decision |
+|---|---|---|
+| 1 | **Final public business name** | Springfield Junk Removal Service |
+| 2 | **Primary category** | Junk Removal Service (map to exact platform label at submission) |
+| 3 | **Secondary categories** | One closely related category at most |
+| 4 | **Public hours** | Omit |
+| 5 | **Service-area scope** | Springfield, Missouri and Greene County, Missouri |
+| 6 | **Short business description** | Approved claim-safe draft in identity sheet |
+| 7 | **Long business description** | Approved claim-safe draft in identity sheet |
+| 8 | **Approved public email** | Omit |
+| 9 | **Approved image/logo set** | Existing approved site icon/logo assets only |
+| 10 | **Facebook Page** | **Defer** |
+| 11 | **Nextdoor Business** | **Defer** |
+| 12 | **Listing account owner / authorized representative** | Ryon O'Neill (private — lead-generation asset only) |
+| 13 | **Public owner name** | Omit unless platform explicitly requires |
+| 14 | **Service list subset** | Full site list approved; trim per platform field limits at creation review |
 
 ---
 
@@ -97,9 +136,9 @@ These fields must be explicitly decided before any citation submission. Do not a
 
 | Fact | Status | Impact if invented |
 |---|---|---|
-| Verified operating business / legal entity | **Not established** | GBP rejection; directory suspension; renter-handoff NAP churn |
-| Authorized listing representative | **Not established** | Verification failure; ownership disputes |
-| Legitimate private verification address | **Not established** | Cannot complete Bing / ShowMeLocal / Nextdoor / Yelp verification workflows |
+| Verified hauling / service-provider business or legal entity | **Not established** | GBP rejection; directory suspension; renter-handoff NAP churn |
+| Local field operator / dispatcher / contractor | **Not established** | Misrepresentation if implied in listings |
+| Legitimate private verification address | **Not established** | Cannot complete some platform verification workflows |
 | Direct service fulfillment responsibility | **Not established** | Misrepresentation under platform policies |
 | License status | **Not established** | Do not claim licensed |
 | Insurance status | **Not established** | Do not claim insured / bonded |
@@ -165,7 +204,7 @@ Tier A platforms only. Duplicate inspection complete; no existing listings found
 | **Service-area compatibility** | Good for online/service businesses |
 | **Operator requirement** | Page manager identity; ongoing content moderation |
 | **Current risk** | Low duplicate risk; **medium model-fit risk** — owner must decide if Page is appropriate |
-| **Recommendation after identity review** | **Defer pending owner decision** on Facebook appropriateness under lead-gen model |
+| **Recommendation after identity review** | **Defer** — owner-approved deferral |
 
 ### Nextdoor Business
 
@@ -178,7 +217,7 @@ Tier A platforms only. Duplicate inspection complete; no existing listings found
 | **Service-area compatibility** | Strong for neighborhood services — but needs legitimate verification address |
 | **Operator requirement** | Higher — neighborhood trust signal; business docs may be requested |
 | **Current risk** | Low duplicate risk; **medium–high operational risk** without private address and operator |
-| **Recommendation after identity review** | **Defer pending owner decision** on Nextdoor appropriateness and verification address availability |
+| **Recommendation after identity review** | **Defer** — owner-approved deferral |
 
 ### ShowMeLocal
 
@@ -195,27 +234,28 @@ Tier A platforms only. Duplicate inspection complete; no existing listings found
 
 ---
 
-## 5. Recommended conservative identity configuration
+## 5. Approved identity configuration
 
-Use this configuration if owner approves citation work. It avoids fake addresses, storefront implications, and unverified operator claims.
+Owner-approved configuration. Avoids fake addresses, storefront implications, and unverified service-provider claims.
 
-| Field | Conservative value | Rationale |
+| Field | Approved value | Rationale |
 |---|---|---|
-| **Business name** | Springfield Junk Removal Service | Matches site; no legal-entity claim until operator confirmed |
+| **Business name** | Springfield Junk Removal Service | Owner-approved public name |
 | **Phone** | (417) 242-5370 | Verified CallRail; consistent NAP |
 | **Website** | https://springfieldjunkremovalservice.com | Verified canonical; no UTM on citations |
-| **Public address** | **None** | No fake address; no storefront implication |
-| **Private verification address** | **Owner-supplied only** | Required by some platforms; never invented |
-| **Service area (public)** | Springfield, MO + Greene County, MO | Matches site; avoid over-claiming beyond approved cities unless owner expands |
-| **Primary category** | Junk removal / waste removal / hauling (exact label per platform) | Category only — not “general contractor” or “demolition contractor” |
-| **Secondary categories** | 0–1 closely related (e.g., waste management, cleanout) | Avoid unrelated categories that imply licenses not held |
-| **Hours** | **Omit** unless owner provides real hours | Site does not publish hours |
+| **Public address** | **None** | Owner-approved; no storefront implication |
+| **Private verification address** | **Not established** | Required by some platforms; never invented |
+| **Service area (public)** | Springfield, Missouri and Greene County, Missouri | Owner-approved |
+| **Primary category** | Junk Removal Service | Owner-approved; map to platform taxonomy at submission |
+| **Secondary categories** | One closely related at most | Owner-approved |
+| **Hours** | **Omit** | Owner-approved |
 | **Short description** | Approved claim-safe draft from identity sheet | Request-and-confirm language only |
-| **Long description** | Approved claim-safe draft from identity sheet | No licensed/insured/crew/truck/ownership claims |
-| **Email** | **Omit** unless owner approves controlled address | Formspree is lead capture — not a public listing email |
-| **Images** | Bundled icon only, or owner-supplied photos | No stock truck/crew imagery |
+| **Long description** | Approved claim-safe draft from identity sheet | No licensed/insured/crew/truck/operator claims |
+| **Email** | **Omit** | Owner-approved |
+| **Images** | Bundled site icon/logo assets only | Owner-approved |
 | **Reviews** | **None** | No fabricated or imported review counts |
 | **GBP** | **Blocked** | Not eligible now per `gbp-eligibility-review.md` |
+| **Account owner (private)** | Ryon O'Neill | Lead-generation asset representative only — not public |
 
 ### NAP consistency rules (unchanged)
 
@@ -226,33 +266,37 @@ Use this configuration if owner approves citation work. It avoids fake addresses
 
 ### Renter-handoff considerations
 
-- Listings should be created under the **verified operator's control** where possible, not a disposable marketing shell.
-- If RankRentOS creates listings before renter assignment, plan explicit **ownership transfer** or re-verification to avoid NAP churn.
+- Account owner (Ryon O'Neill) may manage citation accounts for the lead-generation asset.
+- Public listings must use approved public business identity only — not personal contact data.
+- When a verified service provider / renter is identified, plan explicit **ownership transfer** or re-verification to avoid NAP churn.
 - Phone `(417) 242-5370` must remain stable through handoff or citations require bulk update.
+- Do not imply the account owner is the hauling contractor or field operator.
 
 ---
 
 ## 6. Owner approval checklist
 
-Before any Tier A creation review or submission:
+Identity and account-owner decisions approved 2026-07-12:
 
-- [ ] Approve this identity approval packet
-- [ ] Approve final business name formatting
-- [ ] Approve short and long descriptions (or provide revisions)
-- [ ] Approve primary + secondary categories per platform
-- [ ] Approve service-area scope (Springfield-only vs Greene County breadth)
-- [ ] Decide public hours policy (omit vs publish real hours)
-- [ ] Decide public email policy (omit vs owner-controlled address)
-- [ ] Decide image policy (bundled icon only vs owner-supplied set)
-- [ ] Decide Facebook Page appropriateness under current model
-- [ ] Decide Nextdoor Business appropriateness under current model
-- [ ] Identify verified operating business / entity
-- [ ] Identify authorized listing representative
+- [x] Approve this identity approval packet
+- [x] Approve final business name formatting
+- [x] Approve short and long descriptions
+- [x] Approve primary + secondary category policy
+- [x] Approve service-area scope (Springfield + Greene County)
+- [x] Approve public hours policy (omit)
+- [x] Approve public email policy (omit)
+- [x] Approve image policy (bundled icons only)
+- [x] Defer Facebook Page
+- [x] Defer Nextdoor Business
+- [x] Approve account owner / authorized representative (Ryon O'Neill — private)
+- [x] Approve public owner name policy (omit unless required)
+- [x] Confirm GBP remains blocked
+- [ ] Identify verified hauling / service-provider business or entity
 - [ ] Confirm legitimate private verification address (if platform requires)
-- [ ] Confirm listing ownership / claimant (RankRentOS vs operator)
-- [ ] Confirm GBP remains blocked until operator model changes
+- [ ] Approve Brownbook creation review (separate task)
+- [ ] Approve any live citation submission
 
-**Listing creation is not authorized by this packet.**
+**Listing creation is not authorized by this approval.**
 
 ---
 
@@ -262,12 +306,12 @@ Before any Tier A creation review or submission:
 
 | Platform | Duplicate risk | Identity ready? | Operator needed? | Address needed? | Post-identity recommendation |
 |---|---|---|---|---|---|
-| Bing Places | None | Partial | Yes | Private (hide public) | **Approve for creation review** |
-| Brownbook | None | Partial | Lower | Optional | **Approve for creation review** |
-| Yelp | None | Partial | Moderate | Optional / hide | **Approve for creation review** |
-| Facebook | None | Partial | Moderate | Service area OR address | **Defer** — owner model decision |
-| Nextdoor | None | Partial | Yes | Private (hide public) | **Defer** — owner model decision |
-| ShowMeLocal | None | Partial | Moderate | Private (hide street) | **Approve for creation review** |
+| Bing Places | None | Approved | Service provider TBD | Private (hide public) | **Approve for creation review** |
+| Brownbook | None | Approved | Lower | Optional | **First creation-review candidate** |
+| Yelp | None | Approved | Moderate | Optional / hide | **Approve for creation review** |
+| Facebook | None | Approved config | Moderate | Service area OR address | **Deferred** — owner-approved |
+| Nextdoor | None | Approved config | Yes | Private (hide public) | **Deferred** — owner-approved |
+| ShowMeLocal | None | Approved | Moderate | Private (hide street) | **Approve for creation review** |
 | Google Business Profile | N/A | No | Yes | Private + eligibility | **Reject / blocked** |
 
 ### Platforms that should remain deferred
@@ -276,23 +320,23 @@ Before any Tier A creation review or submission:
 |---|---|
 | **Google Business Profile** | Not eligible now — lead-gen model; no verified operator |
 | **Apple Business Connect** | Public visitable address required |
-| **Facebook Page** | Pending owner decision on appropriateness |
-| **Nextdoor Business** | Pending owner decision + verification address |
+| **Facebook Page** | Owner-approved deferral |
+| **Nextdoor Business** | Owner-approved deferral |
 | **BBB, Chamber, Foursquare, YP/MapQuest** | Tier B — address/operator/spend requirements |
 | **Angi, HomeAdvisor, Thumbtack** | Tier C — paid leads; license/insurance representations |
 
 ### Recommended first creation-review candidate
 
-**Brownbook** — after identity packet approval and operator confirmation.
+**Brownbook** — owner-approved first candidate for a **separate creation-review task**. Not authorized for creation by identity approval alone.
 
 | Rank | Platform | Why |
 |---:|---|---|
-| 1 | **Brownbook** | Lowest address friction; email verification; no duplicate found |
-| 2 | Bing Places | Broad reach; HideAddress — but needs private address |
+| 1 | **Brownbook** | Owner-approved first candidate; lowest address friction; no duplicate found |
+| 2 | Bing Places | Broad reach; HideAddress — needs private verification address |
 | 3 | Yelp | Strong category fit — moderation risk |
-| 4 | ShowMeLocal | Local directory — needs private address |
-| 5 | Facebook | Only if owner approves model fit |
-| 6 | Nextdoor | Only if owner approves model fit + verification address |
+| 4 | ShowMeLocal | Local directory — needs private verification address |
+| 5 | Facebook | **Deferred** — owner-approved |
+| 6 | Nextdoor | **Deferred** — owner-approved |
 
 ---
 
@@ -301,15 +345,16 @@ Before any Tier A creation review or submission:
 | Risk | Severity | Mitigation |
 |---|---|---|
 | Invented address or storefront implication | **Critical** | Use conservative config; no public address |
-| Listing without verified operator | **High** | Block creation until operator identified |
+| Listing without verified service provider | **High** | Identity approved; operational provider still unresolved |
+| Account owner misrepresented as hauler | **High** | Use approved public identity only; keep account-owner role private |
 | NAP churn at renter handoff | **High** | Operator-owned listings preferred; document transfer plan |
 | Yelp moderation / flagging | **Medium** | Claim-safe copy; no review or crew claims |
 | Nextdoor verification failure | **Medium** | Defer until legitimate private address confirmed |
-| Facebook Page model mismatch | **Medium** | Owner decision before any Page creation |
+| Facebook Page model mismatch | **Low** | Owner-approved deferral |
 | GBP creation under current model | **Critical** | Keep blocked per eligibility review |
 | Category overreach (contractor/license implication) | **Medium** | Stay in junk removal / waste / hauling taxonomy |
 | Hours or email published without owner data | **Low–Medium** | Omit unless explicitly approved |
 
 ---
 
-*Documentation only. No listings created, claimed, edited, submitted, or verified. Await owner approval before commit and before any creation review.*
+*Owner identity decisions approved 2026-07-12. Account-owner strategy approved. Listing creation is not authorized. Brownbook creation review requires separate approval.*

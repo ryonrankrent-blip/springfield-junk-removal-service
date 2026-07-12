@@ -4,11 +4,12 @@
 **Phone:** (417) 242-5370  
 **URL:** https://springfieldjunkremovalservice.com  
 **Market:** Springfield, MO  
-**Identity sheet:** `citation-identity-sheet.md`  
+**Identity sheet:** `citation-identity-sheet.md` (owner-approved 2026-07-12)  
+**Approval packet:** `citation-identity-approval-packet.md` (owner-approved 2026-07-12)  
 **Research:** `citation-candidate-research.md` (2026-07-11)  
-**Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; ShowMeLocal human follow-up complete)  
+**Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; complete)  
 **GBP review:** `gbp-eligibility-review.md`  
-**Status:** Tier A duplicate inspection complete — **no listings authorized**
+**Status:** Identity configuration approved — **no listings authorized**
 
 ---
 
@@ -16,12 +17,12 @@
 
 | Platform | URL | Tier | Status | NAP match | Verified operator | Notes | Approval |
 |---|---|---|---|---|---|---|---|
-| Bing Places | https://www.bingplaces.com | A | **Inspected** | No listing found | | Duplicate risk: none; see inspection doc | |
-| ShowMeLocal | https://www.showmelocal.com | A | **Inspected** | No listing found | | Duplicate risk: none; human on-platform follow-up complete | |
-| Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Duplicate risk: none | |
-| Facebook Page | https://www.facebook.com/business | A | **Inspected** | No listing found | | Duplicate risk: none; on-platform search not logged in | |
-| Nextdoor Business | https://business.nextdoor.com | A | **Inspected** | No listing found | | Duplicate risk: none; on-platform search not logged in | |
-| Brownbook | https://www.brownbook.net | A | **Inspected** | No listing found | | Duplicate risk: none; 0 results on direct search | |
+| Bing Places | https://www.bingplaces.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
+| ShowMeLocal | https://www.showmelocal.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
+| Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
+| Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
+| Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
+| Brownbook | https://www.brownbook.net | A | **Inspected** | No listing found | | **First creation-review candidate** — not creation-authorized | |
 
 ## Tier B — After operator strategy confirmed
 
@@ -70,13 +71,23 @@
 
 ---
 
+## Account owner (private — approved 2026-07-12)
+
+- **Authorized representative:** Ryon O'Neill (lead-generation asset — not public listing identity)
+- **Public owner name:** Omit unless platform requires
+- **Public fields:** Use approved business identity from `citation-identity-sheet.md` only
+
+---
+
 ## Pre-submission checklist (per platform)
 
 - [ ] Platform policy reverified on current help pages
-- [ ] Existing listing search completed (no duplicate)
-- [ ] Identity sheet approved by owner
-- [ ] Verified operator identified
+- [x] Existing listing search completed (no duplicate)
+- [x] Identity sheet approved by owner
+- [x] Account-owner strategy approved
+- [ ] Verified service provider identified
 - [ ] Private verification address confirmed (if required)
+- [ ] Brownbook creation review approved (separate task)
 - [ ] No invented hours, license, insurance, or review claims
 - [ ] Separate approval recorded in Approval column
 

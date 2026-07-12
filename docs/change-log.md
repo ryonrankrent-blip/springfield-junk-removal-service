@@ -1,5 +1,46 @@
 # Change Log
 
+## 2026-07-12 — Citation identity owner decisions approved
+
+### Production state
+- Main commit: `a494e92` (PR #19 citation identity approval packet merge)
+- No HTML, scripts, tracking, DNS, or production configuration changes
+
+### Owner decisions approved
+- **Public identity:** Springfield Junk Removal Service; (417) 242-5370; https://springfieldjunkremovalservice.com; no public address; Springfield + Greene County service area
+- **Category policy:** Junk Removal Service primary; one closely related secondary at most
+- **Omit:** hours, public email, public owner name (unless platform requires)
+- **Descriptions:** request-and-confirm language only; approved short/long drafts
+- **Images:** bundled site icon/logo assets only
+- **Platform decisions:** Facebook defer; Nextdoor defer; GBP blocked
+- **First creation-review candidate:** Brownbook (separate task — not creation-authorized)
+
+### Account-owner strategy approved
+- **Private account owner / authorized representative:** Ryon O'Neill (lead-generation asset)
+- **Not established as:** hauling contractor, service provider, dispatcher, crew operator, or field operator
+- **Do not publish:** personal address, private phone, personal email
+- **Public fields:** approved public business identity only
+
+### Operational facts still unresolved
+- Verified hauling / service-provider business or entity
+- Local field operator / renter handoff
+- Legitimate private verification address (where required)
+- License, insurance, crews, trucks, years in business
+
+### Not performed
+- No listings created, claimed, edited, submitted, or verified
+- No Brownbook login or creation review
+- No commit, push, or deploy in this batch (pending approval)
+
+### Documentation updated
+- `citation-identity-approval-packet.md`
+- `citation-identity-sheet.md`
+- `citation-tracker-template.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-11 — ShowMeLocal human follow-up (read-only)
 
 ### Production state
