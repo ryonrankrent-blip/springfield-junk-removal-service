@@ -1,5 +1,41 @@
 # Change Log
 
+## 2026-07-11 — ShowMeLocal human follow-up (read-only)
+
+### Production state
+- Main commit: `95eb46a` (PR #17 Tier A duplicate inspection merge)
+- No HTML, scripts, tracking, DNS, or production configuration changes
+
+### Follow-up completed
+- **ShowMeLocal human on-platform search** — public browser session; read-only
+- **Queries checked:** `Springfield Junk Removal Service` + Springfield, MO; `springfieldjunkremovalservice.com` + Springfield, MO; `417-242-5370` + Springfield, MO; `junk removal` + Springfield, MO
+- **Result:** No matching listing; no exact match; no possible match; no identity conflict
+- **Tier A status:** Duplicate inspection now **complete across all six platforms**
+
+### Key findings
+- **ShowMeLocal final status:** No result
+- **Duplicate risk:** None (upgraded from inconclusive/low)
+- **Exact matches:** 0
+- **Possible matches:** 0
+- **Identity conflicts:** none
+- **Listing creation:** not authorized
+- **GBP:** not eligible now
+
+### Not performed
+- No account login, claim, edit, verification request, or listing creation
+- No production, renter, or support contact
+- No commit, push, or deploy in this batch (pending approval)
+
+### Documentation updated
+- `tier-a-duplicate-inspection.md`
+- `citation-candidate-research.md`
+- `citation-tracker-template.md`
+- `authority-gap-review.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-11 — Tier A citation duplicate inspection (read-only)
 
 ### Production state

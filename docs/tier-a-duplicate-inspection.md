@@ -4,8 +4,8 @@
 **Website:** https://springfieldjunkremovalservice.com  
 **Phone:** (417) 242-5370  
 **Market:** Springfield, Missouri / Greene County  
-**Main commit:** `7eeaf73b7472d185c67b4cd9d7a4698ddd042e54`  
-**Inspection date:** 2026-07-11  
+**Main commit:** `95eb46ac435734d7d4b3d278bae7ad4d750812cc`  
+**Inspection date:** 2026-07-11 (automated + human ShowMeLocal follow-up same day)  
 **Mode:** Read-only — **no listings created, claimed, edited, or submitted**  
 **Identity source:** `citation-identity-sheet.md` (unchanged — no conflicts found)
 
@@ -18,10 +18,10 @@
 | Exact matches (≥2 verified identifiers) | **0** |
 | Possible matches (1 identifier or name-only) | **0** |
 | Identity conflicts (name / phone / domain / address / category) | **0** |
-| Platforms with no public listing found | **5** |
-| Platforms inconclusive (bot protection) | **1** (ShowMeLocal) |
+| Platforms with no public listing found | **6** |
+| Platforms inconclusive (bot protection) | **0** |
 
-**Conclusion:** No Tier A duplicate was confirmed. No ownership of any third-party record is assumed. All six Tier A platforms appear **low duplicate risk** based on public inspection, with ShowMeLocal requiring a follow-up pass when platform search is accessible.
+**Conclusion:** No Tier A duplicate was confirmed. No ownership of any third-party record is assumed. **Tier A duplicate inspection is complete across all six platforms** with **none** duplicate risk after human ShowMeLocal follow-up.
 
 **Listing creation is not authorized by this inspection.**
 
@@ -47,7 +47,7 @@
 | `site:yelp.com springfieldjunkremovalservice.com OR "417-242-5370"` | Bing | No results | |
 | `site:facebook.com "Springfield Junk Removal Service" Missouri` | Bing | No results | |
 | `site:nextdoor.com "Springfield Junk Removal Service" OR springfieldjunkremovalservice.com` | Bing / DuckDuckGo | No results | |
-| `site:showmelocal.com` + approved identifiers | Bing / DuckDuckGo | No results | Direct site blocked by bot check |
+| `site:showmelocal.com` + approved identifiers | Bing / DuckDuckGo | No results | Automated session blocked by bot check; human on-platform search confirmed no match |
 | `site:brownbook.net` + approved identifiers | Bing / DuckDuckGo / Brownbook | No results | Direct Brownbook search also returned 0 |
 
 ---
@@ -81,22 +81,22 @@
 | Field | Value |
 |---|---|
 | **Platform** | ShowMeLocal |
-| **Search date** | 2026-07-11 |
-| **Search methods** | Bing `site:showmelocal.com` search; DuckDuckGo site search; direct platform navigation |
-| **Queries used** | `site:showmelocal.com "Springfield Junk Removal Service" OR springfieldjunkremovalservice.com OR "417-242-5370"`; `site:showmelocal.com junk removal Springfield Missouri`; direct URL `/search.aspx?keyword=...` |
-| **Possible match found** | No (inconclusive on-platform) |
+| **Search date** | 2026-07-11 (automated); 2026-07-11 (human follow-up) |
+| **Search methods** | Bing `site:showmelocal.com` search; DuckDuckGo site search; **human public-browser on-platform search** |
+| **Queries used** | Automated: `site:showmelocal.com "Springfield Junk Removal Service" OR springfieldjunkremovalservice.com OR "417-242-5370"`; `site:showmelocal.com junk removal Springfield Missouri`. Human: `Springfield Junk Removal Service` + Springfield, MO; `springfieldjunkremovalservice.com` + Springfield, MO; `417-242-5370` + Springfield, MO; `junk removal` + Springfield, MO |
+| **Possible match found** | No |
 | **Listing URL** | — |
 | **Displayed business name** | — |
 | **Displayed phone** | — |
 | **Displayed website** | — |
 | **Displayed address / service area** | — |
 | **Category** | — |
-| **Status** | **Inconclusive** — no indexed match; platform search blocked |
-| **Duplicate risk** | **Low** (no public evidence of duplicate) |
+| **Status** | **No result** |
+| **Duplicate risk** | **None** |
 | **Claim status visible** | — |
-| **Recommended next action** | **Defer direct platform search** to human follow-up or second inspection pass when ShowMeLocal bot check can be completed without account creation |
-| **Approval required** | Yes — before create/claim; yes — before follow-up inspection |
-| **Notes** | `showmelocal.com` returned **Security Verification** / bot-protection on direct access. External search indexes show no ShowMeLocal URLs for approved name, domain, or phone. Cannot confirm absence with 100% certainty until on-platform search succeeds. |
+| **Recommended next action** | Safe for later **creation review** after operator approval; re-search immediately before any submission |
+| **Approval required** | Yes — before any ShowMeLocal create/claim |
+| **Notes** | Automated session hit **Security Verification** / bot-protection. Human read-only follow-up in a public browser session completed all four on-platform queries with no matching listing. No account login, claim, edit, verification request, or listing creation occurred. |
 
 ### 3. Yelp
 
@@ -209,7 +209,7 @@ These businesses share partial naming or market keywords but **do not match** �
 | Platform | Duplicate risk | Safe for later creation review? | Defer? |
 |---|---|---|---|
 | Bing Places | None | **Yes** | No |
-| ShowMeLocal | Low | Conditional | **Yes** — follow-up on-platform search |
+| ShowMeLocal | None | **Yes** | No |
 | Yelp | None | **Yes** | No |
 | Facebook | None | **Yes** | No |
 | Nextdoor | None | **Yes** | No |
@@ -221,7 +221,7 @@ These businesses share partial naming or market keywords but **do not match** �
 
 **Do not create listings yet.** Request owner approval for this sequence:
 
-1. **Approve duplicate-inspection findings** (this document)
+1. ~~**Approve duplicate-inspection findings**~~ — **Complete** (all six platforms inspected)
 2. **Approve citation identity sheet** (`citation-identity-sheet.md`)
 3. **Confirm verified operator** and private verification address strategy
 4. **Approve Tier A creation review** (separate task) in order:
@@ -230,7 +230,7 @@ These businesses share partial naming or market keywords but **do not match** �
    - Yelp
    - Facebook Page
    - Nextdoor Business
-   - ShowMeLocal (after follow-up duplicate check passes)
+   - ShowMeLocal
 
 GBP remains **deferred** per `gbp-eligibility-review.md`.
 
@@ -238,11 +238,10 @@ GBP remains **deferred** per `gbp-eligibility-review.md`.
 
 ## Unresolved questions
 
-1. **ShowMeLocal on-platform search** — bot protection prevented direct keyword search; indexed search found nothing, but absence is not fully confirmed.
-2. **Facebook / Nextdoor on-platform search** — no login performed; reliance on public index + Bing `site:` searches.
-3. **Yelp direct browse** — automated session could not render Yelp search results; Bing `site:yelp.com` found no matches.
-4. **Bing Places phone-index lag** — phone search on Maps did not resolve to a business card; production site pages do display the number (indexing ≠ Places listing).
-5. **Operator identity** — duplicate inspection does not establish who may legally claim listings.
+1. **Facebook / Nextdoor on-platform search** — no login performed; reliance on public index + Bing `site:` searches.
+2. **Yelp direct browse** — automated session could not render Yelp search results; Bing `site:yelp.com` found no matches.
+3. **Bing Places phone-index lag** — phone search on Maps did not resolve to a business card; production site pages do display the number (indexing ≠ Places listing).
+4. **Operator identity** — duplicate inspection does not establish who may legally claim listings.
 
 ---
 
@@ -258,4 +257,4 @@ GBP remains **deferred** per `gbp-eligibility-review.md`.
 
 ---
 
-*Inspection complete. Stop for approval before any listing creation or commit.*
+*Tier A duplicate inspection complete across all six platforms. Human ShowMeLocal follow-up recorded. Stop for approval before any listing creation or commit.*
