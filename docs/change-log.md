@@ -1,5 +1,75 @@
 # Change Log
 
+## 2026-07-11 — Conversion verification live tests complete (PASS)
+
+### Production state
+- Main commit tested: `c0573a1` (PR #14 docs merge)
+- No production HTML, scripts, or configuration changes required or made
+
+### Live test results (2026-07-11)
+- **Conversion path:** PASS — call, quote, and form paths verified end-to-end
+- **Call path:** PASS — desktop homepage, money page (`/junk-removal-springfield-mo`), and mobile `tel:` dialer behavior correct; `click_call` with correct `page_path`
+- **Form path:** PASS — one controlled Formspree test submission; hosted success page ("Thanks! The form was submitted successfully."); `submit_lead_form` fired once; **test not counted as a real lead**; no second submission
+- **GTM:** PASS — Tag Assistant connected to `GTM-GDJF54DV`; GA4 destination `G-GWT8GR7QJC`; GA4 Google Tag fired once; `click_call`, `click_quote_button`, and `submit_lead_form` tags each fired once per tested action; Tags Not Fired: None
+- **GA4:** PASS — correct Springfield property under RankRentOS account; Realtime received all three events as key events; traffic and page views present; event totals reflected deliberate test actions, not duplicate firing
+- **CallRail:** PASS — `(417) 242-5370` routing verified; call appeared in dashboard; logging correct; no routing/voicemail/forwarding/recording changes
+- **Duplicate-event check:** PASS — no duplicate custom-event firing in Tag Assistant
+- **Mobile:** PASS — `tel:` link opened dialer correctly
+- **Quote button:** PASS — `Get a Free Quote` moved to `#quote`; `click_quote_button` fired once per action
+
+### GA4 account note (non-blocking)
+- Unused property/tag `G-XPH099Y4DW` accidentally created during account recovery
+- Not installed on site; not connected to production; no action required
+- Live site remains on `GTM-GDJF54DV` → `G-GWT8GR7QJC` only
+
+### Assessment
+- Springfield is **technically lead-ready**
+- **Not fully renter-ready** until authority/citation work and sufficient proof-of-life lead volume are completed
+
+### Not performed
+- No production file changes, commit, push, or deploy
+- No GTM publish, GA4 config changes, Formspree settings changes, or CallRail routing changes
+- No citations, listings, or renter outreach
+
+### Documentation updated
+- `conversion-verification-checklist.md` — live results, test log, sign-off table
+- `proof-of-life-checklist.md` — conversion and CallRail sections marked PASS
+- `renter-readiness-checklist.md` — lead-routing verified; renter blockers updated
+- `change-log.md` — this entry
+
+---
+
+## 2026-07-11 — Conversion verification phase started (read-only audit)
+
+### Production state
+- Main commit audited: `c0573a1` (PR #14 docs merge)
+- Production HTML/tracking unchanged since PR #13 (`ef037f3`)
+
+### Read-only conversion audit
+- Reviewed `analytics-events.js` and all 30 HTML pages
+- **Custom events:** `click_call`, `click_quote_button`, `submit_lead_form` (no others)
+- **Static validation:** 30/30 pass — `tel:4172425370`, Formspree `mojzdkvg`, GTM `GTM-GDJF54DV`, `analytics-events.js`, `#quote` CTAs
+- **Listener model:** Single delegated document listeners; no duplicate script tags or inline `onclick`
+- **Form fields:** Hidden `site`, `market`, `niche` on all pages; hidden `service` on 29 service pages; homepage uses `select name="service"`
+- **Post-submit UX:** No `_next` redirect in HTML — Formspree dashboard behavior TBD on live test
+
+### Manual test plan prepared (not run)
+- Desktop/mobile call click, quote-button click, safe form submit, GTM Preview, dataLayer, GA4 Realtime/DebugView, duplicate-event check, CallRail read-only verification
+- Blank test-log fields added to conversion docs
+
+### Not performed
+- No live calls, form submissions, GTM Preview, GA4 sessions
+- No production file changes, commit, push, or deploy
+- No CallRail, Formspree, GTM, or GA4 configuration changes
+
+### Documentation updated
+- `conversion-verification-checklist.md` — audit findings + manual test procedures + test log
+- `proof-of-life-checklist.md` — conversion verification section
+- `renter-readiness-checklist.md` — conversion blockers + test log
+- `change-log.md` — this entry
+
+---
+
 ## 2026-07-11 — GSC baseline captured + Tier 1 indexing requests
 
 ### Production state
