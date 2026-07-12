@@ -1,5 +1,41 @@
 # Change Log
 
+## 2026-07-12 — Brownbook creation review (read-only)
+
+### Production state
+- Main commit: `dc97558` (PR #20 owner-approved identity configuration merge)
+- No HTML, scripts, tracking, DNS, or production configuration changes
+
+### Review completed
+- **Brownbook policy reverified** on live add-business form, terms, about, register, and free-claim pages (2026-07-12)
+- **Duplicate status reconfirmed:** 0 results for approved name, domain, phone
+- **Claim-safe draft** prepared from owner-approved identity sheet
+- **Suitability:** suitable only after specific missing information is resolved
+- **Creation approval:** deferred — listing creation not authorized
+
+### Key findings
+- Add-business URL: https://www.brownbook.net/add-business (step 1 of 2)
+- Required fields: business name, NAICS category, country — **address optional**
+- Free basic listing + free claim; paid Profile+ optional
+- Account + email verification required to claim and lock edits
+- Description / Business overview supported; hours not on step 1
+- Terms allow authorized representatives/agents; 5-listing SEO commercial limit N/A for single asset
+- Unresolved before submission: exact NAICS category label, private account email, claim UI name privacy, step 2 reverify at submit
+
+### Not performed
+- No Brownbook account, login, listing create/claim/edit/submit/verify
+- No address entry, private contact entry, image upload, support contact, or spend
+- No commit, push, or deploy in this batch (pending owner approval)
+
+### Documentation updated
+- `brownbook-creation-review.md` (new)
+- `citation-tracker-template.md`
+- `citation-candidate-research.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-12 — Citation identity owner decisions approved
 
 ### Production state
