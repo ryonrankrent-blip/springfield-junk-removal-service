@@ -1,5 +1,43 @@
 # Change Log
 
+## 2026-07-13 — Brownbook automated execution blocked by CAPTCHA
+
+### Production state
+- Main commit: `aae9062` (PR #22 Brownbook pre-submission decisions merge)
+- No HTML, scripts, tracking, DNS, routing, forms, or production configuration changes
+
+### Execution outcome recorded
+- **Brownbook automated execution:** **Blocked**
+- **Blocker:** CAPTCHA could not be completed normally
+- **Platform suitability:** Still viable
+- **Automated retry:** Not authorized
+- **Recommended next step:** Optional single manual owner-browser attempt
+- **Listing creation status:** Not completed
+
+### Attempt details
+- Duplicate recheck found no exact duplicate listing
+- Passive promotions were present but optional; no payment, subscription, trial, or mandatory partner enrollment appeared
+- Step 1 fields were prepared using the approved configuration
+- Step 2 account fields were filled temporarily but never submitted
+- One normal reCAPTCHA checkbox attempt was made; CAPTCHA remained unchecked and Next remained disabled
+- No second CAPTCHA or submission attempt was made
+- All unsubmitted account fields were cleared
+
+### Not performed
+- No Brownbook account created
+- No email verification occurred
+- No listing submitted, published, claimed, edited, enriched, or verified
+- No owner name, private address, or private email became public
+- No outreach, spend, DNS, routing, tracking, form, code, commit, push, or deploy action
+
+### Documentation updated
+- `brownbook-creation-review.md`
+- `citation-tracker-template.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-12 — Brownbook pre-submission inspection documented (read-only)
 
 ### Production state
@@ -9,7 +47,7 @@
 ### Inspection and owner decisions recorded
 - **Pre-submission inspection:** complete 2026-07-12 (live add-business workflow)
 - **Category approved:** Other Waste Collection (NAICS reference 562119; Brownbook shows label + breadcrumb only)
-- **Private account email approved:** ryon.rankrent@gmail.com (account/login only — not registered)
+- **Private account email approved:** private account email not documented here (account/login only — not registered)
 - **Account Name* approved:** Ryon O'Neill (private registration as asset owner and authorized representative)
 - **Public listing email:** leave blank
 - **Public address:** leave blank; city Springfield; country United States

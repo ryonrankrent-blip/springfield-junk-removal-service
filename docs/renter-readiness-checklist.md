@@ -64,15 +64,18 @@
 - [x] Brownbook creation review completed — `brownbook-creation-review.md` (2026-07-12)
 - [x] Brownbook pre-submission inspection completed (2026-07-12)
 - [x] Brownbook field decisions approved — category, account email, account Name*
-- [ ] Brownbook account creation approved by owner (separate decision)
-- [ ] Brownbook listing creation approved by owner (separate decision)
+- [x] Brownbook account/listing creation approved for one automated attempt (2026-07-13)
+- [x] Brownbook automated execution attempted and blocked by CAPTCHA (2026-07-13)
+- [ ] Brownbook account created
+- [ ] Brownbook listing submitted
+- [ ] Optional single manual owner-browser attempt completed
 - [ ] Any live citation submitted
 
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations (0 live listings) | Identity approved — **Brownbook pre-submission inspection complete; field decisions approved; account/listing creation not authorized** |
+| Authority / citations (0 live listings) | Identity approved — **Brownbook automated execution blocked by CAPTCHA; platform still viable; automated retry not authorized** |
 | GBP eligibility | **Blocked / not eligible now** |
 | Service provider / renter operator | **Not established** |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
