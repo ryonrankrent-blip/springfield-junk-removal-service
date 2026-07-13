@@ -1,10 +1,11 @@
 # Brownbook Creation Review — Springfield
 
-**Status:** Pre-submission inspection complete — field decisions approved — **listing creation not authorized**  
-**Main commit:** `5486caae19d7f35ec9808f8f19a92d4915bdd897`  
+**Status:** Automated execution blocked by CAPTCHA — field decisions approved — **listing creation not completed**  
+**Main commit:** `aae90625017949e8bf6164d77c4ddf9ba3ee07a0`  
 **Creation review date:** 2026-07-12  
 **Pre-submission inspection date:** 2026-07-12  
-**Mode:** Read-only policy reverification, claim-safe draft, live pre-submission inspection  
+**Automated execution attempt date:** 2026-07-13  
+**Mode:** Read-only policy reverification, claim-safe draft, live pre-submission inspection, approved automated execution attempt  
 **Identity source:** `citation-identity-sheet.md` (owner-approved 2026-07-12)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` — Brownbook: **0 matches**
 
@@ -13,8 +14,11 @@
 ## Guardrails observed
 
 - No Brownbook account created
-- No login, listing create/claim/edit/submit/verify
-- No credentials entered during inspection
+- No Brownbook listing submitted, published, claimed, edited, enriched, or verified
+- Step 2 account fields were filled temporarily during the approved automated execution attempt, then cleared before stopping
+- No account details were submitted
+- One normal reCAPTCHA checkbox attempt was made; CAPTCHA remained unchecked and Next remained disabled
+- No second CAPTCHA or submission attempt
 - No address entered
 - No private contact information published
 - No images uploaded
@@ -23,7 +27,7 @@
 - No production, DNS, tracking, routing, or form changes
 - No commit, push, or deploy in this batch
 
-**Stop for owner approval before any Brownbook account creation, listing submission, or commit of this documentation.**
+**Automated retry is not authorized. Optional next step: one manual owner-browser attempt, stopping under the same guardrails if CAPTCHA or any other blocker appears.**
 
 ---
 
@@ -43,7 +47,7 @@
 | **Website** | https://springfieldjunkremovalservice.com | |
 | **Display Website** | https://springfieldjunkremovalservice.com | Same URL |
 | **Public listing email** | **Leave blank** | Optional listing email is public when entered |
-| **Private account/login email** | ryon.rankrent@gmail.com | Account step only — **not registered** |
+| **Private account/login email** | Approved private account email (not documented here) | Account step only — **not registered** |
 | **Account Name*** | Ryon O'Neill | Required for truthful private registration as asset owner and authorized representative |
 | **Public owner/contact name** | **Omit** | Do not add to listing |
 | **Hours** | **Omit** | |
@@ -64,10 +68,32 @@
 | Action | Status |
 |---|---|
 | Documentation update | This batch |
-| Account creation | **Not authorized** |
-| Listing creation / submission | **Not authorized** |
+| Account creation | **Approved for one automated attempt; blocked before submission** |
+| Listing creation / submission | **Approved for one automated attempt; not completed** |
 | Claiming / verification | **Not authorized** |
 | GBP | **Blocked / not eligible now** |
+
+### Automated execution outcome (2026-07-13)
+
+| Item | Result |
+|---|---|
+| Duplicate recheck | No exact duplicate found |
+| Passive promotions | Present but optional — FREE Profile+ / Uberall Listing Manager did not require enrollment |
+| Payment / billing / subscription | Not requested |
+| Step 1 fields | Prepared with approved configuration: name, category, city, country, phone, website; public address, postal code, and listing email left blank |
+| Step 2 account fields | Filled temporarily with approved private account email and account name; never submitted; cleared before stopping |
+| CAPTCHA | One normal checkbox attempt; remained unchecked; Next remained disabled |
+| Account creation | **Not completed** |
+| Email verification | **Not reached** |
+| Listing submission | **Not completed** |
+| Claim / verification / enrichment | **Not performed** |
+| Public owner/private data exposure | None observed; no listing created |
+| Repository state | Clean after attempt |
+| Brownbook automated execution | **Blocked** |
+| Blocker | **CAPTCHA could not be completed normally** |
+| Platform suitability | **Still viable** |
+| Automated retry | **Not authorized** |
+| Recommended next step | Optional single manual owner-browser attempt |
 
 ---
 
@@ -123,7 +149,7 @@ Clicking **Next** with only name + category + country advances to step 2. **Does
 
 | Field | Required? | Notes |
 |---|---|---|
-| Email* | **Yes** | Private account email — approved: `ryon.rankrent@gmail.com` (not entered) |
+| Email* | **Yes** | Approved private account email (not entered) |
 | Password* | **Yes** | Not entered |
 | Password (Confirm)* | **Yes** | Observed in form DOM |
 | Name* | **Yes** | Approved: Ryon O'Neill (not entered) |
@@ -213,7 +239,7 @@ Treat as a **possible execution blocker**. Do not attempt repeated CAPTCHA submi
 | **Description / overview** | Post-publish | Defer — use approved draft later if editable | **Defer at create** | | **Deferred** |
 | **Hours** | Not on form | — | **Omit** | | **Approved omit** |
 | **Logo / photos** | Post-claim | — | **Defer** | | **Deferred** |
-| **Account email** (step 2) | **Yes** | ryon.rankrent@gmail.com | | | **Approved** (not registered) |
+| **Account email** (step 2) | **Yes** | Approved private account email (not documented here) | | | **Approved** (not registered) |
 | **Account Name*** (step 2) | **Yes** | Ryon O'Neill | | Public exposure unconfirmed | **Approved** (private registration) |
 | **Account password** | **Yes** | Private — at execution | | | **At execution** |
 | **reCAPTCHA** (step 2) | **Yes** | — | | Quota blocker possible | **Check at execution** |
@@ -246,19 +272,20 @@ Brownbook remains the **strongest Tier A fit**: address optional, phone + websit
 |---|---|
 | Pre-submission inspection | **Complete** |
 | Category decision | **Approved** — Other Waste Collection |
-| Private email strategy | **Approved** — `ryon.rankrent@gmail.com` (account only) |
+| Private email strategy | **Approved** — private account email not documented here |
 | Account-name strategy | **Approved** — Ryon O'Neill (private registration; not public listing identity) |
 | Step 2 workflow | **Documented** |
-| Account creation | **Not authorized** |
-| Listing submission | **Not authorized** |
+| Account creation | **Approved for one automated attempt; blocked before submission** |
+| Listing submission | **Approved for one automated attempt; not completed** |
 | Claiming / verification | **Not authorized** |
 | GBP | **Blocked** |
+| Automated execution | **Blocked** — CAPTCHA could not be completed normally |
 
 ### Execution-time stop conditions
 
 1. **Public account-name exposure** — if step 2 or post-login UI shows Ryon O'Neill as public owner/operator/contact → **stop**
 2. **Claim-name public visibility** — unresolved; confirm at claim before proceeding → **stop if public**
-3. **reCAPTCHA quota error** — if quota message persists → **stop**; do not retry repeatedly
+3. **reCAPTCHA failure or quota error** — if CAPTCHA cannot be completed normally or quota message appears → **stop**; do not retry repeatedly
 4. **Verified service-provider entity** — still not established (cross-platform representation risk)
 5. **Any prompt for private address** — do not invent; **stop**
 
@@ -270,16 +297,17 @@ Brownbook remains the **strongest Tier A fit**: address optional, phone + websit
 |---|---|
 | **Pre-submission inspection** | **Complete** |
 | **Field configuration** | **Owner-approved** |
-| **Account creation** | **Not authorized** — separate explicit approval required |
-| **Listing creation** | **Not authorized** |
+| **Automated account/listing execution** | **Blocked** — CAPTCHA could not be completed normally |
+| **Account creation** | **Not completed** |
+| **Listing creation** | **Not completed** |
 | **Commit of this documentation** | **Deferred** — await owner approval |
 
 ### Proposed next approval action
 
 1. Owner reviews this update and approves **doc commit** (if desired).
-2. Owner separately approves **Brownbook account + listing execution** as a distinct decision.
-3. At execution: reverify live form; confirm reCAPTCHA works; confirm account Name* is not publicly displayed; submit step 1 with approved fields; complete step 2 account creation only if stop conditions pass; omit listing email and address; defer description and logo; claim only after separate approval.
+2. Optional: owner performs one manual browser attempt only, using the approved fields and the same stop conditions.
+3. Do not run another automated CAPTCHA/submission attempt without separate approval.
 
 ---
 
-*Pre-submission inspection complete. No account, listing, claim, or verification performed. No commit in this batch unless owner approves.*
+*Automated execution blocked by CAPTCHA. No account, listing, claim, or verification completed. No commit in this batch unless owner approves.*

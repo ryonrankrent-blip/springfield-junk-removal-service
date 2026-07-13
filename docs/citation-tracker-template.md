@@ -9,8 +9,8 @@
 **Research:** `citation-candidate-research.md` (2026-07-11)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; complete)  
 **GBP review:** `gbp-eligibility-review.md`  
-**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved)  
-**Status:** Identity configuration approved — **no listings authorized**
+**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved; automated execution blocked 2026-07-13)  
+**Status:** Identity configuration approved — **Brownbook automated execution blocked**
 
 ---
 
@@ -23,7 +23,7 @@
 | Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
-| Brownbook | https://www.brownbook.net | A | **Pre-submission inspection complete** | No listing found | | Field decisions approved — **Other Waste Collection**; account/listing creation **not authorized**; see `brownbook-creation-review.md` | |
+| Brownbook | https://www.brownbook.net | A | **Automated execution blocked** | No exact duplicate found | | Field decisions approved — **Other Waste Collection**; passive promotions optional; account/listing not completed because CAPTCHA could not be completed normally; automated retry not authorized; optional single manual owner-browser attempt | |
 
 ## Tier B — After operator strategy confirmed
 
@@ -67,7 +67,7 @@
 | Submitted | Claim/submit in progress (requires approval) |
 | Live | Verified published listing |
 | Needs fix | NAP or policy issue found |
-| Blocked | Policy or eligibility prevents listing |
+| Blocked | Policy, eligibility, or execution blocker prevents listing |
 | Rejected | Do not pursue |
 
 ---
@@ -76,7 +76,7 @@
 
 - **Authorized representative:** Ryon O'Neill (lead-generation asset — not public listing identity)
 - **Brownbook account Name*:** Ryon O'Neill (private registration — approved; public exposure unconfirmed)
-- **Brownbook account email:** ryon.rankrent@gmail.com (private — not registered)
+- **Brownbook account email:** Approved private account email (not documented here; temporarily filled during blocked automated attempt, then cleared)
 - **Public owner name:** Omit on listing
 - **Public fields:** Use approved business identity from `citation-identity-sheet.md` only
 
@@ -93,13 +93,17 @@
 - [x] Brownbook creation review completed (2026-07-12 — `brownbook-creation-review.md`)
 - [x] Brownbook pre-submission inspection completed (2026-07-12)
 - [x] Brownbook category approved — Other Waste Collection (NAICS ref 562119)
-- [x] Brownbook private account email approved — ryon.rankrent@gmail.com
+- [x] Brownbook private account email approved — not documented here
 - [x] Brownbook account Name* approved — Ryon O'Neill (private registration)
-- [ ] Brownbook account creation approved by owner (separate decision)
-- [ ] Brownbook listing creation approved by owner (separate decision)
+- [x] Brownbook account creation approved by owner for one automated attempt (2026-07-13)
+- [x] Brownbook listing creation approved by owner for one automated attempt (2026-07-13)
+- [x] Brownbook automated execution attempted and blocked by CAPTCHA (2026-07-13)
+- [ ] Brownbook account created
+- [ ] Brownbook listing submitted
+- [ ] Optional single manual owner-browser attempt completed
 - [ ] No invented hours, license, insurance, or review claims
 - [ ] Separate approval recorded in Approval column
 
 ---
 
-*No listings created. No spend incurred.*
+*No listings created. No spend incurred. Brownbook automated retry is not authorized after CAPTCHA block.*
