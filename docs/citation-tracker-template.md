@@ -9,7 +9,7 @@
 **Research:** `citation-candidate-research.md` (2026-07-11)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; complete)  
 **GBP review:** `gbp-eligibility-review.md`  
-**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — draft only)  
+**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved)  
 **Status:** Identity configuration approved — **no listings authorized**
 
 ---
@@ -23,7 +23,7 @@
 | Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
-| Brownbook | https://www.brownbook.net | A | **Creation review complete** | No listing found | | Draft ready — **creation deferred** pending owner approval; see `brownbook-creation-review.md` | |
+| Brownbook | https://www.brownbook.net | A | **Pre-submission inspection complete** | No listing found | | Field decisions approved — **Other Waste Collection**; account/listing creation **not authorized**; see `brownbook-creation-review.md` | |
 
 ## Tier B — After operator strategy confirmed
 
@@ -75,7 +75,9 @@
 ## Account owner (private — approved 2026-07-12)
 
 - **Authorized representative:** Ryon O'Neill (lead-generation asset — not public listing identity)
-- **Public owner name:** Omit unless platform requires
+- **Brownbook account Name*:** Ryon O'Neill (private registration — approved; public exposure unconfirmed)
+- **Brownbook account email:** ryon.rankrent@gmail.com (private — not registered)
+- **Public owner name:** Omit on listing
 - **Public fields:** Use approved business identity from `citation-identity-sheet.md` only
 
 ---
@@ -89,6 +91,11 @@
 - [ ] Verified service provider identified
 - [ ] Private verification address confirmed (if required)
 - [x] Brownbook creation review completed (2026-07-12 — `brownbook-creation-review.md`)
+- [x] Brownbook pre-submission inspection completed (2026-07-12)
+- [x] Brownbook category approved — Other Waste Collection (NAICS ref 562119)
+- [x] Brownbook private account email approved — ryon.rankrent@gmail.com
+- [x] Brownbook account Name* approved — Ryon O'Neill (private registration)
+- [ ] Brownbook account creation approved by owner (separate decision)
 - [ ] Brownbook listing creation approved by owner (separate decision)
 - [ ] No invented hours, license, insurance, or review claims
 - [ ] Separate approval recorded in Approval column

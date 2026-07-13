@@ -1,5 +1,44 @@
 # Change Log
 
+## 2026-07-12 — Brownbook pre-submission inspection documented (read-only)
+
+### Production state
+- Main commit: `5486caa` (PR #21 Brownbook creation review merge)
+- No HTML, scripts, tracking, DNS, or production configuration changes
+
+### Inspection and owner decisions recorded
+- **Pre-submission inspection:** complete 2026-07-12 (live add-business workflow)
+- **Category approved:** Other Waste Collection (NAICS reference 562119; Brownbook shows label + breadcrumb only)
+- **Private account email approved:** ryon.rankrent@gmail.com (account/login only — not registered)
+- **Account Name* approved:** Ryon O'Neill (private registration as asset owner and authorized representative)
+- **Public listing email:** leave blank
+- **Public address:** leave blank; city Springfield; country United States
+- **Description / logo:** defer
+- **Account creation, listing submission, claiming, verification:** **not authorized**
+
+### Key live findings
+- No Junk Removal Service, Junk Removal, or Debris Removal category labels in typeahead
+- Step 1 Next advances to account creation only — does not publish listing
+- Step 2 requires email, password, password confirm, Name, terms, reCAPTCHA; email verification after registration
+- Listing email is public when entered — must remain blank
+- Account-name public exposure unconfirmed; claim-name visibility unresolved
+- reCAPTCHA quota warning observed — possible execution blocker
+- No account created; no credentials entered; no listing published
+
+### Not performed
+- No Brownbook account, listing, claim, verification, CAPTCHA completion, or spend
+- No commit, push, or deploy in this batch (pending owner approval)
+
+### Documentation updated
+- `brownbook-creation-review.md`
+- `citation-identity-approval-packet.md`
+- `citation-tracker-template.md`
+- `citation-candidate-research.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-12 — Brownbook creation review (read-only)
 
 ### Production state

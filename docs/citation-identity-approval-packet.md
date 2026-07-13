@@ -58,6 +58,32 @@
 
 **Listing creation is still not authorized by this approval.**
 
+### Brownbook field decisions (owner-approved 2026-07-12, post-inspection)
+
+Pre-submission inspection complete — see `brownbook-creation-review.md`.
+
+| Field | Approved value |
+|---|---|
+| **Brownbook category label** | Other Waste Collection |
+| **NAICS reference** | 562119 (reference only — Brownbook shows label + breadcrumb, not code) |
+| **Private account/login email** | ryon.rankrent@gmail.com |
+| **Public listing email** | Leave blank |
+| **Account Name*** | Ryon O'Neill — truthful private registration as asset owner and authorized representative |
+| **Public owner/contact name** | Omit — do not add to listing |
+| **Public address** | Leave blank |
+| **City** | Springfield |
+| **Country** | United States |
+| **Phone** | (417) 242-5370 |
+| **Website** | https://springfieldjunkremovalservice.com |
+| **Hours** | Omit |
+| **Description / overview** | Defer — add later only if published listing supports editing |
+| **Logo / photos** | Defer |
+| **Account creation** | **Not authorized** |
+| **Listing creation / submission** | **Not authorized** |
+| **Claiming / verification** | **Not authorized** |
+
+**Account-name rule:** Do not imply Ryon O'Neill is the hauling contractor, service provider, dispatcher, crew operator, or local field operator. **Stop** before account creation or submission if the live workflow would publicly display him as owner, operator, or contact.
+
 ---
 
 ## 1. Verified and ready for owner approval
@@ -171,14 +197,18 @@ Tier A platforms only. Duplicate inspection complete; no existing listings found
 
 | Item | Detail |
 |---|---|
-| **Fields required for creation** | Business name; category; location (city/region); phone or website |
-| **Fields optional** | Address; email; description; images; extended profile |
-| **Verification likely required** | Email claim flow |
-| **Address requirements** | Often optional; city/region may suffice |
-| **Service-area compatibility** | Good — general directory; less strict than maps platforms |
-| **Operator requirement** | Lower than GBP; still requires accurate business representation |
-| **Current risk** | Low duplicate risk; low policy risk if claim-safe copy used |
-| **Recommendation after identity review** | **Approve for creation review** — second candidate — lowest address friction |
+| **Pre-submission inspection** | **Complete** 2026-07-12 — see `brownbook-creation-review.md` |
+| **Fields required for step 1** | Business name; category; country |
+| **Fields required for step 2 (account)** | Email; password; password confirm; Name; terms; reCAPTCHA |
+| **Owner-approved category** | **Other Waste Collection** (NAICS ref 562119) |
+| **Private account email** | ryon.rankrent@gmail.com (not registered) |
+| **Public listing email** | Leave blank |
+| **Account Name*** | Ryon O'Neill (private registration — not public listing identity) |
+| **Verification required** | Account email VERIFY link; claim flow separate |
+| **Address requirements** | Optional on step 1 — leave blank |
+| **Service-area compatibility** | Good — city + location tags |
+| **Current risk** | Low duplicate risk; account-name public exposure unconfirmed; reCAPTCHA quota possible blocker |
+| **Recommendation** | **Viable** — field decisions approved; **account creation and listing submission not authorized** |
 
 ### Yelp
 
