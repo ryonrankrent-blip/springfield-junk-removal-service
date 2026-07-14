@@ -1,5 +1,49 @@
 # Change Log
 
+## 2026-07-14 — Brownbook listing live and claimed
+
+### Production state
+- Main commit: `ee89700` (PR #23 Brownbook CAPTCHA blocker documentation merge)
+- No HTML, scripts, tracking, DNS, routing, forms, or production configuration changes
+
+### Owner-confirmed execution result
+- **Brownbook status:** **Live and claimed**
+- **Citation creation:** **Complete**
+- **Manual owner-browser execution:** **Successful**
+- **Duplicate risk:** None
+- **Listing URL:** Not provided in owner confirmation; record when available
+- **No further Brownbook edits authorized** in this batch
+- **GBP:** Remains blocked / not eligible now
+
+### Public fields confirmed
+- Business name: Springfield Junk Removal Service
+- Category: Other Waste Collection
+- City / country: Springfield, United States
+- Phone: (417) 242-5370
+- Website: https://springfieldjunkremovalservice.com
+- Street address, postal code, public listing email, and hours: blank
+- Description: approved claim-safe language added
+- Logo/photos: none uploaded
+
+### Public-name exception
+- Ryon O'Neill is visible publicly on the Brownbook account/listing interface.
+- Owner reviewed and explicitly accepted this, consistent with the owner's Auburn Septic citation-account approach.
+- This is an owner-approved exception to the earlier public-name stop condition and must not be interpreted as a claim that Ryon O'Neill personally performs hauling, operates crews, owns trucks, or directly fulfills junk-removal services.
+
+### Not performed
+- No paid upgrade, Profile+, advertising, partner enrollment, billing, outreach, DNS, routing, tracking, form, code, commit, push, or deploy action
+- No license, insurance, crew, truck, years-in-business, locally owned, family-owned, or direct-service claims added
+- No logo, photos, public email, hours, street address, or postal code added
+
+### Documentation updated
+- `brownbook-creation-review.md`
+- `citation-tracker-template.md`
+- `citation-candidate-research.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-13 — Brownbook automated execution blocked by CAPTCHA
 
 ### Production state

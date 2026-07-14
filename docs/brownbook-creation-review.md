@@ -1,11 +1,12 @@
 # Brownbook Creation Review — Springfield
 
-**Status:** Automated execution blocked by CAPTCHA — field decisions approved — **listing creation not completed**  
-**Main commit:** `aae90625017949e8bf6164d77c4ddf9ba3ee07a0`  
+**Status:** Manual owner-browser execution successful — **listing live and claimed**  
+**Main commit:** `ee89700c81f901917d5329c70eea0f24db534fcc`  
 **Creation review date:** 2026-07-12  
 **Pre-submission inspection date:** 2026-07-12  
 **Automated execution attempt date:** 2026-07-13  
-**Mode:** Read-only policy reverification, claim-safe draft, live pre-submission inspection, approved automated execution attempt  
+**Manual owner-browser execution date:** 2026-07-14  
+**Mode:** Read-only policy reverification, claim-safe draft, live pre-submission inspection, approved automated attempt, manual owner-browser completion  
 **Identity source:** `citation-identity-sheet.md` (owner-approved 2026-07-12)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` — Brownbook: **0 matches**
 
@@ -13,21 +14,22 @@
 
 ## Guardrails observed
 
-- No Brownbook account created
-- No Brownbook listing submitted, published, claimed, edited, enriched, or verified
-- Step 2 account fields were filled temporarily during the approved automated execution attempt, then cleared before stopping
-- No account details were submitted
-- One normal reCAPTCHA checkbox attempt was made; CAPTCHA remained unchecked and Next remained disabled
-- No second CAPTCHA or submission attempt
-- No address entered
+- Brownbook account creation completed manually by owner
+- Brownbook listing creation completed manually by owner
+- Brownbook listing is live and claimed
+- Street address left blank
+- Postal code left blank
+- Public listing email left blank
+- Hours left blank
+- Description added using approved claim-safe language
+- No logo or photos uploaded
+- No paid upgrade, Profile+, advertising, partner enrollment, billing, or spend accepted
+- No unsupported license, insurance, crew, truck, years-in-business, locally owned, family-owned, or direct-service claims added
 - No private contact information published
-- No images uploaded
-- No Brownbook support contact
-- No spend
 - No production, DNS, tracking, routing, or form changes
 - No commit, push, or deploy in this batch
 
-**Automated retry is not authorized. Optional next step: one manual owner-browser attempt, stopping under the same guardrails if CAPTCHA or any other blocker appears.**
+**No further Brownbook edits are authorized in this batch.**
 
 ---
 
@@ -51,27 +53,53 @@
 | **Account Name*** | Ryon O'Neill | Required for truthful private registration as asset owner and authorized representative |
 | **Public owner/contact name** | **Omit** | Do not add to listing |
 | **Hours** | **Omit** | |
-| **Description / Business overview** | **Defer** — add only later if published listing supports editing | Approved draft text retained below for future use |
-| **Logo / photos** | **Defer** | |
+| **Description / Business overview** | Approved claim-safe language added manually | No direct-service/operator claims |
+| **Logo / photos** | **Omit** | None uploaded |
 | **Business tags** | junk removal; furniture removal; appliance removal; garage cleanout; construction debris removal | Trim at submission if needed |
 | **Location tags** | Springfield; Greene County; Missouri | |
 
 ### Account-owner boundaries (approved)
 
-- Ryon O'Neill is the **private account owner and authorized representative** of the lead-generation asset.
+- Ryon O'Neill is the **account owner and authorized representative** of the lead-generation asset.
 - **Do not** imply he is the hauling contractor, service provider, dispatcher, crew operator, or local field operator.
 - **Do not** publish personal address, private phone number, or personal email on the listing.
-- **Execution stop rule:** If the live workflow indicates Ryon O'Neill will be **publicly displayed** as business owner, operator, or contact, **stop** before account creation or listing submission.
+- **Owner-approved public-name exception:** Ryon O'Neill is visible publicly on the Brownbook account/listing interface. Owner reviewed and explicitly accepted this, consistent with the owner's Auburn Septic citation-account approach. This visibility must not be interpreted as a claim that Ryon O'Neill personally performs hauling, operates crews, owns trucks, or directly fulfills junk-removal services.
 
 ### Authorization gates (unchanged)
 
 | Action | Status |
 |---|---|
 | Documentation update | This batch |
-| Account creation | **Approved for one automated attempt; blocked before submission** |
-| Listing creation / submission | **Approved for one automated attempt; not completed** |
-| Claiming / verification | **Not authorized** |
+| Account creation | **Complete manually** |
+| Listing creation / submission | **Complete manually** |
+| Claiming / verification | **Complete manually** |
+| Further Brownbook edits | **Not authorized in this batch** |
 | GBP | **Blocked / not eligible now** |
+
+### Manual owner-browser execution outcome (2026-07-14)
+
+| Item | Result |
+|---|---|
+| Brownbook status | **Live and claimed** |
+| Citation creation | **Complete** |
+| Manual owner-browser execution | **Successful** |
+| Listing URL | Not provided in owner confirmation; record when available without making further Brownbook edits |
+| Duplicate risk | **None** |
+| Business name | Springfield Junk Removal Service |
+| Category | Other Waste Collection |
+| City / country | Springfield, United States |
+| Phone | (417) 242-5370 |
+| Website | https://springfieldjunkremovalservice.com |
+| Street address | Blank |
+| Postal code | Blank |
+| Public listing email | Blank |
+| Hours | Blank |
+| Description | Approved claim-safe language added |
+| Logo / photos | None uploaded |
+| Paid upgrade / advertising / partner enrollment / billing | None accepted |
+| Unsupported claims | None added — no license, insurance, crew, truck, years-in-business, locally owned, family-owned, or direct-service claims |
+| Public-name visibility | **Owner-approved exception** — Ryon O'Neill visible publicly; not a service-fulfillment claim |
+| Further Brownbook edits | **Not authorized in this batch** |
 
 ### Automated execution outcome (2026-07-13)
 
@@ -273,21 +301,20 @@ Brownbook remains the **strongest Tier A fit**: address optional, phone + websit
 | Pre-submission inspection | **Complete** |
 | Category decision | **Approved** — Other Waste Collection |
 | Private email strategy | **Approved** — private account email not documented here |
-| Account-name strategy | **Approved** — Ryon O'Neill (private registration; not public listing identity) |
+| Account-name strategy | **Owner-approved public-name exception** — visible on Brownbook, not a hauling/operator claim |
 | Step 2 workflow | **Documented** |
-| Account creation | **Approved for one automated attempt; blocked before submission** |
-| Listing submission | **Approved for one automated attempt; not completed** |
-| Claiming / verification | **Not authorized** |
+| Account creation | **Complete manually** |
+| Listing submission | **Complete manually** |
+| Claiming / verification | **Complete manually** |
 | GBP | **Blocked** |
-| Automated execution | **Blocked** — CAPTCHA could not be completed normally |
+| Manual owner-browser execution | **Successful** |
 
 ### Execution-time stop conditions
 
-1. **Public account-name exposure** — if step 2 or post-login UI shows Ryon O'Neill as public owner/operator/contact → **stop**
-2. **Claim-name public visibility** — unresolved; confirm at claim before proceeding → **stop if public**
-3. **reCAPTCHA failure or quota error** — if CAPTCHA cannot be completed normally or quota message appears → **stop**; do not retry repeatedly
-4. **Verified service-provider entity** — still not established (cross-platform representation risk)
-5. **Any prompt for private address** — do not invent; **stop**
+1. **No further Brownbook edits in this batch** — do not enrich, upload, add hours, add address, add email, buy upgrades, or change listing content without separate approval.
+2. **Public account-name exception is narrow** — do not treat visible Ryon O'Neill account/name display as a service-fulfillment, hauling, crew, truck, or contractor claim.
+3. **Verified service-provider entity** — still not established (cross-platform representation risk).
+4. **Any prompt for private address** — do not invent; **stop**.
 
 ---
 
@@ -298,16 +325,19 @@ Brownbook remains the **strongest Tier A fit**: address optional, phone + websit
 | **Pre-submission inspection** | **Complete** |
 | **Field configuration** | **Owner-approved** |
 | **Automated account/listing execution** | **Blocked** — CAPTCHA could not be completed normally |
-| **Account creation** | **Not completed** |
-| **Listing creation** | **Not completed** |
+| **Manual owner-browser execution** | **Successful** |
+| **Account creation** | **Complete** |
+| **Listing creation** | **Complete** |
+| **Claim** | **Complete** |
+| **Further Brownbook edits** | **Not authorized in this batch** |
 | **Commit of this documentation** | **Deferred** — await owner approval |
 
 ### Proposed next approval action
 
 1. Owner reviews this update and approves **doc commit** (if desired).
-2. Optional: owner performs one manual browser attempt only, using the approved fields and the same stop conditions.
-3. Do not run another automated CAPTCHA/submission attempt without separate approval.
+2. Record the public Brownbook URL when available.
+3. Do not make further Brownbook edits, claims, enrichment, uploads, paid upgrades, or account changes without separate approval.
 
 ---
 
-*Automated execution blocked by CAPTCHA. No account, listing, claim, or verification completed. No commit in this batch unless owner approves.*
+*Manual owner-browser execution successful. Brownbook listing is live and claimed. No further Brownbook edits or commit in this batch unless owner approves.*

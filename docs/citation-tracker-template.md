@@ -9,8 +9,8 @@
 **Research:** `citation-candidate-research.md` (2026-07-11)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; complete)  
 **GBP review:** `gbp-eligibility-review.md`  
-**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved; automated execution blocked 2026-07-13)  
-**Status:** Identity configuration approved — **Brownbook automated execution blocked**
+**Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved; automated execution blocked 2026-07-13; manual owner-browser execution successful 2026-07-14)  
+**Status:** Identity configuration approved — **Brownbook live and claimed**
 
 ---
 
@@ -23,7 +23,7 @@
 | Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
-| Brownbook | https://www.brownbook.net | A | **Automated execution blocked** | No exact duplicate found | | Field decisions approved — **Other Waste Collection**; passive promotions optional; account/listing not completed because CAPTCHA could not be completed normally; automated retry not authorized; optional single manual owner-browser attempt | |
+| Brownbook | https://www.brownbook.net | A | **Live and claimed** | Live listing created | | Manual owner-browser execution successful; category **Other Waste Collection**; no public address, postal code, public email, hours, images, paid upgrade, or unsupported claims; public-name visibility owner-approved exception; listing URL not provided yet | Owner-confirmed 2026-07-14 |
 
 ## Tier B — After operator strategy confirmed
 
@@ -72,12 +72,12 @@
 
 ---
 
-## Account owner (private — approved 2026-07-12)
+## Account owner (approved — public-name exception recorded 2026-07-14)
 
-- **Authorized representative:** Ryon O'Neill (lead-generation asset — not public listing identity)
-- **Brownbook account Name*:** Ryon O'Neill (private registration — approved; public exposure unconfirmed)
-- **Brownbook account email:** Approved private account email (not documented here; temporarily filled during blocked automated attempt, then cleared)
-- **Public owner name:** Omit on listing
+- **Authorized representative:** Ryon O'Neill (lead-generation asset)
+- **Brownbook account Name*:** Ryon O'Neill
+- **Brownbook account email:** Approved private account email (not documented here)
+- **Public-name visibility:** Owner-approved exception for Brownbook; visible name must not be interpreted as a claim that Ryon O'Neill personally performs hauling, operates crews, owns trucks, or directly fulfills junk-removal services
 - **Public fields:** Use approved business identity from `citation-identity-sheet.md` only
 
 ---
@@ -98,12 +98,14 @@
 - [x] Brownbook account creation approved by owner for one automated attempt (2026-07-13)
 - [x] Brownbook listing creation approved by owner for one automated attempt (2026-07-13)
 - [x] Brownbook automated execution attempted and blocked by CAPTCHA (2026-07-13)
-- [ ] Brownbook account created
-- [ ] Brownbook listing submitted
-- [ ] Optional single manual owner-browser attempt completed
-- [ ] No invented hours, license, insurance, or review claims
+- [x] Brownbook account created manually by owner (2026-07-14)
+- [x] Brownbook listing submitted manually by owner (2026-07-14)
+- [x] Brownbook listing live and claimed (2026-07-14)
+- [x] Public-name visibility owner-approved exception recorded
+- [x] No invented hours, license, insurance, crew, truck, years-in-business, locally owned, family-owned, or direct-service claims
+- [ ] Public Brownbook listing URL recorded
 - [ ] Separate approval recorded in Approval column
 
 ---
 
-*No listings created. No spend incurred. Brownbook automated retry is not authorized after CAPTCHA block.*
+*Brownbook listing live and claimed. No further Brownbook edits are authorized in this batch. No paid upgrade or spend incurred.*
