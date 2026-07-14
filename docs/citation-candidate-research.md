@@ -5,10 +5,11 @@
 **Phone:** (417) 242-5370  
 **Market:** Springfield, MO / Greene County  
 **Main commit:** `ee89700`  
-**Research date:** 2026-07-11 (Brownbook policy reverified 2026-07-12; pre-submission inspection 2026-07-12; manual execution successful 2026-07-14)  
+**Research date:** 2026-07-11 (Brownbook policy reverified 2026-07-12; pre-submission inspection 2026-07-12; manual execution successful 2026-07-14; Bing Places creation review 2026-07-14)  
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; ShowMeLocal human follow-up complete)  
 **Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; manual owner-browser execution successful 2026-07-14)  
-**Status:** Tier A duplicate inspection complete — Brownbook **live and claimed**
+**Bing Places creation review:** `bing-places-creation-review.md` (2026-07-14 — research/draft complete; creation deferred)  
+**Status:** Tier A duplicate inspection complete — Brownbook **live and claimed** — Bing Places **creation deferred**
 
 ## Mandatory guardrails
 
@@ -35,7 +36,7 @@
 
 | Platform | URL | Free/paid | SAB / address | Phone | Website | Verification | Category fit | Lead-gen risk | Policy source | Recommend | Approval |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **Bing Places** | https://www.bingplaces.com | Free | Address required privately; **HideAddress** supported | Yes | Yes | Postcard / phone / email | Strong — hauling/waste | Low if real operator | [Bing Places Help — business without store](https://www.bingplaces.com/Help#BusinessWithoutStore); [API docs HideAddress](https://cdn.bingplaces.com/tpshared/BingPlaces_API_Latest.pdf) | **Tier A** | |
+| **Bing Places** | https://www.bingplaces.com | Free | Address required privately; **HideAddress** supported | Yes | Yes | Postcard / phone / email; methods controlled by Bing | Strong — hauling/waste; exact live category unresolved | Medium until legitimate private verification address and verified operator/entity are resolved | [Microsoft Support](https://support.microsoft.com/en-us/bing/add-and-manage-your-business-listing); [Bing Places](https://www.bingplaces.com/); [API docs HideAddress](https://cdn.bingplaces.com/tpshared/BingPlaces_API_Latest.pdf); `bing-places-creation-review.md` | **Tier A — creation review complete; defer creation** | |
 | **ShowMeLocal** | https://www.showmelocal.com | Free basic | Real address required; **can hide street** in Privacy settings | Yes | Yes | Email / claim | Good — local directory | Low | [Submission guidelines](https://support.showmelocal.com/article/18-submission-guidelines); [Hide address FAQ](https://support.showmelocal.com/article/16-business-registration) | **Tier A** | |
 | **Yelp** | https://biz.yelp.com | Free basic | Mobile SAB; **service area** up to 6 cities; address hide option | Yes | Yes | Phone / email | Strong — junk removal | Medium — moderation | [Eligible businesses](https://www.yelp-support.com/article/What-kinds-of-businesses-are-eligible-for-Yelp); [Service areas](https://biz.yelp.com/support-center/article/What-are-Service-Areas) | **Tier A** | |
 | **Facebook Page** | https://www.facebook.com/business | Free | **Service area OR address** (not both); online/service models supported | Yes | Yes | Account / Meta | Good — local awareness | Low | [Meta Page locations API](https://developers.facebook.com/docs/graph-api/reference/page/locations/); service-area guidance via Page About | **Tier A** | |
@@ -119,7 +120,7 @@ Read-only public search completed for all six Tier A platforms. ShowMeLocal huma
 
 | Platform | Exact match | Possible match | Duplicate risk | Notes |
 |---|---|---|---|---|
-| Bing Places | No | No | None | Maps shows unrelated MO competitors only |
+| Bing Places | No | No | None | Maps/web search shows unrelated MO competitors only; duplicate recheck repeated 2026-07-14 with no exact name/domain/phone match |
 | ShowMeLocal | No | No | None | Human on-platform search: name, domain, phone, category — no match |
 | Yelp | No | No | None | No `site:yelp.com` hits for approved identifiers |
 | Facebook | No | No | None | No indexed Facebook page for approved identifiers |
@@ -143,9 +144,10 @@ Read-only public search completed for all six Tier A platforms. ShowMeLocal huma
 5. ~~Brownbook **pre-submission inspection**~~ — **Done** 2026-07-12; field decisions approved
 6. ~~Brownbook **manual owner-browser execution**~~ — **Done** 2026-07-14; listing live and claimed; no further Brownbook edits authorized in this batch
 7. Record public Brownbook listing URL when available
-8. Begin next **creation review** only if separately approved: Bing Places → Yelp → ShowMeLocal (Facebook/Nextdoor deferred)
-9. Defer **GBP, Apple, BBB, Chamber** until operator strategy resolved
+8. ~~Bing Places **creation review**~~ — **Done** 2026-07-14 (`bing-places-creation-review.md`); creation deferred until private verification address, verified operator/entity, exact category, Microsoft account/public-name behavior, and verification method are approved
+9. Begin next **creation review** only if separately approved: Yelp → ShowMeLocal (Facebook/Nextdoor deferred)
+10. Defer **GBP, Apple, BBB, Chamber** until operator strategy resolved
 
 ---
 
-*Brownbook account/listing created and claimed manually by owner. No paid upgrade accepted. No further Brownbook edits authorized in this batch.*
+*Brownbook account/listing created and claimed manually by owner. Bing Places creation review completed in research/draft mode only; creation is deferred and not authorized.*

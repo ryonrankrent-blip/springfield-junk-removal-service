@@ -71,14 +71,19 @@
 - [x] Brownbook listing live and claimed (2026-07-14)
 - [x] Public-name visibility owner-approved exception recorded
 - [x] Any live citation submitted
+- [x] Bing Places creation review completed in research/draft mode only (2026-07-14)
+- [x] Bing Places duplicate recheck completed — no exact match
+- [ ] Bing Places creation approved
+- [ ] Legitimate private verification address confirmed for Bing Places
+- [ ] Verified service provider / operating entity confirmed for Bing Places
 
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations | **Brownbook live and claimed**; broader citation footprint still limited |
+| Authority / citations | **Brownbook live and claimed**; Bing Places creation review complete but **deferred**; broader citation footprint still limited |
 | GBP eligibility | **Blocked / not eligible now** |
-| Service provider / renter operator | **Not established** |
+| Service provider / renter operator | **Not established** — blocks Bing Places creation approval |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
 | Renter notification / agreement | Not started |
 | Real reviews/testimonials | Placeholder acceptable; not yet added |
