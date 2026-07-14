@@ -76,14 +76,21 @@
 - [ ] Bing Places creation approved
 - [ ] Legitimate private verification address confirmed for Bing Places
 - [ ] Verified service provider / operating entity confirmed for Bing Places
+- [x] Yelp creation review completed in research/draft mode only (2026-07-14)
+- [x] Yelp duplicate recheck completed — no exact match
+- [x] Yelp hidden-address/service-area support confirmed from owner evidence
+- [ ] Yelp creation approved
+- [ ] Verified service provider / operating entity confirmed for Yelp
+- [ ] Legitimate Springfield-area business-address strategy confirmed for Yelp
+- [ ] Yelp renter/operator handoff plan approved
 
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations | **Brownbook live and claimed**; Bing Places creation review complete but **deferred**; broader citation footprint still limited |
+| Authority / citations | **Brownbook live and claimed**; Bing Places creation review complete but **deferred**; Yelp creation review complete but **deferred**; broader citation footprint still limited |
 | GBP eligibility | **Blocked / not eligible now** |
-| Service provider / renter operator | **Not established** — blocks Bing Places creation approval |
+| Service provider / renter operator | **Not established** — blocks Yelp creation and Bing Places creation approval |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
 | Renter notification / agreement | Not started |
 | Real reviews/testimonials | Placeholder acceptable; not yet added |
