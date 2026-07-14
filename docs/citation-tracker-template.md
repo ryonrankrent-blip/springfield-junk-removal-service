@@ -10,7 +10,8 @@
 **Duplicate inspection:** `tier-a-duplicate-inspection.md` (2026-07-11; complete)  
 **GBP review:** `gbp-eligibility-review.md`  
 **Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved; automated execution blocked 2026-07-13; manual owner-browser execution successful 2026-07-14)  
-**Status:** Identity configuration approved — **Brownbook live and claimed**
+**Bing Places creation review:** `bing-places-creation-review.md` (2026-07-14 — research/draft complete; duplicate recheck clear; creation deferred)  
+**Status:** Identity configuration approved — **Brownbook live and claimed** — Bing Places creation **deferred**
 
 ---
 
@@ -18,7 +19,7 @@
 
 | Platform | URL | Tier | Status | NAP match | Verified operator | Notes | Approval |
 |---|---|---|---|---|---|---|---|
-| Bing Places | https://www.bingplaces.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
+| Bing Places | https://www.bingplaces.com | A | **Creation review complete — deferred** | No listing found | Not established | Research/draft complete 2026-07-14; duplicate recheck clear; creation deferred until legitimate private verification address, verified operator/entity, exact live category, Microsoft account/public-name behavior, and verification method are owner-approved | |
 | ShowMeLocal | https://www.showmelocal.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
 | Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
@@ -90,6 +91,11 @@
 - [x] Account-owner strategy approved
 - [ ] Verified service provider identified
 - [ ] Private verification address confirmed (if required)
+- [x] Bing Places creation review completed (2026-07-14 — `bing-places-creation-review.md`)
+- [x] Bing Places duplicate recheck completed (2026-07-14 — no exact match)
+- [ ] Bing Places exact live category approved
+- [ ] Bing Places Microsoft account / public-name behavior approved
+- [ ] Bing Places creation, claim, and verification explicitly approved
 - [x] Brownbook creation review completed (2026-07-12 — `brownbook-creation-review.md`)
 - [x] Brownbook pre-submission inspection completed (2026-07-12)
 - [x] Brownbook category approved — Other Waste Collection (NAICS ref 562119)
@@ -108,4 +114,4 @@
 
 ---
 
-*Brownbook listing live and claimed. No further Brownbook edits are authorized in this batch. No paid upgrade or spend incurred.*
+*Brownbook listing live and claimed. Bing Places creation is deferred and not authorized by the 2026-07-14 creation review. No paid upgrade or spend incurred.*

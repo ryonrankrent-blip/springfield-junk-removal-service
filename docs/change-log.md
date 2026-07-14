@@ -1,5 +1,40 @@
 # Change Log
 
+## 2026-07-14 — Bing Places creation review completed
+
+### Production state
+- Main commit: `09331c2` (PR #24 Brownbook listing-completion documentation merge)
+- No HTML, scripts, tracking, DNS, routing, forms, or production configuration changes
+
+### Research and draft outcome
+- **Bing Places status:** Creation review complete — **creation deferred**
+- **Duplicate recheck:** No exact match found for approved name, domain, or phone
+- **Current fit:** Suitable only after specific missing information is resolved
+- **Creation authorization:** Not granted in this batch
+
+### Key requirements recorded
+- Bing Places supports service-area businesses and hidden public addresses
+- A legitimate private verification address appears required before creation/verification
+- Verification methods may include phone, email, postcard/mail, or other options, but are controlled by Bing Places
+- Exact live category label for junk removal remains unresolved until owner-approved live review
+- Google Business Profile import is offered by Bing Places but remains inappropriate because GBP is blocked / not eligible now
+
+### Not performed
+- No Bing Places account created or signed into
+- No Microsoft or Google account connected
+- No Google Business Profile import
+- No listing created, claimed, edited, submitted, or verified
+- No address, private contact information, support request, payment, advertising, commit, push, or deploy action
+
+### Documentation updated
+- `bing-places-creation-review.md`
+- `citation-tracker-template.md`
+- `citation-candidate-research.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-14 — Brownbook listing live and claimed
 
 ### Production state
