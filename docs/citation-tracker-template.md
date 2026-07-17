@@ -11,7 +11,8 @@
 **GBP review:** `gbp-eligibility-review.md`  
 **Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved; automated execution blocked 2026-07-13; manual owner-browser execution successful 2026-07-14)  
 **Bing Places creation review:** `bing-places-creation-review.md` (2026-07-14 — research/draft complete; duplicate recheck clear; creation deferred)  
-**Status:** Identity configuration approved — **Brownbook live and claimed** — Bing Places creation **deferred**
+**Yelp creation review:** `yelp-creation-review.md` (2026-07-14 — research/draft complete; hidden-address/service-area support confirmed from owner evidence; creation deferred)  
+**Status:** Identity configuration approved — **Brownbook live and claimed** — Bing Places creation **deferred** — Yelp creation **deferred**
 
 ---
 
@@ -21,7 +22,7 @@
 |---|---|---|---|---|---|---|---|
 | Bing Places | https://www.bingplaces.com | A | **Creation review complete — deferred** | No listing found | Not established | Research/draft complete 2026-07-14; duplicate recheck clear; creation deferred until legitimate private verification address, verified operator/entity, exact live category, Microsoft account/public-name behavior, and verification method are owner-approved | |
 | ShowMeLocal | https://www.showmelocal.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
-| Yelp | https://biz.yelp.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
+| Yelp | https://biz.yelp.com | A | **Creation review complete — deferred** | No listing found | Not established | Research/draft complete 2026-07-14; duplicate recheck clear; owner evidence confirms hidden-address/service-area support; creation deferred until legitimate Springfield-area operator or business-address strategy, verified operator/entity facts, lead-generation eligibility comfort, and renter handoff are established | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Brownbook | https://www.brownbook.net | A | **Live and claimed** | Live listing created | | Manual owner-browser execution successful; category **Other Waste Collection**; no public address, postal code, public email, hours, images, paid upgrade, or unsupported claims; public-name visibility owner-approved exception; listing URL not provided yet | Owner-confirmed 2026-07-14 |
@@ -96,6 +97,12 @@
 - [ ] Bing Places exact live category approved
 - [ ] Bing Places Microsoft account / public-name behavior approved
 - [ ] Bing Places creation, claim, and verification explicitly approved
+- [x] Yelp creation review completed (2026-07-14 — `yelp-creation-review.md`)
+- [x] Yelp duplicate recheck completed (2026-07-14 — no exact match)
+- [x] Yelp hidden-address/service-area support confirmed from owner evidence
+- [ ] Yelp verified operator/entity strategy approved
+- [ ] Yelp legitimate Springfield-area business-address strategy approved
+- [ ] Yelp creation, claim, and verification explicitly approved
 - [x] Brownbook creation review completed (2026-07-12 — `brownbook-creation-review.md`)
 - [x] Brownbook pre-submission inspection completed (2026-07-12)
 - [x] Brownbook category approved — Other Waste Collection (NAICS ref 562119)
@@ -114,4 +121,4 @@
 
 ---
 
-*Brownbook listing live and claimed. Bing Places creation is deferred and not authorized by the 2026-07-14 creation review. No paid upgrade or spend incurred.*
+*Brownbook listing live and claimed. Bing Places creation is deferred. Yelp creation is deferred pending legitimate Springfield-area operator/address strategy and verified service-provider facts. No paid upgrade or spend incurred.*

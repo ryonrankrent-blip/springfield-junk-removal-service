@@ -1,5 +1,43 @@
 # Change Log
 
+## 2026-07-14 — Yelp creation review completed
+
+### Production state
+- Main commit: `4b34726` (PR #25 Bing Places creation-review documentation merge)
+- No HTML, scripts, tracking, DNS, routing, forms, or production configuration changes
+
+### Research and draft outcome
+- **Yelp status:** Creation review complete — **creation deferred**
+- **Duplicate recheck:** No exact match found for approved name, domain, or phone
+- **Current fit:** Technically supports hidden-address/service-area configuration; defer until missing Springfield operator/address facts are resolved
+- **Creation authorization:** Not granted in this batch
+
+### Key requirements recorded
+- Yelp supports mobile/service-area businesses in eligible categories and can hide public address when customers cannot visit
+- Owner-provided Auburn Septic evidence confirms Yelp stores a private address, supports `Hide my business address`, and shows the service area publicly instead of the private address
+- Public-address visibility is not the primary blocker for Springfield Yelp creation
+- Do not use the owner's California home address for a Springfield, Missouri listing
+- Any hidden address must still be legitimate and related to the operating business
+- Closest category appears to be **Junk Removal & Hauling**
+- Yelp says it tries not to list lead-generation businesses
+- Yelp focuses on local service providers and expects independently verifiable business information
+- Yelp may reject unverifiable categories, hours, phone numbers, websites, and other business information
+
+### Not performed
+- No Yelp account created or signed into
+- No Yelp listing created, claimed, edited, submitted, or verified
+- No Google or other account connected
+- No address, private contact information, support request, sales call, advertising, image upload, payment, commit, push, or deploy action
+
+### Documentation updated
+- `yelp-creation-review.md`
+- `citation-tracker-template.md`
+- `citation-candidate-research.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-14 — Bing Places creation review completed
 
 ### Production state
