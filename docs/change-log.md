@@ -1,5 +1,39 @@
 # Change Log
 
+## 2026-07-17 — ShowMeLocal creation review completed
+
+### Production state
+- Main commit: `a06fdf1` (PR #26 Yelp creation-review documentation merge)
+- No HTML, scripts, tracking, DNS, routing, forms, or production configuration changes
+
+### Research and draft outcome
+- **ShowMeLocal status:** Creation review complete — **creation deferred**
+- **Duplicate recheck:** No exact match found for approved name, domain, or phone
+- **Current fit:** Suitable only after specific missing facts are resolved
+- **Creation authorization:** Not granted in this batch
+
+### Key requirements recorded
+- ShowMeLocal supports free listings with optional paid upgrades, advertising, and phone verification
+- ShowMeLocal requires account registration and email activation
+- ShowMeLocal requires a real physical business address; virtual-only or invalid address submissions may be rejected or blocked
+- Street address visibility can be controlled through dashboard privacy settings after registration
+- Phone verification may be optional paid or mandatory for restricted/suspicious categories
+- Exact category remains unresolved; likely closest labels include **Waste Management Service** or **Garbage Collection Service**
+
+### Not performed
+- No ShowMeLocal account created or signed into
+- No ShowMeLocal listing created, claimed, edited, submitted, or verified
+- No address, private contact information, support request, advertising, image upload, phone verification, payment, commit, push, or deploy action
+
+### Documentation updated
+- `showmelocal-creation-review.md`
+- `citation-tracker-template.md`
+- `citation-candidate-research.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-14 — Yelp creation review completed
 
 ### Production state

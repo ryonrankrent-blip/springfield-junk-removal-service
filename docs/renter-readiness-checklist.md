@@ -83,14 +83,20 @@
 - [ ] Verified service provider / operating entity confirmed for Yelp
 - [ ] Legitimate Springfield-area business-address strategy confirmed for Yelp
 - [ ] Yelp renter/operator handoff plan approved
+- [x] ShowMeLocal creation review completed in research/draft mode only (2026-07-17)
+- [x] ShowMeLocal duplicate recheck completed — no exact match
+- [ ] ShowMeLocal creation approved
+- [ ] Legitimate Springfield-area operating address confirmed for ShowMeLocal
+- [ ] ShowMeLocal account/contact email strategy approved
+- [ ] Verified service provider / operating entity confirmed for ShowMeLocal
 
 ## Remaining blockers (renter-readiness)
 
 | Blocker | Status |
 |---|---|
-| Authority / citations | **Brownbook live and claimed**; Bing Places creation review complete but **deferred**; Yelp creation review complete but **deferred**; broader citation footprint still limited |
+| Authority / citations | **Brownbook live and claimed**; Bing Places, Yelp, and ShowMeLocal creation reviews complete but **deferred**; broader citation footprint still limited |
 | GBP eligibility | **Blocked / not eligible now** |
-| Service provider / renter operator | **Not established** — blocks Yelp creation and Bing Places creation approval |
+| Service provider / renter operator | **Not established** — blocks Bing Places, Yelp, and ShowMeLocal creation approval |
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
 | Renter notification / agreement | Not started |
 | Real reviews/testimonials | Placeholder acceptable; not yet added |

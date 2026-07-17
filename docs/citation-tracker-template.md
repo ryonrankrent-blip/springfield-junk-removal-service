@@ -12,7 +12,8 @@
 **Brownbook creation review:** `brownbook-creation-review.md` (2026-07-12 — pre-submission inspection complete; field decisions approved; automated execution blocked 2026-07-13; manual owner-browser execution successful 2026-07-14)  
 **Bing Places creation review:** `bing-places-creation-review.md` (2026-07-14 — research/draft complete; duplicate recheck clear; creation deferred)  
 **Yelp creation review:** `yelp-creation-review.md` (2026-07-14 — research/draft complete; hidden-address/service-area support confirmed from owner evidence; creation deferred)  
-**Status:** Identity configuration approved — **Brownbook live and claimed** — Bing Places creation **deferred** — Yelp creation **deferred**
+**ShowMeLocal creation review:** `showmelocal-creation-review.md` (2026-07-17 — research/draft complete; creation deferred)  
+**Status:** Identity configuration approved — **Brownbook live and claimed** — Bing Places creation **deferred** — Yelp creation **deferred** — ShowMeLocal creation **deferred**
 
 ---
 
@@ -21,7 +22,7 @@
 | Platform | URL | Tier | Status | NAP match | Verified operator | Notes | Approval |
 |---|---|---|---|---|---|---|---|
 | Bing Places | https://www.bingplaces.com | A | **Creation review complete — deferred** | No listing found | Not established | Research/draft complete 2026-07-14; duplicate recheck clear; creation deferred until legitimate private verification address, verified operator/entity, exact live category, Microsoft account/public-name behavior, and verification method are owner-approved | |
-| ShowMeLocal | https://www.showmelocal.com | A | **Inspected** | No listing found | | Identity approved; duplicate risk: none | |
+| ShowMeLocal | https://www.showmelocal.com | A | **Creation review complete — deferred** | No listing found | Not established | Research/draft complete 2026-07-17; duplicate recheck clear; real physical address required but street address can be hidden in dashboard; creation deferred until legitimate Springfield-area operating address, verified operator/entity facts, account/email strategy, category, and verification requirements are approved | |
 | Yelp | https://biz.yelp.com | A | **Creation review complete — deferred** | No listing found | Not established | Research/draft complete 2026-07-14; duplicate recheck clear; owner evidence confirms hidden-address/service-area support; creation deferred until legitimate Springfield-area operator or business-address strategy, verified operator/entity facts, lead-generation eligibility comfort, and renter handoff are established | |
 | Facebook Page | https://www.facebook.com/business | A | **Deferred** | No listing found | | Owner-approved deferral | |
 | Nextdoor Business | https://business.nextdoor.com | A | **Deferred** | No listing found | | Owner-approved deferral | |
@@ -103,6 +104,12 @@
 - [ ] Yelp verified operator/entity strategy approved
 - [ ] Yelp legitimate Springfield-area business-address strategy approved
 - [ ] Yelp creation, claim, and verification explicitly approved
+- [x] ShowMeLocal creation review completed (2026-07-17 — `showmelocal-creation-review.md`)
+- [x] ShowMeLocal duplicate recheck completed (2026-07-17 — no exact match)
+- [ ] ShowMeLocal legitimate Springfield-area operating address approved
+- [ ] ShowMeLocal verified operator/entity strategy approved
+- [ ] ShowMeLocal account/contact email strategy approved
+- [ ] ShowMeLocal creation, claim, and verification explicitly approved
 - [x] Brownbook creation review completed (2026-07-12 — `brownbook-creation-review.md`)
 - [x] Brownbook pre-submission inspection completed (2026-07-12)
 - [x] Brownbook category approved — Other Waste Collection (NAICS ref 562119)
@@ -121,4 +128,4 @@
 
 ---
 
-*Brownbook listing live and claimed. Bing Places creation is deferred. Yelp creation is deferred pending legitimate Springfield-area operator/address strategy and verified service-provider facts. No paid upgrade or spend incurred.*
+*Brownbook listing live and claimed. Bing Places, Yelp, and ShowMeLocal creation are deferred. No paid upgrade or spend incurred.*
