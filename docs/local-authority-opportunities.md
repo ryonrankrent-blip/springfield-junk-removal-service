@@ -1,8 +1,8 @@
 # Local Authority Opportunities — Springfield
 
 **Status:** Research only — no outreach, no content published  
-**Date:** 2026-07-11  
-**Main commit:** `4d5d955`  
+**Date:** 2026-07-11; source-validation update 2026-07-17
+**Main commit:** `ddfd419`
 **Purpose:** Non-listing authority sources for useful content, citations, and future linkable assets
 
 ---
@@ -16,10 +16,11 @@
 | Material Know How (banned items) | https://www.springfieldmo.gov/5918/Material-Know-How | Authoritative rules cite | Construction debris, tires, appliances, chemicals — what landfill bans | No | **Low** | Content edit |
 | Noble Hill Sanitary Landfill | https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill | Outbound cite | Landfill tipping context; DIY vs haul-away comparison (no price guarantees) | No | **Low** | Content edit |
 | Recycling in Springfield | https://www.springfieldmo.gov/5550/Recycling-in-Springfield | Hub link from guides | Drop-off centers, mattress recycling fees, hours | No | **Low** | Content edit |
-| Household Chemical Collection Center | https://www.springfieldmo.gov/ (HCCC pages) | Outbound cite | Hazmat / paint / chemical disposal — align with hoarder page disclaimer | No | **Low** | Content edit |
-| Yardwaste Recycling Center | https://www.springfieldmo.gov/ | Outbound cite | Yard waste ban at landfill; city compost/mulch programs | No | **Low** | Content edit |
-| Recycling & Donation Locations Guide (PDF) | https://www.springfieldmo.gov/DocumentCenter/View/15834 | Downloadable local resource | Donation + reuse options before calling junk removal | No | **Low** | Content edit |
-| Recycle Construction Waste (PDF) | https://www.springfieldmo.gov/DocumentCenter/View/3099 | Cite in debris page | Clean fill vs mixed debris rules | No | **Low** | Content edit |
+| Household Chemical Collection Center | https://www.springfieldmo.gov/5553/Household-Chemical-Collection-Center | Outbound cite | Hazmat / paint / chemical disposal — align with hoarder page disclaimer | No | **Low** | Content edit |
+| Yardwaste Recycling Center | https://www.springfieldmo.gov/yardwaste | Outbound cite | Yard waste ban at landfill; city compost/mulch programs; brush restrictions | No | **Low** | Content edit |
+| Mattress Recycling | https://www.springfieldmo.gov/5939/Mattress-Recycling | Outbound cite | Mattress special-handling / fee context; avoid service pricing claims | No | **Low** | Content edit |
+| Recycling & Donation Locations Guide (PDF) | https://www.springfieldmo.gov/DocumentCenter/View/15834/Recycling--Donation-Locations-Guide | Downloadable local resource | Donation + reuse options before calling junk removal; verify current acceptance with Waste Wizard | No | **Low** | Content edit |
+| Recycle Construction Waste (PDF) | https://www.springfieldmo.gov/DocumentCenter/View/3099/Recycle-Construction-Waste-PDF | Cite in debris page | Clean fill vs mixed debris rules; reuse/donation and asbestos caution | No | **Low** | Content edit |
 
 ---
 
@@ -27,8 +28,9 @@
 
 | Source | Official URL | Link opportunity | Content idea | Outreach | Risk | Approval |
 |---|---|---|---|---|---|---|
-| Missouri DNR — solid waste | https://dnr.mo.gov | General authority cite | State landfill/yard-waste regulatory context | No | **Low** | Content edit |
-| Greene County resources | https://www.greenecountymo.gov | Local government cite | County-level disposal or environmental programs (verify pages) | No | **Low** | Research verify |
+| Missouri DNR — C&D waste | https://oembed-dnr.mo.gov/document-search/managing-construction-demolition-waste-pub2045/pub2045 | General authority cite | State clean-fill and C&D waste context | No | **Low** | Content edit |
+| Missouri DNR — special waste / yard waste | https://dnr.mo.gov/document-search/special-waste-pub2050/pub2050 | General authority cite | State landfill exclusion context for yard waste and restricted materials | No | **Low** | Content edit |
+| Greene County resources | https://www.greenecountymo.gov | Local government cite | County-level disposal/environmental references remain low-value for these first five clusters; city sources are stronger | No | **Low** | Defer |
 | Republic MO city resources | https://www.republicmo.com | Satellite city guide links | Already have `/junk-removal-republic-mo` — add local disposal note | No | **Low** | Content edit |
 
 ---
@@ -53,6 +55,23 @@
 | Yard waste landfill ban explainer | `yard-waste-removal-springfield-mo` | 1 click @ pos 10.0 |
 | Move-out / rental cleanout checklist | Apartment + eviction pages | Property-manager intent |
 | Commercial junk + office cleanout | `commercial-junk-removal-springfield-mo` | GSC avg position ~15.7 |
+| Junk removal cost + local fee context | `junk-removal-cost-springfield-mo` | Existing guide with quote intent; use facility fees only as DIY context, not service pricing |
+
+---
+
+## 2026-07-17 source-validation note
+
+The detailed source register, fact usage map, caution flags, and outbound-citation recommendations are recorded in `content-authority-research-pack.md`.
+
+Key planning outcome:
+
+| Recommendation | Status |
+|---|---|
+| First existing page to update | `construction-debris-removal-springfield-mo.html` |
+| Second existing page to update | `yard-waste-removal-springfield-mo.html` |
+| First new page candidate | `/springfield-junk-disposal-guide` after existing priority updates |
+| Outreach | **Deferred** — no organizations contacted |
+| Production edits | **Not performed** |
 
 ---
 
