@@ -1,9 +1,11 @@
 # Content Brief — Construction Debris Removal
 
-**Status:** Local draft implemented — **not deployed; publish pending approval**
+**Status:** Production deployed, live QA PASS, GSC indexing requested once — **awaiting Google recrawl**
 **Target page:** `construction-debris-removal-springfield-mo.html`
-**Recommended action:** Update existing page
+**Recommended action:** Update existing page (complete)
 **Implementation date:** 2026-07-18
+**Production commit:** `ca32eca0935252abc958b1644a0a0bce5ae69a86`
+**Live URL:** https://springfieldjunkremovalservice.com/construction-debris-removal-springfield-mo
 
 ## Audience and Intent
 
@@ -79,9 +81,30 @@
 | Outbound citations added | City C&D PDF, Material Know How, Noble Hill Sanitary Landfill, Missouri DNR C&D guidance, Waste Wizard |
 | Metadata/schema | Title, meta description, OG title/description, LocalBusiness description, and FAQPage updated for factual alignment |
 | Claims deliberately avoided | Asbestos/hazardous-material handling, exact pricing, same-day promises, city endorsement/partnership, direct landfill access, licensed/insured claims, crew/truck/equipment claims |
-| Deployment status | **Not deployed** |
-| Indexing status | **Not requested** |
-| QA status | Local QA passed 2026-07-18: repository QA script, internal link checker, JSON-LD parse, FAQ/schema alignment, conversion-integrity checks, claim-safety scan, and diff checks |
+| Deployment status | **Complete** — Cloudflare Pages production deployment succeeded for `ca32eca` at 2026-07-18T06:01:28Z |
+| Live QA status | **PASS** — HTTP 200; live HTML matched deployed commit; desktop/mobile visual QA passed; canonical, robots, metadata, schema, links, phone, form, GTM, and analytics checks passed; no blocking console errors; no production defect found |
+| Indexing status | **Submitted once** — GSC pre-request: URL is on Google; confirmation: Indexing requested / URL added to priority crawl queue; no second request; sitemap not resubmitted |
+| Monitoring status | Awaiting Google recrawl and refreshed search data; **do not submit another indexing request now** |
+| QA status | Local QA passed 2026-07-18; production live QA passed 2026-07-18 after deploy |
+
+## 2026-07-18 Production Deployment, Live QA, and GSC Indexing
+
+| Field | Value |
+|---|---|
+| Production deployment | Complete |
+| Deployed commit | `ca32eca0935252abc958b1644a0a0bce5ae69a86` |
+| Deployment time | 2026-07-18T06:01:28Z |
+| Live URL | https://springfieldjunkremovalservice.com/construction-debris-removal-springfield-mo |
+| Live QA | PASS |
+| GSC inspected URL | https://springfieldjunkremovalservice.com/construction-debris-removal-springfield-mo |
+| GSC pre-request status | URL is on Google |
+| Indexing request | Submitted successfully once |
+| Confirmation heading | Indexing requested |
+| Confirmation message | URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority. |
+| Additional indexing | None — no second request; no other URL inspected or submitted; sitemap not resubmitted; no quota warning or blocker |
+| Current monitoring | Awaiting Google recrawl and refreshed search data |
+| Future content caveat | Facility rules, fees, hours, accepted items, and disposal requirements still require re-verification before future content changes |
+| External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
 
 ## Claims to Avoid
 
@@ -151,4 +174,4 @@
 | Estimated effort | 2-3 hours |
 | Expected reuse value | High; reusable for future markets by swapping local disposal rules and C&D sources |
 
-*Local draft only. Stop for owner approval before commit, push, deploy, or indexing.*
+*Production deployed and indexing requested once. Stop for approval before commit/push of this documentation batch. Do not request indexing again. Facility rules, fees, hours, accepted items, and disposal requirements still require re-verification before future content changes.*

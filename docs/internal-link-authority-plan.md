@@ -1,14 +1,15 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning plus construction-debris local draft notes — **not deployed**
-**Date:** 2026-07-17
+**Status:** Planning complete; construction-debris authority links **deployed** and live-QA verified — remaining cluster links still proposed only
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Guardrails
 
-- This plan documents proposed links only.
-- No HTML, sitemap, navigation, or production internal-link changes were made.
-- Any link implementation requires separate approval and QA.
+- This plan documents proposed links for remaining clusters.
+- Construction-debris page links listed below were implemented, deployed on `ca32eca`, and verified live on 2026-07-18.
+- No sitemap, hub navigation, or unrelated production link changes were made in the construction-debris batch.
+- Any additional link implementation requires separate approval and QA.
 
 ## Existing Link Context
 
@@ -72,22 +73,22 @@
 | Cost | Add link to commercial page in service-specific cost factors. |
 | Guides hub | Consider adding local authority cards/links after the first two page updates are published and approved. |
 
-## 2026-07-18 Construction Debris Draft Link Changes
+## 2026-07-18 Construction Debris Deployed Link Changes
 
 | Source section | Destination | Anchor text | Reason | Status |
 |---|---|---|---|---|
-| Official local resources | City C&D PDF | City construction and demolition waste guidance | Supports local C&D planning, separation, reuse/recycling, and asbestos-caution context | Added in local draft |
-| Official local resources | City Material Know How | City Material Know How landfill restrictions and clean-fill notes | Supports clean-fill and landfill-banned item cautions | Added in local draft |
-| Official local resources | Noble Hill Sanitary Landfill | Noble Hill Sanitary Landfill customer information | Supports facility hours, guidelines, fee-category, and acceptance-caution context | Added in local draft |
-| Official local resources | Missouri DNR PUB2045 | Missouri DNR construction and demolition waste guidance | Supports clean-fill, recovered-materials, regulated C&D waste, hazardous-material, and asbestos distinctions | Added in local draft |
-| Official local resources | Waste Wizard | Springfield Waste Wizard item lookup | Gives users an official item-specific lookup without copying item database content | Added in local draft |
-| Helpful related pages | `/what-items-can-be-removed-springfield-mo` | What Items Can Be Removed | Routes broad item/restricted-material questions to the accepted-items guide | Added in local draft |
-| Helpful related pages | `/junk-removal-cost-springfield-mo` | Junk Removal Cost Factors | Connects weight, volume, access, and disposal requirements to quote education | Added in local draft |
-| Helpful related pages | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | Routes contractor/business remodel intent to B2B page | Added in local draft |
-| Helpful related pages | `/apartment-cleanout-springfield-mo` | Apartment Cleanouts | Routes landlord/property-manager turnover intent | Added in local draft |
-| Construction debris examples | `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Routes broader mixed-junk requests back to the money page | Added in local draft |
+| Official local resources | City C&D PDF | City construction and demolition waste guidance | Supports local C&D planning, separation, reuse/recycling, and asbestos-caution context | Deployed and live-verified |
+| Official local resources | City Material Know How | City Material Know How landfill restrictions and clean-fill notes | Supports clean-fill and landfill-banned item cautions | Deployed and live-verified |
+| Official local resources | Noble Hill Sanitary Landfill | Noble Hill Sanitary Landfill customer information | Supports facility hours, guidelines, fee-category, and acceptance-caution context | Deployed and live-verified |
+| Official local resources | Missouri DNR PUB2045 | Missouri DNR construction and demolition waste guidance | Supports clean-fill, recovered-materials, regulated C&D waste, hazardous-material, and asbestos distinctions | Deployed and live-verified |
+| Official local resources | Waste Wizard | Springfield Waste Wizard item lookup | Gives users an official item-specific lookup without copying item database content | Deployed and live-verified |
+| Helpful related pages | `/what-items-can-be-removed-springfield-mo` | What Items Can Be Removed | Routes broad item/restricted-material questions to the accepted-items guide | Deployed and live-verified (HTTP 200) |
+| Helpful related pages | `/junk-removal-cost-springfield-mo` | Junk Removal Cost Factors | Connects weight, volume, access, and disposal requirements to quote education | Deployed and live-verified (HTTP 200) |
+| Helpful related pages | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | Routes contractor/business remodel intent to B2B page | Deployed and live-verified (HTTP 200) |
+| Helpful related pages | `/apartment-cleanout-springfield-mo` | Apartment Cleanouts | Routes landlord/property-manager turnover intent | Deployed and live-verified (HTTP 200) |
+| Construction debris examples | `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Routes broader mixed-junk requests back to the money page | Deployed and live-verified (HTTP 200) |
 
-No sitemap, hub navigation, footer, or new-page links were changed in this draft.
+No sitemap, hub navigation, footer, or new-page links were changed in this batch. Production deployment for the construction-debris page completed on commit `ca32eca` (2026-07-18T06:01:28Z). Live QA PASS. GSC indexing requested once; awaiting Google recrawl.
 
 ## QA Checklist for Future Link Edits
 
@@ -97,4 +98,4 @@ No sitemap, hub navigation, footer, or new-page links were changed in this draft
 - Keep hub navigation stable unless a separate IA update is approved.
 - Confirm link additions do not trigger sitemap changes unless a new page is separately approved.
 
-*Local draft only. Stop for approval before commit, push, deploy, or indexing.*
+*Construction-debris links are deployed and live-verified. Remaining cluster link proposals still require separate approval. Do not request construction-debris indexing again.*
