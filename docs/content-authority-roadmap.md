@@ -1,8 +1,8 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris local draft implemented — **not deployed**
-**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris draft update 2026-07-18
-**Main commit:** `10838fe`
+**Status:** Research recommendations + detailed briefs complete; construction-debris page **deployed**, live QA **PASS**, GSC indexing **requested once** — awaiting Google recrawl
+**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris draft/deploy/indexing update 2026-07-18
+**Main commit:** `ca32eca0935252abc958b1644a0a0bce5ae69a86`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
 **Detailed planning pack:** `content-authority-research-pack.md`
 
@@ -30,22 +30,26 @@
 | `content-brief-accepted-items.md` | Production-ready planning brief for the accepted/not-accepted items guide update |
 | `content-brief-commercial-junk.md` | Production-ready planning brief for the commercial junk removal page update |
 | `content-brief-junk-removal-cost.md` | Production-ready planning brief for the cost guide update |
-| `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris draft link notes |
+| `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris deployed link notes |
 
 ---
 
-## 2026-07-18 construction-debris draft status
+## 2026-07-18 construction-debris production status
 
 | Field | Value |
 |---|---|
 | Target file | `construction-debris-removal-springfield-mo.html` |
-| Draft scope | Local file edit and QA only |
+| Live URL | https://springfieldjunkremovalservice.com/construction-debris-removal-springfield-mo |
 | Sections changed | Hero, service-use cases, Springfield disposal context, official resources, accepted/confirm-first/restricted materials, process steps, local examples, CTA copy, FAQ |
 | Official sources reverified | City Solid Waste, city C&D PDF, Noble Hill, Material Know How, Waste Wizard, Missouri DNR PUB2045 |
-| Production deployment | **Not deployed** |
-| Indexing request | **Not requested** |
-| Commit/push | **Not performed** |
-| Next gate | Owner approval required before commit, branch, PR, deploy, or indexing |
+| Production deployment | **Complete** — Cloudflare Pages success for `ca32eca` at 2026-07-18T06:01:28Z |
+| Live QA | **PASS** — HTTP 200; live HTML matched deployed commit; desktop/mobile visual QA passed; metadata/schema/links/conversion checks passed; no production defect |
+| GSC pre-request status | URL is on Google |
+| Indexing request | **Submitted successfully once** — confirmation: Indexing requested / URL added to priority crawl queue |
+| Monitoring | Awaiting Google recrawl and refreshed search data; **no additional indexing request should be made now** |
+| Future content caveat | Facility rules, fees, hours, accepted items, and disposal requirements still require re-verification before future content changes |
+| External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
+| Next gate | Monitor GSC recrawl/search data; yard-waste implementation remains separately approved |
 
 ---
 
@@ -148,7 +152,7 @@
 
 | Priority | Cluster | Why first |
 |---|---|---|
-| 1 | Construction debris + local rules | Best avg position (~5.9); local draft implemented 2026-07-18, not deployed |
+| 1 | Construction debris + local rules | Best avg position (~5.9); deployed + live QA PASS + GSC indexing requested once on 2026-07-18; awaiting recrawl |
 | 2 | Yard waste + landfill ban | Early click signal |
 | 3 | Accepted / not accepted items | Supports conversion qualification |
 | 4 | Commercial junk | Position ~15.7 with room to improve |
@@ -168,4 +172,4 @@
 
 ---
 
-*No content drafted. No pages modified. Await approval per cluster.*
+*Construction-debris cluster is deployed and indexing was requested once. Remaining clusters still require separate approval before production edits. Do not request construction-debris indexing again; monitor Google recrawl results.*
