@@ -2,6 +2,7 @@
 
 **Conversion verification phase:** 2026-07-11 — **live tests PASS**  
 **Authority/citation research phase:** 2026-07-11 — **research complete** (no listings created)  
+**Content-authority planning phase:** 2026-07-17 — **research pack complete** (no production edits)
 **Tier A duplicate inspection:** 2026-07-11 — **complete** (all six platforms)  
 **Citation identity:** 2026-07-12 — **owner-approved** (see `citation-identity-approval-packet.md`)  
 **Live conversion tests:** Complete — see `conversion-verification-checklist.md`  
@@ -54,6 +55,8 @@
 - [x] GBP eligibility review — **not eligible now** — `gbp-eligibility-review.md`
 - [x] Local authority opportunities mapped — `local-authority-opportunities.md`
 - [x] Content authority roadmap (GSC-driven) — `content-authority-roadmap.md`
+- [x] Content authority research pack and briefs completed — `content-authority-research-pack.md` (2026-07-17; no production edits)
+- [x] Internal-link authority plan completed — `internal-link-authority-plan.md` (planning only; no links changed)
 - [x] Backlink research framework — `backlink-research-framework.md`
 - [x] Citation tracker template prepared — `citation-tracker-template.md`
 - [x] Tier A duplicate inspection — **complete** — `tier-a-duplicate-inspection.md`
@@ -100,7 +103,7 @@
 | Proof-of-life lead volume (real leads over time) | Not yet sufficient |
 | Renter notification / agreement | Not started |
 | Real reviews/testimonials | Placeholder acceptable; not yet added |
-| Authority content clusters | Roadmap drafted — **publish pending approval** |
+| Authority content clusters | Roadmap + detailed briefs complete — **publish pending approval** |
 
 ## Conversion test log
 

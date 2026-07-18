@@ -1,9 +1,10 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations only — **no content drafted or published**  
-**Date:** 2026-07-11  
-**Main commit:** `4d5d955`  
+**Status:** Research recommendations + detailed briefs complete — **no content drafted or published**
+**Date:** 2026-07-11; detailed planning update 2026-07-17
+**Main commit:** `ddfd419`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
+**Detailed planning pack:** `content-authority-research-pack.md`
 
 ---
 
@@ -19,6 +20,20 @@
 
 ---
 
+## 2026-07-17 planning deliverables
+
+| File | Purpose |
+|---|---|
+| `content-authority-research-pack.md` | Existing-content audit, validated source register, keyword map, priority scores, and new-page recommendations |
+| `content-brief-construction-debris.md` | Production-ready planning brief for the construction debris page update |
+| `content-brief-yard-waste.md` | Production-ready planning brief for the yard waste page update |
+| `content-brief-accepted-items.md` | Production-ready planning brief for the accepted/not-accepted items guide update |
+| `content-brief-commercial-junk.md` | Production-ready planning brief for the commercial junk removal page update |
+| `content-brief-junk-removal-cost.md` | Production-ready planning brief for the cost guide update |
+| `internal-link-authority-plan.md` | Proposed internal-link map; no links implemented |
+
+---
+
 ## Proposed content clusters
 
 ### Cluster 1 — Construction debris + local disposal rules
@@ -29,7 +44,7 @@
 | **Search intent** | Commercial / DIY contractor seeking haul-away or dump options |
 | **Primary action** | Strengthen existing service page |
 | **Supporting internal links** | Debris page ↔ guides hub ↔ `how-junk-removal-works` ↔ commercial page |
-| **Local sources required** | [Material Know How](https://www.springfieldmo.gov/5918/Material-Know-How), [Recycle Construction Waste PDF](https://www.springfieldmo.gov/DocumentCenter/View/3099), Noble Hill Landfill |
+| **Local sources required** | [Material Know How](https://www.springfieldmo.gov/5918/Material-Know-How), [Recycle Construction Waste PDF](https://www.springfieldmo.gov/DocumentCenter/View/3099/Recycle-Construction-Waste-PDF), [Noble Hill Landfill](https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill), Missouri DNR C&D guidance |
 | **Reusable template** | **Yes** — swap city/county disposal rules per market |
 | **Estimated effort** | 2–3 hours (section additions + source links) |
 | **Approval** | **Required** before publish |
@@ -42,7 +57,7 @@
 | **Search intent** | Business owner / property manager |
 | **Primary action** | Strengthen `commercial-junk-removal-springfield-mo` + cross-link eviction/apartment pages |
 | **Supporting internal links** | Commercial ↔ eviction ↔ apartment ↔ services hub |
-| **Local sources required** | None mandatory; optional city commercial waste cite |
+| **Local sources required** | City Solid Waste, Material Know How, C&D PDF as caution/supporting references |
 | **Reusable template** | **Yes** |
 | **Estimated effort** | 2 hours |
 | **Approval** | **Required** |
@@ -55,7 +70,7 @@
 | **Search intent** | Homeowner with branches/bags; may not know landfill ban |
 | **Primary action** | Strengthen `yard-waste-removal-springfield-mo` |
 | **Supporting internal links** | Yard waste ↔ guides hub ↔ debris page |
-| **Local sources required** | [Material Know How — yardwaste ban](https://www.springfieldmo.gov/5918/Material-Know-How), Yardwaste Recycling Center |
+| **Local sources required** | [Material Know How — yardwaste ban](https://www.springfieldmo.gov/5918/Material-Know-How), [Yardwaste Recycling Center](https://www.springfieldmo.gov/yardwaste), Missouri DNR yard-waste references |
 | **Reusable template** | **Yes** |
 | **Estimated effort** | 2 hours |
 | **Approval** | **Required** |
@@ -68,7 +83,7 @@
 | **Search intent** | Price research before calling |
 | **Primary action** | Expand `junk-removal-cost-springfield-mo` with factor-based ranges (no guaranteed prices) |
 | **Supporting internal links** | Cost guide ↔ all service pages ↔ quote CTA |
-| **Local sources required** | Optional landfill tipping context (ranges, not quotes) |
+| **Local sources required** | Noble Hill tipping-fee context, Yardwaste Recycling Center fee caution, Mattress Recycling fee caution, Material Know How |
 | **Reusable template** | **Yes** |
 | **Estimated effort** | 3 hours |
 | **Approval** | **Required** |
@@ -81,7 +96,7 @@
 | **Search intent** | Pre-qualification before form/call |
 | **Primary action** | Expand `what-items-can-be-removed-springfield-mo` with city banned items + hazmat referral |
 | **Supporting internal links** | Items guide ↔ hoarder ↔ hot tub ↔ mattress ↔ guides hub |
-| **Local sources required** | Waste Wizard, Material Know How, HCCC |
+| **Local sources required** | Waste Wizard, Material Know How, HCCC, Recycling in Springfield, Mattress Recycling, city recycling/donation guide |
 | **Reusable template** | **Yes** |
 | **Estimated effort** | 3–4 hours |
 | **Approval** | **Required** |
@@ -124,7 +139,7 @@
 | 4 | Commercial junk | Position ~15.7 with room to improve |
 | 5 | Junk removal cost | Existing guide; supports quote intent |
 | 6 | Cleanout guides | Supports PM/rental segment |
-| 7 | New disposal guide (linkable asset) | Highest effort; strongest authority play |
+| 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
 
 ---
 

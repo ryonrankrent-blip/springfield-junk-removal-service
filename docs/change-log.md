@@ -1,5 +1,45 @@
 # Change Log
 
+## 2026-07-17 — Content-authority research pack completed
+
+### Production state
+- Main commit reviewed: `ddfd419` (PR #27 ShowMeLocal creation-review documentation merge)
+- No HTML, JavaScript, sitemap, internal links, DNS, tracking, routing, forms, call handling, listing-account, credential, or production files changed
+
+### Research and planning outcome
+- **Content-authority status:** Research/source-validation/planning pack complete — **publish pending approval**
+- **Priority clusters planned:** construction debris, yard waste, accepted/not-accepted items, commercial junk removal, and junk removal cost
+- **Recommended first update:** `construction-debris-removal-springfield-mo.html`
+- **Recommended second update:** `yard-waste-removal-springfield-mo.html`
+- **First new-page candidate:** `/springfield-junk-disposal-guide` after existing priority pages are improved and separately approved
+
+### Key requirements recorded
+- Validated official/primary sources include City of Springfield Solid Waste, Waste Wizard, Material Know How, Noble Hill Sanitary Landfill, Recycling in Springfield, Yardwaste Recycling Center, Household Chemical Collection Center, Mattress Recycling, city C&D guidance, city recycling/donation guide, and Missouri DNR C&D/yard-waste guidance
+- Content briefs preserve request-and-confirm wording and avoid unverified operational, pricing, hazardous-waste, endorsement, or same-day claims
+- Internal-link recommendations are documented but not implemented
+
+### Not performed
+- No production content edited or published
+- No sitemap or internal-link changes
+- No indexing requests
+- No listings, outreach, business/organization contact, payment, commit, push, or deploy
+
+### Documentation updated
+- `content-authority-research-pack.md`
+- `content-brief-construction-debris.md`
+- `content-brief-yard-waste.md`
+- `content-brief-accepted-items.md`
+- `content-brief-commercial-junk.md`
+- `content-brief-junk-removal-cost.md`
+- `internal-link-authority-plan.md`
+- `content-authority-roadmap.md`
+- `local-authority-opportunities.md`
+- `authority-gap-review.md`
+- `renter-readiness-checklist.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-17 — ShowMeLocal creation review completed
 
 ### Production state
