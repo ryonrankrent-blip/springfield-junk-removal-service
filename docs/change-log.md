@@ -1,5 +1,69 @@
 # Change Log
 
+## 2026-07-18 — Construction debris local draft implemented
+
+### Production state
+- Main commit reviewed before drafting: `10838fe` (PR #28 content-authority research-pack merge)
+- Local draft only; not committed, pushed, deployed, or indexed in this batch
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, or external-system changes
+
+### Implementation outcome
+- **Target page:** `construction-debris-removal-springfield-mo.html`
+- **Draft status:** Local file edit and QA only — **not deployed**
+- **URL status:** Existing filename and canonical URL retained
+- **Primary focus:** Construction debris removal in Springfield with cautious local disposal context
+
+### Official sources reverified
+- City Solid Waste Management & Recycling
+- City construction and demolition waste guidance PDF
+- Noble Hill Sanitary Landfill
+- Material Know How
+- Waste Wizard
+- Missouri DNR `Managing Construction and Demolition Waste - PUB2045`
+
+### Sections changed
+- Hero and meta copy
+- Local construction-disposal context
+- Official resource citations
+- Common / confirm-first / restricted material distinctions
+- Quote request and confirmation process
+- Local use examples
+- FAQ and FAQ schema
+
+### Internal links added
+- `what-items-can-be-removed-springfield-mo`
+- `junk-removal-cost-springfield-mo`
+- `commercial-junk-removal-springfield-mo`
+- `apartment-cleanout-springfield-mo`
+- `junk-removal-springfield-mo`
+
+### Claims deliberately avoided
+- No asbestos, hazardous-waste, chemical, paint, fuel, pesticide, medical-waste, cylinder, contaminated-soil, or unknown-hazardous-material handling claims
+- No exact-price, same-day, guaranteed availability, city-endorsement, landfill-partner, direct-landfill-access, licensed, insured, crew, truck, or equipment claims
+
+### Local QA
+- Repository QA script passed: 216 passed, 0 failed, 0 warnings
+- Internal link checker passed: 690 internal links checked, 0 broken
+- Target page structure passed: one H1, correct canonical, `index, follow`, two valid JSON-LD blocks, GTM/Formspree/tel/analytics intact
+- FAQ visible content and FAQPage schema match exactly
+- Focused claim-safety scan found no unsupported promise terms; restricted-material mentions are cautionary only
+
+### Not performed
+- No deployment
+- No indexing request
+- No commit or push
+- No new page
+- No unrelated production page edit
+- No outreach, facility contact, organization contact, citation/listing action, or spend
+
+### Documentation updated
+- `content-brief-construction-debris.md`
+- `internal-link-authority-plan.md`
+- `content-authority-roadmap.md`
+- `change-log.md` (this entry)
+
+---
+
 ## 2026-07-17 — Content-authority research pack completed
 
 ### Production state

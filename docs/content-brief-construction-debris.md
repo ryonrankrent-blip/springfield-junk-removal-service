@@ -1,8 +1,9 @@
 # Content Brief — Construction Debris Removal
 
-**Status:** Brief only — **do not publish without approval**
+**Status:** Local draft implemented — **not deployed; publish pending approval**
 **Target page:** `construction-debris-removal-springfield-mo.html`
 **Recommended action:** Update existing page
+**Implementation date:** 2026-07-18
 
 ## Audience and Intent
 
@@ -54,9 +55,33 @@
 |---|---|---|
 | City C&D guidance encourages planning, waste separation, reuse/donation, and proper landfill disposal for unsalvageable materials. | https://www.springfieldmo.gov/DocumentCenter/View/3099/Recycle-Construction-Waste-PDF | "The city provides guidance..." not "the city requires every project..." unless explicitly stated |
 | Clean fill may include uncontaminated soil, sand, gravel, concrete, cinder blocks, asphalt, and brick; landfill staff verify acceptability. | https://www.springfieldmo.gov/5918/Material-Know-How | "May qualify" and "subject to facility verification" |
-| Noble Hill lists construction and demolition waste under tipping-fee categories. | https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill | Use published fees only as context; verify before publish |
-| Missouri DNR says roofing shingles, sheet rock, lumber, and mixed C&D waste are not clean fill. | https://oembed-dnr.mo.gov/document-search/managing-construction-demolition-waste-pub2045/pub2045 | Summarize technical guidance and cite as state reference |
+| Noble Hill lists construction and demolition waste under tipping-fee categories and publishes current hours, customer guidelines, and fee context. | https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill | Use published fees/hours only as context; verify immediately before publish |
+| Missouri DNR says roofing shingles, sheet rock, lumber, and mixed C&D waste are not clean fill. | https://dnr.mo.gov/document-search/managing-construction-demolition-waste-pub2045/pub2045 | Summarize technical guidance and cite as state reference |
 | Older buildings may involve asbestos-containing materials that require special precautions. | City C&D PDF | Do not imply the service handles asbestos |
+
+## 2026-07-18 Source Reverification
+
+| Source | URL | Visible date | Exact fact supported | Cautious wording needed | Outbound citation used? |
+|---|---|---|---|---|---|
+| City of Springfield Solid Waste Management & Recycling | https://www.springfieldmo.gov/2331/Solid-Waste-Management-Recycling | None visible | Springfield's solid-waste system includes landfill, recycling, yardwaste, and HCCC resources; curbside service is private/independent. | Avoid city partnership or city-provided junk-removal implication. | No |
+| City construction and demolition waste guidance | https://www.springfieldmo.gov/DocumentCenter/View/3099/Recycle-Construction-Waste-PDF | None visible | C&D guidance covers planning, separation, clean fill, landfill disposal, reuse/recycling, and asbestos caution. | Summarize only; do not copy long PDF passages. | Yes |
+| Noble Hill Sanitary Landfill | https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill | Fee note references July 1; page date not visible | Landfill page lists hours, secured-load/customer guidelines, C&D waste fee category, clean fill, and special-waste prior approval context. | Fees, hours, load rules, and acceptance can change; verify before implementation/publishing. | Yes |
+| Material Know How | https://www.springfieldmo.gov/5918/Material-Know-How | None visible | Lists banned landfill items and clean-fill examples; says scale house staff verify clean fill acceptability. | Do not imply all clean fill or restricted material can be accepted by service. | Yes |
+| Waste Wizard | https://www.springfieldmo.gov/5532/Waste-Wizard | None visible | City item-lookup tool for repurpose, reuse, recycle, and disposal options. | Refer as a lookup, not as copied item-specific advice. | Yes |
+| Missouri DNR C&D guidance PUB2045 | https://dnr.mo.gov/document-search/managing-construction-demolition-waste-pub2045/pub2045 | 07/27/2022 | Defines clean fill and distinguishes recovered materials, regulated nonhazardous C&D waste, hazardous materials, and asbestos-containing material. | State guidance is technical; keep public wording simple and cautious. | Yes |
+
+## 2026-07-18 Local Draft Implementation Notes
+
+| Area | Status |
+|---|---|
+| Sections changed | Hero, service-use cases, local disposal context, official resources, accepted/confirm-first/restricted materials, process steps, local examples, CTA copy, FAQ |
+| Internal links added | `what-items-can-be-removed-springfield-mo`, `junk-removal-cost-springfield-mo`, `commercial-junk-removal-springfield-mo`, `apartment-cleanout-springfield-mo`, `junk-removal-springfield-mo` |
+| Outbound citations added | City C&D PDF, Material Know How, Noble Hill Sanitary Landfill, Missouri DNR C&D guidance, Waste Wizard |
+| Metadata/schema | Title, meta description, OG title/description, LocalBusiness description, and FAQPage updated for factual alignment |
+| Claims deliberately avoided | Asbestos/hazardous-material handling, exact pricing, same-day promises, city endorsement/partnership, direct landfill access, licensed/insured claims, crew/truck/equipment claims |
+| Deployment status | **Not deployed** |
+| Indexing status | **Not requested** |
+| QA status | Local QA passed 2026-07-18: repository QA script, internal link checker, JSON-LD parse, FAQ/schema alignment, conversion-integrity checks, claim-safety scan, and diff checks |
 
 ## Claims to Avoid
 
@@ -126,4 +151,4 @@
 | Estimated effort | 2-3 hours |
 | Expected reuse value | High; reusable for future markets by swapping local disposal rules and C&D sources |
 
-*Brief only. Stop for approval before production edits.*
+*Local draft only. Stop for owner approval before commit, push, deploy, or indexing.*
