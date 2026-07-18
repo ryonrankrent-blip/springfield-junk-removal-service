@@ -1,6 +1,6 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning only — **no internal links changed**
+**Status:** Planning plus construction-debris local draft notes — **not deployed**
 **Date:** 2026-07-17
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
@@ -72,6 +72,23 @@
 | Cost | Add link to commercial page in service-specific cost factors. |
 | Guides hub | Consider adding local authority cards/links after the first two page updates are published and approved. |
 
+## 2026-07-18 Construction Debris Draft Link Changes
+
+| Source section | Destination | Anchor text | Reason | Status |
+|---|---|---|---|---|
+| Official local resources | City C&D PDF | City construction and demolition waste guidance | Supports local C&D planning, separation, reuse/recycling, and asbestos-caution context | Added in local draft |
+| Official local resources | City Material Know How | City Material Know How landfill restrictions and clean-fill notes | Supports clean-fill and landfill-banned item cautions | Added in local draft |
+| Official local resources | Noble Hill Sanitary Landfill | Noble Hill Sanitary Landfill customer information | Supports facility hours, guidelines, fee-category, and acceptance-caution context | Added in local draft |
+| Official local resources | Missouri DNR PUB2045 | Missouri DNR construction and demolition waste guidance | Supports clean-fill, recovered-materials, regulated C&D waste, hazardous-material, and asbestos distinctions | Added in local draft |
+| Official local resources | Waste Wizard | Springfield Waste Wizard item lookup | Gives users an official item-specific lookup without copying item database content | Added in local draft |
+| Helpful related pages | `/what-items-can-be-removed-springfield-mo` | What Items Can Be Removed | Routes broad item/restricted-material questions to the accepted-items guide | Added in local draft |
+| Helpful related pages | `/junk-removal-cost-springfield-mo` | Junk Removal Cost Factors | Connects weight, volume, access, and disposal requirements to quote education | Added in local draft |
+| Helpful related pages | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | Routes contractor/business remodel intent to B2B page | Added in local draft |
+| Helpful related pages | `/apartment-cleanout-springfield-mo` | Apartment Cleanouts | Routes landlord/property-manager turnover intent | Added in local draft |
+| Construction debris examples | `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Routes broader mixed-junk requests back to the money page | Added in local draft |
+
+No sitemap, hub navigation, footer, or new-page links were changed in this draft.
+
 ## QA Checklist for Future Link Edits
 
 - Confirm every destination exists and uses extensionless canonical URL paths.
@@ -80,4 +97,4 @@
 - Keep hub navigation stable unless a separate IA update is approved.
 - Confirm link additions do not trigger sitemap changes unless a new page is separately approved.
 
-*Planning only. Stop for approval before implementation.*
+*Local draft only. Stop for approval before commit, push, deploy, or indexing.*
