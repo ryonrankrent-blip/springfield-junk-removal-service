@@ -1,14 +1,15 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris authority links **deployed** and live-QA verified — remaining cluster links still proposed only
-**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18
+**Status:** Planning complete; construction-debris authority links **deployed**; yard-waste draft links implemented locally — **not deployed**
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste draft update 2026-07-18
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Guardrails
 
 - This plan documents proposed links for remaining clusters.
 - Construction-debris page links listed below were implemented, deployed on `ca32eca`, and verified live on 2026-07-18.
-- No sitemap, hub navigation, or unrelated production link changes were made in the construction-debris batch.
+- Yard-waste page links listed below were added in the 2026-07-18 local draft only and are **not deployed**.
+- No sitemap, hub navigation, or unrelated production link changes were made in these batches.
 - Any additional link implementation requires separate approval and QA.
 
 ## Existing Link Context
@@ -90,6 +91,28 @@
 
 No sitemap, hub navigation, footer, or new-page links were changed in this batch. Production deployment for the construction-debris page completed on commit `ca32eca` (2026-07-18T06:01:28Z). Live QA PASS. GSC indexing requested once; awaiting Google recrawl.
 
+## 2026-07-18 Yard Waste Draft Link Changes
+
+| Source section | Destination | Anchor text | Reason | Status |
+|---|---|---|---|---|
+| Official local resources | City Yardwaste Recycling Center | City Yardwaste Recycling Center | Supports city yard-waste drop-off, brush guidelines, and bag/container notes | Added in local draft |
+| Official local resources | City Material Know How | City Material Know How landfill restrictions for yardwaste | Supports landfill ban for leaves, grass, limbs, and brush | Added in local draft |
+| Official local resources | Noble Hill Sanitary Landfill | Noble Hill Sanitary Landfill customer information | Supports landfill customer-guideline and Material Know How referral context | Added in local draft |
+| Official local resources | Waste Wizard | Springfield Waste Wizard item lookup | Gives users an official item-specific lookup without copying item database content | Added in local draft |
+| Official local resources | Missouri DNR PUB2050 | Missouri DNR special waste / landfill exclusion guidance | Supports state landfill-exclusion context for yard waste | Added in local draft |
+| Helpful related pages | `/junk-removal-springfield-mo` | General Junk Removal | Routes broader mixed-junk requests back to the money page | Added in local draft |
+| Helpful related pages | `/what-items-can-be-removed-springfield-mo` | What Items Can Be Removed | Routes mixed outdoor / restricted-material questions to accepted-items guide | Added in local draft |
+| Helpful related pages | `/junk-removal-cost-springfield-mo` | Junk Removal Cost Factors | Connects volume, access, bagging, and disposal requirements to quote education | Added in local draft |
+| Helpful related pages | `/construction-debris-removal-springfield-mo` | Construction Debris Removal | Distinguishes organic yard waste from lumber/remodel debris | Added/retained in local draft |
+| Helpful related pages | `/garage-cleanout-springfield-mo` | Garage Cleanouts | Routes outdoor/garage cleanup crossover | Added/retained in local draft |
+| Materials section | `/construction-debris-removal-springfield-mo` | construction debris removal | Routes lumber, fencing, pallets, remodel leftovers | Added in local draft |
+| Materials section | `/what-items-can-be-removed-springfield-mo` | what items can be removed | Routes broader outdoor clutter questions | Added in local draft |
+| Materials section | `/garage-cleanout-springfield-mo` | garage cleanout | Routes garage/outdoor clutter crossover | Added in local draft |
+| Examples section | `/junk-removal-cost-springfield-mo` | junk removal cost guide | Explains volume/access/disposal quote factors | Added in local draft |
+| Examples section | `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Routes broader service requests to the money page | Added in local draft |
+
+No sitemap, hub navigation, footer, or new-page links were changed in the yard-waste draft. Deployment and indexing were not performed.
+
 ## QA Checklist for Future Link Edits
 
 - Confirm every destination exists and uses extensionless canonical URL paths.
@@ -98,4 +121,4 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 - Keep hub navigation stable unless a separate IA update is approved.
 - Confirm link additions do not trigger sitemap changes unless a new page is separately approved.
 
-*Construction-debris links are deployed and live-verified. Remaining cluster link proposals still require separate approval. Do not request construction-debris indexing again.*
+*Construction-debris links are deployed and live-verified. Yard-waste draft links are local only and not deployed. Remaining cluster link proposals still require separate approval. Do not request construction-debris indexing again.*
