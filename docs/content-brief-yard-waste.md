@@ -1,8 +1,9 @@
 # Content Brief — Yard Waste Removal
 
-**Status:** Brief only — **do not publish without approval**
+**Status:** Local draft implemented — **not deployed; publish pending approval**
 **Target page:** `yard-waste-removal-springfield-mo.html`
 **Recommended action:** Update existing page
+**Implementation date:** 2026-07-18
 
 ## Audience and Intent
 
@@ -57,6 +58,30 @@
 | YRC requires materials to be free of rocks, lumber, limbs, trash, and removed from bags/boxes/lawn bags. | https://www.springfieldmo.gov/yardwaste | Use "as listed by the city" |
 | Brush has size/specification limits and fee schedule. | https://www.springfieldmo.gov/yardwaste | Avoid quoting fee table unless verified the day of publishing |
 | Missouri DNR sources also support yard-waste landfill exclusion. | https://dnr.mo.gov/document-search/special-waste-pub2050/pub2050 | Optional supporting citation; city source should lead |
+
+## 2026-07-18 Source Reverification
+
+| Source | URL | Visible date | Exact fact supported | Cautious wording needed | Outbound citation used? |
+|---|---|---|---|---|---|
+| City of Springfield Solid Waste Management & Recycling | https://www.springfieldmo.gov/2331/Solid-Waste-Management-Recycling | None visible | Springfield's solid-waste system includes landfill, recycling drop-off sites, Yardwaste Recycling Center, and HCCC; curbside service is private/independent. | Avoid city partnership or city-provided junk-removal implication. | No |
+| City Yardwaste Recycling Center | https://www.springfieldmo.gov/yardwaste | None visible | YRC accepts yardwaste/leaves/brush/sticks/organic holiday decor; yardwaste facility materials must be free of rocks/lumber/limbs/trash and removed from bags/containers; brush size guidelines and fee schedule published; oversized limbs/root balls noted for landfill path. | Summarize only; do not quote fees/hours as guaranteed; note rules can change. | Yes |
+| City Material Know How | https://www.springfieldmo.gov/5918/Material-Know-How | None visible | Yardwaste (leaves, grass clippings, limbs, brush) is prohibited from disposal at the Springfield Sanitary Landfill and accepted at the YRC. | Use "city guidance says"; avoid legal-advice tone. | Yes |
+| Noble Hill Sanitary Landfill | https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill | Fee note references July 1; page date not visible | Landfill page lists hours, customer guidelines, tipping-fee context, and links Material Know How for accepted/not-accepted items. | Fees, hours, and acceptance can change; verify before future content changes. | Yes |
+| Waste Wizard | https://www.springfieldmo.gov/5532/Waste-Wizard | None visible | City item-lookup tool for repurpose, reuse, recycle, and disposal options. | Refer as a lookup, not as copied item-specific advice. | Yes |
+| Missouri DNR Special Waste PUB2050 | https://dnr.mo.gov/document-search/special-waste-pub2050/pub2050 | 06/01/2014 | Lists yard waste among wastes that may not be disposed of in sanitary landfills in Missouri. | State guidance is technical; keep city source first and wording cautious. | Yes |
+
+## 2026-07-18 Local Draft Implementation Notes
+
+| Area | Status |
+|---|---|
+| Sections changed | Hero, service-use cases, local yard-waste disposal context, official resources, accepted/confirm-first/restricted materials, process steps, local examples, CTA copy, FAQ |
+| Internal links added | `what-items-can-be-removed-springfield-mo`, `junk-removal-cost-springfield-mo`, `junk-removal-springfield-mo`, `construction-debris-removal-springfield-mo`, `garage-cleanout-springfield-mo` |
+| Outbound citations added | City Yardwaste Recycling Center, Material Know How, Noble Hill Sanitary Landfill, Waste Wizard, Missouri DNR PUB2050 |
+| Metadata/schema | Title, meta description, OG title/description, LocalBusiness description, and FAQPage updated for factual alignment |
+| Claims deliberately avoided | Composting/recycling outcome promises, city endorsement/partnership, guaranteed facility acceptance, exact fees/hours, same-day promises, exact pricing, licensed/insured claims, crew/truck/equipment claims, hazardous-material handling |
+| Deployment status | **Not deployed** |
+| Indexing status | **Not requested** |
+| QA status | Local QA passed 2026-07-18: repository QA 216/0/0; internal links 695/0 broken; JSON-LD parse; FAQ/schema alignment; conversion-integrity checks; claim-safety scan; and diff checks |
 
 ## Claims to Avoid
 
@@ -124,4 +149,4 @@
 | Estimated effort | 2 hours |
 | Expected reuse value | High; swap city yardwaste facility and landfill-ban rules per future market |
 
-*Brief only. Stop for approval before production edits.*
+*Local draft only. Stop for owner approval before commit, push, deploy, or indexing. Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before deployment.*

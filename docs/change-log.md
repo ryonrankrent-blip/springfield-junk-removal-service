@@ -1,5 +1,74 @@
 # Change Log
 
+## 2026-07-18 — Yard waste local draft implemented
+
+### Production state
+- Main commit reviewed before drafting: `5f3286d` (PR #30 construction-debris deployment/indexing docs merge)
+- Local draft only; not committed, pushed, deployed, or indexed in this batch
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, or external-system changes
+
+### Implementation outcome
+- **Target page:** `yard-waste-removal-springfield-mo.html`
+- **Draft status:** Local file edit and QA only — **not deployed**
+- **URL status:** Existing filename and canonical URL retained
+- **Primary focus:** Yard waste removal in Springfield with cautious local landfill-ban and Yardwaste Recycling Center context
+
+### Official sources reverified
+- City Solid Waste Management & Recycling
+- City Yardwaste Recycling Center
+- City Material Know How
+- Noble Hill Sanitary Landfill
+- Waste Wizard
+- Missouri DNR `Special Waste - PUB2050`
+
+### Sections changed
+- Hero and meta copy
+- Local yard-waste disposal context
+- Official resource citations
+- Common / confirm-first / restricted material distinctions
+- Quote request and confirmation process
+- Local use examples
+- FAQ and FAQ schema
+
+### Internal links added
+- `what-items-can-be-removed-springfield-mo`
+- `junk-removal-cost-springfield-mo`
+- `junk-removal-springfield-mo`
+- `construction-debris-removal-springfield-mo`
+- `garage-cleanout-springfield-mo`
+
+### Claims deliberately avoided
+- No composting, recycling-outcome, city-endorsement, facility-partnership, or guaranteed-acceptance claims
+- No exact-price, same-day, guaranteed availability, licensed, insured, crew, truck, equipment, or hazardous-material handling claims
+- No quoted facility fee/hour tables presented as current guarantees
+
+### Local QA
+- Repository QA script passed: 216 passed, 0 failed, 0 warnings
+- Internal link checker passed: 695 internal links checked, 0 broken
+- Target page structure passed: one H1, correct canonical, `index, follow`, two valid JSON-LD blocks, GTM/Formspree/tel/analytics intact
+- FAQ visible content and FAQPage schema match exactly
+- Five official outbound links resolve with `target="_blank"` and `rel="noopener"`
+- Focused claim-safety scan found no unsupported promise terms
+
+### Not performed
+- No deployment
+- No indexing request
+- No commit or push
+- No new page
+- No unrelated production page edit
+- No outreach, facility contact, organization contact, citation/listing action, or spend
+
+### Documentation updated
+- `content-brief-yard-waste.md`
+- `internal-link-authority-plan.md`
+- `content-authority-roadmap.md`
+- `change-log.md` (this entry)
+
+### Future content caveat
+- Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before deployment
+
+---
+
 ## 2026-07-18 — Construction debris production deploy, live QA, and GSC indexing
 
 ### Production state
