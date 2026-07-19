@@ -1,8 +1,8 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris page deployed/indexed once; yard-waste local draft implemented — **not deployed**
-**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris deploy/indexing + yard-waste draft update 2026-07-18
-**Main commit:** `5f3286d1b51c7af7ac8576b013b929f4efd966ab`
+**Status:** Research recommendations + detailed briefs complete; construction-debris and yard-waste pages **deployed**, live QA **PASS**, GSC indexing **requested once each** — awaiting Google recrawl
+**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris and yard-waste deploy/indexing updates through 2026-07-19
+**Main commit:** `90e7249656e7c5e89fe791ceaed8d3c6d3cd0791`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
 **Detailed planning pack:** `content-authority-research-pack.md`
 
@@ -30,22 +30,27 @@
 | `content-brief-accepted-items.md` | Production-ready planning brief for the accepted/not-accepted items guide update |
 | `content-brief-commercial-junk.md` | Production-ready planning brief for the commercial junk removal page update |
 | `content-brief-junk-removal-cost.md` | Production-ready planning brief for the cost guide update |
-| `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris deployed and yard-waste draft link notes |
+| `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris and yard-waste deployed link notes |
 
 ---
 
-## 2026-07-18 yard-waste draft status
+## 2026-07-19 yard-waste production status
 
 | Field | Value |
 |---|---|
 | Target file | `yard-waste-removal-springfield-mo.html` |
-| Draft scope | Local file edit and QA only |
+| Live URL | https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo |
 | Sections changed | Hero, service-use cases, Springfield yard-waste disposal context, official resources, accepted/confirm-first/restricted materials, process steps, local examples, CTA copy, FAQ |
 | Official sources reverified | City Solid Waste, Yardwaste Recycling Center, Material Know How, Noble Hill, Waste Wizard, Missouri DNR PUB2050 |
-| Production deployment | **Not deployed** |
-| Indexing request | **Not requested** |
-| Commit/push | **Not performed** |
-| Next gate | Owner approval required before commit, branch, PR, deploy, or indexing |
+| Production deployment | **Complete** — Cloudflare Pages success for `90e7249` at 2026-07-19T06:00:22Z |
+| Live QA | **PASS** — HTTP 200; extensionless final URL; live HTML byte-matched local and preview; desktop/mobile visual QA passed; metadata/schema/links/conversion/console/claim-safety checks passed; no blocking defects |
+| GSC inspected property | springfieldjunkremovalservice.com |
+| GSC pre-request status | URL is on Google |
+| Indexing request | **Submitted successfully once** — confirmation: Indexing requested / URL added to priority crawl queue |
+| Monitoring | Awaiting Google recrawl and refreshed search data; **no additional indexing request should be made now** |
+| Future content caveat | Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before future content changes |
+| External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
+| Next gate | Monitor GSC recrawl/search data; remaining clusters still require separate approval |
 
 ---
 
@@ -64,7 +69,7 @@
 | Monitoring | Awaiting Google recrawl and refreshed search data; **no additional indexing request should be made now** |
 | Future content caveat | Facility rules, fees, hours, accepted items, and disposal requirements still require re-verification before future content changes |
 | External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
-| Next gate | Monitor GSC recrawl/search data; yard-waste implementation remains separately approved |
+| Next gate | Monitor GSC recrawl/search data; yard-waste cluster also deployed and indexing requested once on 2026-07-19 |
 
 ---
 
@@ -168,7 +173,7 @@
 | Priority | Cluster | Why first |
 |---|---|---|
 | 1 | Construction debris + local rules | Best avg position (~5.9); deployed + live QA PASS + GSC indexing requested once on 2026-07-18; awaiting recrawl |
-| 2 | Yard waste + landfill ban | Early click signal; local draft implemented 2026-07-18, not deployed |
+| 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
 | 3 | Accepted / not accepted items | Supports conversion qualification |
 | 4 | Commercial junk | Position ~15.7 with room to improve |
 | 5 | Junk removal cost | Existing guide; supports quote intent |
@@ -187,4 +192,4 @@
 
 ---
 
-*Construction-debris cluster is deployed and indexing was requested once. Yard-waste local draft is implemented but not deployed. Remaining clusters still require separate approval before production edits. Do not request construction-debris indexing again; monitor Google recrawl results.*
+*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Remaining clusters still require separate approval before production edits. Do not request indexing again for either deployed page; monitor Google recrawl results.*
