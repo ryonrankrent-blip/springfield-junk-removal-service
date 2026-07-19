@@ -1,15 +1,66 @@
 # Change Log
 
+## 2026-07-19 — Yard waste production deploy, live QA, and GSC indexing
+
+### Production state
+- Main / deployed commit: `90e7249656e7c5e89fe791ceaed8d3c6d3cd0791` (PR #31 merge)
+- Cloudflare Pages production deployment: **success**
+- Deployment time: `2026-07-19T06:00:22Z`
+- Live URL: https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo
+- Final URL extensionless; live HTML byte-matched local and preview
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, outreach, or spending changes
+
+### Live QA
+- Result: **PASS**
+- HTTP 200
+- Updated yard-waste content visible
+- Desktop and mobile visual QA passed
+- Metadata, canonical, robots, schema, internal links, outbound citations, conversion integrity, console, and claim-safety checks passed
+- No blocking defects found
+
+### Google Search Console
+- Inspected property: `springfieldjunkremovalservice.com`
+- Inspected URL: https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo
+- Pre-request status: **URL is on Google**
+- Indexing request: **submitted successfully once**
+- Confirmation heading: **Indexing requested**
+- Confirmation message: URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.
+- No second request submitted
+- No other URL inspected or submitted
+- Sitemap not resubmitted
+- No quota warning or blocker
+
+### Monitoring
+- Current status: awaiting Google recrawl and refreshed search data
+- **No additional indexing request should be made now**
+- Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before future content changes
+
+### Documentation updated
+- `content-brief-yard-waste.md`
+- `content-authority-roadmap.md`
+- `internal-link-authority-plan.md`
+- `change-log.md` (this entry)
+
+### Not performed in this documentation batch
+- No commit or push (pending approval)
+- No redeploy
+- No second indexing request
+- No additional content implementation
+- No production HTML/JavaScript/sitemap edits
+- No DNS, routing, tracking, form, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes
+
+---
+
 ## 2026-07-18 — Yard waste local draft implemented
 
 ### Production state
 - Main commit reviewed before drafting: `5f3286d` (PR #30 construction-debris deployment/indexing docs merge)
-- Local draft only; not committed, pushed, deployed, or indexed in this batch
-- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, or external-system changes
+- Local draft batch later committed/pushed/merged as PR #31 (`07725a1` → merge `90e7249`); see deployment/indexing entry above for final production state
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, or external-system changes in the draft batch itself
 
 ### Implementation outcome
 - **Target page:** `yard-waste-removal-springfield-mo.html`
-- **Draft status:** Local file edit and QA only — **not deployed**
+- **Draft status (at drafting time):** Local file edit and QA only — later deployed via PR #31
 - **URL status:** Existing filename and canonical URL retained
 - **Primary focus:** Yard waste removal in Springfield with cautious local landfill-ban and Yardwaste Recycling Center context
 
@@ -50,10 +101,10 @@
 - Five official outbound links resolve with `target="_blank"` and `rel="noopener"`
 - Focused claim-safety scan found no unsupported promise terms
 
-### Not performed
-- No deployment
-- No indexing request
-- No commit or push
+### Not performed in the draft batch itself
+- No deployment during drafting (later completed via PR #31 / `90e7249`)
+- No indexing request during drafting (later submitted once after live QA)
+- No commit or push during drafting (later approved separately)
 - No new page
 - No unrelated production page edit
 - No outreach, facility contact, organization contact, citation/listing action, or spend
@@ -65,7 +116,7 @@
 - `change-log.md` (this entry)
 
 ### Future content caveat
-- Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before deployment
+- Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before future content changes
 
 ---
 

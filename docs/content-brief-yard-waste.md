@@ -1,9 +1,11 @@
 # Content Brief — Yard Waste Removal
 
-**Status:** Local draft implemented — **not deployed; publish pending approval**
+**Status:** Production deployed, live QA PASS, GSC indexing requested once — **awaiting Google recrawl**
 **Target page:** `yard-waste-removal-springfield-mo.html`
-**Recommended action:** Update existing page
+**Recommended action:** Update existing page (complete)
 **Implementation date:** 2026-07-18
+**Production commit:** `90e7249656e7c5e89fe791ceaed8d3c6d3cd0791`
+**Live URL:** https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo
 
 ## Audience and Intent
 
@@ -79,9 +81,31 @@
 | Outbound citations added | City Yardwaste Recycling Center, Material Know How, Noble Hill Sanitary Landfill, Waste Wizard, Missouri DNR PUB2050 |
 | Metadata/schema | Title, meta description, OG title/description, LocalBusiness description, and FAQPage updated for factual alignment |
 | Claims deliberately avoided | Composting/recycling outcome promises, city endorsement/partnership, guaranteed facility acceptance, exact fees/hours, same-day promises, exact pricing, licensed/insured claims, crew/truck/equipment claims, hazardous-material handling |
-| Deployment status | **Not deployed** |
-| Indexing status | **Not requested** |
-| QA status | Local QA passed 2026-07-18: repository QA 216/0/0; internal links 695/0 broken; JSON-LD parse; FAQ/schema alignment; conversion-integrity checks; claim-safety scan; and diff checks |
+| Deployment status | **Complete** — Cloudflare Pages production deployment succeeded for `90e7249` at 2026-07-19T06:00:22Z |
+| Live QA status | **PASS** — HTTP 200; extensionless final URL; live HTML byte-matched local and preview; desktop/mobile visual QA passed; metadata, canonical, robots, schema, links, conversion integrity, console, and claim-safety checks passed; no blocking defects |
+| Indexing status | **Submitted once** — GSC property `springfieldjunkremovalservice.com`; pre-request: URL is on Google; confirmation: Indexing requested / URL added to priority crawl queue; no second request; sitemap not resubmitted |
+| Monitoring status | Awaiting Google recrawl and refreshed search data; **do not submit another indexing request now** |
+| QA status | Local QA passed 2026-07-18; production live QA passed 2026-07-19 after deploy |
+
+## 2026-07-19 Production Deployment, Live QA, and GSC Indexing
+
+| Field | Value |
+|---|---|
+| Production deployment | Complete |
+| Deployed commit | `90e7249656e7c5e89fe791ceaed8d3c6d3cd0791` |
+| Deployment time | 2026-07-19T06:00:22Z |
+| Live URL | https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo |
+| Live QA | PASS |
+| GSC inspected property | springfieldjunkremovalservice.com |
+| GSC inspected URL | https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo |
+| GSC pre-request status | URL is on Google |
+| Indexing request | Submitted successfully once |
+| Confirmation heading | Indexing requested |
+| Confirmation message | URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority. |
+| Additional indexing | None — no second request; no other URL submitted; sitemap not resubmitted; no quota warning or blocker |
+| Current monitoring | Awaiting Google recrawl and refreshed search data |
+| Future content caveat | Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before future content changes |
+| External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
 
 ## Claims to Avoid
 
@@ -149,4 +173,4 @@
 | Estimated effort | 2 hours |
 | Expected reuse value | High; swap city yardwaste facility and landfill-ban rules per future market |
 
-*Local draft only. Stop for owner approval before commit, push, deploy, or indexing. Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before deployment.*
+*Production deployed and indexing requested once. Stop for approval before commit/push of this documentation batch. Do not request indexing again. Facility rules, fees, hours, size limits, accepted items, and disposal requirements still require re-verification before future content changes.*
