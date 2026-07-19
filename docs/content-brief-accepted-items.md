@@ -1,8 +1,10 @@
 # Content Brief — Accepted and Not Accepted Items
 
-**Status:** Brief only — **do not publish without approval**
+**Status:** Local draft implemented — **not deployed**; indexing **not requested**
 **Target page:** `what-items-can-be-removed-springfield-mo.html`
 **Recommended action:** Update existing page; do **not** create duplicate accepted-items page
+**Implementation date:** 2026-07-19
+**Main commit reviewed before drafting:** `a13952ae79625dbeffc0342a1e02cd88d3da96a5`
 
 ## Audience and Intent
 
@@ -15,48 +17,113 @@
 | Conversion role | Conversion qualifier, trust builder, and internal-link hub to service pages |
 | GSC signal | Existing Tier 2 guide with 25 internal links; no direct query signal documented in July 11 baseline |
 
-## Current Page Audit
+## Current Page Audit (pre-draft)
 
-| Element | Current value |
+| Element | Pre-draft value |
 |---|---|
 | Title | What Items Can Be Removed? \| Junk Removal Springfield, MO |
 | H1 | What Items Can Be Removed in Springfield, MO? |
 | Current H2s | Common Items That Can Be Removed; Items That May Not Be Accepted; Get a Free Junk Removal Quote; A Closer Look at Items We Commonly Remove; Donation & Recycling Where Available; Accepted Items FAQ |
-| Related pages | `junk-removal-cost-springfield-mo.html`, `how-junk-removal-works-springfield-mo.html`, `yard-waste-removal-springfield-mo.html`, `construction-debris-removal-springfield-mo.html`, `appliance-removal-springfield-mo.html`, `mattress-removal-springfield-mo.html`, `hot-tub-removal-springfield-mo.html`, `hoarder-cleanout-springfield-mo.html` |
-| Content gaps | Needs clearer accepted/confirm/not-accepted taxonomy, official banned-item references, Waste Wizard/HCCC referral, mattress/appliance special notes, and cautious service language |
+| Related pages | cost, how-it-works, yard waste, construction debris, appliance, mattress, hot tub, hoarder |
+| Content gaps | Needed clearer accepted/confirm/not-accepted taxonomy, official banned-item references, Waste Wizard/HCCC referral, mattress/appliance special notes, and cautious service language |
 | Cannibalization risk | High if individual service topics are over-expanded; keep summaries short and link to service pages |
 
-## Recommended Metadata
+## Recommended Metadata (implemented in local draft)
 
-| Field | Suggested value |
+| Field | Value |
 |---|---|
 | Title tag | What Items Can Junk Removal Take in Springfield, MO? |
 | H1 | What Items Can Be Removed in Springfield, MO? |
-| Proposed URL | `/what-items-can-be-removed-springfield-mo` |
+| Meta description | See what junk removal quote requests in Springfield, MO can include, which items need confirmation, and which materials are not standard junk removal. Describe items for a free quote. |
+| Canonical URL | `https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo` |
 | Content type | Guide update |
-| Word-count range | 1,100-1,500 words total after update |
+| Robots | `index, follow` |
 
-## Recommended Outline
+## 2026-07-19 Local Draft Implementation Status
 
-1. Short answer: many household, furniture, appliance, yard, garage, and light debris items can be discussed; final acceptance depends on item type, condition, access, and disposal rules.
-2. "Common items to ask about": furniture, mattresses, appliances, garage clutter, household junk, brush/yard debris, light renovation debris, commercial items.
-3. "Items that need confirmation before pickup": appliances, mattresses, hot tubs, sheds, heavy items, electronics, mixed loads, construction debris.
-4. "Items generally not handled or requiring official disposal": hazardous chemicals, explosives, flammables, infectious waste, bulk liquids, asbestos, whole tires, lead-acid batteries, waste oil, some appliances.
-5. "Springfield official resources": Waste Wizard, HCCC, Material Know How, Recycling in Springfield, Mattress Recycling.
-6. "Donate or recycle before hauling when practical": City guide and Waste Wizard; verify before visiting.
-7. CTA: "Send a photo or describe the items."
-8. FAQ additions.
+| Field | Value |
+|---|---|
+| Target file | `what-items-can-be-removed-springfield-mo.html` |
+| Draft status | Local file edit and QA only |
+| Deployment status | **Not deployed** |
+| Indexing status | **Not requested** |
+| Filename / URL | Existing filename and extensionless canonical retained |
+| Conversion values preserved | Phone `417-242-5370` / `tel:4172425370`; Formspree `mojzdkvg`; GTM `GTM-GDJF54DV`; events `click_call`, `click_quote_button`, `submit_lead_form` |
 
-## Local Facts Required
+### Official sources reverified
 
-| Fact | Source | Cautious wording |
-|---|---|---|
-| Material Know How lists banned landfill items such as hazardous wastes, liquids, major appliances, whole tires, waste oil, lead-acid batteries, yardwaste, asbestos, and more. | https://www.springfieldmo.gov/5918/Material-Know-How | Do not convert landfill-banned list into exact service acceptance list; say "may require separate handling or official disposal" |
-| Waste Wizard is the city tool for item-specific disposal, reuse, and recycling options. | https://www.springfieldmo.gov/5532/Waste-Wizard | Recommended as official lookup, not copied item database |
-| HCCC accepts household hazardous/toxic/flammable materials by appointment only. | https://www.springfieldmo.gov/5553/Household-Chemical-Collection-Center | Do not claim pickup for these materials |
-| City recycling facilities handle recyclables, yardwaste, household chemicals, and mattresses through specific facilities. | https://www.springfieldmo.gov/5550/Recycling-in-Springfield | Facility rules and fees can change |
-| Mattress recycling is available for clean, dry, infestation-free mattresses/box springs at listed facilities for a fee. | https://www.springfieldmo.gov/5939/Mattress-Recycling | Verify fee and conditions before publishing |
-| Donation/recycling guide says to call organizations to verify needs, requirements, and fees and that Waste Wizard is the most current database. | https://www.springfieldmo.gov/DocumentCenter/View/15834/Recycling--Donation-Locations-Guide | Use only short summary; do not reproduce directory listings |
+| Source title | Official URL | Fact supported | Cautious wording | Outbound citation on page |
+|---|---|---|---|---|
+| City Material Know How | https://www.springfieldmo.gov/5918/Material-Know-How | Landfill bans/special handling for hazardous wastes, liquids, major appliances, whole tires, waste oil, lead-acid batteries, yardwaste, asbestos, explosives, infectious wastes, radioactive material, and related categories | Do not convert landfill-banned list into automatic service acceptance or rejection claims; use confirm-first / not-standard taxonomy | Yes |
+| Springfield Waste Wizard | https://www.springfieldmo.gov/5532/Waste-Wizard | Official item-specific reuse, recycle, and disposal lookup | Recommend as lookup tool; do not copy item database | Yes |
+| Household Chemical Collection Center | https://www.springfieldmo.gov/5553/Household-Chemical-Collection-Center | Household chemicals accepted by appointment only; call 417-864-2000 | Do not claim junk-removal pickup for HHW; do not quote appointment hours as permanent guarantees | Yes |
+| City Mattress Recycling | https://www.springfieldmo.gov/5939/Mattress-Recycling | City publishes mattress/box-spring recycling information with conditions and fees that can change | Do not quote fees/conditions as permanent guarantees; confirm-first for mattress loads | Yes |
+| Missouri DNR Household Hazardous Waste | https://dnr.mo.gov/waste-recycling/reduce-reuse-recycle/what-to-do-with-specific/household-hazardous | State guidance for paint, batteries, chemicals, pesticides, oil, and related HHW | Direct users to official guidance; do not give handling/transport instructions beyond referral | Yes |
+| Recycling in Springfield | https://www.springfieldmo.gov/5550/Recycling-in-Springfield | City recycling overview and facility/path context | Facility rules and fees can change; not cited as a primary outbound link in this draft | Supporting research only |
+
+### Sections changed
+
+- Hero and introduction with request-and-confirm language
+- Commonly requested household item groups
+- Springfield disposal notes and official resource citations
+- Appliances, electronics, yard waste, construction debris, mattresses/bulky, and business/rental summaries
+- Accepted / confirm-first / not-standard materials taxonomy
+- Six-step quote request and confirmation process
+- Local cleanup examples
+- FAQ and FAQPage schema (five matched Q&As)
+- Metadata, Open Graph, and LocalBusiness description updates
+
+### Internal links added or retained in draft
+
+| Source section | Destination | Anchor text | Reason |
+|---|---|---|---|
+| Helpful related pages | `/junk-removal-springfield-mo` | General Junk Removal | Money-page path |
+| Helpful related pages | `/junk-removal-cost-springfield-mo` | Junk Removal Cost Factors | Quote-factor education |
+| Helpful related pages | `/furniture-removal-springfield-mo` | Furniture Removal | Service-specific path |
+| Helpful related pages | `/appliance-removal-springfield-mo` | Appliance Removal | Special-handling path |
+| Helpful related pages | `/mattress-removal-springfield-mo` | Mattress Removal | Bulky-item path |
+| Helpful related pages | `/garage-cleanout-springfield-mo` | Garage Cleanouts | Common cleanup path |
+| Helpful related pages | `/yard-waste-removal-springfield-mo` | Yard Waste Removal | Local yard-waste rules |
+| Helpful related pages | `/construction-debris-removal-springfield-mo` | Construction Debris Removal | C&D rules |
+| Helpful related pages | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | B2B path |
+| Appliances section | `/appliance-removal-springfield-mo` | appliance removal | Confirm-first appliance detail |
+| Yard waste section | `/yard-waste-removal-springfield-mo` | yard waste removal | Local-rule depth without cannibalizing yard page |
+| Construction section | `/construction-debris-removal-springfield-mo` | construction debris removal | Local-rule depth without cannibalizing debris page |
+| Mattresses section | `/mattress-removal-springfield-mo` | mattress removal | Mattress-focused requests |
+| Business section | `/commercial-junk-removal-springfield-mo` | commercial junk removal | Broader business scope |
+| Local examples | `/junk-removal-cost-springfield-mo` | junk removal cost guide | Cost-factor education |
+| Local examples | `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Broader service requests |
+| Hero / quote | `#quote` | Get a Free Quote / quote form | Conversion path |
+
+### Official outbound references added
+
+- City Material Know How landfill restrictions
+- Springfield Waste Wizard item lookup
+- Household Chemical Collection Center
+- City mattress recycling information
+- Missouri DNR household hazardous waste guidance
+
+### Claims deliberately avoided
+
+- Guaranteed acceptance, pickup, pricing, same-day, or recycling outcomes
+- Licensed, insured, certified, locally/family owned, crews, trucks, facility operation claims
+- City-approved, municipal partner, recycling partner, or certified recycling claims
+- Secure data destruction or e-waste certification claims
+- Hazardous-material, asbestos, or refrigerant-recovery handling claims
+- Exact facility fees, hours, or permanent acceptance rules
+- Verified job-history or completed-project claims
+
+### Local QA (draft)
+
+- Repository QA script passed: 216 passed, 0 failed, 0 warnings
+- Internal link checker passed: 690 internal links checked, 0 broken
+- FAQ visible content and FAQPage schema match exactly
+- Outbound official links returned HTTP 200
+- Time-sensitive facility rules, fees, hours, appointment slots, and acceptance conditions must be reverified again before deployment
+
+### Next gate
+
+- Owner approval required before commit, branch, push, deploy, or indexing
 
 ## Claims to Avoid
 
@@ -68,9 +135,9 @@
 
 ## CTA Placement
 
-- Add CTA after the accepted/needs-confirmation table: "Describe the items or send photos when requesting a quote."
-- Keep existing quote block.
-- Use caution-first CTA near not-accepted section: "If an item may be hazardous, use the official city resources first."
+- Hero CTA retained.
+- Quote block retained with photo/description language.
+- Caution-first note near confirm-first / not-standard materials: use official city or DNR resources for hazardous products.
 
 ## Internal Links In
 
@@ -91,27 +158,28 @@
 | `/yard-waste-removal-springfield-mo` | yard waste removal | Local rule path |
 | `/construction-debris-removal-springfield-mo` | construction debris removal | C&D path |
 | `/junk-removal-cost-springfield-mo` | junk removal cost | Quote-intent path |
-| `/how-junk-removal-works-springfield-mo` | how junk removal works | Process reassurance |
+| `/commercial-junk-removal-springfield-mo` | commercial junk removal | B2B path |
+| `/garage-cleanout-springfield-mo` | garage cleanouts | Common cleanup path |
+| `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Broader service path |
 
-## FAQ Opportunities
+## FAQ Opportunities (implemented)
 
-- What items can junk removal take in Springfield?
-- What items are not accepted by junk removal companies?
-- Can you take paint, chemicals, or hazardous waste?
-- Can appliances or mattresses be removed?
-- What should I do with yard waste?
-- Should I donate items before junk removal?
+- What items can be included in a Springfield junk removal quote request?
+- Do appliances and electronics need confirmation before pickup?
+- Can yard waste or construction debris be included?
+- Which materials require confirmation or may fall outside ordinary junk removal?
+- What information helps most when requesting a quote?
 
 ## Schema Recommendation
 
-- Keep Guide / FAQPage style consistent with current site if implemented.
-- Use FAQPage only for short, stable, claim-safe answers.
+- Keep LocalBusiness + FAQPage.
+- Visible FAQ answers must match FAQPage schema exactly.
 - Avoid Product/Offer price schema.
 
 ## Image or Diagram Need
 
 - Recommended future visual: accepted / confirm first / official disposal table.
-- Could be implemented as HTML table before any image asset is needed.
+- Implemented in this draft as card taxonomy rather than an image asset.
 
 ## QA Checklist
 
@@ -120,6 +188,7 @@
 - Confirm no restricted-item language implies pickup.
 - Confirm "accepted" sections include "confirm when requesting a quote."
 - Confirm no full city list or PDF directory is copied.
+- Reverify time-sensitive facility rules before deployment.
 
 ## Estimated Effort and Reuse
 
@@ -128,4 +197,4 @@
 | Estimated effort | 3-4 hours |
 | Expected reuse value | High; category taxonomy is reusable with local restricted-item sources swapped |
 
-*Brief only. Stop for approval before production edits.*
+*Local draft only. Not deployed. Indexing not requested. Stop for owner approval before commit, branch, push, deploy, or indexing. Facility rules, fees, hours, appointment slots, and acceptance conditions require re-verification before deployment.*
