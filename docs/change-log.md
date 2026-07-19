@@ -1,5 +1,78 @@
 # Change Log
 
+## 2026-07-19 — Accepted items production deploy, live QA, indexing-URL variance, and redirect verification
+
+### Production state
+- Main / deployed commit: `f908715955c779c08689d158f2efaed784688dc3` (PR #33 merge)
+- Cloudflare Pages production deployment: **success**
+- Deployment time: `2026-07-19T06:34:30Z`
+- Live URL (canonical): https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo
+- Final URL extensionless; live HTML byte-matched local production file
+- Live QA: **PASS**
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, outreach, or spending changes
+
+### Live QA
+- Result: **PASS**
+- HTTP 200
+- Updated accepted-items content visible
+- Desktop and mobile visual QA passed
+- Title, meta description, Open Graph description, H1, canonical, robots, and sitemap checks passed
+- Internal links, official outbound references, LocalBusiness + FAQPage JSON-LD, visible FAQ/schema match passed
+- Conversion integrity, console/network, claim-safety, and cannibalization checks passed
+- No blocking defects found
+
+### Google Search Console indexing-URL variance
+- Classification: **non-blocking indexing-URL variance** — **not** a confirmed indexing request for the canonical extensionless URL
+- Inspected property: `springfieldjunkremovalservice.com`
+- Submitted URL: https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo.html
+- Canonical production URL: https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo
+- Live test status: **URL is available to Google**
+- Test timestamp shown: July 19, 2026 at 6:41 AM
+- Indexing request: **submitted successfully once for the `.html` variant only**
+- Confirmation heading: **Indexing requested**
+- Confirmation message: URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.
+- No second request submitted
+- No other URL inspected or submitted
+- Sitemap not resubmitted
+- No quota warning or blocker
+
+### Redirect and canonical verification
+- `.html` URL initial response: HTTP **308** Permanent Redirect
+- Location: `/what-items-can-be-removed-springfield-mo`
+- Final destination: https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo — HTTP **200**
+- One redirect hop; HTTPS preserved; harmless query strings preserved
+- Extensionless page: HTTP 200; no redirect; exact extensionless canonical; robots `index, follow`; no blocking X-Robots-Tag
+- Sitemap contains only the extensionless URL; does not contain the `.html` variant
+- Duplicate-content result: no duplicate 200 page; `.html` permanently redirects to the canonical URL
+- Routing context: no repository-level redirect file identified; appears to be Cloudflare Pages platform-level `.html`-to-extensionless handling; yard-waste, construction-debris, and main junk-removal `.html` URLs showed the same 308 behavior
+
+### Monitoring
+- Do **not** request either accepted-items URL again now
+- Allow the existing crawl request to process
+- Inspect **only** the extensionless canonical URL later
+- Recommended recheck window: approximately **3–7 days**
+- Later inspection should record: on Google / not on Google; page fetch; crawl allowed; indexing allowed; user-declared canonical; Google-selected canonical; referring sitemap if shown
+- No new indexing request without a fresh inspection and explicit owner approval
+- If Google selects the extensionless canonical, an additional request will usually not be necessary
+- Facility rules, fees, appointment requirements, hours, and accepted-item rules still require re-verification before future content changes
+
+### Documentation updated
+- `content-brief-accepted-items.md`
+- `content-authority-roadmap.md`
+- `internal-link-authority-plan.md`
+- `change-log.md` (this entry)
+
+### Not performed in this documentation batch
+- No commit or push (pending approval)
+- No redeploy
+- No indexing request
+- No sitemap resubmit
+- No additional content implementation
+- No production HTML/JavaScript/sitemap edits
+- No DNS, routing, tracking, form, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes
+
+---
+
 ## 2026-07-19 — Accepted items local draft implemented
 
 ### Production state

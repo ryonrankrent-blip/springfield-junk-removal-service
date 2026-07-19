@@ -1,8 +1,8 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris and yard-waste pages **deployed** (indexing requested once each); accepted-items page **local draft implemented** — not deployed, indexing not requested
-**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris and yard-waste deploy/indexing updates through 2026-07-19; accepted-items local draft 2026-07-19
-**Main commit before accepted-items draft:** `a13952ae79625dbeffc0342a1e02cd88d3da96a5`
+**Status:** Research recommendations + detailed briefs complete; construction-debris and yard-waste pages **deployed** (indexing requested once each); accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
+**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris, yard-waste, and accepted-items production updates through 2026-07-19
+**Main / deployed accepted-items commit:** `f908715955c779c08689d158f2efaed784688dc3`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
 **Detailed planning pack:** `content-authority-research-pack.md`
 
@@ -30,25 +30,29 @@
 | `content-brief-accepted-items.md` | Production-ready planning brief for the accepted/not-accepted items guide update |
 | `content-brief-commercial-junk.md` | Production-ready planning brief for the commercial junk removal page update |
 | `content-brief-junk-removal-cost.md` | Production-ready planning brief for the cost guide update |
-| `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris/yard-waste deployed notes and accepted-items local-draft link notes |
+| `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris/yard-waste/accepted-items deployed link notes |
 
 ---
 
-## 2026-07-19 accepted-items local draft status
+## 2026-07-19 accepted-items production status
 
 | Field | Value |
 |---|---|
 | Target file | `what-items-can-be-removed-springfield-mo.html` |
-| Live URL | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo |
-| Draft status | Local file edit and QA only |
-| Deployment status | **Not deployed** |
-| Indexing status | **Not requested** |
+| Live URL (canonical) | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo |
 | Sections changed | Hero, commonly requested groups, Springfield disposal notes, appliances/electronics/yard/construction/mattress/business summaries, accepted/confirm-first/not-standard taxonomy, quote process, local examples, FAQ |
 | Official sources reverified | Material Know How, Waste Wizard, HCCC, Mattress Recycling, Missouri DNR HHW; Recycling in Springfield as supporting research |
-| Metadata / schema | Title, meta description, OG description, LocalBusiness description, and FAQPage updated; canonical and `index, follow` preserved |
+| Production deployment | **Complete** — Cloudflare Pages success for `f908715` at 2026-07-19T06:34:30Z |
+| Live QA | **PASS** — HTTP 200; live HTML byte-matched local; desktop/mobile visual QA passed; metadata/schema/links/conversion/console/claim-safety/cannibalization checks passed; no blocking defects |
+| GSC classification | **Non-blocking indexing-URL variance** — not a confirmed indexing request for the canonical extensionless URL |
+| GSC submitted URL | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo.html |
+| GSC live test | URL is available to Google (July 19, 2026 at 6:41 AM) |
+| GSC confirmation | Indexing requested / URL added to priority crawl queue (once for `.html` variant only) |
+| Redirect verification | `.html` → HTTP 308 → extensionless canonical HTTP 200; no duplicate 200 content; sitemap lists only extensionless URL |
+| Monitoring | Do not request either accepted-items URL again now; inspect only the extensionless canonical later (~3–7 days); record user-declared and Google-selected canonical; new request only with fresh inspection + explicit owner approval |
+| Future content caveat | Facility rules, fees, hours, appointment slots, accepted items, and disposal requirements still require re-verification before future content changes |
 | External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
-| Future content caveat | Facility rules, fees, hours, appointment slots, accepted items, and disposal requirements still require re-verification before deployment |
-| Next gate | Owner approval required before commit, branch, push, deploy, or indexing |
+| Next gate | Monitor GSC crawl settlement for the `.html` request via 308; later inspect extensionless canonical only |
 
 ---
 
@@ -192,7 +196,7 @@
 |---|---|---|
 | 1 | Construction debris + local rules | Best avg position (~5.9); deployed + live QA PASS + GSC indexing requested once on 2026-07-18; awaiting recrawl |
 | 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
-| 3 | Accepted / not accepted items | Supports conversion qualification; **local draft implemented 2026-07-19** — not deployed, indexing not requested |
+| 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
 | 4 | Commercial junk | Position ~15.7 with room to improve |
 | 5 | Junk removal cost | Existing guide; supports quote intent |
 | 6 | Cleanout guides | Supports PM/rental segment |
@@ -210,4 +214,4 @@
 
 ---
 
-*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items cluster has a local draft only — not deployed and indexing not requested. Remaining clusters still require separate approval before production edits. Do not request indexing again for either deployed page; monitor Google recrawl results.*
+*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items cluster is deployed with live QA PASS; GSC has a non-blocking indexing-URL variance on the `.html` variant and the canonical extensionless URL was not confirmed as requested — do not request either accepted-items URL again now. Remaining clusters still require separate approval before production edits. Do not request indexing again for the correctly requested construction-debris or yard-waste pages; monitor Google recrawl results.*

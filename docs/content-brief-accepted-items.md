@@ -1,9 +1,10 @@
 # Content Brief — Accepted and Not Accepted Items
 
-**Status:** Local draft implemented — **not deployed**; indexing **not requested**
+**Status:** Production **deployed**; live QA **PASS**; GSC indexing has a **non-blocking .html URL variance** (canonical extensionless URL was **not** confirmed as requested)
 **Target page:** `what-items-can-be-removed-springfield-mo.html`
 **Recommended action:** Update existing page; do **not** create duplicate accepted-items page
 **Implementation date:** 2026-07-19
+**Deployed commit:** `f908715955c779c08689d158f2efaed784688dc3`
 **Main commit reviewed before drafting:** `a13952ae79625dbeffc0342a1e02cd88d3da96a5`
 
 ## Audience and Intent
@@ -44,9 +45,9 @@
 | Field | Value |
 |---|---|
 | Target file | `what-items-can-be-removed-springfield-mo.html` |
-| Draft status | Local file edit and QA only |
-| Deployment status | **Not deployed** |
-| Indexing status | **Not requested** |
+| Draft status | Local file edit and QA completed; later merged via PR #33 |
+| Deployment status | **Complete** — see production section below |
+| Indexing status | **Non-blocking indexing-URL variance** — see GSC section below; not a confirmed request for the canonical extensionless URL |
 | Filename / URL | Existing filename and extensionless canonical retained |
 | Conversion values preserved | Phone `417-242-5370` / `tel:4172425370`; Formspree `mojzdkvg`; GTM `GTM-GDJF54DV`; events `click_call`, `click_quote_button`, `submit_lead_form` |
 
@@ -119,11 +120,58 @@
 - Internal link checker passed: 690 internal links checked, 0 broken
 - FAQ visible content and FAQPage schema match exactly
 - Outbound official links returned HTTP 200
-- Time-sensitive facility rules, fees, hours, appointment slots, and acceptance conditions must be reverified again before deployment
 
-### Next gate
+## 2026-07-19 Production Deployment, Live QA, GSC Variance, and Redirect Verification
 
-- Owner approval required before commit, branch, push, deploy, or indexing
+| Field | Value |
+|---|---|
+| Production deployment | **Complete** |
+| Deployed commit | `f908715955c779c08689d158f2efaed784688dc3` |
+| Deployment time | 2026-07-19T06:34:30Z |
+| Live URL (canonical) | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo |
+| Live HTTP | 200 |
+| Live/local HTML | Byte-matched |
+| Live QA | **PASS** — no blocking production defect |
+| Live QA checks passed | Title, meta description, Open Graph description, H1, canonical, robots, sitemap; internal links; official outbound references; LocalBusiness + FAQPage JSON-LD; visible FAQ/schema match; conversion integrity; desktop and mobile visual QA; console/network review; claim-safety; cannibalization |
+| External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
+
+### Google Search Console indexing-URL variance
+
+| Field | Value |
+|---|---|
+| Classification | **Non-blocking indexing-URL variance** — **not** a confirmed indexing request for the canonical extensionless URL |
+| Submitted URL | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo.html |
+| Canonical production URL | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo |
+| Live test status | URL is available to Google |
+| Test timestamp shown | July 19, 2026 at 6:41 AM |
+| Indexing request | Submitted successfully once for the **.html** variant only |
+| Confirmation heading | Indexing requested |
+| Confirmation message | URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority. |
+| Additional indexing | None — no second request; no other URL submitted; sitemap not resubmitted; no quota warning |
+
+### Redirect and canonical verification
+
+| Field | Value |
+|---|---|
+| `.html` initial response | HTTP **308** Permanent Redirect |
+| Location | `/what-items-can-be-removed-springfield-mo` |
+| Final destination | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo |
+| Final response | HTTP **200**; one redirect hop; HTTPS preserved; harmless query strings preserved |
+| Extensionless checks | HTTP 200; no redirect; exact extensionless canonical; robots `index, follow`; no blocking X-Robots-Tag |
+| Sitemap | Contains only the extensionless URL; does **not** contain the `.html` variant |
+| Duplicate-content result | No duplicate 200 page; `.html` permanently redirects to the canonical URL |
+| Routing context | No repository-level redirect file identified; behavior appears to be Cloudflare Pages platform-level `.html`-to-extensionless handling; yard-waste, construction-debris, and main junk-removal `.html` URLs showed the same 308 behavior |
+
+### Monitoring status
+
+- Do **not** request either accepted-items URL again now
+- Allow the existing crawl request to process
+- Inspect **only** the extensionless canonical URL later
+- Recommended recheck window: approximately **3–7 days**
+- During the later inspection, record: on Google / not on Google; page fetch; crawl allowed; indexing allowed; user-declared canonical; Google-selected canonical; referring sitemap if shown
+- No new indexing request without a fresh inspection and explicit owner approval
+- If Google selects the extensionless canonical, an additional request will usually not be necessary
+- Facility rules, fees, appointment requirements, hours, and accepted-item rules require re-verification before future content changes
 
 ## Claims to Avoid
 
@@ -197,4 +245,4 @@
 | Estimated effort | 3-4 hours |
 | Expected reuse value | High; category taxonomy is reusable with local restricted-item sources swapped |
 
-*Local draft only. Not deployed. Indexing not requested. Stop for owner approval before commit, branch, push, deploy, or indexing. Facility rules, fees, hours, appointment slots, and acceptance conditions require re-verification before deployment.*
+*Production deployed and live QA PASS. GSC has a non-blocking indexing-URL variance on the `.html` variant — the canonical extensionless URL was not confirmed as requested. Do not request either accepted-items URL again now. Facility rules, fees, hours, appointment slots, and acceptance conditions require re-verification before future content changes.*
