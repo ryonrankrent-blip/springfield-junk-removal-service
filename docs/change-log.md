@@ -1,5 +1,91 @@
 # Change Log
 
+## 2026-07-19 — Accepted items local draft implemented
+
+### Production state
+- Main commit reviewed before drafting: `a13952ae79625dbeffc0342a1e02cd88d3da96a5` (PR #32 yard-waste deployment/indexing docs merge)
+- Draft status: local file edit and QA only
+- Deployment status: **not deployed**
+- Indexing status: **not requested**
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, credential, citation, outreach, or spending changes
+
+### Implementation outcome
+- **Target page:** `what-items-can-be-removed-springfield-mo.html`
+- **URL status:** Existing filename and canonical URL retained
+- **Primary focus:** Claim-safe accepted / confirm-first / not-standard materials hub for Springfield junk removal quote requests
+
+### Official sources reverified
+- City Material Know How — https://www.springfieldmo.gov/5918/Material-Know-How
+- Springfield Waste Wizard — https://www.springfieldmo.gov/5532/Waste-Wizard
+- Household Chemical Collection Center — https://www.springfieldmo.gov/5553/Household-Chemical-Collection-Center
+- City Mattress Recycling — https://www.springfieldmo.gov/5939/Mattress-Recycling
+- Missouri DNR Household Hazardous Waste — https://dnr.mo.gov/waste-recycling/reduce-reuse-recycle/what-to-do-with-specific/household-hazardous
+- Recycling in Springfield — https://www.springfieldmo.gov/5550/Recycling-in-Springfield (supporting research)
+
+### Sections changed
+- Hero and introduction with request-and-confirm language
+- Commonly requested household item groups
+- Springfield disposal notes and official citations
+- Appliances, electronics, yard waste, construction debris, mattresses/bulky, and business/rental summaries
+- Accepted / confirm-first / not-standard materials taxonomy
+- Six-step quote request and confirmation process
+- Local cleanup examples
+- FAQ and FAQPage schema
+- Title, meta description, Open Graph description, and LocalBusiness description
+
+### Internal links added
+- `/junk-removal-springfield-mo`
+- `/junk-removal-cost-springfield-mo`
+- `/furniture-removal-springfield-mo`
+- `/appliance-removal-springfield-mo`
+- `/mattress-removal-springfield-mo`
+- `/garage-cleanout-springfield-mo`
+- `/yard-waste-removal-springfield-mo`
+- `/construction-debris-removal-springfield-mo`
+- `/commercial-junk-removal-springfield-mo`
+- `#quote`
+
+### Official outbound references added
+- City Material Know How
+- Springfield Waste Wizard
+- Household Chemical Collection Center
+- City mattress recycling information
+- Missouri DNR household hazardous waste guidance
+
+### Claims deliberately avoided
+- No guaranteed acceptance, pickup, pricing, same-day, recycling-outcome, or facility-partnership claims
+- No licensed, insured, certified, locally/family owned, crew, truck, or equipment claims
+- No secure data destruction, certified e-waste, hazardous-material handling, asbestos handling, or refrigerant-recovery claims
+- No exact facility fee/hour tables presented as permanent guarantees
+- No verified job-history claims
+
+### Local QA
+- Repository QA script passed: 216 passed, 0 failed, 0 warnings
+- Internal link checker passed: 690 internal links checked, 0 broken
+- Target page structure passed: one H1, correct canonical, `index, follow`, two valid JSON-LD blocks, GTM/Formspree/tel/analytics intact
+- FAQ visible content and FAQPage schema match exactly
+- Outbound official links returned HTTP 200 with `target="_blank"` and `rel="noopener"`
+- Claim-safety scan passed after wording adjustment to avoid false-positive risk patterns
+- Time-sensitive facility rules require re-verification before deployment
+
+### Documentation updated
+- `content-brief-accepted-items.md`
+- `internal-link-authority-plan.md`
+- `content-authority-roadmap.md`
+- `change-log.md` (this entry)
+
+### Not performed
+- No commit
+- No branch
+- No push
+- No merge
+- No deploy
+- No indexing request
+- No sitemap resubmit
+- No DNS, routing, tracking, form, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes
+
+---
+
 ## 2026-07-19 — Yard waste production deploy, live QA, and GSC indexing
 
 ### Production state

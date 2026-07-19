@@ -1,7 +1,7 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris and yard-waste authority links **deployed** and live-QA verified — remaining cluster links still proposed only
-**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste deploy/indexing update 2026-07-19
+**Status:** Planning complete; construction-debris and yard-waste authority links **deployed**; accepted-items authority links **local draft only** — not deployed
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste deploy/indexing update 2026-07-19; accepted-items local draft 2026-07-19
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Guardrails
@@ -9,6 +9,7 @@
 - This plan documents proposed links for remaining clusters.
 - Construction-debris page links listed below were implemented, deployed on `ca32eca`, and verified live on 2026-07-18.
 - Yard-waste page links listed below were implemented, deployed on `90e7249`, and verified live on 2026-07-19.
+- Accepted-items page links listed below were implemented as a **local draft** on 2026-07-19 and are **not deployed**.
 - No sitemap, hub navigation, or unrelated production link changes were made in these batches.
 - Any additional link implementation requires separate approval and QA.
 
@@ -69,7 +70,7 @@
 |---|---|
 | Construction debris | Add links to accepted-items, cost, and commercial pages; keep existing yard-waste link. |
 | Yard waste | Add links to accepted-items and cost; keep existing construction/garage links. |
-| Accepted items | Add links to mattress and commercial pages if relevant sections are added. |
+| Accepted items | Local draft added mattress, commercial, furniture, appliance, garage, yard, construction, cost, and money-page links; awaiting deploy approval. |
 | Commercial | Add links to apartment and eviction cleanout pages in a property-manager section. |
 | Cost | Add link to commercial page in service-specific cost factors. |
 | Guides hub | Consider adding local authority cards/links after the first two page updates are published and approved. |
@@ -113,6 +114,35 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 
 No sitemap, hub navigation, footer, or new-page links were changed in this batch. Production deployment for the yard-waste page completed on commit `90e7249` (2026-07-19T06:00:22Z). Live QA PASS. GSC indexing requested once; awaiting Google recrawl.
 
+## 2026-07-19 Accepted Items Local Draft Link Changes
+
+| Source section | Destination | Anchor text | Reason | Status |
+|---|---|---|---|---|
+| Official local resources | City Material Know How | City Material Know How landfill restrictions | Supports landfill-banned / specially handled material context | Local draft only |
+| Official local resources | Waste Wizard | Springfield Waste Wizard item lookup | Gives users an official item-specific lookup without copying item database content | Local draft only |
+| Official local resources | Household Chemical Collection Center | Household Chemical Collection Center | Routes household chemical questions to official appointment-based guidance | Local draft only |
+| Official local resources | City Mattress Recycling | City mattress recycling information | Supports mattress/box-spring disposal research without quoting permanent fees | Local draft only |
+| Official local resources | Missouri DNR HHW | Missouri DNR household hazardous waste guidance | Supports paint, battery, chemical, pesticide, and related HHW referral | Local draft only |
+| Helpful related pages | `/junk-removal-springfield-mo` | General Junk Removal | Routes broader mixed-junk requests to the money page | Local draft only |
+| Helpful related pages | `/junk-removal-cost-springfield-mo` | Junk Removal Cost Factors | Connects item type, volume, access, and disposal requirements to quote education | Local draft only |
+| Helpful related pages | `/furniture-removal-springfield-mo` | Furniture Removal | Furniture-specific conversion path | Local draft only |
+| Helpful related pages | `/appliance-removal-springfield-mo` | Appliance Removal | Confirm-first appliance path | Local draft only |
+| Helpful related pages | `/mattress-removal-springfield-mo` | Mattress Removal | Mattress-focused path | Local draft only |
+| Helpful related pages | `/garage-cleanout-springfield-mo` | Garage Cleanouts | Common cleanup path | Local draft only |
+| Helpful related pages | `/yard-waste-removal-springfield-mo` | Yard Waste Removal | Deepens yard-waste local rules without replacing the yard page | Local draft only |
+| Helpful related pages | `/construction-debris-removal-springfield-mo` | Construction Debris Removal | Deepens C&D local rules without replacing the debris page | Local draft only |
+| Helpful related pages | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | Routes business/office loads to commercial page | Local draft only |
+| Appliances section | `/appliance-removal-springfield-mo` | appliance removal | Confirm-first appliance detail | Local draft only |
+| Yard waste section | `/yard-waste-removal-springfield-mo` | yard waste removal | Local-rule depth for organic debris | Local draft only |
+| Construction section | `/construction-debris-removal-springfield-mo` | construction debris removal | Local-rule depth for remodel debris | Local draft only |
+| Mattresses section | `/mattress-removal-springfield-mo` | mattress removal | Mattress-focused requests | Local draft only |
+| Business section | `/commercial-junk-removal-springfield-mo` | commercial junk removal | Broader business scope | Local draft only |
+| Local examples | `/junk-removal-cost-springfield-mo` | junk removal cost guide | Explains item/access/disposal quote factors | Local draft only |
+| Local examples | `/junk-removal-springfield-mo` | junk removal in Springfield, MO | Routes broader service requests to the money page | Local draft only |
+| Hero / quote | `#quote` | Get a Free Quote | Conversion path | Local draft only |
+
+No sitemap, hub navigation, footer, or new-page links were changed in this batch. Accepted-items draft is **not deployed** and indexing is **not requested**.
+
 ## QA Checklist for Future Link Edits
 
 - Confirm every destination exists and uses extensionless canonical URL paths.
@@ -121,4 +151,4 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 - Keep hub navigation stable unless a separate IA update is approved.
 - Confirm link additions do not trigger sitemap changes unless a new page is separately approved.
 
-*Construction-debris and yard-waste links are deployed and live-verified. Remaining cluster link proposals still require separate approval. Do not request indexing again for either deployed page.*
+*Construction-debris and yard-waste links are deployed and live-verified. Accepted-items links are local draft only and not deployed. Remaining cluster link proposals still require separate approval. Do not request indexing again for either deployed page; do not request indexing for the accepted-items draft until after approved deployment.*
