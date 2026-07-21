@@ -139,6 +139,12 @@
 - Added property-manager links to apartment and eviction cleanouts plus contextual links to construction debris, cost, accepted items, process, and the core money page.
 - Avoided after-hours, recurring-service, crew, truck, licensing, insurance, secure-data-destruction, hazardous-material, facility-partnership, pricing, availability, recycling, and disposal-outcome claims.
 - Facility rules, fees, hours, and acceptance requirements require reverification before future content changes.
-- GSC status: not inspected or requested in this deployment closeout; separate approval required.
+- GSC inspection completed on 2026-07-21 for the exact extensionless production URL.
+- Pre-request result: **URL is on Google** / **Page is indexed**; HTTPS enhancement passed.
+- Last crawl shown: July 4, 2026 at 4:10:14 PM as Googlebot smartphone; crawl allowed, page fetch successful, and indexing allowed.
+- Discovery showed no referring sitemap or referring page detected in that crawl snapshot.
+- User-declared canonical in the older crawl snapshot used the legacy `.html` form; Google-selected canonical was the inspected extensionless URL. The current live canonical and sitemap remain extensionless.
+- One indexing request was submitted for the exact extensionless URL after owner approval. Confirmation: **Indexing requested** / "URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority."
+- No second request or sitemap resubmission occurred. Monitoring status: awaiting Google recrawl and refreshed search data.
 
-*Production deployment and live QA complete. Stop for approval before any GSC inspection or indexing request.*
+*Production deployment, live QA, GSC inspection, and one approved indexing request are complete. Do not request indexing again now; monitor for Google recrawl and refreshed search data.*

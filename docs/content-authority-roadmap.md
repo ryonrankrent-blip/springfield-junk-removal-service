@@ -1,6 +1,6 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris and yard-waste pages **deployed** (indexing requested once each); accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
+**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, and commercial pages **deployed** (indexing requested once each); accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
 **Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris, yard-waste, and accepted-items production updates through 2026-07-19
 **Main / deployed accepted-items commit:** `f908715955c779c08689d158f2efaed784688dc3`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
@@ -31,6 +31,25 @@
 | `content-brief-commercial-junk.md` | Production-ready planning brief for the commercial junk removal page update |
 | `content-brief-junk-removal-cost.md` | Production-ready planning brief for the cost guide update |
 | `internal-link-authority-plan.md` | Proposed internal-link map plus construction-debris/yard-waste/accepted-items deployed link notes |
+
+---
+
+## 2026-07-21 commercial-junk production and GSC status
+
+| Field | Value |
+|---|---|
+| Target file | `commercial-junk-removal-springfield-mo.html` |
+| Live URL | https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo |
+| Production deployment | **Complete** — PR #35 merge `388504b2012108f52638fb5b4615a8711ab82aa3` |
+| Live QA | **PASS** — HTTP 200; live HTML byte-matched merged file; metadata/schema/links/conversion/mobile/claim-safety/cannibalization checks passed |
+| GSC pre-request status | **URL is on Google** / **Page is indexed**; HTTPS passed |
+| Last crawl shown | July 4, 2026 at 4:10:14 PM; Googlebot smartphone; crawl allowed; fetch successful; indexing allowed |
+| Discovery shown | No referring sitemap or referring page detected in the older crawl snapshot |
+| Canonicals shown | User-declared canonical was legacy `.html` in the older crawl snapshot; Google-selected canonical was the inspected extensionless URL; current live canonical and sitemap are extensionless |
+| Indexing request | **Submitted successfully once** for the exact extensionless URL — confirmation: Indexing requested / URL added to priority crawl queue |
+| Monitoring | Awaiting Google recrawl and refreshed search data; **no additional indexing request or sitemap resubmission should be made now** |
+| External systems | No DNS, routing, tracking, forms, CallRail, GTM, GA4, Formspree, citation, listing, outreach, or spending changes |
+| Next gate | Monitor GSC recrawl and updated canonical/sitemap reporting; remaining clusters require separate approval |
 
 ---
 
@@ -197,7 +216,7 @@
 | 1 | Construction debris + local rules | Best avg position (~5.9); deployed + live QA PASS + GSC indexing requested once on 2026-07-18; awaiting recrawl |
 | 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
-| 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC not yet inspected/requested |
+| 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
 | 5 | Junk removal cost | Existing guide; supports quote intent |
 | 6 | Cleanout guides | Supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
@@ -214,4 +233,4 @@
 
 ---
 
-*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Commercial junk is deployed through PR #35 with live QA PASS; GSC inspection or indexing still requires separate approval. Remaining clusters require separate approval.*
+*Construction-debris, yard-waste, and commercial clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not request indexing again for the commercial page now; await recrawl and refreshed search data. Remaining clusters require separate approval.*
