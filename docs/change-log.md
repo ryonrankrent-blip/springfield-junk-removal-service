@@ -1023,6 +1023,18 @@
 
 ---
 
+## 2026-07-21 — Commercial junk removal local authority draft
+
+- Updated only `commercial-junk-removal-springfield-mo.html` and the four approved planning documents.
+- Reverified official Springfield solid-waste, Material Know How, and construction-waste resources.
+- Reframed the page for offices, retail, managed properties, storage areas, landlords, property managers, and small businesses.
+- Added quote-preparation, access, authorization, timing-preference, special-material, and local disposal-planning guidance.
+- Added apartment, eviction, construction debris, accepted-items, cost, process, and core junk-removal links.
+- Updated metadata, LocalBusiness description, and visible/structured FAQs.
+- Preserved canonical, robots, phone, Formspree, GTM, analytics script, form fields, and event hooks.
+- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
+- No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
+
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
 
 ### Added

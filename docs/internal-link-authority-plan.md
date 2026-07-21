@@ -153,3 +153,17 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 - Confirm link additions do not trigger sitemap changes unless a new page is separately approved.
 
 *Construction-debris, yard-waste, and accepted-items links are deployed and live-verified. Remaining cluster link proposals still require separate approval. Do not request indexing again for the correctly requested construction-debris or yard-waste pages. Do not request either accepted-items URL again now while the `.html` indexing-URL variance is settling; later inspect only the extensionless canonical.*
+
+## 2026-07-21 Commercial Junk Local-Draft Links
+
+| Source section | Destination | Anchor text | Reason | Status |
+|---|---|---|---|---|
+| Property-manager details | `/apartment-cleanout-springfield-mo` | apartment cleanout | Rental-turnover path | Local draft only |
+| Property-manager details | `/eviction-cleanout-springfield-mo` | eviction cleanout | Landlord/authorization path | Local draft only |
+| Related services | `/construction-debris-removal-springfield-mo` | Construction Debris | Business renovation path | Local draft only |
+| Helpful guides | `/junk-removal-cost-springfield-mo` | Commercial Quote Factors | B2B quote preparation | Local draft only |
+| Materials section | `/what-items-can-be-removed-springfield-mo` | accepted-items guide | Confirm unusual or regulated items | Local draft only |
+| Helpful guides | `/how-junk-removal-works-springfield-mo` | How Quote Requests Work | Process reassurance | Local draft only |
+| Related services | `/junk-removal-springfield-mo` | General Junk Removal | Core commercial-intent path | Local draft only |
+
+No inbound pages, hubs, sitemap, navigation, or footer were changed.

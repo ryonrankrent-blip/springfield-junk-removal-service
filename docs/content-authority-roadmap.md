@@ -197,7 +197,7 @@
 | 1 | Construction debris + local rules | Best avg position (~5.9); deployed + live QA PASS + GSC indexing requested once on 2026-07-18; awaiting recrawl |
 | 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
-| 4 | Commercial junk | Position ~15.7 with room to improve |
+| 4 | Commercial junk | Local draft implemented 2026-07-21; QA and owner review required before commit/deploy |
 | 5 | Junk removal cost | Existing guide; supports quote intent |
 | 6 | Cleanout guides | Supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
@@ -214,4 +214,4 @@
 
 ---
 
-*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items cluster is deployed with live QA PASS; GSC has a non-blocking indexing-URL variance on the `.html` variant and the canonical extensionless URL was not confirmed as requested — do not request either accepted-items URL again now. Remaining clusters still require separate approval before production edits. Do not request indexing again for the correctly requested construction-debris or yard-waste pages; monitor Google recrawl results.*
+*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. The commercial-junk page has a local, undeployed draft as of 2026-07-21 and requires QA plus owner approval before commit. Remaining clusters require separate approval.*
