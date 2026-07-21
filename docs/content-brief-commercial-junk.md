@@ -125,4 +125,15 @@
 | Estimated effort | 2 hours |
 | Expected reuse value | High; B2B hub pattern is reusable across markets |
 
-*Brief only. Stop for approval before production edits.*
+## 2026-07-21 Local Draft Implementation
+
+- Status: implemented locally; not committed, pushed, deployed, or submitted for indexing.
+- Official sources reverified: Springfield Solid Waste Management & Recycling, Material Know How, and the City construction-and-demolition guidance PDF.
+- Updated metadata, LocalBusiness description, and five visible/schema-matched FAQs.
+- Added office, retail, managed-property, warehouse/storage, equipment, move, and renovation examples.
+- Added access, authorization, inventory, timing, regulated-material, and quote-preparation guidance.
+- Added property-manager links to apartment and eviction cleanouts plus contextual links to construction debris, cost, accepted items, process, and the core money page.
+- Avoided after-hours, recurring-service, crew, truck, licensing, insurance, secure-data-destruction, hazardous-material, facility-partnership, pricing, availability, recycling, and disposal-outcome claims.
+- Facility rules, fees, hours, and acceptance requirements require reverification before deployment.
+
+*Local draft only. Stop for approval before commit, push, deployment, or indexing.*
