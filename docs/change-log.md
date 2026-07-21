@@ -1,5 +1,22 @@
 # Change Log
 
+## 2026-07-21 — Commercial junk removal GSC inspection and indexing request
+
+- Inspected property: `springfieldjunkremovalservice.com`.
+- Inspected exact extensionless URL: `https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo`.
+- Pre-request status: **URL is on Google** / **Page is indexed**; HTTPS enhancement passed.
+- Last crawl shown: July 4, 2026 at 4:10:14 PM as Googlebot smartphone.
+- Crawl allowed: Yes; page fetch: Successful; indexing allowed: Yes.
+- Discovery showed no referring sitemap or referring page detected in that older crawl snapshot.
+- User-declared canonical shown in the older crawl snapshot: `https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo.html`.
+- Google-selected canonical: inspected extensionless URL. The current live canonical and sitemap remain extensionless.
+- After explicit owner approval, exactly one indexing request was submitted for the extensionless URL.
+- Confirmation heading: **Indexing requested**.
+- Confirmation message: "URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority."
+- No second indexing request and no sitemap resubmission occurred.
+- Monitoring status: await Google recrawl and refreshed search data; do not request this URL again now.
+- No file, production, DNS, routing, CallRail, Formspree, GTM, GA4, listing, citation, outreach, or spending change occurred during the GSC action.
+
 ## 2026-07-21 — Commercial junk removal production deploy and live QA
 
 - PR #35 merged into `main` with merge commit `388504b2012108f52638fb5b4615a8711ab82aa3` at 2026-07-21 06:21 UTC.
@@ -10,7 +27,7 @@
 - Phone links remained `tel:4172425370`; Formspree remained `mojzdkvg`; GTM remained `GTM-GDJF54DV`; `analytics-events.js` remained present.
 - Desktop and approximately 390px mobile QA passed with no horizontal overflow.
 - Claim-safety and commercial-hub cannibalization guardrails remained satisfied.
-- No GSC inspection, indexing request, or sitemap submission occurred.
+- No GSC inspection, indexing request, or sitemap submission occurred during deployment verification; a later separately approved GSC action is recorded above.
 - No DNS, routing, CallRail, Formspree, GTM, GA4, listing, citation, outreach, or spending change occurred.
 - Facility rules, fees, hours, and acceptance requirements require reverification before future content changes.
 
