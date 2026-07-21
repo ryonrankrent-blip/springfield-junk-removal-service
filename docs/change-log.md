@@ -1,5 +1,19 @@
 # Change Log
 
+## 2026-07-21 — Commercial junk removal production deploy and live QA
+
+- PR #35 merged into `main` with merge commit `388504b2012108f52638fb5b4615a8711ab82aa3` at 2026-07-21 06:21 UTC.
+- Cloudflare-connected production delivery completed; `https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo` returned HTTP 200.
+- Live HTML byte-matched the merged local production file.
+- Updated title, commercial/property-manager content, five visible FAQs, LocalBusiness schema, and FAQPage schema were present live.
+- Exact extensionless canonical and `index, follow` remained intact.
+- Phone links remained `tel:4172425370`; Formspree remained `mojzdkvg`; GTM remained `GTM-GDJF54DV`; `analytics-events.js` remained present.
+- Desktop and approximately 390px mobile QA passed with no horizontal overflow.
+- Claim-safety and commercial-hub cannibalization guardrails remained satisfied.
+- No GSC inspection, indexing request, or sitemap submission occurred.
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, citation, outreach, or spending change occurred.
+- Facility rules, fees, hours, and acceptance requirements require reverification before future content changes.
+
 ## 2026-07-19 — Accepted items production deploy, live QA, indexing-URL variance, and redirect verification
 
 ### Production state

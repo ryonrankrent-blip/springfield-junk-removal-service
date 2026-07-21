@@ -197,7 +197,7 @@
 | 1 | Construction debris + local rules | Best avg position (~5.9); deployed + live QA PASS + GSC indexing requested once on 2026-07-18; awaiting recrawl |
 | 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
-| 4 | Commercial junk | Local draft implemented 2026-07-21; QA and owner review required before commit/deploy |
+| 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC not yet inspected/requested |
 | 5 | Junk removal cost | Existing guide; supports quote intent |
 | 6 | Cleanout guides | Supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
@@ -214,4 +214,4 @@
 
 ---
 
-*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. The commercial-junk page has a local, undeployed draft as of 2026-07-21 and requires QA plus owner approval before commit. Remaining clusters require separate approval.*
+*Construction-debris and yard-waste clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Commercial junk is deployed through PR #35 with live QA PASS; GSC inspection or indexing still requires separate approval. Remaining clusters require separate approval.*

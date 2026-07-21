@@ -125,15 +125,20 @@
 | Estimated effort | 2 hours |
 | Expected reuse value | High; B2B hub pattern is reusable across markets |
 
-## 2026-07-21 Local Draft Implementation
+## 2026-07-21 Production Deployment and Live QA
 
-- Status: implemented locally; not committed, pushed, deployed, or submitted for indexing.
+- Status: deployed through PR #35; production merge commit `388504b2012108f52638fb5b4615a8711ab82aa3`.
+- Merge recorded at 2026-07-21 06:21 UTC; Cloudflare production delivery confirmed from the custom domain.
+- Production URL: `https://springfieldjunkremovalservice.com/commercial-junk-removal-springfield-mo` returned HTTP 200 with no unintended redirect.
+- Live HTML byte-matched the merged local file.
+- Live checks passed for the updated title and content, one H1, exact canonical, `index, follow`, five FAQs, Formspree, GTM, analytics, phone links, and horizontal-overflow review.
 - Official sources reverified: Springfield Solid Waste Management & Recycling, Material Know How, and the City construction-and-demolition guidance PDF.
 - Updated metadata, LocalBusiness description, and five visible/schema-matched FAQs.
 - Added office, retail, managed-property, warehouse/storage, equipment, move, and renovation examples.
 - Added access, authorization, inventory, timing, regulated-material, and quote-preparation guidance.
 - Added property-manager links to apartment and eviction cleanouts plus contextual links to construction debris, cost, accepted items, process, and the core money page.
 - Avoided after-hours, recurring-service, crew, truck, licensing, insurance, secure-data-destruction, hazardous-material, facility-partnership, pricing, availability, recycling, and disposal-outcome claims.
-- Facility rules, fees, hours, and acceptance requirements require reverification before deployment.
+- Facility rules, fees, hours, and acceptance requirements require reverification before future content changes.
+- GSC status: not inspected or requested in this deployment closeout; separate approval required.
 
-*Local draft only. Stop for approval before commit, push, deployment, or indexing.*
+*Production deployment and live QA complete. Stop for approval before any GSC inspection or indexing request.*

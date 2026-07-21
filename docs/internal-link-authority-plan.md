@@ -158,12 +158,12 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 
 | Source section | Destination | Anchor text | Reason | Status |
 |---|---|---|---|---|
-| Property-manager details | `/apartment-cleanout-springfield-mo` | apartment cleanout | Rental-turnover path | Local draft only |
-| Property-manager details | `/eviction-cleanout-springfield-mo` | eviction cleanout | Landlord/authorization path | Local draft only |
-| Related services | `/construction-debris-removal-springfield-mo` | Construction Debris | Business renovation path | Local draft only |
-| Helpful guides | `/junk-removal-cost-springfield-mo` | Commercial Quote Factors | B2B quote preparation | Local draft only |
-| Materials section | `/what-items-can-be-removed-springfield-mo` | accepted-items guide | Confirm unusual or regulated items | Local draft only |
-| Helpful guides | `/how-junk-removal-works-springfield-mo` | How Quote Requests Work | Process reassurance | Local draft only |
-| Related services | `/junk-removal-springfield-mo` | General Junk Removal | Core commercial-intent path | Local draft only |
+| Property-manager details | `/apartment-cleanout-springfield-mo` | apartment cleanout | Rental-turnover path | Deployed and live-verified |
+| Property-manager details | `/eviction-cleanout-springfield-mo` | eviction cleanout | Landlord/authorization path | Deployed and live-verified |
+| Related services | `/construction-debris-removal-springfield-mo` | Construction Debris | Business renovation path | Deployed and live-verified |
+| Helpful guides | `/junk-removal-cost-springfield-mo` | Commercial Quote Factors | B2B quote preparation | Deployed and live-verified |
+| Materials section | `/what-items-can-be-removed-springfield-mo` | accepted-items guide | Confirm unusual or regulated items | Deployed and live-verified |
+| Helpful guides | `/how-junk-removal-works-springfield-mo` | How Quote Requests Work | Process reassurance | Deployed and live-verified |
+| Related services | `/junk-removal-springfield-mo` | General Junk Removal | Core commercial-intent path | Deployed and live-verified |
 
-No inbound pages, hubs, sitemap, navigation, or footer were changed.
+No inbound pages, hubs, sitemap, navigation, or footer were changed. Production deployment completed through PR #35 at merge commit `388504b` on 2026-07-21. Live page returned HTTP 200 and byte-matched the merged file. GSC was not inspected and no indexing request was submitted.
