@@ -1,7 +1,7 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris, yard-waste, and accepted-items authority links **deployed** and live-QA verified — remaining cluster links still proposed only
-**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste deploy/indexing update 2026-07-19; accepted-items deploy/live-QA/GSC-variance update 2026-07-19
+**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, and junk-removal-cost authority links **deployed** and live-QA verified — remaining cluster links still proposed only
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Guardrails
@@ -11,6 +11,8 @@
 - Yard-waste page links listed below were implemented, deployed on `90e7249`, and verified live on 2026-07-19.
 - Accepted-items page links listed below were implemented, deployed on `f908715`, and verified live on 2026-07-19.
 - Accepted-items GSC status is a **non-blocking indexing-URL variance** on the `.html` variant; the canonical extensionless URL was **not** confirmed as requested.
+- Commercial page links were implemented, deployed, live-verified, and submitted once for indexing through the exact extensionless URL.
+- Junk-removal-cost page links were implemented, deployed on `502e087`, and verified live on 2026-07-22. One indexing request was submitted for the exact extensionless URL; do not repeat it now.
 - No sitemap, hub navigation, or unrelated production link changes were made in these batches.
 - Any additional link implementation requires separate approval and QA.
 
@@ -184,4 +186,4 @@ No inbound pages, hubs, sitemap, navigation, or footer were changed. Production 
 | DIY comparison | `/how-junk-removal-works-springfield-mo` | how junk removal works | Explains request, review, and scheduling | Deployed and live-verified |
 | Related services | `/junk-removal-springfield-mo` | General junk removal path already present through site navigation | Core conversion path | Deployed and live-verified |
 
-Official outbound references: Noble Hill Sanitary Landfill, Yardwaste Recycling Center, Springfield mattress recycling, and Material Know How. No inbound pages, sitemap, navigation, footer, or new page was changed. Production deployment completed through PR #38 at merge commit `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b` on 2026-07-22. The extensionless production URL returned HTTP 200 with no redirect and byte-matched the merged file. Live QA passed with no blocking defects. Indexing has not been requested and requires separate approval.
+Official outbound references: Noble Hill Sanitary Landfill, Yardwaste Recycling Center, Springfield mattress recycling, and Material Know How. No inbound pages, sitemap, navigation, footer, or new page was changed. Production deployment completed through PR #38 at merge commit `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b` on 2026-07-22. The extensionless production URL returned HTTP 200 with no redirect and byte-matched the merged file. Live QA passed with no blocking defects. GSC initially reported **URL is not on Google** and **URL is unknown to Google**, with no referring sitemap/page and crawl, fetch, indexing-permission, and canonical fields shown as `N/A`. One indexing request was then submitted successfully for the exact extensionless URL, and Google added it to the priority crawl queue. No second request or sitemap resubmission occurred; await initial crawl/index processing and refreshed data.
