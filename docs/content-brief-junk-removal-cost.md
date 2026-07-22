@@ -1,6 +1,6 @@
 # Content Brief — Springfield Junk Removal Cost Guide
 
-**Status:** Brief only — **do not publish without approval**
+**Status:** Local draft implemented 2026-07-21 — **not committed or deployed**
 **Target page:** `junk-removal-cost-springfield-mo.html`
 **Recommended action:** Update existing page; do **not** create a separate pricing page
 
@@ -126,4 +126,21 @@
 | Estimated effort | 3 hours |
 | Expected reuse value | High; pricing-factor framework is reusable across markets with local fee source swaps |
 
-*Brief only. Stop for approval before production edits.*
+## 2026-07-21 Local Draft Implementation
+
+- Updated the existing cost page; no new URL or page was created.
+- Reverified current official City of Springfield information for Noble Hill Sanitary Landfill, the Yardwaste Recycling Center, mattress recycling, and Material Know How.
+- Used facility charges and rules only as DIY context; no facility fee is presented as a customer pickup price.
+- Added quote factors for volume, weight, item type, labor, access, sorting, parking, authorization, scheduling, and disposal requirements.
+- Added project-specific guidance for furniture, mattresses, appliances, electronics, household cleanouts, yardwaste, construction debris, and commercial properties.
+- Added a DIY-versus-pickup comparison without promising savings or stating invented service prices.
+- Added four official outbound references and strengthened contextual internal links.
+- Updated title, descriptions, LocalBusiness description, and six visible/structured FAQs.
+- Preserved the extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, event hooks, quote anchor, and form fields.
+- Claims deliberately avoided: exact customer prices, minimum service charges, guaranteed acceptance, guaranteed savings, facility partnerships, recycling outcomes, crew/truck capacity, same-day availability, disconnection, refrigerant recovery, and hazardous-material handling.
+- QA: `scripts/qa-check.sh` 216 passed / 0 failed / 0 warnings; `scripts/link-check.sh` 689 internal links / 0 broken; `git diff --check` clean; exactly one H1; two valid JSON-LD blocks; six visible FAQs match FAQPage schema; desktop and 390-pixel mobile preview showed no horizontal overflow; all four official references returned HTTP 200.
+- Deployment status: **not deployed**.
+- Indexing status: **not requested**.
+- Reverify facility fees, hours, appointment rules, and accepted materials before any deployment approval.
+
+Local QA is complete. Stop for owner approval. Do not commit, push, deploy, or request indexing without separate approval.
