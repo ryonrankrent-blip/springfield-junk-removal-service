@@ -176,3 +176,7 @@ Score each opportunity **1–5** (5 = best):
 ---
 
 *No SERP tools purchased. No outreach sent. No links built. Process template only.*
+
+## 2026-07-22 Opportunity Register
+
+Use `off-page-authority-opportunity-register.md` for source-level evidence, acquisition method, destination, effort, value, cost, approval, risk, and status. Use the root RankRentOS backlink SOP and scorecard. Competitor presence never overrides entity eligibility or spam rejection.
