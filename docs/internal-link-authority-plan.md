@@ -168,20 +168,20 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 
 No inbound pages, hubs, sitemap, navigation, or footer were changed. Production deployment completed through PR #35 at merge commit `388504b` on 2026-07-21. Live page returned HTTP 200 and byte-matched the merged file. GSC inspection on 2026-07-21 confirmed **URL is on Google** / **Page is indexed**. The July 4 crawl snapshot showed crawl allowed, successful fetch, indexing allowed, a legacy `.html` user-declared canonical, and the inspected extensionless URL as Google-selected canonical. One approved indexing request was submitted for the exact extensionless URL and added to the priority crawl queue. No second request or sitemap resubmission occurred; await recrawl and refreshed search data.
 
-## 2026-07-21 Junk Removal Cost Local-Draft Links
+## 2026-07-22 Junk Removal Cost Deployed Links
 
 | Source section | Destination | Anchor text | Reason | Status |
 |---|---|---|---|---|
-| Local rules | `/what-items-can-be-removed-springfield-mo` | what items require confirmation | Connects restricted materials to quote eligibility | Local draft only |
-| Project factors | `/furniture-removal-springfield-mo` | furniture | Furniture-specific size/access factors | Local draft only |
-| Project factors | `/mattress-removal-springfield-mo` | mattress removal | Mattress-specific condition/disposal context | Local draft only |
-| Project factors | `/appliance-removal-springfield-mo` | appliance removal | Appliance weight, utility, and refrigerant confirmation | Local draft only |
-| Project factors | `/garage-cleanout-springfield-mo` | garage cleanout | Mixed-clutter and access factors | Local draft only |
-| Project factors | `/yard-waste-removal-springfield-mo` | yard waste removal | Brush, bag, stump, soil, and facility-rule factors | Local draft only |
-| Project factors | `/construction-debris-removal-springfield-mo` | construction debris guide | Dense and material-specific debris factors | Local draft only |
-| Project factors | `/commercial-junk-removal-springfield-mo` | commercial junk removal | Authorization, access-window, and B2B quote path | Local draft only |
-| DIY comparison | `/what-items-can-be-removed-springfield-mo` | accepted-items and confirmation guide | Routes unusual materials to the central qualification page | Local draft only |
-| DIY comparison | `/how-junk-removal-works-springfield-mo` | how junk removal works | Explains request, review, and scheduling | Local draft only |
-| Related services | `/junk-removal-springfield-mo` | General junk removal path already present through site navigation | Core conversion path | Local draft only |
+| Local rules | `/what-items-can-be-removed-springfield-mo` | what items require confirmation | Connects restricted materials to quote eligibility | Deployed and live-verified |
+| Project factors | `/furniture-removal-springfield-mo` | furniture | Furniture-specific size/access factors | Deployed and live-verified |
+| Project factors | `/mattress-removal-springfield-mo` | mattress removal | Mattress-specific condition/disposal context | Deployed and live-verified |
+| Project factors | `/appliance-removal-springfield-mo` | appliance removal | Appliance weight, utility, and refrigerant confirmation | Deployed and live-verified |
+| Project factors | `/garage-cleanout-springfield-mo` | garage cleanout | Mixed-clutter and access factors | Deployed and live-verified |
+| Project factors | `/yard-waste-removal-springfield-mo` | yard waste removal | Brush, bag, stump, soil, and facility-rule factors | Deployed and live-verified |
+| Project factors | `/construction-debris-removal-springfield-mo` | construction debris guide | Dense and material-specific debris factors | Deployed and live-verified |
+| Project factors | `/commercial-junk-removal-springfield-mo` | commercial junk removal | Authorization, access-window, and B2B quote path | Deployed and live-verified |
+| DIY comparison | `/what-items-can-be-removed-springfield-mo` | accepted-items and confirmation guide | Routes unusual materials to the central qualification page | Deployed and live-verified |
+| DIY comparison | `/how-junk-removal-works-springfield-mo` | how junk removal works | Explains request, review, and scheduling | Deployed and live-verified |
+| Related services | `/junk-removal-springfield-mo` | General junk removal path already present through site navigation | Core conversion path | Deployed and live-verified |
 
-Official outbound references added in the local draft: Noble Hill Sanitary Landfill, Yardwaste Recycling Center, Springfield mattress recycling, and Material Know How. No inbound pages, sitemap, navigation, footer, or new page was changed. Status: not committed, pushed, deployed, or indexed.
+Official outbound references: Noble Hill Sanitary Landfill, Yardwaste Recycling Center, Springfield mattress recycling, and Material Know How. No inbound pages, sitemap, navigation, footer, or new page was changed. Production deployment completed through PR #38 at merge commit `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b` on 2026-07-22. The extensionless production URL returned HTTP 200 with no redirect and byte-matched the merged file. Live QA passed with no blocking defects. Indexing has not been requested and requires separate approval.

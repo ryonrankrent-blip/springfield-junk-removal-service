@@ -1067,7 +1067,7 @@
 - Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
-## 2026-07-21 — Junk removal cost local authority draft
+## 2026-07-21–22 — Junk removal cost authority implementation and deployment
 
 - Updated only `junk-removal-cost-springfield-mo.html` and the four approved supporting documents.
 - Reverified official City of Springfield landfill, yardwaste, mattress, and Material Know How guidance.
@@ -1077,8 +1077,12 @@
 - Added four official outbound references and strengthened accepted-items, furniture, appliance, mattress, garage, yardwaste, construction-debris, commercial, process, and core-service paths.
 - Updated metadata, LocalBusiness description, and visible/structured FAQs.
 - Preserved canonical, robots, phone, Formspree, GTM, analytics script, form fields, and conversion event hooks.
-- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
-- Facility fees, hours, appointments, and accepted-material rules require reverification before deployment.
+- Production deployment completed through PR #38 at merge commit `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b` on 2026-07-22 (`2026-07-22T06:11:53Z`).
+- Cloudflare Pages reported **Deploy successful**; build preview: `https://38036be1.springfield-junk-removal-service.pages.dev`.
+- Live production URL returned HTTP 200 with no redirect and byte-matched the merged HTML file.
+- Live QA passed for updated content, title, one H1, extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, and quote target; no blocking defects were found.
+- Indexing status: not requested; a separate exact-URL inspection and owner approval are required before one request.
+- Facility fees, hours, appointments, and accepted-material rules require reverification before future content changes.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
