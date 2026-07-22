@@ -111,3 +111,7 @@ Key planning outcome:
 ---
 
 *No outreach performed. No content published. Await approval for any content edits.*
+
+## 2026-07-22 Linkable-Asset Scoring
+
+Score future assets in `off-page-authority-opportunity-register.md` before drafting. Evaluate search demand, local usefulness, internal-link value, backlink potential, commercial support, source quality, duplication, maintenance burden, entity safety, and reuse. Do not automatically create every disposal, donation, estate, landlord, or commercial resource idea.

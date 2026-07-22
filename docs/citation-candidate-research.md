@@ -154,3 +154,7 @@ Read-only public search completed for all six Tier A platforms. ShowMeLocal huma
 ---
 
 *Brownbook account/listing created and claimed manually by owner. Bing Places, Yelp, and ShowMeLocal creation reviews completed in research/draft mode only; creation is deferred and not authorized.*
+
+## 2026-07-22 Citation Intelligence Expansion
+
+Competitor occurrence, credibility, indexation, backlink status, exact eligibility, pre-renter usability, renter dependency, address, transferability, account ownership, conflict, and risk fields now live in `citation-intelligence-competitor-gap.md`. Existing platform conclusions remain unchanged. No new platform is approved for submission.

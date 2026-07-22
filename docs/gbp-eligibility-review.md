@@ -136,3 +136,7 @@ Without a verified operator, GBP creation is high-risk regardless of SAB setting
 ---
 
 *No GBP created. No Google account changes. Await explicit approval and operator verification before any profile work.*
+
+## Prevention and Recovery Module (2026-07-22)
+
+The reusable eligible-business-only workflow is in `gbp-risk-recovery-sop.md`; required pre/post-renter facts are in `local-entity-eligibility-sop.md`. These additions do not change the current decision: Springfield remains ineligible and no GBP action is authorized.

@@ -129,3 +129,7 @@
 ---
 
 *Brownbook listing live and claimed. Bing Places, Yelp, and ShowMeLocal creation are deferred. No paid upgrade or spend incurred.*
+
+## Expanded Row Requirements (2026-07-22)
+
+For every future row also record: competitor occurrence count, source type, credibility, indexed status, backlink status, exact eligibility, pre-renter usability, renter dependency, address requirement, ownership transferability, account owner, last verified date, duplicate/conflict notes, risk classification, and evidence URL. Use `citation-intelligence-competitor-gap.md`; do not duplicate rows here until a candidate reaches an approval batch.

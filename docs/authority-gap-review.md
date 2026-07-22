@@ -140,3 +140,7 @@
 ---
 
 *Research only. No listings, outreach, or production changes.*
+
+## 2026-07-22 Expansion Status
+
+Stage 1 audit and Stage 2 gap report are recorded in `rankrentos-offpage-authority-gap-report.md`. Six missing Stage 3 modules have local drafts. Competitor evidence population, opportunity scoring, and the exact Springfield execution proposal remain read-only/local work; all public actions remain approval-gated.

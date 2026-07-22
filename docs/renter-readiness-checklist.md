@@ -134,3 +134,14 @@
 - [x] Conversion verification checklist (live results recorded)
 - [x] Citation/listing research plan (2026-07-11 — not executed)
 - [ ] Citation submissions (awaiting owner + operator approval)
+
+## Renter and Monetization Expansion (2026-07-22)
+
+- [x] Candidate scoring model drafted — `renter-monetization-readiness-model.md`
+- [x] Trial, flat-fee, pay-per-lead, revenue-share, and hybrid readiness defined
+- [x] Lead-routing approval checklist drafted
+- [x] Lead-quality ledger fields drafted
+- [x] Attribution and revenue-verification requirements drafted
+- [ ] Springfield candidate research authorized
+- [ ] Renter outreach authorized
+- [ ] Routing change authorized
