@@ -146,7 +146,13 @@
 - Production URL: `https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo`.
 - Live QA: **PASS** — HTTP 200 with no redirect; live HTML byte-matched the merged file; updated content, title, one H1, extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, and `#quote` target were verified.
 - Blocking defects: none found.
-- Indexing status: **not requested**. A separate owner approval is required before any GSC request.
-- Monitoring status: ready for one exact extensionless-URL inspection and, only if separately approved and eligible, one indexing request.
+- GSC property: `springfieldjunkremovalservice.com`.
+- Exact inspected URL: `https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo`.
+- Pre-request status: **URL is not on Google**; Google reported **Page is not indexed: URL is unknown to Google**.
+- Discovery details: no referring sitemap or referring page detected. Last crawl, crawler, crawl permission, page fetch, indexing permission, user-declared canonical, and Google-selected canonical were all shown as `N/A` because Google had not crawled the URL.
+- Indexing status: **requested successfully once** for the exact extensionless production URL.
+- Confirmation: **Indexing requested** — “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
+- No second request, other-URL request, sitemap resubmission, quota warning, or blocker occurred.
+- Monitoring status: await Google crawl/index processing and refreshed Search Console data; do not request this URL again now.
 - Reverify facility fees, hours, appointment rules, and accepted materials before future content changes.
 - No DNS, routing, CallRail, Formspree, GTM, GA4, listing, citation, outreach, or spending changes occurred.

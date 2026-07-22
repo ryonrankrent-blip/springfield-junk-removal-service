@@ -1,6 +1,6 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, and commercial pages **deployed** (indexing requested once each); accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant; junk-removal-cost page **deployed** with live QA **PASS** and indexing **not requested**
+**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, commercial, and junk-removal-cost pages **deployed** with live QA **PASS** and indexing requested once each; accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
 **Date:** 2026-07-11; detailed planning update 2026-07-17; authority-page production updates through 2026-07-22
 **Main / deployed accepted-items commit:** `f908715955c779c08689d158f2efaed784688dc3`
 **Deployed junk-removal-cost commit:** `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b`
@@ -167,7 +167,24 @@
 | **Local sources required** | Noble Hill tipping-fee context, Yardwaste Recycling Center fee caution, Mattress Recycling fee caution, Material Know How |
 | **Reusable template** | **Yes** |
 | **Estimated effort** | 3 hours |
-| **Approval** | Deployment complete; separate approval required for GSC indexing |
+| **Approval** | Deployment complete; one exact extensionless-URL indexing request completed; await Google crawl/index refresh |
+
+## 2026-07-22 junk-removal-cost production and GSC status
+
+| Field | Result |
+|---|---|
+| Target file | `junk-removal-cost-springfield-mo.html` |
+| Live URL | `https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo` |
+| Deployment | Complete through PR #38 at merge commit `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b` |
+| Live QA | **PASS** — HTTP 200, no redirect, live/local byte-match, no blocking defect |
+| GSC property | `springfieldjunkremovalservice.com` |
+| Pre-request status | **URL is not on Google**; **Page is not indexed: URL is unknown to Google** |
+| Discovery | No referring sitemap or referring page detected |
+| Crawl/index details | Last crawl, crawler, crawl permission, page fetch, indexing permission, and both canonical fields displayed as `N/A` because Google had not crawled the URL |
+| Indexing request | Submitted successfully once for the exact extensionless URL |
+| Confirmation | **Indexing requested** — URL added to a priority crawl queue; repeat submissions do not change queue position or priority |
+| Monitoring | Await initial crawl, index processing, and refreshed GSC data; do not repeat the request or resubmit the sitemap now |
+| External systems | No DNS, routing, tracking, forms, listings, citations, outreach, or spending changes |
 
 ### Cluster 5 — Accepted / not accepted items (local rules)
 
@@ -218,7 +235,7 @@
 | 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
 | 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
-| 5 | Junk removal cost | Local authority draft and QA complete 2026-07-21; awaiting owner approval before commit or deployment |
+| 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
 | 6 | Cleanout guides | Supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
 
@@ -234,4 +251,4 @@
 
 ---
 
-*Construction-debris, yard-waste, and commercial clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. The junk-removal cost update is a local draft only and is not committed, deployed, or submitted for indexing. Do not request indexing again for the commercial page now; await recrawl and refreshed search data. Remaining execution steps require separate approval.*
+*Construction-debris, yard-waste, commercial, and junk-removal-cost clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*

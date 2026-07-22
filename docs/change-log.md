@@ -1067,7 +1067,7 @@
 - Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
-## 2026-07-21–22 — Junk removal cost authority implementation and deployment
+## 2026-07-21–22 — Junk removal cost authority implementation, deployment, and GSC indexing
 
 - Updated only `junk-removal-cost-springfield-mo.html` and the four approved supporting documents.
 - Reverified official City of Springfield landfill, yardwaste, mattress, and Material Know How guidance.
@@ -1081,7 +1081,13 @@
 - Cloudflare Pages reported **Deploy successful**; build preview: `https://38036be1.springfield-junk-removal-service.pages.dev`.
 - Live production URL returned HTTP 200 with no redirect and byte-matched the merged HTML file.
 - Live QA passed for updated content, title, one H1, extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, and quote target; no blocking defects were found.
-- Indexing status: not requested; a separate exact-URL inspection and owner approval are required before one request.
+- GSC property: `springfieldjunkremovalservice.com`; exact inspected URL: `https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo`.
+- Pre-request status: **URL is not on Google**; Google reported **Page is not indexed: URL is unknown to Google**.
+- Discovery showed no referring sitemap or referring page. Last crawl, crawler, crawl permission, page fetch, indexing permission, user-declared canonical, and Google-selected canonical were all `N/A` because the URL had not been crawled.
+- Exactly one indexing request was submitted successfully for the extensionless URL.
+- Confirmation heading: **Indexing requested**. Confirmation message: “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
+- No second request, other-URL request, sitemap resubmission, quota warning, or blocker occurred.
+- Monitoring status: await Google’s initial crawl/index processing and refreshed Search Console data; do not request this URL again now.
 - Facility fees, hours, appointments, and accepted-material rules require reverification before future content changes.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
