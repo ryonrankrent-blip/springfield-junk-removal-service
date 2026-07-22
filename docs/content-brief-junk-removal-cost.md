@@ -126,7 +126,7 @@
 | Estimated effort | 3 hours |
 | Expected reuse value | High; pricing-factor framework is reusable across markets with local fee source swaps |
 
-## 2026-07-21 Local Draft Implementation
+## 2026-07-21 Implementation and 2026-07-22 Production Deployment
 
 - Updated the existing cost page; no new URL or page was created.
 - Reverified current official City of Springfield information for Noble Hill Sanitary Landfill, the Yardwaste Recycling Center, mattress recycling, and Material Know How.
@@ -139,8 +139,14 @@
 - Preserved the extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, event hooks, quote anchor, and form fields.
 - Claims deliberately avoided: exact customer prices, minimum service charges, guaranteed acceptance, guaranteed savings, facility partnerships, recycling outcomes, crew/truck capacity, same-day availability, disconnection, refrigerant recovery, and hazardous-material handling.
 - QA: `scripts/qa-check.sh` 216 passed / 0 failed / 0 warnings; `scripts/link-check.sh` 689 internal links / 0 broken; `git diff --check` clean; exactly one H1; two valid JSON-LD blocks; six visible FAQs match FAQPage schema; desktop and 390-pixel mobile preview showed no horizontal overflow; all four official references returned HTTP 200.
-- Deployment status: **not deployed**.
-- Indexing status: **not requested**.
-- Reverify facility fees, hours, appointment rules, and accepted materials before any deployment approval.
-
-Local QA is complete. Stop for owner approval. Do not commit, push, deploy, or request indexing without separate approval.
+- Deployment status: **complete** through PR #38.
+- Production merge commit: `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b`.
+- Merge/deployment timestamp: `2026-07-22T06:11:53Z`.
+- Cloudflare Pages status: **Deploy successful**; build preview: `https://38036be1.springfield-junk-removal-service.pages.dev`.
+- Production URL: `https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo`.
+- Live QA: **PASS** — HTTP 200 with no redirect; live HTML byte-matched the merged file; updated content, title, one H1, extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, and `#quote` target were verified.
+- Blocking defects: none found.
+- Indexing status: **not requested**. A separate owner approval is required before any GSC request.
+- Monitoring status: ready for one exact extensionless-URL inspection and, only if separately approved and eligible, one indexing request.
+- Reverify facility fees, hours, appointment rules, and accepted materials before future content changes.
+- No DNS, routing, CallRail, Formspree, GTM, GA4, listing, citation, outreach, or spending changes occurred.

@@ -1,8 +1,9 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, and commercial pages **deployed** (indexing requested once each); accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
-**Date:** 2026-07-11; detailed planning update 2026-07-17; construction-debris, yard-waste, and accepted-items production updates through 2026-07-19
+**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, and commercial pages **deployed** (indexing requested once each); accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant; junk-removal-cost page **deployed** with live QA **PASS** and indexing **not requested**
+**Date:** 2026-07-11; detailed planning update 2026-07-17; authority-page production updates through 2026-07-22
 **Main / deployed accepted-items commit:** `f908715955c779c08689d158f2efaed784688dc3`
+**Deployed junk-removal-cost commit:** `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
 **Detailed planning pack:** `content-authority-research-pack.md`
 
@@ -161,12 +162,12 @@
 |---|---|
 | **Target query** | junk removal cost springfield mo; how much junk removal springfield |
 | **Search intent** | Price research before calling |
-| **Primary action** | Expand `junk-removal-cost-springfield-mo` with factor-based ranges (no guaranteed prices) |
+| **Primary action** | Deployed through PR #38: expanded `junk-removal-cost-springfield-mo` with claim-safe local pricing factors and no guaranteed prices |
 | **Supporting internal links** | Cost guide ↔ all service pages ↔ quote CTA |
 | **Local sources required** | Noble Hill tipping-fee context, Yardwaste Recycling Center fee caution, Mattress Recycling fee caution, Material Know How |
 | **Reusable template** | **Yes** |
 | **Estimated effort** | 3 hours |
-| **Approval** | **Required** |
+| **Approval** | Deployment complete; separate approval required for GSC indexing |
 
 ### Cluster 5 — Accepted / not accepted items (local rules)
 
