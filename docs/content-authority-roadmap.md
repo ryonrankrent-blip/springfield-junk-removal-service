@@ -217,7 +217,7 @@
 | 2 | Yard waste + landfill ban | Early click signal; deployed + live QA PASS + GSC indexing requested once on 2026-07-19; awaiting recrawl |
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
 | 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
-| 5 | Junk removal cost | Existing guide; supports quote intent |
+| 5 | Junk removal cost | Local authority draft and QA complete 2026-07-21; awaiting owner approval before commit or deployment |
 | 6 | Cleanout guides | Supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
 
@@ -233,4 +233,4 @@
 
 ---
 
-*Construction-debris, yard-waste, and commercial clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not request indexing again for the commercial page now; await recrawl and refreshed search data. Remaining clusters require separate approval.*
+*Construction-debris, yard-waste, and commercial clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. The junk-removal cost update is a local draft only and is not committed, deployed, or submitted for indexing. Do not request indexing again for the commercial page now; await recrawl and refreshed search data. Remaining execution steps require separate approval.*

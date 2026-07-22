@@ -1062,8 +1062,23 @@
 - Added quote-preparation, access, authorization, timing-preference, special-material, and local disposal-planning guidance.
 - Added apartment, eviction, construction debris, accepted-items, cost, process, and core junk-removal links.
 - Updated metadata, LocalBusiness description, and visible/structured FAQs.
+- Local QA passed: 216 repository checks, 689 internal links with none broken, clean diff check, valid/matching FAQ schema, successful official-link checks, and no desktop/mobile overflow.
 - Preserved canonical, robots, phone, Formspree, GTM, analytics script, form fields, and event hooks.
 - Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
+- No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
+
+## 2026-07-21 — Junk removal cost local authority draft
+
+- Updated only `junk-removal-cost-springfield-mo.html` and the four approved supporting documents.
+- Reverified official City of Springfield landfill, yardwaste, mattress, and Material Know How guidance.
+- Added a claim-safe pricing-factor framework covering volume, weight, material type, access, labor, sorting, local disposal rules, and scheduling review.
+- Added Springfield facility context without presenting public facility charges as customer pickup prices.
+- Added project-specific quote guidance and a DIY-versus-pickup comparison.
+- Added four official outbound references and strengthened accepted-items, furniture, appliance, mattress, garage, yardwaste, construction-debris, commercial, process, and core-service paths.
+- Updated metadata, LocalBusiness description, and visible/structured FAQs.
+- Preserved canonical, robots, phone, Formspree, GTM, analytics script, form fields, and conversion event hooks.
+- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
+- Facility fees, hours, appointments, and accepted-material rules require reverification before deployment.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
