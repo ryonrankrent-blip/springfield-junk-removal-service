@@ -1,6 +1,6 @@
 # Content Brief — Springfield Junk Disposal & Recycling Guide
 
-**Status:** Local draft complete; not committed, deployed, added to sitemap, linked inbound, or submitted for indexing
+**Status:** Draft committed on the PR branch; production integration prepared locally; not pushed, merged, deployed, or submitted for indexing
 **Date:** 2026-07-23
 **Target file:** `springfield-junk-disposal-guide.html`
 **Planned canonical:** `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
@@ -55,15 +55,14 @@ Create the first new linkable authority asset after the priority existing-page u
 - No guaranteed donation, recycling, pickup, pricing, scheduling, or disposal outcomes
 - No hazardous-material, asbestos, refrigerant-recovery, secure-data-destruction, or specialist capability claims
 - No facility instructions beyond linking to current official guidance
-- No existing HTML page, sitemap, navigation, hub, footer, routing, or external system changed in this draft batch
+- Production integration is limited to one guides-hub card, one extensionless sitemap entry, and fixed QA-count updates from 30 to 31
+- No unrelated HTML page, navigation, footer, routing, or external system changed
 
 ## Next production gate
 
 Before deployment approval:
 
 1. Reverify every official URL and time-sensitive rule.
-2. Add an inbound link from the guides hub in an approved production batch.
-3. Add the extensionless URL to `sitemap.xml`.
-4. Update fixed-count QA expectations from 30 to 31 pages/URLs.
-5. Run complete local and preview QA.
-6. Stop for explicit deployment approval.
+2. Confirm the prepared guides-hub link, extensionless sitemap entry, and 31-page QA counts.
+3. Run complete local and Cloudflare preview QA.
+4. Stop for explicit merge and production-deployment approval.

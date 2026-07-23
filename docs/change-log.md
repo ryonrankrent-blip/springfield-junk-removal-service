@@ -12,6 +12,14 @@
 - No existing production HTML, sitemap, navigation, routing, tracking, external account, outreach, or spending change occurred.
 - Next gate: local QA and owner review before any commit or production-integration work.
 
+### Production integration prepared
+
+- Added one inbound guide card to `junk-removal-guides-springfield-mo.html`.
+- Added the exact extensionless URL `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide` to `sitemap.xml`.
+- Updated `scripts/qa-check.sh` inventory and sitemap expectations from 30 to 31.
+- No service page, navigation menu, footer, routing, external system, deployment, or indexing action changed.
+- Status: local integration prepared on the PR branch; not pushed, merged, or deployed.
+
 ## 2026-07-21 — Commercial junk removal GSC inspection and indexing request
 
 - Inspected property: `springfieldjunkremovalservice.com`.

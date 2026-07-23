@@ -21,20 +21,20 @@ echo
 HTML_COUNT=$(ls -1 *.html 2>/dev/null | wc -l | tr -d ' ')
 echo "--- Page inventory ---"
 echo "HTML files: $HTML_COUNT"
-if [ "$HTML_COUNT" -eq 30 ]; then
-  ok "30 HTML pages present"
+if [ "$HTML_COUNT" -eq 31 ]; then
+  ok "31 HTML pages present"
 else
-  bad "Expected 30 HTML pages, found $HTML_COUNT"
+  bad "Expected 31 HTML pages, found $HTML_COUNT"
 fi
 
 # --- Sitemap ---
 echo
 echo "--- Sitemap ---"
 SITEMAP_COUNT=$(grep -c '<loc>' sitemap.xml || true)
-if [ "$SITEMAP_COUNT" -eq 30 ]; then
-  ok "sitemap.xml contains exactly 30 URLs"
+if [ "$SITEMAP_COUNT" -eq 31 ]; then
+  ok "sitemap.xml contains exactly 31 URLs"
 else
-  bad "sitemap.xml has $SITEMAP_COUNT URLs (expected 30)"
+  bad "sitemap.xml has $SITEMAP_COUNT URLs (expected 31)"
 fi
 
 # --- robots.txt ---
