@@ -4,6 +4,19 @@
 **Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout and eviction-cleanout deploy/indexing updates 2026-07-23
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
+## Springfield disposal-guide draft links — local draft 2026-07-23
+
+The new local draft `springfield-junk-disposal-guide.html` links contextually to the guides hub, accepted-items guide, cost guide, quote-process guide, core junk-removal page, furniture, appliance, mattress, yard-waste, construction-debris, commercial, and `#quote` destinations.
+
+No inbound production page was edited in this draft batch. Before deployment, a separate approved integration pass should:
+
+- add one useful link from `junk-removal-guides-springfield-mo.html`;
+- add the extensionless guide URL to `sitemap.xml`;
+- update fixed-count QA expectations from 30 to 31;
+- verify that the guide remains broader than the accepted-items page and does not replace the detailed yard-waste, construction-debris, cost, or commercial pages.
+
+Official outbound references in the draft are limited to Springfield and Missouri DNR resources. Facility and program requirements must be reverified immediately before production integration.
+
 ## Apartment-cleanout authority deployment — 2026-07-22–23
 
 | Source section | Destination | Anchor | Purpose | Status |

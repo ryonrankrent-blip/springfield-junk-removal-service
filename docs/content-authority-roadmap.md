@@ -218,12 +218,12 @@
 |---|---|
 | **Target query** | where to dump junk springfield mo; springfield bulky item disposal |
 | **Search intent** | DIY disposal research (may still convert to haul-away) |
-| **Primary action** | **New guide page** (not drafted) |
+| **Primary action** | **New guide page drafted locally** at `springfield-junk-disposal-guide.html`; not committed, linked inbound, added to sitemap, deployed, or indexed |
 | **Supporting internal links** | Guides hub ↔ all service pages ↔ cost guide |
 | **Local sources required** | Full city resource set (see `local-authority-opportunities.md`) |
 | **Reusable template** | **Yes** — high-value RankRentOS template |
-| **Estimated effort** | 6–8 hours |
-| **Approval** | **Required** |
+| **Estimated effort** | Draft complete; production integration and QA remain |
+| **Approval** | **Required** before commit and every later production gate |
 
 ---
 
@@ -237,7 +237,7 @@
 | 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
 | 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
 | 6 | Apartment and eviction cleanout authority updates | Both deployed, live-QA verified, and submitted once for indexing; supports PM/rental segment |
-| 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
+| 7 | New disposal guide (linkable asset) | Local draft complete; guides-hub link, sitemap entry, QA-count update, preview, and deployment remain separately gated |
 
 ---
 
