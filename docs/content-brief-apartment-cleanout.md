@@ -1,6 +1,6 @@
 # Content Brief — Apartment Cleanout Springfield, MO
 
-**Status:** Deployed through PR #42; live QA **PASS**; indexing not requested
+**Status:** Deployed through PR #42; live QA **PASS**; one extensionless-URL indexing request submitted successfully
 **Date:** 2026-07-22; production verification 2026-07-23
 **Target page:** `apartment-cleanout-springfield-mo.html`
 
@@ -52,5 +52,18 @@ Strengthen the existing apartment-cleanout page for tenants, landlords, and prop
 - Production URL: `https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo`.
 - Live verification: **PASS** at `2026-07-23T05:45:11Z` — HTTP 200, live HTML byte-matched `main`, updated title and authorization section were present, and canonical, robots, phone, Formspree, GTM, analytics, and quote target remained correct.
 - Blocking defects: none found.
-- Indexing: **not requested**
+- Google Search Console property: `springfieldjunkremovalservice.com`
+- Inspected URL: `https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo`
+- Pre-request status: **URL is on Google** and **Page is indexed**
+- Discovery: no referring sitemap or referring page detected
+- Last crawl: July 20, 2026 at 1:50:16 AM by Googlebot smartphone
+- Crawl allowed: **Yes**
+- Page fetch: **Successful**
+- Indexing allowed: **Yes**
+- User-declared canonical: exact extensionless inspected URL
+- Google-selected canonical: **Inspected URL**
+- Indexing request: submitted successfully once
+- Confirmation: **Indexing requested** — URL added to a priority crawl queue
+- No second request or sitemap resubmission occurred
+- Monitoring: await Google recrawl and refreshed search data; do not repeat the request now
 - Official rules and legal guidance must be reverified before deployment or future material edits.

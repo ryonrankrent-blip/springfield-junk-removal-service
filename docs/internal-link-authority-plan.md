@@ -1,7 +1,7 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, and junk-removal-cost authority links **deployed** and live-QA verified — remaining cluster links still proposed only
-**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22
+**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, and apartment-cleanout authority links **deployed** and live-QA verified — remaining cluster links still proposed only
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout deploy/indexing update 2026-07-23
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Apartment-cleanout authority deployment — 2026-07-22–23
@@ -16,7 +16,7 @@
 | Helpful guides | `/junk-removal-cost-springfield-mo` | Apartment Cleanout Cost Factors | Quote education | Deployed and live-verified |
 | Helpful guides | `/what-items-can-be-removed-springfield-mo` | Accepted Items & Restrictions | Material qualification | Deployed and live-verified |
 
-No inbound page, navigation, footer, sitemap, or new production URL was changed. Deployment completed through PR #42 at merge commit `2b68e6d77252ff76452906d73929c033d2c6ae74`. The extensionless production URL returned HTTP 200 and byte-matched `main`; live QA passed. Indexing has not been requested and requires separate approval.
+No inbound page, navigation, footer, sitemap, or new production URL was changed. Deployment completed through PR #42 at merge commit `2b68e6d77252ff76452906d73929c033d2c6ae74`. The extensionless production URL returned HTTP 200 and byte-matched `main`; live QA passed. Google Search Console reported **URL is on Google** and **Page is indexed** for the exact extensionless URL. Discovery showed no referring sitemap or referring page. The last crawl was July 20, 2026 at 1:50:16 AM by Googlebot smartphone; crawling was allowed, the page fetch succeeded, and indexing was allowed. The user-declared canonical matched the extensionless URL, and Google selected the inspected URL as canonical. One indexing request was submitted successfully and added to the priority crawl queue. No second request or sitemap resubmission occurred. Await recrawl and refreshed search data; do not repeat the request now.
 
 ## Guardrails
 

@@ -1091,7 +1091,7 @@
 - Facility fees, hours, appointments, and accepted-material rules require reverification before future content changes.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
-## 2026-07-22–23 — Apartment cleanout authority implementation and deployment
+## 2026-07-22–23 — Apartment cleanout authority implementation, deployment, and indexing
 
 - Updated only `apartment-cleanout-springfield-mo.html` and the four approved supporting documents.
 - Reverified Missouri Attorney General landlord-tenant guidance, Missouri Revised Statutes § 441.065, Springfield Waste Wizard, and the city recycling/donation guide.
@@ -1104,7 +1104,18 @@
 - Production deployment completed through PR #42 at merge commit `2b68e6d77252ff76452906d73929c033d2c6ae74`.
 - Production verification completed at `2026-07-23T05:45:11Z`: the extensionless URL returned HTTP 200, live HTML byte-matched `main`, and the updated title and authorization section were present.
 - Live checks confirmed one H1, the exact extensionless canonical, `index, follow`, phone, Formspree, GTM, analytics script, and quote target; no blocking defects were found.
-- Indexing status: **not requested**; one exact extensionless-URL inspection requires separate approval.
+- Google Search Console property: `springfieldjunkremovalservice.com`.
+- Exact inspected URL: `https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo`.
+- Pre-request status: **URL is on Google** and **Page is indexed**.
+- Discovery: no referring sitemap or referring page detected.
+- Last crawl: July 20, 2026 at 1:50:16 AM by Googlebot smartphone.
+- Crawl allowed: **Yes**; page fetch: **Successful**; indexing allowed: **Yes**.
+- User-declared canonical matched the exact extensionless inspected URL.
+- Google-selected canonical: **Inspected URL**.
+- One indexing request was submitted successfully.
+- Confirmation: **Indexing requested**; URL added to a priority crawl queue.
+- No second indexing request and no sitemap resubmission occurred.
+- Monitoring status: await Google recrawl and refreshed search data; do not repeat the request now.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
