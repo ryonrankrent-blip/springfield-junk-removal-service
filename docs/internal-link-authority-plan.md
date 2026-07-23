@@ -1,7 +1,7 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, and apartment-cleanout authority links **deployed** and live-QA verified — remaining cluster links still proposed only
-**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout deploy/indexing update 2026-07-23
+**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, and apartment-cleanout authority links **deployed** and live-QA verified; eviction-cleanout outbound links drafted locally
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout deploy/indexing and eviction-cleanout draft update 2026-07-23
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Apartment-cleanout authority deployment — 2026-07-22–23
@@ -183,6 +183,20 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 | Related services | `/junk-removal-springfield-mo` | General Junk Removal | Core commercial-intent path | Deployed and live-verified |
 
 No inbound pages, hubs, sitemap, navigation, or footer were changed. Production deployment completed through PR #35 at merge commit `388504b` on 2026-07-21. Live page returned HTTP 200 and byte-matched the merged file. GSC inspection on 2026-07-21 confirmed **URL is on Google** / **Page is indexed**. The July 4 crawl snapshot showed crawl allowed, successful fetch, indexing allowed, a legacy `.html` user-declared canonical, and the inspected extensionless URL as Google-selected canonical. One approved indexing request was submitted for the exact extensionless URL and added to the priority crawl queue. No second request or sitemap resubmission occurred; await recrawl and refreshed search data.
+
+## Eviction-cleanout outbound links — local draft 2026-07-23
+
+| Source section | Destination | Anchor purpose | Status |
+|---|---|---|---|
+| Materials requiring confirmation | `/what-items-can-be-removed-springfield-mo` | Route restrictions and acceptance questions | Local draft |
+| Related services | `/apartment-cleanout-springfield-mo` | Separate ordinary move-out intent from eviction intent | Local draft |
+| Related services | `/commercial-junk-removal-springfield-mo` | Route property-manager and multi-unit requests | Local draft |
+| Related services | `/house-cleanout-springfield-mo` | Route larger residential cleanouts | Local draft |
+| Related services | `/furniture-removal-springfield-mo` | Route furniture-specific requests | Local draft |
+| Quote preparation | `/junk-removal-cost-springfield-mo` | Explain volume, labor, access, and disposal factors | Local draft |
+| Related services | `/junk-removal-springfield-mo` | Return broader requests to the core money page | Local draft |
+
+No inbound pages, navigation, footer, sitemap, or new URL changed in this draft. Deployment and indexing have not been approved.
 
 ## 2026-07-22 Junk Removal Cost Deployed Links
 
