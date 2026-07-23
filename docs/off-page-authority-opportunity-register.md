@@ -1,6 +1,6 @@
 # Off-Page Authority Opportunity Register — Springfield
 
-**Status:** LinkMiner competitor research populated 2026-07-23; no outreach or acquisition authorized.
+**Status:** LinkMiner competitor research and named prospect research populated 2026-07-23; no outreach or acquisition authorized.
 
 ## Strategy Order
 
@@ -28,10 +28,19 @@
 | Three Best Rated | Earned local recommendation | The Junk Pirates | Homepage | Editorial qualification | High effort/low control | Medium | $0 | No submission without review | Medium | Monitor only | `https://threebestrated.com/junk-removal-in-springfield-mo` |
 | Fyple | General directory | The Junk Pirates | Homepage | Free public business profile | Low | Low | $0 | Entity approval | High pre-renter | Defer | `https://www.fyple.com/` |
 | Town Bins | Dumpster directory/lead routing | The Junk Pirates | None pre-renter | Free listing; reciprocal badge upgrade | Low | Low-Medium | $0 | Entity + reciprocal-link approval | High | Defer/reject | `https://www.townbins.com/` |
+| Springfield Daily Citizen | Local editorial | N/A | Disposal guide or future resident cleanup resource | Factual resource pitch only after page-level fit review | High | High | $0 | Outreach approval | Low-Medium editorial | Priority A—research exact section | `https://sgfcitizen.org/` |
+| KY3 News | Local editorial | N/A | Disposal guide/current waste-policy explainer | Newsworthy source brief only | High | High | $0 | Outreach approval | Medium promotional-fit | Priority A—monitor | `https://www.ky3.com/2026/07/22/springfield-releases-proposed-changes-its-trash-recycling-rules/` |
+| OzarksFirst / KOLR10 | Local editorial | N/A | Resident waste-removal resource | Newsworthy source brief only | High | High | $0 | Outreach approval | Medium promotional-fit | Priority A—monitor | `https://www.ozarksfirst.com/news/residents-input-waste-removal-springfield/` |
+| Missouri State Sustainability / Residential Life | Educational resource | N/A | Student move-out, donation, recycling, and bulky-item guide | Educational resource proposal | High | Medium-High | $0 | Outreach approval | Medium institutional | Priority A—verify program | `https://www.missouristate.edu/Sustainability/default.htm` |
+| AREG Preferred Partners & Contractors | Realtor vendor resource | LinkMiner-replicable local pattern | None until eligible renter; resource pitch may target a separate article | Personal vetting/relationship | Medium | High after renter | $0 | Entity + outreach approval | High pre-renter | Renter-gated | `https://springfieldmohomesforsale.com/preferred-partners-contractors-springfield-mo/` |
+| Home Is Everything contractor list | Realtor vendor resource | The Junk Pirates | None until eligible renter | Realtor personally vets referrals | High | High after renter | $0 | Entity + outreach approval | High pre-renter | Renter-gated | `https://homeiseverything.com/partners` |
+| Springfield Apartment & Housing Association | Housing association/vendor directory | Adjacent-industry pattern | Commercial/apartment cluster only after eligible renter | Membership, directory, sponsorship | Medium | High after renter | Paid/TBD | Spend + entity approval | High pre-renter | Renter-gated | `https://www.springfieldhousing.org/` |
 
 ## 2026-07-23 LinkMiner finding
 
 The five-local-competitor comparison and full leading-profile classification are in `linkminer-competitor-backlink-analysis-2026-07-23.md`. The core conclusion is to prioritize a few real local/editorial relationships over competitor link-volume replication. Most visible competitor volume is spam, press-release syndication, scraper indexes, generic directories, or ineligible operating-business profiles.
+
+The named, scored prospect list and current eligibility classifications are in `backlink-prospect-list-2026-07-23.md`. Its primary finding is that no immediate high-quality easy win is both legitimate and eligible for the pre-renter asset. Editorial/resource research can continue, while vendor directories and associations remain renter/operator gated.
 
 ## Required Candidate Categories
 

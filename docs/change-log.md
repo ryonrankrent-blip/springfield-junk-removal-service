@@ -1,5 +1,16 @@
 # Change Log
 
+## 2026-07-23 — Named backlink prospect research
+
+- Added `docs/backlink-prospect-list-2026-07-23.md` with a scored, named Springfield prospect list.
+- Separated legitimate editorial/resource prospects from renter/operator-gated vendor directories and paid associations.
+- Verified that Albers Real Estate Group has a live “Cleaning & Junk Removal” category but describes providers as known or previously worked-with relationships.
+- Verified that Home Is Everything lists junk-removal providers but says contractors do not pay and every referral is personally vetted.
+- Verified that the Springfield Apartment & Housing Association operates a vendor directory, membership program, sponsorship program, and vendor spotlight for service providers.
+- Added local editorial and educational research targets, including Springfield Daily Citizen, KY3, OzarksFirst, Springfield News-Leader, and Missouri State sustainability/residential-life resources.
+- Recorded the core finding that no immediate high-quality easy win is both legitimate and currently eligible for the pre-renter asset.
+- No organization was contacted and no form, listing, membership, sponsorship, advertisement, payment, account, publication, or reciprocal-link action occurred.
+
 ## 2026-07-23 — LinkMiner competitor backlink research
 
 - Used the owner's signed-in Mangools LinkMiner account for read-only analysis of five independent Springfield competitors plus the Springfield property baseline.
