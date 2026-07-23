@@ -1,9 +1,9 @@
 # Content Brief — Springfield Junk Disposal & Recycling Guide
 
-**Status:** Draft committed on the PR branch; production integration prepared locally; not pushed, merged, deployed, or submitted for indexing
+**Status:** Deployed through PR #48; live production QA PASS; not submitted for indexing
 **Date:** 2026-07-23
 **Target file:** `springfield-junk-disposal-guide.html`
-**Planned canonical:** `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+**Canonical:** `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
 
 ## Purpose
 
@@ -58,11 +58,17 @@ Create the first new linkable authority asset after the priority existing-page u
 - Production integration is limited to one guides-hub card, one extensionless sitemap entry, and fixed QA-count updates from 30 to 31
 - No unrelated HTML page, navigation, footer, routing, or external system changed
 
-## Next production gate
+## Production deployment and live verification
 
-Before deployment approval:
+- PR #48 merged into `main` at `69ab96fd0e8f367d9e0996315fa1db15ba6caa21` on 2026-07-23.
+- Cloudflare Pages production deployment completed successfully through the connected repository workflow.
+- The extensionless production URL returned HTTP 200 with no blocking `X-Robots-Tag`.
+- Live HTML byte-matched `springfield-junk-disposal-guide.html` at the merge commit (19,791 bytes).
+- The guides hub contains one link to the guide, and the live sitemap contains 31 URLs with the guide listed exactly once.
+- Title, one H1, canonical, `index, follow`, phone, Formspree, GTM, analytics, form, and `#quote` checks passed.
+- Post-merge repository QA passed: 222 checks, 0 failures, 0 warnings; 702 internal links, 0 broken.
+- No indexing request or sitemap resubmission has occurred for this guide.
 
-1. Reverify every official URL and time-sensitive rule.
-2. Confirm the prepared guides-hub link, extensionless sitemap entry, and 31-page QA counts.
-3. Run complete local and Cloudflare preview QA.
-4. Stop for explicit merge and production-deployment approval.
+## Next gate
+
+Perform one read-only GSC inspection of the exact extensionless URL after separate approval. Record current index status, crawl/fetch details, user-declared canonical, Google-selected canonical, and referring sitemap before deciding whether one indexing request is appropriate.

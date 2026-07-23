@@ -1,18 +1,18 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout authority links **deployed** and live-QA verified
+**Status:** Planning complete; priority authority links and the Springfield disposal/recycling guide are **deployed** and live-QA verified
 **Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout and eviction-cleanout deploy/indexing updates 2026-07-23
-**Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
+**Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and the deployed disposal guide
 
-## Springfield disposal-guide draft links — local draft 2026-07-23
+## Springfield disposal-guide links — deployed 2026-07-23
 
-The new local draft `springfield-junk-disposal-guide.html` links contextually to the guides hub, accepted-items guide, cost guide, quote-process guide, core junk-removal page, furniture, appliance, mattress, yard-waste, construction-debris, commercial, and `#quote` destinations.
+The deployed `springfield-junk-disposal-guide.html` links contextually to the guides hub, accepted-items guide, cost guide, quote-process guide, core junk-removal page, furniture, appliance, mattress, yard-waste, construction-debris, commercial, and `#quote` destinations.
 
-The approved production-integration pass adds exactly one inbound card from `junk-removal-guides-springfield-mo.html`, adds the extensionless guide URL to `sitemap.xml`, and updates fixed-count QA expectations from 30 to 31. No service page, navigation menu, footer, or unrelated inbound link was changed.
+The production integration added exactly one inbound card from `junk-removal-guides-springfield-mo.html`, added the extensionless guide URL to `sitemap.xml`, and updated fixed-count QA expectations from 30 to 31. No service page, navigation menu, footer, or unrelated inbound link was changed.
 
 The guide remains broader than the accepted-items page and links to, rather than replacing, the detailed yard-waste, construction-debris, cost, and commercial pages.
 
-Official outbound references in the draft are limited to Springfield and Missouri DNR resources. Facility and program requirements must be reverified immediately before production integration.
+Official outbound references are limited to Springfield and Missouri DNR resources. Facility and program requirements must be reverified before future content changes. PR #48 merged at `69ab96fd0e8f367d9e0996315fa1db15ba6caa21`; the live guide returned HTTP 200 and byte-matched the merged file. The guides-hub card and 31-URL sitemap were verified live. Repository QA passed 222 checks with 0 failures and 702 internal links with 0 broken. No indexing request or sitemap resubmission occurred.
 
 ## Apartment-cleanout authority deployment — 2026-07-22–23
 
@@ -79,7 +79,7 @@ No inbound page, navigation, footer, sitemap, or new production URL was changed.
 | `junk-removal-cost-springfield-mo.html` | `/what-items-can-be-removed-springfield-mo` | what items can be removed | Restricted-item cost caveat | Explain why some items need confirmation | Yes |
 | `junk-removal-guides-springfield-mo.html` | `/construction-debris-removal-springfield-mo` | construction debris disposal rules | New local-rules guide card or text link | Lift strongest GSC signal from guide hub | No |
 | `junk-removal-guides-springfield-mo.html` | `/yard-waste-removal-springfield-mo` | yard waste disposal rules | New local-rules guide card or text link | Lift early click signal | No |
-| `junk-removal-guides-springfield-mo.html` | `/springfield-junk-disposal-guide` | Springfield junk disposal guide | Future guide card | Add linkable asset after approval | N/A |
+| `junk-removal-guides-springfield-mo.html` | `/springfield-junk-disposal-guide` | Springfield junk disposal guide | Guide card | Add linkable local-resource asset | Yes |
 | `junk-removal-springfield-mo.html` | `/construction-debris-removal-springfield-mo` | construction debris removal | Existing services section or local authority section | Already supports primary cluster | Yes |
 | `junk-removal-springfield-mo.html` | `/yard-waste-removal-springfield-mo` | yard waste removal | Existing services section or local authority section | Already supports secondary cluster | Yes |
 | `junk-removal-springfield-mo.html` | `/springfield-junk-disposal-guide` | Springfield disposal guide | Future local-resource section | Support broad informational intent after new page exists | N/A |
