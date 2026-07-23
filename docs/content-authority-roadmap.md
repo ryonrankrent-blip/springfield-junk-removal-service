@@ -1,7 +1,7 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout pages **deployed** with live QA **PASS** and indexing requested once each; accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
-**Date:** 2026-07-11; detailed planning update 2026-07-17; authority-page production updates through 2026-07-22
+**Status:** Priority authority-page updates and the Springfield disposal/recycling guide are **deployed** with live QA **PASS**; indexing remains separately gated for the new disposal guide
+**Date:** 2026-07-11; detailed planning update 2026-07-17; authority-page production updates through 2026-07-23
 **Main / deployed accepted-items commit:** `f908715955c779c08689d158f2efaed784688dc3`
 **Deployed junk-removal-cost commit:** `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b`
 **GSC baseline:** 2026-07-11 (see `indexing-priority-tracker.md`)
@@ -218,12 +218,12 @@
 |---|---|
 | **Target query** | where to dump junk springfield mo; springfield bulky item disposal |
 | **Search intent** | DIY disposal research (may still convert to haul-away) |
-| **Primary action** | **New guide page drafted** at `springfield-junk-disposal-guide.html`; production integration prepared with one guides-hub link, extensionless sitemap entry, and 31-page QA counts; not pushed, merged, deployed, or indexed |
+| **Primary action** | **Deployed** through PR #48 at merge `69ab96f`; one guides-hub link, extensionless sitemap entry, and 31-page QA counts are live; indexing not requested |
 | **Supporting internal links** | Guides hub ↔ all service pages ↔ cost guide |
 | **Local sources required** | Full city resource set (see `local-authority-opportunities.md`) |
 | **Reusable template** | **Yes** — high-value RankRentOS template |
-| **Estimated effort** | Draft complete; production integration and QA remain |
-| **Approval** | **Required** before commit and every later production gate |
+| **Estimated effort** | Production implementation complete; GSC inspection remains separately gated |
+| **Approval** | **Required** before GSC inspection or indexing request |
 
 ---
 
@@ -237,7 +237,7 @@
 | 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
 | 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
 | 6 | Apartment and eviction cleanout authority updates | Both deployed, live-QA verified, and submitted once for indexing; supports PM/rental segment |
-| 7 | New disposal guide (linkable asset) | Draft and production integration prepared; PR update, Cloudflare preview, merge/deployment, live QA, and indexing remain separately gated |
+| 7 | New disposal guide (linkable asset) | Deployed through PR #48 (`69ab96f`); live QA PASS; 31-page sitemap and guides-hub link verified; no indexing request yet |
 
 ---
 

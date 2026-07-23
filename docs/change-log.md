@@ -1,5 +1,20 @@
 # Change Log
 
+## 2026-07-23 — Springfield disposal and recycling guide production deployment
+
+- PR #48 merged into `main` at `69ab96fd0e8f367d9e0996315fa1db15ba6caa21` after the approved Cloudflare preview passed.
+- Cloudflare Pages production deployment completed successfully through the connected repository workflow.
+- Live URL: `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide` — HTTP 200, extensionless, and no blocking `X-Robots-Tag`.
+- Live HTML byte-matched `springfield-junk-disposal-guide.html` at the merge commit (19,791 bytes).
+- The live guides hub contains the new guide card.
+- The live sitemap contains 31 URLs and lists the exact extensionless guide URL once.
+- The deployed page retained its title, one H1, exact canonical, `index, follow`, phone `417-242-5370`, Formspree `mojzdkvg`, GTM `GTM-GDJF54DV`, `analytics-events.js`, quote form, and `#quote` target.
+- Post-merge repository QA: 222 passed, 0 failed, 0 warnings; 702 internal links checked, 0 broken.
+- Local `main` and `origin/main` were synchronized and the working tree was clean after verification.
+- No indexing request, sitemap resubmission, DNS, routing, tracking, form, CallRail, citation, listing, outreach, or spending change occurred.
+- Facility hours, fees, appointments, limits, preparation rules, and accepted materials require reverification before future content changes.
+- Next gate: separately approved read-only GSC inspection of the exact extensionless URL before deciding whether one indexing request is appropriate.
+
 ## 2026-07-23 — Springfield disposal and recycling guide local draft
 
 - Added local draft `springfield-junk-disposal-guide.html`; not committed, deployed, linked inbound, added to sitemap, or submitted for indexing.
@@ -18,7 +33,7 @@
 - Added the exact extensionless URL `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide` to `sitemap.xml`.
 - Updated `scripts/qa-check.sh` inventory and sitemap expectations from 30 to 31.
 - No service page, navigation menu, footer, routing, external system, deployment, or indexing action changed.
-- Status: local integration prepared on the PR branch; not pushed, merged, or deployed.
+- Later status: deployed through PR #48 at merge `69ab96f`; see the production deployment entry above. No indexing request has occurred.
 
 ## 2026-07-21 — Commercial junk removal GSC inspection and indexing request
 
