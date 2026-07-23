@@ -1,5 +1,14 @@
 # Change Log
 
+## 2026-07-23 — Rental-turnover checklist local draft
+
+- Created `rental-turnover-cleanout-checklist-springfield-mo.html` as a landlord/property-manager linkable asset.
+- Reverified Missouri Attorney General landlord-tenant guidance, Missouri Revised Statutes § 441.065, Springfield Waste Wizard, and Material Know How.
+- Added authority-first, documentation, access, material-disclosure, official-resource, quote-preparation, and FAQ sections.
+- Added the draft to the guides hub and local sitemap for pre-deployment QA.
+- Added `docs/content-brief-rental-turnover-checklist.md` and updated the authority roadmap, internal-link plan, and off-page opportunity register.
+- No commit, push, deployment, indexing request, outreach, listing action, account change, or spending occurred.
+
 ## 2026-07-23 — Backlink page-gap research and unsent outreach drafts
 
 - Added `docs/backlink-page-gap-research-2026-07-23.md` with exact page and content-gap validation.
