@@ -253,10 +253,12 @@
 
 *Construction-debris, yard-waste, commercial, and junk-removal-cost clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
 
-## 2026-07-22 apartment-cleanout draft status
+## 2026-07-22–23 apartment-cleanout production status
 
 - Existing `apartment-cleanout-springfield-mo.html` selected as the first property-manager/rental cluster update.
-- Local draft adds authorization, access, tenant/landlord/property-manager, remaining-property, restricted-material, cost, and official-resource guidance.
+- The deployed update adds authorization, access, tenant/landlord/property-manager, remaining-property, restricted-material, cost, and official-resource guidance.
 - No new page or URL was created.
-- Draft is not committed, pushed, deployed, or submitted for indexing.
-- Local QA: **PASS**; next gate is owner approval before commit.
+- Deployment completed through PR #42 at merge commit `2b68e6d77252ff76452906d73929c033d2c6ae74`.
+- Production verification: **PASS** — extensionless URL returned HTTP 200, live HTML byte-matched `main`, and no blocking defect was found.
+- Indexing has not been requested.
+- Next gate: documentation commit, followed by separate approval for one exact extensionless-URL GSC inspection and indexing request if eligible.

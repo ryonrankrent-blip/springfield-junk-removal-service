@@ -4,19 +4,19 @@
 **Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
-## Apartment-cleanout authority draft — 2026-07-22
+## Apartment-cleanout authority deployment — 2026-07-22–23
 
 | Source section | Destination | Anchor | Purpose | Status |
 |---|---|---|---|---|
-| Authorization guidance | Missouri Attorney General landlord-tenant resource | Missouri Attorney General landlord-tenant resource | Official rights-and-responsibilities context without legal advice | Local draft only |
-| Authorization guidance | Missouri Revised Statutes § 441.065 | Missouri Revised Statutes section 441.065 | Identify that a state procedure may apply to abandoned premises | Local draft only |
-| Disposal research | Springfield Waste Wizard | Waste Wizard | Current item-specific reuse/disposal research | Local draft only |
-| Related services | `/eviction-cleanout-springfield-mo` | Eviction Cleanouts | Separate court/possession-driven intent | Local draft only |
-| Related services | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | Property-manager and multifamily crossover | Local draft only |
-| Helpful guides | `/junk-removal-cost-springfield-mo` | Apartment Cleanout Cost Factors | Quote education | Local draft only |
-| Helpful guides | `/what-items-can-be-removed-springfield-mo` | Accepted Items & Restrictions | Material qualification | Local draft only |
+| Authorization guidance | Missouri Attorney General landlord-tenant resource | Missouri Attorney General landlord-tenant resource | Official rights-and-responsibilities context without legal advice | Deployed and live-verified |
+| Authorization guidance | Missouri Revised Statutes § 441.065 | Missouri Revised Statutes section 441.065 | Identify that a state procedure may apply to abandoned premises | Deployed and live-verified |
+| Disposal research | Springfield Waste Wizard | Waste Wizard | Current item-specific reuse/disposal research | Deployed and live-verified |
+| Related services | `/eviction-cleanout-springfield-mo` | Eviction Cleanouts | Separate court/possession-driven intent | Deployed and live-verified |
+| Related services | `/commercial-junk-removal-springfield-mo` | Commercial Junk Removal | Property-manager and multifamily crossover | Deployed and live-verified |
+| Helpful guides | `/junk-removal-cost-springfield-mo` | Apartment Cleanout Cost Factors | Quote education | Deployed and live-verified |
+| Helpful guides | `/what-items-can-be-removed-springfield-mo` | Accepted Items & Restrictions | Material qualification | Deployed and live-verified |
 
-No inbound page, navigation, footer, sitemap, or new production URL was changed. Deployment and indexing are not authorized.
+No inbound page, navigation, footer, sitemap, or new production URL was changed. Deployment completed through PR #42 at merge commit `2b68e6d77252ff76452906d73929c033d2c6ae74`. The extensionless production URL returned HTTP 200 and byte-matched `main`; live QA passed. Indexing has not been requested and requires separate approval.
 
 ## Guardrails
 

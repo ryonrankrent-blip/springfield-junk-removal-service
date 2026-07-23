@@ -1,7 +1,7 @@
 # Content Brief — Apartment Cleanout Springfield, MO
 
-**Status:** Local draft implemented; QA **PASS**; not committed, pushed, deployed, or indexed
-**Date:** 2026-07-22
+**Status:** Deployed through PR #42; live QA **PASS**; indexing not requested
+**Date:** 2026-07-22; production verification 2026-07-23
 **Target page:** `apartment-cleanout-springfield-mo.html`
 
 ## Purpose
@@ -48,6 +48,9 @@ Strengthen the existing apartment-cleanout page for tenants, landlords, and prop
 ## Status gates
 
 - QA: **PASS** — 216 repository checks, 691 internal links with none broken, clean diff check, valid JSON-LD, five visible/structured FAQs matched, protected conversion values preserved, and desktop/mobile overflow checks passed.
-- Deployment: **not deployed**
+- Deployment: **complete** through PR #42 at merge commit `2b68e6d77252ff76452906d73929c033d2c6ae74`.
+- Production URL: `https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo`.
+- Live verification: **PASS** at `2026-07-23T05:45:11Z` — HTTP 200, live HTML byte-matched `main`, updated title and authorization section were present, and canonical, robots, phone, Formspree, GTM, analytics, and quote target remained correct.
+- Blocking defects: none found.
 - Indexing: **not requested**
 - Official rules and legal guidance must be reverified before deployment or future material edits.
