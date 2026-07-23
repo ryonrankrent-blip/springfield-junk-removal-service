@@ -1,6 +1,6 @@
 # Content Brief — Springfield Rental Turnover Cleanout Checklist
 
-**Status:** Local draft implemented; not committed, pushed, deployed, indexed, or used for outreach.
+**Status:** Deployed through PR #53 with live production QA PASS. Not submitted for indexing and not used for outreach.
 
 ## Goal
 
@@ -48,8 +48,22 @@ Create a useful, linkable checklist for Springfield landlords and property manag
 - No hazardous-material, biohazard, asbestos, refrigerant-recovery, or data-destruction capability
 - No permanent facility hours, fees, appointments, or acceptance rules
 
-## Release gates
+## Production status — 2026-07-23
 
-- Local QA required before commit approval.
-- Separate approvals required for commit, branch push, PR, merge/deployment, live QA, indexing, and outreach.
-- The Real Property Management Momentum outreach draft remains unsent and must be reviewed again after the asset is live.
+| Field | Result |
+|---|---|
+| PR | #53 — merged |
+| Production merge commit | `04a1748104c1df996b0b737d58252cbd3112cb87` |
+| Merge timestamp | `2026-07-23T20:46:13Z` |
+| Live URL | https://springfieldjunkremovalservice.com/rental-turnover-cleanout-checklist-springfield-mo |
+| Live HTTP | 200 |
+| Content comparison | Live HTML byte-matched the merged local file |
+| Live QA | PASS — canonical, sitemap, guides-hub link, schema, phone, form, GTM, analytics, desktop, mobile, overflow, and console checks passed |
+| Indexing | Not requested |
+| Outreach | Not sent |
+
+## Remaining gates
+
+- Separate owner approval is required before any GSC inspection or indexing request.
+- The Real Property Management Momentum outreach draft remains unsent and requires recipient, message, sender-identity, and send approval.
+- Reverify Missouri legal guidance and Springfield facility rules before future substantive edits.

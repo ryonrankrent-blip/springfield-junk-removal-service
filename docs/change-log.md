@@ -1,5 +1,14 @@
 # Change Log
 
+## 2026-07-23 — Rental-turnover checklist production deployment
+
+- Merged PR #53 into `main` at `04a1748104c1df996b0b737d58252cbd3112cb87` (`2026-07-23T20:46:13Z`).
+- Verified the extensionless production URL returned HTTP 200 and byte-matched the merged local file.
+- Verified the 32-URL sitemap and guides hub contain the checklist URL.
+- Verified canonical, metadata, JSON-LD, phone, Formspree, GTM, analytics, internal links, desktop layout, 390-pixel mobile layout, horizontal overflow, and browser console.
+- Live production QA: PASS; no blocking defect found.
+- No indexing request, sitemap resubmission, outreach, listing change, DNS/routing/tracking change, account action, or spending occurred.
+
 ## 2026-07-23 — Rental-turnover checklist local draft
 
 - Created `rental-turnover-cleanout-checklist-springfield-mo.html` as a landlord/property-manager linkable asset.
