@@ -236,7 +236,7 @@
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
 | 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
 | 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
-| 6 | Apartment cleanout complete; eviction cleanout local draft in QA | Supports PM/rental segment |
+| 6 | Apartment and eviction cleanout authority updates deployed | Supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
 
 ---
@@ -270,11 +270,15 @@
 - No second request or sitemap resubmission occurred.
 - Current gate: await Google recrawl and refreshed search data; do not repeat the request now.
 
-## 2026-07-23 eviction-cleanout local draft status
+## 2026-07-23 eviction-cleanout production status
 
 - Existing `eviction-cleanout-springfield-mo.html` selected as the second property-manager/rental cluster update.
 - Draft adds authority, possession, access, remaining-property, material-disclosure, quote-preparation, and official-source guidance.
 - Direct-service, speed, crew, hauling, and one-visit claims were removed.
 - No new production URL was created.
-- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
-- Next gate: complete local QA and owner review before any commit.
+- Deployment completed through PR #45 at merge commit `f317e19ba3517db06ff38e76ca6dee6e3d562d5d`.
+- Cloudflare Pages deployment succeeded at `2026-07-23T06:11:45Z`.
+- Production verification: **PASS** — the extensionless URL returned HTTP 200, live HTML byte-matched the merged file, and no blocking defect was found.
+- Canonical, robots, schema, phone, Formspree, GTM, analytics, quote target, desktop/mobile layout, and console checks passed.
+- Indexing has not been requested.
+- Next gate: documentation commit, followed by separate approval for one exact extensionless-URL GSC inspection and indexing request if eligible.

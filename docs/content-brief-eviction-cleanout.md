@@ -1,7 +1,7 @@
 # Content Brief — Eviction Cleanout Springfield, MO
 
-**Status:** Local draft complete; QA **PASS**
-**Date:** 2026-07-23
+**Status:** Deployed through PR #45; live QA **PASS**; indexing not requested
+**Date:** 2026-07-23; production verification 2026-07-23
 **Target page:** `eviction-cleanout-springfield-mo.html`
 
 ## Purpose
@@ -49,6 +49,14 @@ Strengthen the existing eviction-cleanout page for landlords, property managers,
 ## Status gates
 
 - QA: **PASS** — 216 repository checks, 683 internal links with none broken, clean diff check, exactly one H1, two valid JSON-LD blocks, five visible/structured FAQs matched, protected conversion values preserved, claim-safety scan passed, and desktop/mobile previews showed no horizontal overflow or broken assets.
-- Deployment: **not deployed**
+- Deployment: **complete** through PR #45 at merge commit `f317e19ba3517db06ff38e76ca6dee6e3d562d5d`.
+- Cloudflare Pages deployment: **successful** at `2026-07-23T06:11:45Z`.
+- Preview artifact: `https://c7b0c3ba.springfield-junk-removal-service.pages.dev`.
+- Production URL: `https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo`.
+- Live verification: **PASS** — HTTP 200, no unintended redirect, and live HTML byte-matched the merged production file.
+- Live integrity: updated title and authority section present; exactly one H1; correct extensionless canonical; `index, follow`; valid LocalBusiness and FAQPage JSON-LD; five visible FAQs matched schema.
+- Conversion integrity: phone, Formspree, GTM, `analytics-events.js`, form fields, and `#quote` remained intact; no call or form submission was made.
+- Visual and console QA: desktop and mobile showed no horizontal overflow or broken assets; no site-attributable console errors were observed.
+- Blocking defects: none found.
 - Indexing: **not requested**
 - Official legal and facility guidance must be reverified before deployment or future material edits.
