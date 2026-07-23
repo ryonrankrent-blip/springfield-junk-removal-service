@@ -1091,6 +1091,19 @@
 - Facility fees, hours, appointments, and accepted-material rules require reverification before future content changes.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
+## 2026-07-22 — Apartment cleanout authority local draft
+
+- Updated only `apartment-cleanout-springfield-mo.html` and the four approved supporting documents.
+- Reverified Missouri Attorney General landlord-tenant guidance, Missouri Revised Statutes § 441.065, Springfield Waste Wizard, and the city recycling/donation guide.
+- Replaced broken operator-style copy with request-and-confirm language for tenants, landlords, and property managers.
+- Added authorization, remaining-property, access, material-disclosure, rental-turnover, and quote-preparation guidance.
+- Added official-resource links and contextual links to eviction, commercial, accepted-items, cost, and related service pages.
+- Updated metadata, LocalBusiness description, and five visible/structured FAQs.
+- Preserved canonical, robots, phone, Formspree, GTM, analytics script, form fields, quote target, and conversion hooks.
+- Local QA passed: 216 repository checks, 691 internal links with none broken, clean diff check, valid JSON-LD, matching visible/structured FAQs, and no desktop or 390-pixel mobile overflow.
+- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
+- No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
+
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
 
 ### Added
