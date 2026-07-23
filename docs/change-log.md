@@ -1118,7 +1118,7 @@
 - Monitoring status: await Google recrawl and refreshed search data; do not repeat the request now.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
-## 2026-07-23 — Eviction cleanout authority local draft
+## 2026-07-23 — Eviction cleanout authority implementation and deployment
 
 - Updated only `eviction-cleanout-springfield-mo.html` and the four approved supporting documents.
 - Reverified Missouri Attorney General landlord-tenant guidance, Missouri Revised Statutes §§ 441.060 and 441.065, and the Springfield Waste Wizard.
@@ -1127,7 +1127,13 @@
 - Added official references and contextual links to apartment, commercial, house-cleanout, furniture, accepted-items, cost, and core junk-removal pages.
 - Updated metadata, LocalBusiness description, and five matching visible/structured FAQs.
 - Local QA passed: 216 repository checks, 683 internal links with none broken, clean diff check, exactly one H1, valid JSON-LD, matching visible/structured FAQs, protected conversion values, claim-safety checks, and desktop/mobile previews without horizontal overflow or broken assets.
-- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
+- Production deployment completed through PR #45 at merge commit `f317e19ba3517db06ff38e76ca6dee6e3d562d5d`.
+- Cloudflare Pages deployment succeeded at `2026-07-23T06:11:45Z`; preview artifact: `https://c7b0c3ba.springfield-junk-removal-service.pages.dev`.
+- Production verification passed: the extensionless URL returned HTTP 200 and live HTML byte-matched the merged production file.
+- Live checks confirmed the updated title and authority section, one H1, exact extensionless canonical, `index, follow`, valid JSON-LD, matching visible/structured FAQs, phone, Formspree, GTM, analytics, form fields, and quote target.
+- Desktop/mobile layout and console checks passed with no horizontal overflow, broken assets, or site-attributable console errors.
+- Blocking defects: none found.
+- Indexing status: **not requested**; one exact extensionless-URL GSC inspection requires separate approval.
 - No DNS, routing, tracking configuration, forms, listings, citations, outreach, or spending changes.
 
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch

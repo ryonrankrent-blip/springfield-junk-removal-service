@@ -1,6 +1,6 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
-**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, and apartment-cleanout authority links **deployed** and live-QA verified; eviction-cleanout outbound links drafted locally
+**Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout authority links **deployed** and live-QA verified
 **Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout deploy/indexing and eviction-cleanout draft update 2026-07-23
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
@@ -184,19 +184,19 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 
 No inbound pages, hubs, sitemap, navigation, or footer were changed. Production deployment completed through PR #35 at merge commit `388504b` on 2026-07-21. Live page returned HTTP 200 and byte-matched the merged file. GSC inspection on 2026-07-21 confirmed **URL is on Google** / **Page is indexed**. The July 4 crawl snapshot showed crawl allowed, successful fetch, indexing allowed, a legacy `.html` user-declared canonical, and the inspected extensionless URL as Google-selected canonical. One approved indexing request was submitted for the exact extensionless URL and added to the priority crawl queue. No second request or sitemap resubmission occurred; await recrawl and refreshed search data.
 
-## Eviction-cleanout outbound links — local draft 2026-07-23
+## Eviction-cleanout outbound links — deployed 2026-07-23
 
 | Source section | Destination | Anchor purpose | Status |
 |---|---|---|---|
-| Materials requiring confirmation | `/what-items-can-be-removed-springfield-mo` | Route restrictions and acceptance questions | Local draft |
-| Related services | `/apartment-cleanout-springfield-mo` | Separate ordinary move-out intent from eviction intent | Local draft |
-| Related services | `/commercial-junk-removal-springfield-mo` | Route property-manager and multi-unit requests | Local draft |
-| Related services | `/house-cleanout-springfield-mo` | Route larger residential cleanouts | Local draft |
-| Related services | `/furniture-removal-springfield-mo` | Route furniture-specific requests | Local draft |
-| Quote preparation | `/junk-removal-cost-springfield-mo` | Explain volume, labor, access, and disposal factors | Local draft |
-| Related services | `/junk-removal-springfield-mo` | Return broader requests to the core money page | Local draft |
+| Materials requiring confirmation | `/what-items-can-be-removed-springfield-mo` | Route restrictions and acceptance questions | Deployed and live-verified |
+| Related services | `/apartment-cleanout-springfield-mo` | Separate ordinary move-out intent from eviction intent | Deployed and live-verified |
+| Related services | `/commercial-junk-removal-springfield-mo` | Route property-manager and multi-unit requests | Deployed and live-verified |
+| Related services | `/house-cleanout-springfield-mo` | Route larger residential cleanouts | Deployed and live-verified |
+| Related services | `/furniture-removal-springfield-mo` | Route furniture-specific requests | Deployed and live-verified |
+| Quote preparation | `/junk-removal-cost-springfield-mo` | Explain volume, labor, access, and disposal factors | Deployed and live-verified |
+| Related services | `/junk-removal-springfield-mo` | Return broader requests to the core money page | Deployed and live-verified |
 
-No inbound pages, navigation, footer, sitemap, or new URL changed in this draft. Deployment and indexing have not been approved.
+No inbound pages, navigation, footer, sitemap, or new URL changed. Production deployment completed through PR #45 at merge commit `f317e19ba3517db06ff38e76ca6dee6e3d562d5d` on 2026-07-23. Cloudflare Pages deployment succeeded at `2026-07-23T06:11:45Z`. The extensionless production URL returned HTTP 200 and byte-matched the merged file; live QA passed with no blocking defect. Indexing has not been requested and requires separate approval.
 
 ## 2026-07-22 Junk Removal Cost Deployed Links
 
