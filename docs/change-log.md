@@ -1118,6 +1118,18 @@
 - Monitoring status: await Google recrawl and refreshed search data; do not repeat the request now.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
+## 2026-07-23 — Eviction cleanout authority local draft
+
+- Updated only `eviction-cleanout-springfield-mo.html` and the four approved supporting documents.
+- Reverified Missouri Attorney General landlord-tenant guidance, Missouri Revised Statutes §§ 441.060 and 441.065, and the Springfield Waste Wizard.
+- Replaced broken and unsupported direct-service, speed, crew, hauling, and one-visit language with request-and-confirm wording.
+- Added authority, possession, entry, remaining-property, access, restricted-material, quote-preparation, and rental-turnover guidance.
+- Added official references and contextual links to apartment, commercial, house-cleanout, furniture, accepted-items, cost, and core junk-removal pages.
+- Updated metadata, LocalBusiness description, and five matching visible/structured FAQs.
+- Local QA passed: 216 repository checks, 683 internal links with none broken, clean diff check, exactly one H1, valid JSON-LD, matching visible/structured FAQs, protected conversion values, claim-safety checks, and desktop/mobile previews without horizontal overflow or broken assets.
+- Status: local draft only; not committed, pushed, deployed, or submitted for indexing.
+- No DNS, routing, tracking configuration, forms, listings, citations, outreach, or spending changes.
+
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
 
 ### Added
