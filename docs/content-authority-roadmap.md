@@ -1,6 +1,6 @@
 # Content Authority Roadmap — Springfield
 
-**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, commercial, junk-removal-cost, and apartment-cleanout pages **deployed** with live QA **PASS** and indexing requested once each; accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
+**Status:** Research recommendations + detailed briefs complete; construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout pages **deployed** with live QA **PASS** and indexing requested once each; accepted-items page **deployed**, live QA **PASS**, with a **non-blocking GSC indexing-URL variance** on the `.html` variant
 **Date:** 2026-07-11; detailed planning update 2026-07-17; authority-page production updates through 2026-07-22
 **Main / deployed accepted-items commit:** `f908715955c779c08689d158f2efaed784688dc3`
 **Deployed junk-removal-cost commit:** `502e0876eb78b1deac2e90d0bcae66fec2c8ba9b`
@@ -236,7 +236,7 @@
 | 3 | Accepted / not accepted items | Supports conversion qualification; **deployed + live QA PASS 2026-07-19**; GSC has non-blocking `.html` indexing-URL variance — canonical extensionless URL not confirmed as requested |
 | 4 | Commercial junk | Deployed through PR #35 (`388504b`); live QA PASS; GSC confirmed indexed; one extensionless indexing request submitted 2026-07-21; awaiting recrawl |
 | 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
-| 6 | Apartment and eviction cleanout authority updates deployed | Supports PM/rental segment |
+| 6 | Apartment and eviction cleanout authority updates | Both deployed, live-QA verified, and submitted once for indexing; supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | First new-page candidate after priority existing-page updates |
 
 ---
@@ -251,7 +251,7 @@
 
 ---
 
-*Construction-debris, yard-waste, commercial, junk-removal-cost, and apartment-cleanout clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
+*Construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
 
 ## 2026-07-22–23 apartment-cleanout production status
 
@@ -280,5 +280,12 @@
 - Cloudflare Pages deployment succeeded at `2026-07-23T06:11:45Z`.
 - Production verification: **PASS** — the extensionless URL returned HTTP 200, live HTML byte-matched the merged file, and no blocking defect was found.
 - Canonical, robots, schema, phone, Formspree, GTM, analytics, quote target, desktop/mobile layout, and console checks passed.
-- Indexing has not been requested.
-- Next gate: documentation commit, followed by separate approval for one exact extensionless-URL GSC inspection and indexing request if eligible.
+- Google Search Console inspection used the exact extensionless production URL.
+- Pre-request status: **URL is on Google** and **Page is indexed**.
+- Discovery reported no referring sitemap or referring page.
+- Last crawl: July 4, 2026 at 3:32:44 PM by Googlebot smartphone.
+- Crawl was allowed, page fetch was successful, and indexing was allowed.
+- The older crawl reported the user-declared canonical as the legacy `.html` URL; Google selected the inspected extensionless URL as canonical.
+- One indexing request was submitted successfully for the exact extensionless URL. Google confirmed **Indexing requested** and added it to a priority crawl queue.
+- No second request, other URL submission, or sitemap resubmission occurred; no quota warning or blocker appeared.
+- Current gate: await Google recrawl and refreshed canonical/search data; do not repeat the request now.
