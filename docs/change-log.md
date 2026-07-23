@@ -1,5 +1,16 @@
 # Change Log
 
+## 2026-07-23 — Backlink page-gap research and unsent outreach drafts
+
+- Added `docs/backlink-page-gap-research-2026-07-23.md` with exact page and content-gap validation.
+- Added `docs/backlink-outreach-drafts-2026-07-23.md` with three tailored drafts that are explicitly not approved for sending.
+- Verified that Springfield Daily Citizen and Springfield News-Leader already have extensive current waste-policy coverage.
+- Verified that KY3’s current trash/recycling article links directly to the City of Springfield proposal, making a commercial secondary-source pitch unnecessary.
+- Verified that OzarksFirst covers the policy but does not yet present a strong enough gap to justify pitching the current guide.
+- Found stronger content gaps for a Springfield pre-listing declutter checklist, rental-turnover cleanout checklist, and neutral student move-out checklist.
+- Recommended the rental-turnover checklist as the smallest next content candidate, subject to separate approval.
+- No email, form, message, outreach, publication, payment, listing, membership, sponsorship, or external-system action occurred.
+
 ## 2026-07-23 — Named backlink prospect research
 
 - Added `docs/backlink-prospect-list-2026-07-23.md` with a scored, named Springfield prospect list.

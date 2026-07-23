@@ -42,6 +42,8 @@ The five-local-competitor comparison and full leading-profile classification are
 
 The named, scored prospect list and current eligibility classifications are in `backlink-prospect-list-2026-07-23.md`. Its primary finding is that no immediate high-quality easy win is both legitimate and eligible for the pre-renter asset. Editorial/resource research can continue, while vendor directories and associations remain renter/operator gated.
 
+Page-level gap validation and unsent tailored drafts are recorded in `backlink-page-gap-research-2026-07-23.md` and `backlink-outreach-drafts-2026-07-23.md`. Current newsroom coverage already uses strong official sources, so generic media outreach is rejected. The best verified gaps are a Springfield pre-listing checklist, rental-turnover checklist, and neutral student move-out checklist. No draft is ready to send until its promised asset exists and receives separate approval.
+
 ## Required Candidate Categories
 
 Citations; local links; junk/waste/hauling directories; chambers/associations; suppliers/partners; sponsorships; community resources; local news/editorial; property management; real estate; moving; storage; construction/demolition; estate; donation/reuse; recycling/waste resources; legitimate resource pages.
