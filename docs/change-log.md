@@ -1,5 +1,25 @@
 # Change Log
 
+## 2026-07-23 — Springfield disposal and recycling guide local draft
+
+- Added local draft `springfield-junk-disposal-guide.html`; not committed, deployed, linked inbound, added to sitemap, or submitted for indexing.
+- Added `docs/content-brief-springfield-disposal-guide.md`.
+- Reverified Springfield Waste Wizard, Material Know How, Noble Hill, Yardwaste Recycling Center, Household Chemical Collection Center, mattress recycling, the City recycling/donation guide, and Missouri DNR waste resources.
+- Added claim-safe reuse, donation, recycling, drop-off, landfill, household chemical, self-haul, and quote-request paths.
+- Added furniture, appliance, electronics, mattress, yard-waste, construction-debris, tires, batteries, oil, paint, chemicals, pesticides, propane, fuel, and unknown-material guidance.
+- Added nine official references, contextual internal links, five matching visible/structured FAQs, and a protected quote form.
+- Deliberately avoided permanent hours, fees, appointment, quantity, and acceptance claims; partnership claims; guaranteed outcomes; and hazardous/specialist capability claims.
+- No existing production HTML, sitemap, navigation, routing, tracking, external account, outreach, or spending change occurred.
+- Next gate: local QA and owner review before any commit or production-integration work.
+
+### Production integration prepared
+
+- Added one inbound guide card to `junk-removal-guides-springfield-mo.html`.
+- Added the exact extensionless URL `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide` to `sitemap.xml`.
+- Updated `scripts/qa-check.sh` inventory and sitemap expectations from 30 to 31.
+- No service page, navigation menu, footer, routing, external system, deployment, or indexing action changed.
+- Status: local integration prepared on the PR branch; not pushed, merged, or deployed.
+
 ## 2026-07-21 — Commercial junk removal GSC inspection and indexing request
 
 - Inspected property: `springfieldjunkremovalservice.com`.
