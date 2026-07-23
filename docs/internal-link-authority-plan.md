@@ -170,6 +170,22 @@ No sitemap, hub navigation, footer, or new-page links were changed in this batch
 
 No sitemap, hub navigation, footer, or new-page links were changed in this batch. Production deployment for the accepted-items page completed on commit `f908715` (2026-07-19T06:34:30Z). Live QA PASS. GSC has a non-blocking indexing-URL variance on the `.html` variant; the canonical extensionless URL was not confirmed as requested. Do not request either accepted-items URL again now.
 
+## 2026-07-23 Rental Turnover Checklist Local-Draft Links
+
+| Source | Destination | Anchor purpose | Status |
+|---|---|---|---|
+| Checklist breadcrumb and related links | `/junk-removal-guides-springfield-mo` | Guide hierarchy | Local draft only |
+| Common turnover requests | `/what-items-can-be-removed-springfield-mo` | Item eligibility and restrictions | Local draft only |
+| Common turnover requests | `/apartment-cleanout-springfield-mo` | Ordinary unit-turnover intent | Local draft only |
+| Common turnover requests | `/eviction-cleanout-springfield-mo` | Completed legal-process cleanout context | Local draft only |
+| Official resources | `/springfield-junk-disposal-guide` | Local disposal research | Local draft only |
+| Related links | `/commercial-junk-removal-springfield-mo` | Managed-property and multi-unit path | Local draft only |
+| Related links | `/junk-removal-cost-springfield-mo` | Quote factors | Local draft only |
+| CTA | `#quote` | Photo-and-scope quote path | Local draft only |
+| Guides hub | `/rental-turnover-cleanout-checklist-springfield-mo` | New checklist discovery | Local draft only |
+
+The checklist is an unpublished local draft. No service-page inbound links were added. Outreach remains prohibited until deployment, live QA, and separate approval.
+
 ## QA Checklist for Future Link Edits
 
 - Confirm every destination exists and uses extensionless canonical URL paths.
