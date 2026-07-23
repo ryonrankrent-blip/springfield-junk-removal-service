@@ -1,6 +1,6 @@
 # Content Brief — Eviction Cleanout Springfield, MO
 
-**Status:** Deployed through PR #45; live QA **PASS**; indexing not requested
+**Status:** Deployed through PR #45; live QA **PASS**; one exact extensionless-URL indexing request submitted successfully
 **Date:** 2026-07-23; production verification 2026-07-23
 **Target page:** `eviction-cleanout-springfield-mo.html`
 
@@ -58,5 +58,16 @@ Strengthen the existing eviction-cleanout page for landlords, property managers,
 - Conversion integrity: phone, Formspree, GTM, `analytics-events.js`, form fields, and `#quote` remained intact; no call or form submission was made.
 - Visual and console QA: desktop and mobile showed no horizontal overflow or broken assets; no site-attributable console errors were observed.
 - Blocking defects: none found.
-- Indexing: **not requested**
+- Google Search Console property: `springfieldjunkremovalservice.com`.
+- Exact inspected and submitted URL: `https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo`.
+- Pre-request status: **URL is on Google** and **Page is indexed**.
+- Discovery: no referring sitemap or referring page detected.
+- Last crawl: July 4, 2026 at 3:32:44 PM by Googlebot smartphone.
+- Crawl allowed: **Yes**; page fetch: **Successful**; indexing allowed: **Yes**.
+- User-declared canonical shown from the older crawl: `https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo.html`.
+- Google-selected canonical: **Inspected URL** — the exact extensionless URL.
+- One indexing request was submitted successfully for the extensionless URL.
+- Confirmation: **Indexing requested**; Google reported: “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
+- No second indexing request, other URL submission, or sitemap resubmission occurred; no quota warning or blocker appeared.
+- Monitoring: await Google recrawl and refreshed canonical/search data. Do not repeat the request now.
 - Official legal and facility guidance must be reverified before deployment or future material edits.

@@ -1,7 +1,7 @@
 # Internal Link Authority Plan — Springfield Content Clusters
 
 **Status:** Planning complete; construction-debris, yard-waste, accepted-items, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout authority links **deployed** and live-QA verified
-**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout deploy/indexing and eviction-cleanout draft update 2026-07-23
+**Date:** 2026-07-17; construction-debris deploy/indexing update 2026-07-18; yard-waste and accepted-items updates 2026-07-19; commercial update 2026-07-21; junk-removal-cost deploy/indexing update 2026-07-22; apartment-cleanout and eviction-cleanout deploy/indexing updates 2026-07-23
 **Scope:** Construction debris, yard waste, accepted items, commercial junk removal, junk removal cost, and future disposal guide
 
 ## Apartment-cleanout authority deployment — 2026-07-22–23
@@ -196,7 +196,7 @@ No inbound pages, hubs, sitemap, navigation, or footer were changed. Production 
 | Quote preparation | `/junk-removal-cost-springfield-mo` | Explain volume, labor, access, and disposal factors | Deployed and live-verified |
 | Related services | `/junk-removal-springfield-mo` | Return broader requests to the core money page | Deployed and live-verified |
 
-No inbound pages, navigation, footer, sitemap, or new URL changed. Production deployment completed through PR #45 at merge commit `f317e19ba3517db06ff38e76ca6dee6e3d562d5d` on 2026-07-23. Cloudflare Pages deployment succeeded at `2026-07-23T06:11:45Z`. The extensionless production URL returned HTTP 200 and byte-matched the merged file; live QA passed with no blocking defect. Indexing has not been requested and requires separate approval.
+No inbound pages, navigation, footer, sitemap, or new URL changed. Production deployment completed through PR #45 at merge commit `f317e19ba3517db06ff38e76ca6dee6e3d562d5d` on 2026-07-23. Cloudflare Pages deployment succeeded at `2026-07-23T06:11:45Z`. The extensionless production URL returned HTTP 200 and byte-matched the merged file; live QA passed with no blocking defect. GSC reported **URL is on Google** and **Page is indexed** for the exact extensionless URL. Discovery showed no referring sitemap or referring page. The last crawl was July 4, 2026 at 3:32:44 PM by Googlebot smartphone; crawling was allowed, the page fetch succeeded, and indexing was allowed. That older crawl reported the legacy `.html` URL as user-declared canonical, while Google selected the inspected extensionless URL. One indexing request was submitted successfully for the exact extensionless URL and added to the priority crawl queue. No second request, other URL submission, or sitemap resubmission occurred; no quota warning appeared. Await recrawl and refreshed canonical/search data; do not repeat the request now.
 
 ## 2026-07-22 Junk Removal Cost Deployed Links
 

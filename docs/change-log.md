@@ -1118,7 +1118,7 @@
 - Monitoring status: await Google recrawl and refreshed search data; do not repeat the request now.
 - No DNS, routing, tracking configuration, listings, citations, outreach, or spending changes.
 
-## 2026-07-23 — Eviction cleanout authority implementation and deployment
+## 2026-07-23 — Eviction cleanout authority implementation, deployment, and indexing
 
 - Updated only `eviction-cleanout-springfield-mo.html` and the four approved supporting documents.
 - Reverified Missouri Attorney General landlord-tenant guidance, Missouri Revised Statutes §§ 441.060 and 441.065, and the Springfield Waste Wizard.
@@ -1133,7 +1133,18 @@
 - Live checks confirmed the updated title and authority section, one H1, exact extensionless canonical, `index, follow`, valid JSON-LD, matching visible/structured FAQs, phone, Formspree, GTM, analytics, form fields, and quote target.
 - Desktop/mobile layout and console checks passed with no horizontal overflow, broken assets, or site-attributable console errors.
 - Blocking defects: none found.
-- Indexing status: **not requested**; one exact extensionless-URL GSC inspection requires separate approval.
+- Google Search Console property: `springfieldjunkremovalservice.com`.
+- Exact inspected and submitted URL: `https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo`.
+- Pre-request status: **URL is on Google** and **Page is indexed**.
+- Discovery: no referring sitemap or referring page detected.
+- Last crawl: July 4, 2026 at 3:32:44 PM by Googlebot smartphone.
+- Crawl allowed: **Yes**; page fetch: **Successful**; indexing allowed: **Yes**.
+- User-declared canonical shown from the older crawl: `https://springfieldjunkremovalservice.com/eviction-cleanout-springfield-mo.html`.
+- Google-selected canonical: **Inspected URL** — the exact extensionless URL.
+- One indexing request was submitted successfully for the extensionless URL.
+- Confirmation: **Indexing requested**; Google reported: “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
+- No second indexing request, other URL submission, or sitemap resubmission occurred; no quota warning or blocker appeared.
+- Monitoring status: await Google recrawl and refreshed canonical/search data; do not repeat the request now.
 - No DNS, routing, tracking configuration, forms, listings, citations, outreach, or spending changes.
 
 ## 2026-07-11 — RankRentOS claim-safe + hub IA batch
