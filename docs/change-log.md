@@ -1,5 +1,15 @@
 # Change Log
 
+## 2026-07-23 — LinkMiner competitor backlink research
+
+- Used the owner's signed-in Mangools LinkMiner account for read-only analysis of five independent Springfield competitors plus the Springfield property baseline.
+- Added `docs/linkminer-competitor-backlink-analysis-2026-07-23.md` with competitor metrics, source-pattern analysis, scored opportunities, entity eligibility, and a reject register.
+- Populated `docs/off-page-authority-opportunity-register.md` with the strongest legitimate patterns and the required approval gates.
+- Updated `docs/citation-intelligence-competitor-gap.md` with the five-domain research set and headline LinkMiner metrics.
+- The leading profile was The Junk Pirates; its defensible links were a small local/editorial core surrounded by extensive syndication, generic-directory, irrelevant, scraper, and spam volume.
+- Priority recommendation: pursue a small, separately approved research batch of real Springfield realtor, property-management, moving, estate, storage, and landlord resource pages using the disposal guide or turnover cluster as the value asset.
+- No listing, signup, claim, payment, membership, sponsorship, badge, reciprocal link, publication, outreach, contact, or external-system change occurred.
+
 ## 2026-07-23 — Springfield disposal and recycling guide production deployment
 
 - PR #48 merged into `main` at `69ab96fd0e8f367d9e0996315fa1db15ba6caa21` after the approved Cloudflare preview passed.

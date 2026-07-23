@@ -10,7 +10,17 @@ Extend the existing citation tracker with competitor evidence, exact eligibility
 
 ## Competitor Research Set
 
-Reverify current organic and Maps results before populating occurrence counts. Initial market names already found in prior Springfield research include 1-800-GOT-JUNK?, Junk King, Mission Junk Removal, Easy Cleanouts, 417 Junk & Debris, and Pack-Haul. Record exact business name, domain, Maps URL, query, position/surface, and inspection date. Do not contact or interact with competitors.
+The 2026-07-23 LinkMiner research set uses five independent domains visible in current Springfield search research:
+
+| Business/domain | LinkMiner CF / TF | Ref. domains | Active backlinks | Research classification |
+|---|---:|---:|---:|---|
+| The Junk Pirates — `thejunkpirates.com` | 16 / 21 | 96 | 886 | Leading profile; legitimate local core plus extensive low-quality volume |
+| Quick's Junk Removal — `quicksjunkremoval.com` | 19 / 9 | 11 | 12 | Thin; visible PBN/premium-backlink footprint |
+| Relic Gypsy — `relicgypsy.com` | 8 / 9 | 8 | 8 | Thin; visible PBN/premium-backlink footprint |
+| Junk B Gone — `junkbgonejunkremovalllc.com` | 9 / 3 | 16 | 67 | Low trust; PBN plus low-authority directory mix |
+| Murray Brothers Removal — `murraybrothersremoval.com` | 0 / 0 | 6 | 8 | Very thin; domain-index/scraper links |
+
+National franchises and aggregators remain separate benchmarks because their authority profiles are not directly comparable. Record exact current Maps/organic position separately before making position claims. Do not contact or interact with competitors.
 
 ## Qualification Matrix
 

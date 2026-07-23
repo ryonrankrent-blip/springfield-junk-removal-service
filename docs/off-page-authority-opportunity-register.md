@@ -1,6 +1,6 @@
 # Off-Page Authority Opportunity Register — Springfield
 
-**Status:** Research/template only; no outreach or acquisition authorized.
+**Status:** LinkMiner competitor research populated 2026-07-23; no outreach or acquisition authorized.
 
 ## Strategy Order
 
@@ -21,6 +21,17 @@
 | Landlord/property-manager turnover checklist | Linkable asset | Research pending | Commercial/apartment/eviction cluster | Resource creation, then selective outreach | Medium | Medium-High | $0 | Content + outreach approvals | Low | Score first | TBD |
 | Local chambers/associations | Local/industry | Research pending | Homepage/commercial | Membership or editorial listing | Medium | Medium | TBD | Payment + entity approval | High pre-renter | Renter-dependent | TBD |
 | Moving/storage/estate/property resources | Adjacent local/editorial | Research pending | Relevant guide/service | Resource-page pitch | Medium | Medium-High | $0/TBD | Outreach approval | Medium | Research | TBD |
+| Local realtor contractor/resource pages | Local/editorial | The Junk Pirates | Springfield disposal guide; apartment/eviction cluster | Useful-resource pitch | Medium | High | $0 | Outreach approval | Low-Medium | Priority A—research | `https://homeiseverything.com/partners` |
+| Springfield property-manager/landlord resource pages | Local/editorial | Replicable pattern from leading profile | Disposal guide; apartment/eviction cluster | Curated resource pitch | Medium | High | $0 | Outreach approval | Low | Priority A—build prospect list | `linkminer-competitor-backlink-analysis-2026-07-23.md` |
+| Town Planner Springfield | Local directory/advertising | The Junk Pirates | Homepage only after entity eligibility | Advertising/directory listing | Low | Medium | TBD/likely paid | Spend + entity approval | High pre-renter | Defer | `https://www.townplanner.com/springfield/mo/business/` |
+| GSBOR Affiliate Directory | Real-estate association | The Junk Pirates | Commercial/apartment cluster or homepage | Paid affiliate membership | Medium | High | Paid/TBD | Spend + entity approval | High pre-renter | Renter-dependent | `https://gsbor.com/find-an-affiliate/` |
+| Three Best Rated | Earned local recommendation | The Junk Pirates | Homepage | Editorial qualification | High effort/low control | Medium | $0 | No submission without review | Medium | Monitor only | `https://threebestrated.com/junk-removal-in-springfield-mo` |
+| Fyple | General directory | The Junk Pirates | Homepage | Free public business profile | Low | Low | $0 | Entity approval | High pre-renter | Defer | `https://www.fyple.com/` |
+| Town Bins | Dumpster directory/lead routing | The Junk Pirates | None pre-renter | Free listing; reciprocal badge upgrade | Low | Low-Medium | $0 | Entity + reciprocal-link approval | High | Defer/reject | `https://www.townbins.com/` |
+
+## 2026-07-23 LinkMiner finding
+
+The five-local-competitor comparison and full leading-profile classification are in `linkminer-competitor-backlink-analysis-2026-07-23.md`. The core conclusion is to prioritize a few real local/editorial relationships over competitor link-volume replication. Most visible competitor volume is spam, press-release syndication, scraper indexes, generic directories, or ineligible operating-business profiles.
 
 ## Required Candidate Categories
 
