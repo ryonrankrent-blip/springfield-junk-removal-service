@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** RPM Momentum and Graddy Real Estate each submitted once with owner approval; Springfield Storage Solutions remains unsent and unapproved
+**Status:** RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions each submitted once with owner approval; no follow-up authorized
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -128,33 +128,37 @@ The page tells readers to sort items into “Keep, Give, Trash” and to discard
 **Public contact routes found:**
 
 - `https://www.springfieldstoragesolutions.com/contact`
-- `KansasExpwySelfStorage@gmail.com` is publicly displayed for the Kansas Expwy facility.
+- `SunshineStorage417@gmail.com` was publicly displayed for the Sunshine Storage facility during the send-time recheck.
 
 **Route caution:**
-The public email appears to be a facility/customer-service inbox, not a verified website editor. Do not email it until the owner approves the sender identity and determines that the request is appropriate for this inbox. No other facility email should be contacted as a workaround.
+The website contact form is designed for rental and unit inquiries and requires location/unit details rather than offering a normal editorial message field. The public email is a facility/customer-service inbox, not a verified website editor. The owner approved one message to the displayed Sunshine Storage inbox. Do not resubmit, contact another facility, use the rental form as a workaround, or follow up without separate approval.
 
 **Subject:** Springfield disposal reference for your storage tips page
 
 Hello,
 
-I was reviewing your Springfield storage tips page and noticed the “Keep, Give, Trash” guidance and the reminder about flammable materials. Readers may still be unsure where to check current local rules for paint, fuel, chemicals, electronics, appliances, bulky items, and other materials that should not be treated as ordinary trash.
+I was reviewing your Springfield Storage Solutions tips page and noticed the “Keep, Give, Trash” guidance. It’s a useful way to prepare for storage, but local customers may still be unsure where to check current guidance for paint, fuel, chemicals, electronics, appliances, tires, propane, bulky items, and other materials that should not be treated as ordinary trash.
 
 I help maintain a Springfield disposal guide that organizes current City of Springfield and Missouri resources by item type:
 
 `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
 
-If it would make the page more useful for local storage customers, you are welcome to review it as a possible supporting reference. There is no payment, reciprocal-link request, advertising request, or partnership claim.
+If it would make the storage-tips page more useful for local customers, you’re welcome to review it as a possible supporting reference. This is not a payment, advertising, reciprocal-link, preferred-provider, or partnership request.
 
 Thank you,
 
-[Approved sender name]
+Ryon O’Neill
 
 ### Draft assessment
 
 - **Personalized:** Yes; references the exact page language.
 - **Reader value:** Adds a safer local lookup path for items that cannot be stored or discarded normally.
 - **Commercial pressure:** Low; no storage partnership or cross-promotion proposed.
-- **Send readiness:** **Not approved.** Recipient/inbox suitability and sender identity still require approval.
+- **Execution status:** **Sent once with owner approval** from the authenticated project Gmail account to the currently displayed public Sunshine Storage facility inbox on 2026-07-24 at `2026-07-24T11:01:08Z`.
+- **Gmail verification:** Message ID `19f93c94275184ab`; `SENT` label confirmed; exact recipient, subject, and body verified.
+- **Sender record:** The approved sender identity was used, but the personal sender email is intentionally not stored in this public repository.
+- **Delivery controls:** No CC, BCC, attachments, tracking parameters, alternate facility, contact-form submission, or second message.
+- **Follow-up status:** Not authorized. Do not resubmit, contact another facility, or follow up.
 
 ## Sending controls
 
@@ -172,4 +176,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum and Graddy Real Estate were each submitted once with owner approval and must not be resubmitted. The remaining Springfield Storage Solutions draft is ready for owner review only. Nothing in this file authorizes sending it. The next gate is a separate prospect-specific decision for Springfield Storage Solutions that explicitly approves or rejects the sender identity, contact route, final message, destination URL, and follow-up allowance.
+RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions were each submitted once with owner approval and must not be resubmitted. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect. The current batch is in monitoring status only.

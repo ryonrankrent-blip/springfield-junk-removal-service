@@ -71,7 +71,7 @@ No paid option is approved now. After a client/operator is established, evaluate
 |---|---|---:|---|---|
 | FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | In progress — 2 RPM Momentum pages verified; security-deposit article is the strongest |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
-| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions and 417 Downsizing verified; KO Storage held |
+| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions contacted once; 417 Downsizing verified; KO Storage held |
 | FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Verified — donation-station exclusion gap exists, but neutral student asset is not built; hold |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
@@ -81,9 +81,9 @@ Full named findings and page-level evidence: `docs/free-backlink-prospect-resear
 
 | Priority | Exact prospect page | Best resource fit | Classification | Current action |
 |---:|---|---|---|---|
-| 1 | RPM Momentum — security-deposit article | Accepted-items or disposal guide | A | Draft-only outreach may be proposed at the next approval gate |
+| 1 | RPM Momentum — security-deposit article | Accepted-items guide | A | Submitted once; no follow-up authorized |
 | 2 | Graddy Real Estate — downsizing-before-selling guide | Disposal guide | A- | Submitted once; no follow-up authorized |
-| 3 | Springfield Storage Solutions — storage tips | Disposal and accepted-items guides | A- | Draft-only outreach may be proposed at the next approval gate |
+| 3 | Springfield Storage Solutions — storage tips | Disposal guide | A- | Sent once; no follow-up authorized |
 | 4 | RPM Momentum — relocation tips | Disposal guide or future renter move-out checklist | B+ | Hold behind the stronger RPM page |
 | 5 | 417 Downsizing — item-sorting guide | Disposal or accepted-items guide | B | Hold for second outreach batch |
 | 6 | Missouri State Residence Life — 2026 donation stations | Future neutral student move-out checklist | B- / defer | Do not contact until the neutral asset exists |
@@ -98,9 +98,9 @@ Three individualized drafts are recorded in `docs/free-backlink-outreach-drafts-
 |---|---|---|---|
 | RPM Momentum | Submitted once for exact security-deposit article at `2026-07-24T06:20:32Z` | General-contact form; confirmation received; SMS consent unchecked | Sent once; no follow-up authorized |
 | Graddy Real Estate | Submitted once for the newer exact downsizing-before-selling article at `2026-07-24T06:49:21Z` | Public Jotform general-inquiry route; submission endpoint reached, but publisher’s post-submit redirect was malformed and no readable confirmation page appeared | Sent once; no follow-up authorized |
-| Springfield Storage Solutions | Prepared for exact storage-tips page | Contact page and one public facility email verified; inbox suitability requires approval | Not approved |
+| Springfield Storage Solutions | Submitted once for the exact storage-tips page at `2026-07-24T11:01:08Z` | Sent by Gmail to the currently displayed public Sunshine Storage facility inbox; Gmail message ID `19f93c94275184ab` verified with `SENT` label | Sent once; no follow-up authorized |
 
-RPM Momentum and Graddy Real Estate have each been submitted once and must not be resubmitted. No Springfield Storage Solutions message may be sent until the owner approves the truthful sender identity, exact recipient or route, final draft, destination URL, and follow-up allowance for that individual prospect.
+RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the three prospects.
 
 ## Outreach and measurement gate
 
@@ -116,4 +116,4 @@ For every later approved attempt, record contact date, recipient, target page, p
 
 ## Current decision
 
-The first named prospect batch is researched and prioritized. RPM Momentum and Graddy Real Estate each received one approved message, and no follow-up is authorized for either. Springfield Storage Solutions remains unsent. The next recommended gate is a prospect-specific review of Springfield Storage Solutions; sender identity, contact route, final message, destination, and follow-up allowance must each be approved before sending. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
+The first named prospect batch is researched, prioritized, and executed at one approved attempt per prospect. RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions each received one approved message, and no follow-up is authorized. The next step is monitoring only: record any response or live editorial link, but do not resubmit, follow up, or contact another facility or person without separate owner approval. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
