@@ -72,7 +72,7 @@ No paid option is approved now. After a client/operator is established, evaluate
 | FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | In progress — 2 RPM Momentum pages verified; security-deposit article is the strongest |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
 | FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions contacted once; 417 Downsizing prospect-specific fit reverified but public editorial route unresolved; KO Storage held |
-| FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Verified — donation-station exclusion gap exists, but neutral student asset is not built; hold |
+| FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Neutral student asset drafted locally; hold outreach until deployment, live QA, responsible-office review, and separate approval |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
 Full named findings and page-level evidence: `docs/free-backlink-prospect-research-2026-07-24.md`.
@@ -86,9 +86,9 @@ Full named findings and page-level evidence: `docs/free-backlink-prospect-resear
 | 3 | Springfield Storage Solutions — storage tips | Disposal guide | A- | Sent once; no follow-up authorized |
 | 4 | RPM Momentum — relocation tips | Disposal guide or future renter move-out checklist | B+ | Hold behind the stronger RPM page |
 | 5 | 417 Downsizing — item-sorting guide | Disposal guide | B | Draft-ready, but hold until a suitable public editorial route is verified; do not use the customer questionnaire or service phone |
-| 6 | Missouri State Residence Life — 2026 donation stations | Future neutral student move-out checklist | B- / defer | Do not contact until the neutral asset exists |
+| 6 | Missouri State Residence Life — 2026 donation stations | Student move-out donation/disposal checklist | B- / defer | Local asset drafted; do not contact until deployment, live QA, responsible-office review, and separate approval |
 | 7 | Missouri State Recycling FAQ | No current commercial destination | C | Hold; existing coverage is strong |
-| 8 | KO Storage — Springfield student storage guide | Future neutral student move-out checklist | C+ | Hold |
+| 8 | KO Storage — Springfield student storage guide | Student move-out donation/disposal checklist | C+ | Local asset drafted; hold until deployment/live QA and prospect-specific route review |
 
 ## Draft status
 
