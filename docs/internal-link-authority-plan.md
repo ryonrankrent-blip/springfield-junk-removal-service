@@ -196,22 +196,22 @@ Production deployment completed through PR #53 at merge commit `04a1748104c1df99
 
 *Construction-debris, yard-waste, and accepted-items links are deployed and live-verified. Remaining cluster link proposals still require separate approval. Do not request indexing again for the correctly requested construction-debris or yard-waste pages. Do not request either accepted-items URL again now while the `.html` indexing-URL variance is settling; later inspect only the extensionless canonical.*
 
-## 2026-07-24 Student Move-Out Checklist Local-Draft Links
+## 2026-07-24 Student Move-Out Checklist Production Links
 
 | Source | Destination | Purpose | Status |
 |---|---|---|---|
-| Guides hub | `/springfield-student-move-out-donation-disposal-checklist` | Discover the new neutral student resource | Local draft only |
-| Checklist breadcrumb and related links | `/junk-removal-guides-springfield-mo` | Guide hierarchy | Local draft only |
-| Bulky-item planning | `/furniture-removal-springfield-mo` | Furniture-specific path | Local draft only |
-| Mattress planning | `/mattress-removal-springfield-mo` | Mattress-specific path | Local draft only |
-| Appliance planning | `/appliance-removal-springfield-mo` | Appliance-specific path | Local draft only |
-| Official research | `/springfield-junk-disposal-guide` | Broader local disposal resource | Local draft only |
-| Official research | `/what-items-can-be-removed-springfield-mo` | Confirm-first item guidance | Local draft only |
-| Related requests | `/apartment-cleanout-springfield-mo` | Off-campus apartment path | Local draft only |
-| Related guidance | `/junk-removal-cost-springfield-mo` | Quote factors | Local draft only |
-| CTA | `#quote` | Photo-and-scope quote path | Local draft only |
+| Guides hub | `/springfield-student-move-out-donation-disposal-checklist` | Discover the new neutral student resource | Deployed and live-verified |
+| Checklist breadcrumb and related links | `/junk-removal-guides-springfield-mo` | Guide hierarchy | Deployed and live-verified |
+| Bulky-item planning | `/furniture-removal-springfield-mo` | Furniture-specific path | Deployed and live-verified |
+| Mattress planning | `/mattress-removal-springfield-mo` | Mattress-specific path | Deployed and live-verified |
+| Appliance planning | `/appliance-removal-springfield-mo` | Appliance-specific path | Deployed and live-verified |
+| Official research | `/springfield-junk-disposal-guide` | Broader local disposal resource | Deployed and live-verified |
+| Official research | `/what-items-can-be-removed-springfield-mo` | Confirm-first item guidance | Deployed and live-verified |
+| Related requests | `/apartment-cleanout-springfield-mo` | Off-campus apartment path | Deployed and live-verified |
+| Related guidance | `/junk-removal-cost-springfield-mo` | Quote factors | Deployed and live-verified |
+| CTA | `#quote` | Photo-and-scope quote path | Deployed and live-verified |
 
-No service-page inbound links, global navigation, footer, or unrelated page links changed. Deployment and outreach are not authorized.
+No service-page inbound links, global navigation, footer, or unrelated page links changed. Deployment completed through PR #62. No indexing request or outreach has been authorized or performed for this page.
 
 ## 2026-07-21 Commercial Junk Local-Draft Links
 
