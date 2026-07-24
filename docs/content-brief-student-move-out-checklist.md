@@ -1,6 +1,6 @@
 # Content Brief — Springfield Student Move-Out Donation & Disposal Checklist
 
-**Status:** Deployed through PR #62; live production QA passed; not submitted for indexing or used for outreach
+**Status:** Deployed through PR #62; live production QA passed; one exact extensionless-URL indexing request submitted; not used for outreach
 **Date:** 2026-07-24
 **Target file:** `springfield-student-move-out-donation-disposal-checklist.html`
 **Canonical:** `https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist`
@@ -74,6 +74,19 @@ Create a neutral, source-led move-out checklist for Springfield students, famili
 - No secure-data-destruction, hazardous-material, asbestos, refrigerant-recovery, or specialist capability claim
 - No outreach until the asset is deployed, live-QA verified, and separately approved
 
+## Google Search Console status
+
+- Property: `springfieldjunkremovalservice.com`
+- Inspected URL: `https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist`
+- Pre-request result: **URL is not on Google**.
+- Page-indexing result: **Page is not indexed: URL is unknown to Google**.
+- Discovery reported no referring sitemap or referring page.
+- Last crawl, crawler, crawl permission, page fetch, indexing permission, user-declared canonical, and Google-selected canonical displayed as `N/A` because Google had not crawled the URL.
+- After separate owner approval, one indexing request was submitted for the exact extensionless URL.
+- Confirmation heading: **Indexing requested**.
+- Confirmation message: “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
+- No second request, other URL inspection or submission, sitemap resubmission, quota warning, or blocker occurred.
+
 ## Next gate
 
-Documentation closeout, followed by a separately approved read-only Google Search Console inspection of the exact extensionless URL. Do not request indexing automatically.
+Allow Google to crawl and process the request. Reinspect the exact extensionless URL only after a reasonable monitoring interval; do not repeat the indexing request or resubmit the sitemap now.

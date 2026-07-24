@@ -148,6 +148,7 @@ Homepage authority pass referenced early GSC data showing impressions for garage
 | https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo | Aligned | 200 | 30 | Tier 2 | Research / BOFU guide | |
 | https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo | Aligned | 200 | 25 | Tier 2 | Research / acceptance guide | |
 | https://springfieldjunkremovalservice.com/how-junk-removal-works-springfield-mo | Aligned | 200 | 30 | Tier 2 | Process / trust guide | |
+| https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist | Aligned | 200 | — | Tier 2 | Local student move-out linkable asset | **Indexing requested once** (2026-07-24); pre-request URL unknown to Google |
 | https://springfieldjunkremovalservice.com/junk-removal-nixa-mo | Aligned | 200 | 15 | Tier 2 | Top satellite city | |
 | https://springfieldjunkremovalservice.com/junk-removal-ozark-mo | Aligned | 200 | 15 | Tier 2 | Top satellite city | |
 | https://springfieldjunkremovalservice.com/junk-removal-republic-mo | Aligned | 200 | 15 | Tier 2 | Top satellite city | |
