@@ -5,6 +5,20 @@
 **Market:** Junk removal — Springfield, Missouri
 **Target:** `springfieldjunkremovalservice.com`
 
+## 2026-07-24 free-only decision
+
+The owner approved continuing with free opportunities only until a verified client/operator is established. Paid advertising, memberships, sponsorships, directory upgrades, and backlinks are deferred for a later cost/benefit review.
+
+This narrows the immediate LinkMiner response to:
+
+1. free editorial and educational resource links;
+2. free local page-gap research;
+3. separately approved individualized outreach using existing useful assets;
+4. no free operating-business profile unless entity eligibility is independently verified later;
+5. no PBN, paid link, reciprocal badge, syndication, mass directory, or misleading category/profile action.
+
+The active queue is documented in `free-backlink-opportunity-tracker-2026-07-24.md`.
+
 ## Scope and method
 
 - Used the owner's signed-in Mangools LinkMiner account with one backlink shown per referring domain.
