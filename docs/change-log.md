@@ -1325,3 +1325,13 @@
 - Used the owner-approved sender identity; the personal sender email is intentionally not stored in the public repository.
 - No CC, BCC, attachment, tracking parameter, payment, advertising request, reciprocal link, preferred-provider request, partnership claim, alternate facility, form submission, second message, or follow-up occurred.
 - RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions now each have one approved outreach attempt. No follow-up is authorized; the batch is in monitoring status only.
+
+## 2026-07-24 — Student move-out checklist local draft
+
+- Reverified Missouri State's April 11, 2026 Residence Life move-out and donation-station announcement and the current Missouri State recycling FAQ.
+- Confirmed a useful gap for students whose large furniture, pillows, mattress toppers, large workout equipment, or other materials do not fit the announced donation-station categories.
+- Added `springfield-student-move-out-donation-disposal-checklist.html` as a neutral campus/property-rules-first guide.
+- Added one guides-hub card, one extensionless sitemap entry, and updated QA inventory counts from 32 to 33.
+- Added official Springfield and Missouri research paths, explicit non-affiliation language, date-sensitive program caveats, matching FAQ schema, and a claim-safe quote path.
+- Added `docs/content-brief-student-move-out-checklist.md` and recorded internal-link and roadmap status.
+- No service-page inbound links, global navigation, footer, routing, tracking, form endpoint, phone, DNS, external system, outreach, listing, spending, commit, push, deployment, sitemap submission, or indexing action occurred.
