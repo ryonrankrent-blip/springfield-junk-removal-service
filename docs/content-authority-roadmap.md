@@ -1,6 +1,6 @@
 # Content Authority Roadmap — Springfield
 
-## 2026-07-23 rental-turnover checklist local draft
+## 2026-07-23 rental-turnover checklist production status
 
 | Field | Value |
 |---|---|
@@ -8,11 +8,13 @@
 | Purpose | Linkable, non-legal checklist for landlords and property managers preparing an authorized turnover |
 | Official sources | Missouri Attorney General landlord-tenant resource; Missouri Revised Statutes § 441.065; Springfield Waste Wizard; Material Know How |
 | Cluster support | Apartment cleanout, eviction cleanout, commercial junk removal, accepted items, cost, disposal guide |
-| Implementation | Local draft complete; QA pending |
-| Deployment | Not deployed |
+| Implementation | Complete through PR #53 |
+| Deployment | **Complete** — merge commit `04a1748104c1df996b0b737d58252cbd3112cb87` at `2026-07-23T20:46:13Z` |
+| Live URL | https://springfieldjunkremovalservice.com/rental-turnover-cleanout-checklist-springfield-mo |
+| Live QA | **PASS** — HTTP 200; byte-match; canonical/sitemap/hub/schema/conversion/desktop/mobile/console checks passed |
 | Indexing | Not requested |
 | Outreach | Not sent; separate recipient-specific approval required after live QA |
-| Next gate | Local QA, then owner approval for a local commit |
+| Next gate | Separate approval for one GSC inspection; outreach remains separately gated |
 
 **Status:** Priority authority-page updates and the Springfield disposal/recycling guide are **deployed** with live QA **PASS**; indexing remains separately gated for the new disposal guide
 **Date:** 2026-07-11; detailed planning update 2026-07-17; authority-page production updates through 2026-07-23
