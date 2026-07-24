@@ -1348,3 +1348,14 @@
 - Confirmed `robots.txt` permits search crawling and references the production sitemap.
 - No blocking production or layout defect was found.
 - No Google Search Console inspection or indexing request, sitemap resubmission, outreach, listing, spending, call, form submission, DNS, routing, tracking, or other external-system change occurred during deployment verification.
+
+## 2026-07-24 — Student move-out checklist GSC inspection and indexing request
+
+- Inspected only the exact extensionless production URL in the `springfieldjunkremovalservice.com` Search Console property.
+- Pre-request result: **URL is not on Google**; **Page is not indexed: URL is unknown to Google**.
+- Discovery reported no referring sitemap or referring page.
+- Last crawl, crawler, crawl permission, page fetch, indexing permission, user-declared canonical, and Google-selected canonical displayed as `N/A` because Google had not crawled the URL.
+- After separate owner approval, submitted one indexing request for the exact extensionless URL.
+- Google confirmed **Indexing requested** and reported: “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
+- No second request, other URL submission, sitemap resubmission, quota warning, production edit, deployment, outreach, listing, spending, DNS, routing, tracking, form, call, or other external-system change occurred.
+- Monitoring status: await Google crawl and index processing; do not repeat the request now.

@@ -254,7 +254,7 @@
 | 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
 | 6 | Apartment and eviction cleanout authority updates | Both deployed, live-QA verified, and submitted once for indexing; supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | Deployed through PR #48 (`69ab96f`); live QA PASS; 31-page sitemap and guides-hub link verified; no indexing request yet |
-| 8 | Student move-out donation/disposal checklist | Deployed through PR #62 (`726a454`); live QA PASS; 33-page sitemap and guides-hub link verified; no indexing request or outreach |
+| 8 | Student move-out donation/disposal checklist | Deployed through PR #62 (`726a454`); live QA PASS; one exact extensionless-URL indexing request submitted 2026-07-24; awaiting initial crawl/index processing; no outreach |
 
 ---
 
@@ -268,7 +268,7 @@
 
 ---
 
-*Construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, and eviction-cleanout clusters are deployed and indexing was requested once for each. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
+*Construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, eviction-cleanout, and the student move-out checklist are deployed and indexing was requested once for each exact approved URL. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
 
 ## 2026-07-22–23 apartment-cleanout production status
 
