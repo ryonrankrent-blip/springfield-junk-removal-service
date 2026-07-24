@@ -1,6 +1,6 @@
 # Content Brief — Springfield Student Move-Out Donation & Disposal Checklist
 
-**Status:** Local draft complete; not committed, pushed, deployed, indexed, or used for outreach
+**Status:** Deployed through PR #62; live production QA passed; not submitted for indexing or used for outreach
 **Date:** 2026-07-24
 **Target file:** `springfield-student-move-out-donation-disposal-checklist.html`
 **Canonical:** `https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist`
@@ -42,13 +42,29 @@ Create a neutral, source-led move-out checklist for Springfield students, famili
 - Five visible FAQs matching FAQPage JSON-LD
 - Claim-safe quote form
 
-## Production integration in the local draft
+## Production integration
 
 - One new HTML page
 - One guides-hub card
 - One extensionless sitemap entry
 - QA inventory counts updated from 32 to 33
 - No service-page, global navigation, footer, routing, tracking, or external-system change
+
+## Deployment and live verification
+
+- PR: `#62`
+- Source commit: `6d2d662e19b0d4524737b508c61a23778fe912f6`
+- Production merge commit: `726a4544be9b2e3f56168c53a5d0472c2a7c59a0`
+- Cloudflare Pages check: deployed successfully
+- Live verification: `2026-07-24T13:55:02Z`
+- Production URL returned HTTP 200 with no fallback content.
+- Live HTML byte-matched `springfield-student-move-out-donation-disposal-checklist.html`.
+- The exact extensionless canonical, title, H1, phone, Formspree endpoint, GTM container, and analytics script were present.
+- The live guides hub linked to the checklist.
+- The live sitemap contained exactly 33 extensionless URLs, including the checklist.
+- `robots.txt` allowed search crawling and referenced the production sitemap.
+- Browser review confirmed the checklist, decision cards, official-source links, quote form, FAQs, navigation, and footer rendered with the intended content.
+- No blocking production defect was found.
 
 ## Guardrails
 
@@ -60,4 +76,4 @@ Create a neutral, source-led move-out checklist for Springfield students, famili
 
 ## Next gate
 
-Owner review of the local draft and QA. Commit only after separate approval.
+Documentation closeout, followed by a separately approved read-only Google Search Console inspection of the exact extensionless URL. Do not request indexing automatically.

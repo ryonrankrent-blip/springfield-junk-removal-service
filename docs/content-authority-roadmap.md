@@ -254,7 +254,7 @@
 | 5 | Junk removal cost | Deployed through PR #38; live QA PASS; one extensionless indexing request submitted 2026-07-22; awaiting initial crawl/index refresh |
 | 6 | Apartment and eviction cleanout authority updates | Both deployed, live-QA verified, and submitted once for indexing; supports PM/rental segment |
 | 7 | New disposal guide (linkable asset) | Deployed through PR #48 (`69ab96f`); live QA PASS; 31-page sitemap and guides-hub link verified; no indexing request yet |
-| 8 | Student move-out donation/disposal checklist | Local draft complete 2026-07-24; neutral campus/property-rules-first asset; not committed, deployed, indexed, or used for outreach |
+| 8 | Student move-out donation/disposal checklist | Deployed through PR #62 (`726a454`); live QA PASS; 33-page sitemap and guides-hub link verified; no indexing request or outreach |
 
 ---
 

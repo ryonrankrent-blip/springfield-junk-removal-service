@@ -1335,3 +1335,16 @@
 - Added official Springfield and Missouri research paths, explicit non-affiliation language, date-sensitive program caveats, matching FAQ schema, and a claim-safe quote path.
 - Added `docs/content-brief-student-move-out-checklist.md` and recorded internal-link and roadmap status.
 - No service-page inbound links, global navigation, footer, routing, tracking, form endpoint, phone, DNS, external system, outreach, listing, spending, commit, push, deployment, sitemap submission, or indexing action occurred.
+
+## 2026-07-24 — Student move-out checklist production deployment
+
+- Merged PR #62 from `cursor/springfield-student-move-out-checklist` into `main`.
+- Production merge commit: `726a4544be9b2e3f56168c53a5d0472c2a7c59a0`.
+- GitHub reported the Cloudflare Pages check as successful with “Deployed successfully.”
+- Verified the canonical production URL at `2026-07-24T13:55:02Z`.
+- The page returned HTTP 200 and the live HTML byte-matched the committed production file.
+- Confirmed the updated title, H1, extensionless canonical, quote form, phone links, GTM container, analytics script, official-source guidance, non-affiliation wording, and five visible FAQs.
+- Confirmed the live guides hub links to the checklist and the live sitemap contains exactly 33 extensionless URLs, including the new page.
+- Confirmed `robots.txt` permits search crawling and references the production sitemap.
+- No blocking production or layout defect was found.
+- No Google Search Console inspection or indexing request, sitemap resubmission, outreach, listing, spending, call, form submission, DNS, routing, tracking, or other external-system change occurred during deployment verification.
