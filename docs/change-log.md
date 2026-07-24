@@ -1,5 +1,15 @@
 # Change Log
 
+## 2026-07-24 — Free-only backlink opportunity policy and tracker
+
+- Added `docs/free-backlink-opportunity-tracker-2026-07-24.md`.
+- Recorded the owner decision to pursue only legitimate `$0` authority opportunities until a verified client/operator is established.
+- Prioritized free editorial, educational, landlord, property-management, realtor, moving, storage, estate, and local-resource research.
+- Kept free operating-business profiles and personally vetted vendor directories deferred until verified operator identity and relationship requirements can be satisfied.
+- Deferred SAHA, BBB Accreditation, GSBOR, Chamber, sponsorship, advertising, and other paid options for a post-client cost/benefit review.
+- Preserved permanent rejection of PBNs, paid links, press-release syndication, reciprocal badge schemes, scraper/index pages, mass directory blasts, and misleading category/profile claims.
+- No outreach, submission, listing, signup, account action, publication, payment, reciprocal link, deployment, indexing request, or external-system change occurred.
+
 ## 2026-07-23 — Rental-turnover checklist production deployment
 
 - Merged PR #53 into `main` at `04a1748104c1df996b0b737d58252cbd3112cb87` (`2026-07-23T20:46:13Z`).

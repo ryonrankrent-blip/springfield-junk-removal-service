@@ -2,6 +2,18 @@
 
 **Status:** Read-only research complete; no outreach, submission, payment, publication, signup, or listing action authorized.
 
+## 2026-07-24 owner policy
+
+Use free options only until a verified client/operator is established. At that point, paid advertising, memberships, sponsorships, and other paid authority opportunities may be compared on cost, business value, link quality, eligibility, and measurable outcomes.
+
+For the current phase:
+
+- prioritize free editorial, educational, and genuinely useful local resource links;
+- do not treat free business profiles as automatically eligible;
+- keep every paid option deferred;
+- continue rejecting PBNs, paid links, reciprocal badge schemes, syndication, mass directories, and misleading profiles;
+- use `free-backlink-opportunity-tracker-2026-07-24.md` as the active queue.
+
 ## Decision rule
 
 The current asset is a pre-renter lead-generation property, not a verified hauling company. A prospect is not an “easy win” if participation requires an operating provider, personal service history, insurance, licensing, membership, sponsorship, a storefront, or a reciprocal link.
@@ -66,6 +78,8 @@ There is no immediate high-quality “easy win” that is both legitimate and cu
 2. Find 5–10 landlord, apartment-turnover, realtor, moving, estate, and storage pages that could cite a genuinely useful guide rather than list a service provider.
 3. Prepare outreach drafts only after the asset-to-page fit is verified.
 4. Keep every vendor directory, association, membership, and sponsorship opportunity deferred until an eligible renter/operator exists and any cost is separately approved.
+
+The active phase is therefore free resource-link research, not free directory submission. BBB's basic listing, preferred-vendor pages, and other `$0` operating-business profiles remain deferred until verified operator facts exist.
 
 ## Guardrails
 

@@ -1,6 +1,14 @@
 # Off-Page Authority Opportunity Register — Springfield
 
-**Status:** LinkMiner competitor research and named prospect research populated 2026-07-23; no outreach or acquisition authorized.
+**Status:** LinkMiner competitor research and named prospect research populated 2026-07-23; free-only acquisition policy added 2026-07-24; no outreach or acquisition authorized.
+
+## Free-only policy — 2026-07-24
+
+- Until a verified client/operator is established, research only legitimate `$0` editorial and resource-link opportunities.
+- A free listing is not automatically eligible: operating-business profiles, preferred-vendor lists, and personally vetted contractor directories remain client/operator dependent.
+- Paid memberships, sponsorships, advertisements, upgraded profiles, and backlink placements are deferred for a post-client cost/benefit review.
+- PBNs, paid links, syndication, reciprocal badges, mass directories, and misleading category/profile claims remain rejected.
+- The actionable research queue and approval gates are maintained in `free-backlink-opportunity-tracker-2026-07-24.md`.
 
 ## Strategy Order
 
@@ -35,12 +43,15 @@
 | AREG Preferred Partners & Contractors | Realtor vendor resource | LinkMiner-replicable local pattern | None until eligible renter; resource pitch may target a separate article | Personal vetting/relationship | Medium | High after renter | $0 | Entity + outreach approval | High pre-renter | Renter-gated | `https://springfieldmohomesforsale.com/preferred-partners-contractors-springfield-mo/` |
 | Home Is Everything contractor list | Realtor vendor resource | The Junk Pirates | None until eligible renter | Realtor personally vets referrals | High | High after renter | $0 | Entity + outreach approval | High pre-renter | Renter-gated | `https://homeiseverything.com/partners` |
 | Springfield Apartment & Housing Association | Housing association/vendor directory | Adjacent-industry pattern | Commercial/apartment cluster only after eligible renter | Membership, directory, sponsorship | Medium | High after renter | Paid/TBD | Spend + entity approval | High pre-renter | Renter-gated | `https://www.springfieldhousing.org/` |
+| Free editorial/resource research queue | Local/editorial/educational | Defensible competitor pattern | Turnover checklist, disposal guide, relevant guide pages | Page-gap research followed by separately approved individualized outreach | Medium | High potential | $0 | Research allowed; contact requires approval | Low when claim-safe | Priority A—research only | `free-backlink-opportunity-tracker-2026-07-24.md` |
 
 ## 2026-07-23 LinkMiner finding
 
 The five-local-competitor comparison and full leading-profile classification are in `linkminer-competitor-backlink-analysis-2026-07-23.md`. The core conclusion is to prioritize a few real local/editorial relationships over competitor link-volume replication. Most visible competitor volume is spam, press-release syndication, scraper indexes, generic directories, or ineligible operating-business profiles.
 
 The named, scored prospect list and current eligibility classifications are in `backlink-prospect-list-2026-07-23.md`. Its primary finding is that no immediate high-quality easy win is both legitimate and eligible for the pre-renter asset. Editorial/resource research can continue, while vendor directories and associations remain renter/operator gated.
+
+The owner selected a free-only phase on 2026-07-24. Paid options remain recorded for later comparison but are not active prospects. The current working tracker is `free-backlink-opportunity-tracker-2026-07-24.md`.
 
 Page-level gap validation and unsent tailored drafts are recorded in `backlink-page-gap-research-2026-07-23.md` and `backlink-outreach-drafts-2026-07-23.md`. Current newsroom coverage already uses strong official sources, so generic media outreach is rejected. The best verified gaps are a Springfield pre-listing checklist, rental-turnover checklist, and neutral student move-out checklist. No draft is ready to send until its promised asset exists and receives separate approval.
 
