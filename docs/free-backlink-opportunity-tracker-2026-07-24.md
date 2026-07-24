@@ -82,7 +82,7 @@ Full named findings and page-level evidence: `docs/free-backlink-prospect-resear
 | Priority | Exact prospect page | Best resource fit | Classification | Current action |
 |---:|---|---|---|---|
 | 1 | RPM Momentum — security-deposit article | Accepted-items or disposal guide | A | Draft-only outreach may be proposed at the next approval gate |
-| 2 | Graddy Real Estate — downsizing guide | Disposal/accepted-items guide or future seller checklist | A- | Draft-only outreach may be proposed at the next approval gate |
+| 2 | Graddy Real Estate — downsizing-before-selling guide | Disposal guide | A- | Submitted once; no follow-up authorized |
 | 3 | Springfield Storage Solutions — storage tips | Disposal and accepted-items guides | A- | Draft-only outreach may be proposed at the next approval gate |
 | 4 | RPM Momentum — relocation tips | Disposal guide or future renter move-out checklist | B+ | Hold behind the stronger RPM page |
 | 5 | 417 Downsizing — item-sorting guide | Disposal or accepted-items guide | B | Hold for second outreach batch |
@@ -97,10 +97,10 @@ Three individualized drafts are recorded in `docs/free-backlink-outreach-drafts-
 | Prospect | Draft status | Public route status | Send status |
 |---|---|---|---|
 | RPM Momentum | Submitted once for exact security-deposit article at `2026-07-24T06:20:32Z` | General-contact form; confirmation received; SMS consent unchecked | Sent once; no follow-up authorized |
-| Graddy Real Estate | Prepared for exact downsizing guide | General-inquiry form verified; no editorial email verified | Not approved |
+| Graddy Real Estate | Submitted once for the newer exact downsizing-before-selling article at `2026-07-24T06:49:21Z` | Public Jotform general-inquiry route; submission endpoint reached, but publisher’s post-submit redirect was malformed and no readable confirmation page appeared | Sent once; no follow-up authorized |
 | Springfield Storage Solutions | Prepared for exact storage-tips page | Contact page and one public facility email verified; inbox suitability requires approval | Not approved |
 
-RPM Momentum has been submitted once and must not be resubmitted. No Graddy Real Estate or Springfield Storage Solutions message may be sent until the owner approves the truthful sender identity, exact recipient or route, final draft, destination URL, and follow-up allowance for that individual prospect.
+RPM Momentum and Graddy Real Estate have each been submitted once and must not be resubmitted. No Springfield Storage Solutions message may be sent until the owner approves the truthful sender identity, exact recipient or route, final draft, destination URL, and follow-up allowance for that individual prospect.
 
 ## Outreach and measurement gate
 
@@ -116,4 +116,4 @@ For every later approved attempt, record contact date, recipient, target page, p
 
 ## Current decision
 
-The first named prospect batch is researched and prioritized. RPM Momentum received one approved message and no follow-up is authorized. Graddy Real Estate and Springfield Storage Solutions remain unsent. The next recommended gate is a prospect-specific review of Graddy Real Estate; sender identity, contact route, final message, destination, and follow-up allowance must each be approved before sending. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
+The first named prospect batch is researched and prioritized. RPM Momentum and Graddy Real Estate each received one approved message, and no follow-up is authorized for either. Springfield Storage Solutions remains unsent. The next recommended gate is a prospect-specific review of Springfield Storage Solutions; sender identity, contact route, final message, destination, and follow-up allowance must each be approved before sending. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
