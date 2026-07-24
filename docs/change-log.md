@@ -1271,3 +1271,13 @@
 - Recorded exact pre-renter restrictions, renter-dependent queues, public-action approval gates, and prohibited tactics.
 - Status: local documentation only; not committed or pushed.
 - No website, production, citation, listing, GBP, routing, outreach, renter, payment, or external-system action occurred.
+
+## 2026-07-24 — Free backlink prospect research batch 1
+
+- Applied the approved free-only backlink policy to exact Springfield-area resource pages.
+- Verified and prioritized eight named editorial/resource prospects across property management, real estate, storage, downsizing, and Missouri State student resources.
+- Ranked RPM Momentum’s security-deposit article, Graddy Real Estate’s downsizing guide, and Springfield Storage Solutions’ storage-tips page as the strongest draft-outreach candidates.
+- Deferred Missouri State outreach until a neutral student move-out resource exists; held KO Storage and broader prospects behind stronger page-level fits.
+- Excluded competitor outreach, preferred-provider placements, operating-business profiles, paid opportunities, and manipulative link patterns from the current acquisition batch.
+- Added `docs/free-backlink-prospect-research-2026-07-24.md` and updated the active free-opportunity tracker.
+- Status: local documentation only; no outreach, submission, listing, signup, publication, payment, account, production, or external-system action occurred.

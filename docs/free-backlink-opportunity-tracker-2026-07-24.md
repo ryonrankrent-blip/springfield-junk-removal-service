@@ -69,11 +69,26 @@ No paid option is approved now. After a client/operator is established, evaluate
 
 | ID | Prospect class | Target count | Required evidence | Status |
 |---|---|---:|---|---|
-| FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | Pending |
-| FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | Pending |
-| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | Pending |
-| FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Pending |
+| FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | In progress — 2 RPM Momentum pages verified; security-deposit article is the strongest |
+| FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
+| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions and 417 Downsizing verified; KO Storage held |
+| FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Verified — donation-station exclusion gap exists, but neutral student asset is not built; hold |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
+
+Full named findings and page-level evidence: `docs/free-backlink-prospect-research-2026-07-24.md`.
+
+## First free prospect batch
+
+| Priority | Exact prospect page | Best resource fit | Classification | Current action |
+|---:|---|---|---|---|
+| 1 | RPM Momentum — security-deposit article | Accepted-items or disposal guide | A | Draft-only outreach may be proposed at the next approval gate |
+| 2 | Graddy Real Estate — downsizing guide | Disposal/accepted-items guide or future seller checklist | A- | Draft-only outreach may be proposed at the next approval gate |
+| 3 | Springfield Storage Solutions — storage tips | Disposal and accepted-items guides | A- | Draft-only outreach may be proposed at the next approval gate |
+| 4 | RPM Momentum — relocation tips | Disposal guide or future renter move-out checklist | B+ | Hold behind the stronger RPM page |
+| 5 | 417 Downsizing — item-sorting guide | Disposal or accepted-items guide | B | Hold for second outreach batch |
+| 6 | Missouri State Residence Life — 2026 donation stations | Future neutral student move-out checklist | B- / defer | Do not contact until the neutral asset exists |
+| 7 | Missouri State Recycling FAQ | No current commercial destination | C | Hold; existing coverage is strong |
+| 8 | KO Storage — Springfield student storage guide | Future neutral student move-out checklist | C+ | Hold |
 
 ## Outreach and measurement gate
 
@@ -89,4 +104,4 @@ For every later approved attempt, record contact date, recipient, target page, p
 
 ## Current decision
 
-Proceed only with the read-only `FREE-01` through `FREE-05` research queue. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
+The first named prospect batch is researched and prioritized. No outreach is authorized. The next recommended gate is approval to draft—but not send—three individualized messages for RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
