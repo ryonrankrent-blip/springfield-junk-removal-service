@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** RPM Momentum draft submitted once with owner approval; Graddy Real Estate and Springfield Storage Solutions remain unsent and unapproved
+**Status:** RPM Momentum and Graddy Real Estate each submitted once with owner approval; Springfield Storage Solutions remains unsent and unapproved
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -65,10 +65,10 @@ Thank you,
 ## Draft 2 — Graddy Real Estate
 
 **Target page:**
-`https://www.graddyrealestate.com/downsize-or-stay-a-guide-for-long-time-homeowners-in-springfield-and-the-ozarks`
+`https://www.graddyrealestate.com/downsizing-springfield-mo-before-selling-home`
 
 **Exact gap:**
-The guide explains the decision, housing, and financial sides of downsizing but does not give readers a Springfield-specific pathway for deciding what to donate, recycle, dispose of, store, or flag for special confirmation.
+The newer guide gives readers a practical “Keep, Donate, Sell, Discard” framework and discusses furniture, estate sales, storage, and disposal costs, but it does not give readers a Springfield-specific pathway for checking which items can be donated or recycled, require a facility or special confirmation, or should not be treated as ordinary trash.
 
 **Proposed destination:**
 `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
@@ -80,30 +80,36 @@ The guide explains the decision, housing, and financial sides of downsizing but 
 `https://www.graddyrealestate.com/connect`
 
 **Route caution:**
-The page provides a general-inquiry form and office phone numbers, but no verified editorial email was found. Do not call or submit the form until the owner approves the sender details and exact route.
+The page provides a general-inquiry form and office phone numbers, but no verified editorial email was found. The owner approved one submission through the public general-inquiry form. Do not call, resubmit, use another contact route, or follow up without separate approval.
 
 **Subject:** Springfield disposal reference for your downsizing guide
 
 Hello,
 
-I read your guide about deciding whether to downsize in Springfield and the Ozarks. It does a good job covering the lifestyle, housing, and financial questions, but readers who decide to move may still need a local way to sort out what can be donated, recycled, taken to a facility, or reviewed before removal.
+I read your guide, “Downsizing in Springfield MO: What to Do Before Selling Your Home.” The four-category method—Keep, Donate, Sell, and Discard—is especially useful.
 
-I help maintain a Springfield disposal guide built around current City of Springfield and Missouri resources:
+Readers may still need help determining which Springfield items can be donated or recycled, which require a facility or special confirmation, and which should not be treated as ordinary trash.
+
+I help maintain a Springfield disposal guide based on current City of Springfield and Missouri resources:
 
 `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
 
-If it would be useful to readers planning the practical side of a downsizing move, you are welcome to review it as a possible supporting resource. There is no paid-placement request, reciprocal link, preferred-provider request, or partnership claim.
+If it would help readers working through the practical side of downsizing, you’re welcome to review it as a possible supporting resource. This is not a paid-placement, reciprocal-link, preferred-provider, or partnership request.
 
 Thank you,
 
-[Approved sender name]
+Ryon O’Neill
 
 ### Draft assessment
 
-- **Personalized:** Yes; references the exact downsizing article.
-- **Reader value:** Adds the practical disposal step missing from a decision-focused guide.
+- **Personalized:** Yes; references the exact newer downsizing-before-selling article and its four-category method.
+- **Reader value:** Adds the Springfield-specific disposal and confirmation step missing from the article’s practical sorting guidance.
 - **Commercial pressure:** Low; does not ask for preferred-provider placement.
-- **Send readiness:** **Not approved.** Recipient and contact route still require approval.
+- **Execution status:** **Submitted once with owner approval** through the public general-inquiry Jotform on 2026-07-24 at `2026-07-24T06:49:21Z`.
+- **Submission response:** The browser reached Jotform’s submission endpoint. Graddy’s configured post-submit script attempted to redirect to malformed `http://`, so no readable thank-you page appeared. Record this as submitted once with confirmation-page availability unresolved; do not resubmit to obtain a confirmation.
+- **Discovery selection:** “AI Search.”
+- **Sender record:** The approved sender identity was used, but personal email and phone details are intentionally not stored in this public repository.
+- **Follow-up status:** Not authorized. Do not call, resubmit, use another route, or follow up.
 
 ## Draft 3 — Springfield Storage Solutions
 
@@ -166,4 +172,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum was submitted once with owner approval and must not be resubmitted. The remaining drafts are ready for owner review only. Nothing in this file authorizes sending to Graddy Real Estate or Springfield Storage Solutions. The next gate is a separate prospect-specific decision for Graddy Real Estate that explicitly approves or rejects the sender identity, contact route, final message, destination URL, and follow-up allowance.
+RPM Momentum and Graddy Real Estate were each submitted once with owner approval and must not be resubmitted. The remaining Springfield Storage Solutions draft is ready for owner review only. Nothing in this file authorizes sending it. The next gate is a separate prospect-specific decision for Springfield Storage Solutions that explicitly approves or rejects the sender identity, contact route, final message, destination URL, and follow-up allowance.

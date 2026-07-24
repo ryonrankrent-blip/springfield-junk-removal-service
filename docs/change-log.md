@@ -1301,3 +1301,15 @@
 - Received the site confirmation: “Thank you for contacting us! We will direct your message to the correct person and get in touch with you shortly.”
 - No payment, reciprocal link, vendor-onboarding request, partnership claim, alternate contact, second submission, or follow-up occurred.
 - Graddy Real Estate and Springfield Storage Solutions remain unsent and require separate approval.
+
+## 2026-07-24 — Graddy Real Estate free editorial-resource outreach
+
+- Reverified the original Graddy downsizing prospect and found a newer, stronger article: “Downsizing in Springfield MO: What to Do Before Selling Your Home.”
+- Confirmed that the newer article’s “Keep, Donate, Sell, Discard” framework has a natural reader gap for current Springfield disposal, recycling, facility, and confirm-first guidance.
+- Submitted the individually approved Graddy Real Estate message once through its public general-inquiry Jotform at `2026-07-24T06:49:21Z`.
+- Proposed the Springfield disposal guide as a supporting editorial resource for the exact newer article.
+- Used the owner-approved sender identity and selected “AI Search”; personal email and phone details are intentionally not stored in the public repository.
+- The browser reached Jotform’s submission endpoint, but the publisher’s post-submit script attempted to redirect to malformed `http://`, so no readable confirmation page appeared.
+- The attempt is recorded as submitted once; it must not be repeated merely to obtain a confirmation page.
+- No payment, reciprocal link, vendor-onboarding request, partnership claim, call, alternate contact, second submission, SMS consent, or follow-up occurred.
+- RPM Momentum and Graddy Real Estate now each have one sent attempt with no follow-up authorized. Springfield Storage Solutions remains unsent and requires separate approval.
