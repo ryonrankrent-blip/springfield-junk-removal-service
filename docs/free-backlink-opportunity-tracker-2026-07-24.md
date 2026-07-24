@@ -90,6 +90,18 @@ Full named findings and page-level evidence: `docs/free-backlink-prospect-resear
 | 7 | Missouri State Recycling FAQ | No current commercial destination | C | Hold; existing coverage is strong |
 | 8 | KO Storage — Springfield student storage guide | Future neutral student move-out checklist | C+ | Hold |
 
+## Draft status
+
+Three individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
+
+| Prospect | Draft status | Public route status | Send status |
+|---|---|---|---|
+| RPM Momentum | Prepared for exact security-deposit article | Contact form verified; consent and route suitability require approval | Not approved |
+| Graddy Real Estate | Prepared for exact downsizing guide | General-inquiry form verified; no editorial email verified | Not approved |
+| Springfield Storage Solutions | Prepared for exact storage-tips page | Contact page and one public facility email verified; inbox suitability requires approval | Not approved |
+
+No message may be sent until the owner approves the truthful sender identity, exact recipient or route, final draft, destination URL, and follow-up allowance for that individual prospect.
+
 ## Outreach and measurement gate
 
 Before any message:
@@ -104,4 +116,4 @@ For every later approved attempt, record contact date, recipient, target page, p
 
 ## Current decision
 
-The first named prospect batch is researched and prioritized. No outreach is authorized. The next recommended gate is approval to draft—but not send—three individualized messages for RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
+The first named prospect batch is researched and prioritized, and three individualized drafts are prepared. No outreach is authorized. The next recommended gate is a prospect-by-prospect review beginning with RPM Momentum; sender identity, contact route, final message, destination, and follow-up allowance must each be approved before sending. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.

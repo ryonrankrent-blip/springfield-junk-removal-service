@@ -1281,3 +1281,13 @@
 - Excluded competitor outreach, preferred-provider placements, operating-business profiles, paid opportunities, and manipulative link patterns from the current acquisition batch.
 - Added `docs/free-backlink-prospect-research-2026-07-24.md` and updated the active free-opportunity tracker.
 - Status: local documentation only; no outreach, submission, listing, signup, publication, payment, account, production, or external-system action occurred.
+
+## 2026-07-24 — Free backlink outreach drafts batch 1
+
+- Prepared three individualized, unsent editorial-resource drafts for RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions.
+- Tied every draft to an exact live article or resource page, a verified information gap, and a specific Springfield guide.
+- Verified public contact routes while recording form-consent, general-inquiry, and facility-inbox limitations.
+- Preserved placeholders for an approved sender identity and required separate approval for the recipient, route, final message, destination URL, and any follow-up.
+- Excluded vendor-listing requests, paid placement, reciprocal links, endorsements, partnerships, tracking parameters, and operating-business claims.
+- Added `docs/free-backlink-outreach-drafts-2026-07-24.md` and updated the free-opportunity tracker.
+- Status: local documentation only; no message, form, email, call, submission, listing, publication, payment, account, production, or external-system action occurred.
