@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** Drafts only; no message, form, email, submission, publication, or follow-up is authorized
+**Status:** RPM Momentum draft submitted once with owner approval; Graddy Real Estate and Springfield Storage Solutions remain unsent and unapproved
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -57,7 +57,10 @@ Thank you,
 - **Personalized:** Yes; references the exact article and section.
 - **Reader value:** Springfield-specific item and disposal guidance.
 - **Commercial pressure:** Low; no service claim or sales request.
-- **Send readiness:** **Not approved.** Recipient and contact route still require approval.
+- **Execution status:** **Submitted once with owner approval** through the public general-contact form on 2026-07-24 at `2026-07-24T06:20:32Z`.
+- **Confirmation:** Redirected to `/contact-us/general-contact-confirmation` with: “Thank you for contacting us! We will direct your message to the correct person and get in touch with you shortly.”
+- **Consent:** SMS checkbox remained unchecked. The approved sender identity was used but personal email and phone details are intentionally not stored in this public repository.
+- **Follow-up status:** Not authorized. Do not resubmit or use another contact route.
 
 ## Draft 2 — Graddy Real Estate
 
@@ -163,4 +166,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-These drafts are ready for owner review only. Nothing in this file authorizes sending. The next gate is a prospect-by-prospect decision, beginning with RPM Momentum, that explicitly approves or rejects the sender identity, contact route, final message, and destination URL.
+RPM Momentum was submitted once with owner approval and must not be resubmitted. The remaining drafts are ready for owner review only. Nothing in this file authorizes sending to Graddy Real Estate or Springfield Storage Solutions. The next gate is a separate prospect-specific decision for Graddy Real Estate that explicitly approves or rejects the sender identity, contact route, final message, destination URL, and follow-up allowance.

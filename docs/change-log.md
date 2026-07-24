@@ -1291,3 +1291,13 @@
 - Excluded vendor-listing requests, paid placement, reciprocal links, endorsements, partnerships, tracking parameters, and operating-business claims.
 - Added `docs/free-backlink-outreach-drafts-2026-07-24.md` and updated the free-opportunity tracker.
 - Status: local documentation only; no message, form, email, call, submission, listing, publication, payment, account, production, or external-system action occurred.
+
+## 2026-07-24 — RPM Momentum free editorial-resource outreach
+
+- Submitted the individually approved RPM Momentum message once through its public general-contact form at `2026-07-24T06:20:32Z`.
+- Targeted the exact “Tips for Getting Your Full Security Deposit Back” article and proposed the Springfield accepted-items guide as a supporting local resource.
+- Used the owner-approved sender identity; personal email and phone details are intentionally not stored in the public repository.
+- Selected “a general contact” and left SMS consent unchecked.
+- Received the site confirmation: “Thank you for contacting us! We will direct your message to the correct person and get in touch with you shortly.”
+- No payment, reciprocal link, vendor-onboarding request, partnership claim, alternate contact, second submission, or follow-up occurred.
+- Graddy Real Estate and Springfield Storage Solutions remain unsent and require separate approval.
