@@ -160,6 +160,56 @@ Ryon O’Neill
 - **Delivery controls:** No CC, BCC, attachments, tracking parameters, alternate facility, contact-form submission, or second message.
 - **Follow-up status:** Not authorized. Do not resubmit, contact another facility, or follow up.
 
+## Draft 4 — 417 Downsizing
+
+**Target page:**
+`https://417downsizing.com/blog-what-to-do-with-items-when-downsizing/`
+
+**Exact gap:**
+The October 28, 2025 article gives Springfield-area readers a useful Keep, Family, Sell, Donate, Storage, and Toss/Recycle system. The Toss/Recycle section mentions e-waste, paint, and batteries, but it does not provide a current Springfield lookup path for those materials or for restricted, hazardous, oversized, and facility-dependent items.
+
+**Proposed destination:**
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+**Alternative destination:**
+`https://springfieldjunkremovalservice.com/what-items-can-be-removed-springfield-mo`
+
+**Verified author:**
+Brenton Frizzell
+
+**Public route status:**
+No suitable public editorial email or general message field was verified during the prospect-specific recheck. The visible `https://417downsizing.com/contact-us/` page is a customer downsizing questionnaire that asks why and when the visitor is downsizing. The public phone number is presented as a service call route.
+
+**Route caution:**
+Do not use the customer questionnaire, call the service number, infer an email address from a WordPress author slug, contact an associated business, or use a private/personal account as a workaround. Hold until 417 Downsizing publishes an appropriate general or editorial route, or until the owner separately approves a verified route after review.
+
+**Subject:** Springfield disposal lookup for your downsizing item guide
+
+Hello Brenton,
+
+I read your “What to Do with Items When Downsizing” guide and liked how the 417 Dot System separates Keep, Family, Sell, Donate, Storage, and Toss/Recycle decisions.
+
+The Toss/Recycle section mentions e-waste, paint, and batteries. Springfield-area readers may also benefit from a current local lookup for those materials, along with chemicals, propane, tires, appliances, bulky items, and other facility-dependent items.
+
+I help maintain a Springfield disposal guide that organizes current City of Springfield and Missouri resources by item type:
+
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+If it would improve that section for local readers, you’re welcome to review it as a possible supporting reference. This is not a payment, advertising, reciprocal-link, preferred-provider, or partnership request.
+
+Thank you,
+
+Ryon O’Neill
+
+### Draft assessment
+
+- **Personalized:** Yes; references the article’s exact Dot System and Toss/Recycle section.
+- **Reader value:** Adds the local official-resource lookup step missing from the article.
+- **Commercial pressure:** Low; no service-provider placement or relationship is requested.
+- **Execution status:** Draft only; no message submitted.
+- **Route status:** Unresolved. No outreach is authorized until a suitable public route is verified and separately approved.
+- **Follow-up status:** Not applicable; no initial message has been sent.
+
 ## Sending controls
 
 If one or more drafts later receive send approval:
@@ -176,4 +226,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions were each submitted once with owner approval and must not be resubmitted. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect. The current batch is in monitoring status only.
+RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message is draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect. The completed first batch is in monitoring status only.
