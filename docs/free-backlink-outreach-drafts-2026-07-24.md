@@ -210,6 +210,52 @@ Ryon O’Neill
 - **Route status:** Unresolved. No outreach is authorized until a suitable public route is verified and separately approved.
 - **Follow-up status:** Not applicable; no initial message has been sent.
 
+## Draft 5 — Missouri State Family Programs
+
+**Target page:**
+`https://blogs.missouristate.edu/bearsfamilies/2026/04/11/residence-life-housing-and-dining-end-of-the-semester-summer-school-donation-stations-new-bears/`
+
+**Exact gap:**
+The April 11, 2026 Family Connection article explains the Residence Life donation stations and clearly says that large furniture, pillows, mattress toppers, and large workout equipment should not be left there. It does not provide an off-campus Springfield decision path for students or families who still need to handle those excluded items.
+
+**Proposed destination:**
+`https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist`
+
+**Verified responsible office and public route:**
+Family Programs is the preferred editorial route because it publishes the Family Connection blog and the exact target article was authored by Priscilla Childress. An official Family Connection page publicly lists `pchildress@missouristate.edu`.
+
+**Backup route:**
+The official Residence Life address `ResidenceLife@MissouriState.edu` is an operational backup only. Do not use it, contact Sustainability, call a university office, or submit through another route unless separately approved.
+
+**Route caution:**
+Reverify the author, public email, target article, and destination immediately before any approved send. The message must remain an optional educational-resource suggestion, not a claim of university affiliation, partnership, endorsement, vendor status, or guaranteed placement.
+
+**Subject:** Springfield move-out resource for families and students
+
+Hello Ms. Childress,
+
+I read your April 11 Family Connection post about the Residence Life donation stations. The guidance is especially helpful for items the stations cannot accept, including large furniture, pillows, mattress toppers, and large workout equipment.
+
+Students and families may still be unsure what to do next when those items will not fit in a vehicle or donation station. I help maintain a neutral Springfield student move-out checklist that starts with current campus and property rules, then points readers to official City of Springfield and Missouri disposal resources:
+
+`https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist`
+
+If you think it would help families planning move-out, you are welcome to review it as a possible supporting resource for that post or a future update. This is not a paid-placement, vendor-listing, reciprocal-link, partnership, or endorsement request.
+
+Thank you,
+
+Ryon O’Neill
+
+### Draft assessment
+
+- **Personalized:** Yes; references the exact April 11 article and its excluded-item guidance.
+- **Reader value:** Gives students and families a campus-rules-first path for excluded items and off-campus Springfield disposal decisions.
+- **Commercial pressure:** Low; the destination prioritizes university, property, city, and state guidance before optional service information.
+- **Editorial fit:** Strong enough for a targeted review request, but placement remains entirely at Missouri State’s discretion.
+- **Execution status:** Draft only; no email, form, call, or other message submitted.
+- **Send gate:** Recipient, current public route, exact subject/body, and one-send limit require separate owner approval.
+- **Follow-up status:** Not authorized.
+
 ## Sending controls
 
 If one or more drafts later receive send approval:
@@ -226,4 +272,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message is draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect. The completed first batch is in monitoring status only.
+RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The Missouri State Family Programs message is also draft-only; its responsible office and public author route are verified, but no outreach is authorized. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.

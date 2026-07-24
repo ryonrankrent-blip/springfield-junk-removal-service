@@ -1359,3 +1359,14 @@
 - Google confirmed **Indexing requested** and reported: “URL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority.”
 - No second request, other URL submission, sitemap resubmission, quota warning, production edit, deployment, outreach, listing, spending, DNS, routing, tracking, form, call, or other external-system change occurred.
 - Monitoring status: await Google crawl and index processing; do not repeat the request now.
+
+## 2026-07-24 — Missouri State student move-out prospect verification and unsent draft
+
+- Reverified the April 11, 2026 Missouri State Family Connection article covering Residence Life donation stations and its explicit exclusions for large furniture, pillows, mattress toppers, and large workout equipment.
+- Confirmed the exact editorial gap: the article does not provide an off-campus Springfield decision path for students or families handling excluded items.
+- Confirmed the deployed student move-out checklist as the relevant neutral destination and kept campus, property, city, and state guidance ahead of optional commercial information.
+- Identified Family Programs as the preferred responsible office because it publishes Family Connection and the exact article was authored by Priscilla Childress.
+- Verified a public official Missouri State email for the author from an official Family Connection page. Recorded Residence Life as an operational backup only and retained Sustainability as a hold because its recycling FAQ already covers its subject well.
+- Reclassified the opportunity from **B- / defer** to **B+ / draft-ready**.
+- Prepared one individualized, unsent message with no payment, vendor-listing, reciprocal-link, partnership, endorsement, or placement guarantee.
+- No email, form, call, outreach, follow-up, listing, publication, payment, production change, indexing action, or external-system change occurred.
