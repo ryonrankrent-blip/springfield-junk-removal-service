@@ -1392,3 +1392,13 @@
 - Excluded direct competitors, irrelevant or nonlocal pages, complaints/forums, vendor directories, and duplicate outreach to RPM Momentum.
 - Added `docs/free-backlink-property-management-research-2026-07-25.md` and updated the free backlink opportunity tracker.
 - No message, email, form, call, listing, publication, payment, outreach, follow-up, production change, indexing action, or external-system change occurred.
+
+## 2026-07-25 — Springfield Property Management unsent editorial-resource draft
+
+- Reverified Springfield Property Management LLC's exact `Move Out Info` page and its requirement that tenants remove all personal property, items, and trash before the lease end date.
+- Confirmed that the page still lacks a current Springfield lookup path for bulky items, appliances, electronics, paint, fuel, chemicals, batteries, propane, tires, unknown materials, and other facility-dependent items.
+- Reverified the Springfield junk disposal guide and student move-out checklist as live HTTP 200 resources.
+- Selected the Springfield junk disposal guide as the primary destination because it provides the broadest current item-by-item official-resource path for the page's general renter audience.
+- Verified the publisher's public general contact form and `info@springfieldpm.com`, while recording that both are operational routes used for tenant and rental matters rather than verified editorial contacts.
+- Prepared one short, individualized, unsent editorial-resource draft with no payment, reciprocal-link, vendor-listing, preferred-provider, partnership, endorsement, or placement guarantee.
+- No message, email, form, call, submission, follow-up, listing, publication, payment, production change, indexing action, or external-system change occurred.

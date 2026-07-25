@@ -83,7 +83,7 @@ Property-management batch 2 findings and route cautions: `docs/free-backlink-pro
 
 | Priority | Exact prospect page | Best resource fit | Classification | Current action |
 |---:|---|---|---|---|
-| 1 | Springfield Property Management LLC — Move Out Info | Student/renter move-out checklist or disposal guide | A- | Best next draft candidate; reverify the operational general route before drafting; no contact |
+| 1 | Springfield Property Management LLC — Move Out Info | Springfield disposal guide | A- | Individualized draft prepared; public general form and email are operational routes; no contact |
 | 2 | Hunter Property Management — rental-property inspections article | Rental-turnover or renter move-out checklist | B | Hold until a suitable editorial route is verified; do not target multiple Hunter pages |
 | 3 | At Home Real Estate Services — move-out letter PDF | Renter move-out checklist or disposal guide | B- | Defer; old PDF and operational tenant routes reduce actionability |
 | 4 | Valiant Group — Property Management Executive Handbook | None recommended | C | Exclude; internal/vendor workflow is not a natural consumer-resource target |
@@ -103,7 +103,7 @@ Property-management batch 2 findings and route cautions: `docs/free-backlink-pro
 
 ## Draft status
 
-Five individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
+Six individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
 
 | Prospect | Draft status | Public route status | Send status |
 |---|---|---|---|
@@ -112,6 +112,7 @@ Five individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2
 | Springfield Storage Solutions | Submitted once for the exact storage-tips page at `2026-07-24T11:01:08Z` | Sent by Gmail to the currently displayed public Sunshine Storage facility inbox; Gmail message ID `19f93c94275184ab` verified with `SENT` label | Sent once; no follow-up authorized |
 | 417 Downsizing | Tailored draft prepared for the exact item-sorting guide | No suitable public editorial route verified; customer questionnaire and service phone excluded | Unsent; route unresolved |
 | Missouri State Family Programs | Sent once for the April 11, 2026 donation-station article at `2026-07-25T05:39:04Z` | Sent by project Gmail to the verified public official author route; Gmail message ID `19f97c8c2d62d60d` verified with `SENT` label | Sent once; no follow-up authorized |
+| Springfield Property Management LLC | Tailored draft prepared for the exact Move Out Info page | Public general form and `info@springfieldpm.com` verified; both are operational rather than editorial | Unsent; exact single route and send require separate approval |
 
 RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the four prospects. The 417 Downsizing draft remains unsent.
 
@@ -131,6 +132,6 @@ For every later approved attempt, record contact date, recipient, target page, p
 
 The first named prospect batch is researched, prioritized, and executed at one approved attempt per contacted prospect. RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs each received one approved message, and no follow-up is authorized.
 
-The second property-management research batch verified four additional exact resources. Springfield Property Management LLC's move-out page is the only recommended next draft candidate. Hunter remains on hold, At Home is deferred, and Valiant is excluded. No contact with any of these four prospects is authorized. The next gate is a separately approved, unsent Springfield Property Management draft-verification pass.
+The second property-management research batch verified four additional exact resources. An individualized Springfield Property Management LLC draft is now prepared but unsent. Hunter remains on hold, At Home is deferred, and Valiant is excluded. No contact with any of these four prospects is authorized. The next gate for Springfield Property Management is a separately approved route-and-send review covering one exact public route, sender details, destination, and final message.
 
 Continue monitoring prior attempts for responses or live editorial links, but do not resubmit or follow up. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
