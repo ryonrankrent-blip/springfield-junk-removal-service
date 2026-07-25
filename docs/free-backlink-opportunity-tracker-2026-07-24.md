@@ -24,7 +24,7 @@ These are the only current acquisition candidates. Every contact still requires 
 |---:|---|---|---:|---|---|---|---|
 | 1 | Springfield-area landlord and property-management education pages | Rental-turnover cleanout checklist | $0 | Eligible for a neutral resource proposal; not a vendor claim | Editorial/resource | Research approved; no contact | Verify an exact page-level gap and request outreach approval |
 | 2 | Springfield-area realtor seller-resource and downsizing articles | Rental-turnover checklist or disposal guide | $0 | Eligible only as a useful cited resource; preferred-vendor placement is not currently eligible | Editorial/resource | Research approved; no contact | Identify 3–5 exact articles with a genuine missing resource |
-| 3 | Missouri State student move-out, off-campus housing, sustainability, and residential-life resources | Neutral move-out/disposal checklist | $0 | Educational-resource proposal may be eligible | Institutional/editorial | Research only | Verify the responsible office and existing-resource gap |
+| 3 | Missouri State student move-out, off-campus housing, sustainability, and residential-life resources | Neutral move-out/disposal checklist | $0 | Educational-resource proposal may be eligible | Institutional/editorial | Draft-ready; no contact | Obtain separate approval for the verified Family Programs recipient and exact unsent message |
 | 4 | Local moving, storage, estate, senior-transition, and donation/reuse resource pages | Disposal guide or turnover checklist | $0 | Eligible when the destination is educational and not a provider directory | Editorial/resource | Research only | Build named list and verify outbound-link quality |
 | 5 | Local news or community pages covering changing trash, recycling, rental, or cleanup rules | Disposal guide supported by primary sources | $0 | Eligible only when a current factual gap or newsworthy update exists | Earned editorial | Monitor only | Do not pitch generic commercial content; recheck when policy changes |
 
@@ -72,7 +72,7 @@ No paid option is approved now. After a client/operator is established, evaluate
 | FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | In progress — 2 RPM Momentum pages verified; security-deposit article is the strongest |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
 | FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions contacted once; 417 Downsizing prospect-specific fit reverified but public editorial route unresolved; KO Storage held |
-| FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Neutral student asset drafted locally; hold outreach until deployment, live QA, responsible-office review, and separate approval |
+| FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Exact Family Connection gap, deployed student checklist, Family Programs responsibility, and public author route verified; one tailored draft prepared; no outreach authorized |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
 Full named findings and page-level evidence: `docs/free-backlink-prospect-research-2026-07-24.md`.
@@ -86,21 +86,23 @@ Full named findings and page-level evidence: `docs/free-backlink-prospect-resear
 | 3 | Springfield Storage Solutions — storage tips | Disposal guide | A- | Sent once; no follow-up authorized |
 | 4 | RPM Momentum — relocation tips | Disposal guide or future renter move-out checklist | B+ | Hold behind the stronger RPM page |
 | 5 | 417 Downsizing — item-sorting guide | Disposal guide | B | Draft-ready, but hold until a suitable public editorial route is verified; do not use the customer questionnaire or service phone |
-| 6 | Missouri State Residence Life — 2026 donation stations | Student move-out donation/disposal checklist | B- / defer | Local asset drafted; do not contact until deployment, live QA, responsible-office review, and separate approval |
+| 6 | Missouri State Family Programs / Residence Life — 2026 donation stations | Student move-out donation/disposal checklist | B+ / draft-ready | Live asset and exact gap verified; public author route verified; tailored draft prepared; do not contact without separate send approval |
 | 7 | Missouri State Recycling FAQ | No current commercial destination | C | Hold; existing coverage is strong |
 | 8 | KO Storage — Springfield student storage guide | Student move-out donation/disposal checklist | C+ | Local asset drafted; hold until deployment/live QA and prospect-specific route review |
 
 ## Draft status
 
-Three individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
+Five individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
 
 | Prospect | Draft status | Public route status | Send status |
 |---|---|---|---|
 | RPM Momentum | Submitted once for exact security-deposit article at `2026-07-24T06:20:32Z` | General-contact form; confirmation received; SMS consent unchecked | Sent once; no follow-up authorized |
 | Graddy Real Estate | Submitted once for the newer exact downsizing-before-selling article at `2026-07-24T06:49:21Z` | Public Jotform general-inquiry route; submission endpoint reached, but publisher’s post-submit redirect was malformed and no readable confirmation page appeared | Sent once; no follow-up authorized |
 | Springfield Storage Solutions | Submitted once for the exact storage-tips page at `2026-07-24T11:01:08Z` | Sent by Gmail to the currently displayed public Sunshine Storage facility inbox; Gmail message ID `19f93c94275184ab` verified with `SENT` label | Sent once; no follow-up authorized |
+| 417 Downsizing | Tailored draft prepared for the exact item-sorting guide | No suitable public editorial route verified; customer questionnaire and service phone excluded | Unsent; route unresolved |
+| Missouri State Family Programs | Tailored draft prepared for the April 11, 2026 donation-station article | Preferred route is the article author’s public official Missouri State email; Residence Life is backup only | Unsent; separate send approval required |
 
-RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the three prospects.
+RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the three prospects. The 417 Downsizing and Missouri State drafts remain unsent.
 
 ## Outreach and measurement gate
 
