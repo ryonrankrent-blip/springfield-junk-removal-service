@@ -1412,3 +1412,15 @@
 - The email was signed Ryon O’Neill and contained no CC, BCC, attachment, or tracking parameter.
 - The public contact form was not submitted, and no alternate email, call, second message, payment, vendor-listing request, preferred-provider request, reciprocal link, partnership claim, endorsement request, or follow-up occurred.
 - Follow-up status: not authorized. Do not resubmit through the form or use another contact route without separate approval.
+
+## 2026-07-25 — Moving, estate, senior-transition, and donation backlink research
+
+- Researched and scored five current Springfield-relevant moving, estate, senior-transition, donation, and resale prospects using exact public pages.
+- Scored SpringHouse Village's Springfield senior-downsizing guide **A-** for strong page-level fit, but placed it on hold because the public form and phone numbers are sales/community operational routes rather than verified editorial contacts.
+- Scored Help Give Hope's garage-sale donation page **B+** because it lists unaccepted items and removal-cost concerns but lacks a neutral Springfield path for restricted, broken, bulky, or facility-dependent items.
+- Recorded that Help Give Hope's donation-pickup phone must not be used for editorial outreach and that any future proposal must avoid partnership, endorsement, pickup, or donation-acceptance implications.
+- Scored DIYAuctions' Springfield estate-sale guide **B** because its post-sale clean-out section has a natural disposal-resource gap, while its multi-market commercial publishing model and lack of a named editor reduce priority.
+- Scored Veterans Clearance Outlet **B- / defer** because it has no exact editorial article and its visible form is donation intake.
+- Classified Christina & Co To The Rescue **C / exclude** because its estate-dispersal, donation, and junk-removal services overlap the Springfield asset.
+- Added `docs/free-backlink-moving-estate-senior-research-2026-07-25.md` and updated the free backlink opportunity tracker.
+- No email, form, call, message, outreach, follow-up, listing, publication, payment, link submission, production change, indexing action, or external-system change occurred.
