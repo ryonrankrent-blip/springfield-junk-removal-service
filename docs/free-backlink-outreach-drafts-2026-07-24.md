@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions each submitted once with owner approval; no follow-up authorized
+**Status:** RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs each submitted once with owner approval; no follow-up authorized
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -252,8 +252,10 @@ Ryon O’Neill
 - **Reader value:** Gives students and families a campus-rules-first path for excluded items and off-campus Springfield disposal decisions.
 - **Commercial pressure:** Low; the destination prioritizes university, property, city, and state guidance before optional service information.
 - **Editorial fit:** Strong enough for a targeted review request, but placement remains entirely at Missouri State’s discretion.
-- **Execution status:** Draft only; no email, form, call, or other message submitted.
-- **Send gate:** Recipient, current public route, exact subject/body, and one-send limit require separate owner approval.
+- **Execution status:** **Sent once with owner approval** from the authenticated project Gmail account to the verified public official Missouri State author address on 2026-07-25 at `2026-07-25T05:39:04Z`.
+- **Gmail verification:** Message ID `19f97c8c2d62d60d`; `SENT` label confirmed; exact recipient, subject, and body verified.
+- **Sender record:** The approved project Gmail identity was used, but the personal sender email is intentionally not repeated in this public repository.
+- **Delivery controls:** No CC, BCC, attachment, tracking parameter, Residence Life backup message, Sustainability contact, form submission, call, or second message.
 - **Follow-up status:** Not authorized.
 
 ## Sending controls
@@ -272,4 +274,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The Missouri State Family Programs message is also draft-only; its responsible office and public author route are verified, but no outreach is authorized. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
