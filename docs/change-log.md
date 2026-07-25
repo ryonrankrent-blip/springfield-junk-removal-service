@@ -1402,3 +1402,13 @@
 - Verified the publisher's public general contact form and `info@springfieldpm.com`, while recording that both are operational routes used for tenant and rental matters rather than verified editorial contacts.
 - Prepared one short, individualized, unsent editorial-resource draft with no payment, reciprocal-link, vendor-listing, preferred-provider, partnership, endorsement, or placement guarantee.
 - No message, email, form, call, submission, follow-up, listing, publication, payment, production change, indexing action, or external-system change occurred.
+
+## 2026-07-25 — Springfield Property Management free editorial-resource outreach
+
+- Reverified the exact Springfield Property Management LLC `Move Out Info` page, the public general email, and the live Springfield junk disposal guide immediately before sending.
+- Sent the individually approved message once to `info@springfieldpm.com` from the authenticated project Gmail account at `2026-07-25T06:21:12Z`.
+- Targeted the exact move-out page and proposed the Springfield junk disposal guide as an optional supporting resource for renters handling bulky, restricted, and facility-dependent items.
+- Gmail message ID `19f97ef544821314` was verified with the `SENT` label; the exact recipient, subject, and body matched the approved draft.
+- The email was signed Ryon O’Neill and contained no CC, BCC, attachment, or tracking parameter.
+- The public contact form was not submitted, and no alternate email, call, second message, payment, vendor-listing request, preferred-provider request, reciprocal link, partnership claim, endorsement request, or follow-up occurred.
+- Follow-up status: not authorized. Do not resubmit through the form or use another contact route without separate approval.

@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs each submitted once with owner approval; Springfield Property Management draft prepared but unsent; no follow-up authorized
+**Status:** RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, and Springfield Property Management each submitted once with owner approval; no follow-up authorized
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -303,10 +303,12 @@ Ryon O’Neill
 - **Personalized:** Yes; references the exact move-out page and its belongings-and-trash requirement.
 - **Reader value:** Adds a current Springfield research path for common, bulky, restricted, and facility-dependent items.
 - **Commercial pressure:** Low; the destination prioritizes official City of Springfield and Missouri guidance.
-- **Route status:** Public general form and email verified, but both are operational rather than editorial.
-- **Execution status:** Draft only; no message, email, form, call, or other contact occurred.
-- **Send gate:** Reverify the target page, destination, and selected single route; obtain separate owner approval for the exact recipient, sender details, and final message.
-- **Follow-up status:** Not applicable; no initial message has been sent.
+- **Route status:** The public general email was used once with owner approval; the contact form was not submitted.
+- **Execution status:** **Sent once with owner approval** from the authenticated project Gmail account to `info@springfieldpm.com` on 2026-07-25 at `2026-07-25T06:21:12Z`.
+- **Gmail verification:** Message ID `19f97ef544821314`; `SENT` label confirmed; exact recipient, subject, and body verified.
+- **Sender record:** Sent from the connected project Gmail account and signed Ryon O’Neill.
+- **Delivery controls:** No CC, BCC, attachment, tracking parameter, form submission, alternate route, second message, or follow-up.
+- **Follow-up status:** Not authorized. Do not resubmit through the form, email another address, call, or follow up without separate approval.
 
 ## Sending controls
 
@@ -324,4 +326,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The Springfield Property Management message is draft-only and unsent; its general form and email are operational routes that require a separate route and send approval. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, and Springfield Property Management were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
