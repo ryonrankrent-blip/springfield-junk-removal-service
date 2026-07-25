@@ -9,7 +9,7 @@
 | Priority | Prospect and exact page | Score | Best destination | Route status | Decision |
 |---:|---|---|---|---|---|
 | 1 | SpringHouse Village — [Downsizing for Senior Living: A Family's Guide](https://springhousevillageseniorliving.com/blog/how-to-help-your-parent-downsize-for-a-move-to-senior-living) | A- | Springfield junk disposal guide | Public contact form exists, but it is a sales/community inquiry form requiring move-related fields; no verified editorial route | Best page-level fit; hold until a suitable editorial or community-relations route is verified |
-| 2 | Help Give Hope — [Garage Sale](https://helpgivehope.org/garage-sale/) | B+ | Springfield junk disposal guide or accepted-items guide | Public general contact form and site email link exist; donation pickup phone is operational and should not be used | Strong local nonprofit reader gap; eligible only for a carefully framed editorial suggestion after route recheck |
+| 2 | Help Give Hope — [Garage Sale](https://helpgivehope.org/garage-sale/) | B+ | Springfield junk disposal guide | Public general contact form verified; donation-pickup phone excluded; footer email destination unresolved | Nonprofit-sensitive unsent form draft prepared; no contact |
 | 3 | DIYAuctions — [Your Guide to Successful Estate Sales in Springfield MO](https://www.diyauctions.com/learn/estate-sales-in-springfield-mo) | B | Springfield junk disposal guide | Public business email is listed for partnerships, media, and business development | Exact local article and natural post-sale gap, but multi-market commercial publisher and editorial quality reduce priority |
 | 4 | Veterans Clearance Outlet — [Home furnishings and donation page](https://veteransclearanceoutlet.org/) | B- | Accepted-items guide or Springfield junk disposal guide | Public general email and donation-oriented contact form exist | Local and legitimate, but no exact editorial article and the public form is donation intake; defer |
 | 5 | Christina & Co To The Rescue — [Senior-transition resources](https://christinatotherescue.com/blog) | C / exclude | None recommended | Customer-service form and phone; no verified editorial route | Adjacent provider directly offers estate dispersal, donation, and junk-removal handling; do not pitch |
@@ -40,11 +40,13 @@ A carefully framed optional citation to the Springfield junk disposal guide or a
 
 ### Route and risk
 
-The site has a public general contact form and an email link. The garage-sale phone number is specifically for scheduling donation pickup and must not be used for editorial outreach. Any future draft should address the exact garage-sale page, lead with donor clarity and cost avoidance, and make clear that the resource is optional and free to cite.
+The site has a public general contact form with name, phone, email, and message fields. The contact page states that assistance requests sent through the form are not reviewed; this proposal is an editorial resource suggestion, not an assistance request. The garage-sale phone number is specifically for scheduling donation pickup and must not be used for editorial outreach.
+
+The footer exposes an email link, but its exact destination was protected and could not be independently verified during this pass. A third-party directory address is not an acceptable substitute. Use only the general form if a later submission is expressly approved.
 
 ### Recommendation
 
-Advance only after a separate route-verification and draft approval. Score **B+** because the local reader benefit is strong, but nonprofit sensitivity and the absence of a named editor require restraint.
+A nonprofit-sensitive, unsent general-form draft is now prepared. Score remains **B+** because the local reader benefit is strong, but nonprofit sensitivity and the absence of a named editor require restraint. Do not submit without separate approval of the exact route, identity fields, and message.
 
 ## 3. DIYAuctions
 
@@ -100,6 +102,6 @@ Do not contact anyone from this batch yet.
 The best next action is to preserve this research, then perform a narrow route-verification pass for:
 
 1. **SpringHouse Village** — look only for a legitimate editorial, marketing, or community-relations route; do not use the sales form or phone.
-2. **Help Give Hope** — reverify the general email/form and prepare one nonprofit-sensitive, unsent draft for the exact garage-sale page.
+2. **Help Give Hope** — general form and destination reverified; nonprofit-sensitive draft prepared but unsent.
 
 DIYAuctions remains a secondary fallback. Veterans Clearance Outlet is deferred, and Christina & Co is excluded.
