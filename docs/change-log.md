@@ -1370,3 +1370,13 @@
 - Reclassified the opportunity from **B- / defer** to **B+ / draft-ready**.
 - Prepared one individualized, unsent message with no payment, vendor-listing, reciprocal-link, partnership, endorsement, or placement guarantee.
 - No email, form, call, outreach, follow-up, listing, publication, payment, production change, indexing action, or external-system change occurred.
+
+## 2026-07-25 — Missouri State Family Programs free editorial-resource outreach
+
+- Reverified the exact April 11, 2026 Family Connection article, its excluded-item guidance, the public official author route, and the live student move-out checklist immediately before sending.
+- Confirmed the destination returned HTTP 200 and the authenticated project Gmail account matched the approved sender identity.
+- Sent the individually approved message once to the verified public official Missouri State author address at `2026-07-25T05:39:04Z`.
+- Targeted the exact donation-station article and proposed the neutral Springfield student move-out donation and disposal checklist as an optional supporting resource.
+- Gmail message ID `19f97c8c2d62d60d` was verified with the `SENT` label; the exact recipient, subject, and body matched the approved draft.
+- No CC, BCC, attachment, tracking parameter, payment, vendor-listing request, reciprocal link, partnership claim, endorsement request, alternate office, backup email, form submission, call, second message, or follow-up occurred.
+- Follow-up status: not authorized. Do not resubmit or use the Residence Life backup route without separate approval.
