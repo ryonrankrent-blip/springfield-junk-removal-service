@@ -71,13 +71,25 @@ No paid option is approved now. After a client/operator is established, evaluate
 |---|---|---:|---|---|
 | FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | Expanded — Springfield Property Management contacted once; Hunter B hold; At Home B- defer; Valiant excluded |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
-| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions contacted once; 417 Downsizing prospect-specific fit reverified but public editorial route unresolved; KO Storage held |
+| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | Expanded — Springfield Storage Solutions contacted once; SpringHouse Village A- route unresolved; Help Give Hope B+ draft candidate after route recheck; DIYAuctions B hold; 417 Downsizing route unresolved; Christina & Co excluded |
 | FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Exact Family Connection gap, deployed student checklist, Family Programs responsibility, and public author route verified; one tailored message sent once; monitoring only |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
 Full named findings and page-level evidence: `docs/free-backlink-prospect-research-2026-07-24.md`.
 
 Property-management batch 2 findings and route cautions: `docs/free-backlink-property-management-research-2026-07-25.md`.
+
+Moving, estate, senior-transition, and donation batch findings: `docs/free-backlink-moving-estate-senior-research-2026-07-25.md`.
+
+## Moving, estate, senior-transition, and donation research batch
+
+| Priority | Exact prospect page | Best resource fit | Classification | Current action |
+|---:|---|---|---|---|
+| 1 | SpringHouse Village — downsizing for senior living guide | Springfield disposal guide | A- | Hold until a suitable editorial/community-relations route is verified; do not use the sales form or phone |
+| 2 | Help Give Hope — garage sale donation page | Disposal guide or accepted-items guide | B+ | Reverify general route and prepare a nonprofit-sensitive draft only after separate approval; do not use donation-pickup phone |
+| 3 | DIYAuctions — Springfield estate-sales guide | Springfield disposal guide | B | Secondary fallback; multi-market commercial publisher and no named editor |
+| 4 | Veterans Clearance Outlet — donation/home-furnishings page | Accepted-items or disposal guide | B- | Defer; no exact editorial article and visible form is donation intake |
+| 5 | Christina & Co To The Rescue — senior-transition resources | None | C / exclude | Adjacent provider offers estate dispersal, donations, and junk-removal handling |
 
 ## Property-management research batch 2
 
