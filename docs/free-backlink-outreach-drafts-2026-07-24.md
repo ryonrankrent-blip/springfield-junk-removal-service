@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs each submitted once with owner approval; no follow-up authorized
+**Status:** RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs each submitted once with owner approval; Springfield Property Management draft prepared but unsent; no follow-up authorized
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -258,6 +258,56 @@ Ryon O’Neill
 - **Delivery controls:** No CC, BCC, attachment, tracking parameter, Residence Life backup message, Sustainability contact, form submission, call, or second message.
 - **Follow-up status:** Not authorized.
 
+## Draft 6 — Springfield Property Management LLC
+
+**Target page:**
+`https://www.springfieldpm.com/move-out-info`
+
+**Exact gap:**
+The page requires tenants to remove all personal property, items, and trash before the lease end date and notes a historical range for hauling belongings left behind. It does not give renters a current Springfield lookup path for bulky items, appliances, electronics, paint, fuel, chemicals, batteries, propane, tires, unknown materials, or other items that may require donation, recycling, a specific facility, or special confirmation.
+
+**Proposed destination:**
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+**Alternative destination:**
+`https://springfieldjunkremovalservice.com/springfield-student-move-out-donation-disposal-checklist`
+
+**Public contact routes found:**
+
+- `https://www.springfieldpm.com/contact-us`
+- `info@springfieldpm.com`
+
+**Route caution:**
+The general form and email are used for tenant notices, move-out confirmation, walkthroughs, rental information, and other operational matters. They are not verified editorial routes. If a send is later approved, use only one route, identify the exact page, keep the request editorial and optional, and do not ask for vendor status, preferred-provider placement, referrals, partnership, or endorsement.
+
+**Subject:** Springfield disposal resource for your move-out checklist
+
+Hello,
+
+I was reviewing your “Move Out Info” page and noticed the reminder that tenants need to remove all belongings and trash before the lease end date.
+
+Renters may still be unsure where to check current Springfield guidance for bulky items, appliances, electronics, paint, fuel, chemicals, batteries, propane, tires, and other materials that should not automatically be treated as ordinary trash.
+
+I help maintain a Springfield disposal guide that organizes current City of Springfield and Missouri resources by item type:
+
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+If you think it would make the move-out checklist more useful for local renters, you are welcome to review it as a possible supporting resource. This is not a paid-placement, reciprocal-link, vendor-listing, preferred-provider, partnership, or endorsement request.
+
+Thank you,
+
+Ryon O’Neill
+
+### Draft assessment
+
+- **Personalized:** Yes; references the exact move-out page and its belongings-and-trash requirement.
+- **Reader value:** Adds a current Springfield research path for common, bulky, restricted, and facility-dependent items.
+- **Commercial pressure:** Low; the destination prioritizes official City of Springfield and Missouri guidance.
+- **Route status:** Public general form and email verified, but both are operational rather than editorial.
+- **Execution status:** Draft only; no message, email, form, call, or other contact occurred.
+- **Send gate:** Reverify the target page, destination, and selected single route; obtain separate owner approval for the exact recipient, sender details, and final message.
+- **Follow-up status:** Not applicable; no initial message has been sent.
+
 ## Sending controls
 
 If one or more drafts later receive send approval:
@@ -274,4 +324,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The Springfield Property Management message is draft-only and unsent; its general form and email are operational routes that require a separate route and send approval. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
