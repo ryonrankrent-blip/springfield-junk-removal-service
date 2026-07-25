@@ -1380,3 +1380,15 @@
 - Gmail message ID `19f97c8c2d62d60d` was verified with the `SENT` label; the exact recipient, subject, and body matched the approved draft.
 - No CC, BCC, attachment, tracking parameter, payment, vendor-listing request, reciprocal link, partnership claim, endorsement request, alternate office, backup email, form submission, call, second message, or follow-up occurred.
 - Follow-up status: not authorized. Do not resubmit or use the Residence Life backup route without separate approval.
+
+## 2026-07-25 — Property-management free backlink prospect research batch 2
+
+- Researched and scored four exact Springfield-area property-management resources using current publisher pages.
+- Scored Springfield Property Management LLC's move-out page **A-** because it requires residents to remove belongings and trash but lacks current Springfield bulky-item, restricted-material, disposal-lookup, and quote-preparation guidance.
+- Identified Springfield Property Management as the only recommended next draft candidate, subject to reverifying its general operational contact route and obtaining separate draft and send approvals.
+- Scored Hunter Property Management's rental-inspections article **B** and placed it on hold because the topic gap is relevant but no verified editorial route was found.
+- Scored At Home Real Estate Services' move-out letter **B-** and deferred it because the PDF and its fee examples are old and the public contacts are operational tenant routes.
+- Scored Valiant Group's executive handbook **C** and excluded it because it is an internal/vendor workflow rather than a natural consumer-resource citation target.
+- Excluded direct competitors, irrelevant or nonlocal pages, complaints/forums, vendor directories, and duplicate outreach to RPM Momentum.
+- Added `docs/free-backlink-property-management-research-2026-07-25.md` and updated the free backlink opportunity tracker.
+- No message, email, form, call, listing, publication, payment, outreach, follow-up, production change, indexing action, or external-system change occurred.

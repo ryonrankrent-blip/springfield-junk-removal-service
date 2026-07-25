@@ -69,13 +69,24 @@ No paid option is approved now. After a client/operator is established, evaluate
 
 | ID | Prospect class | Target count | Required evidence | Status |
 |---|---|---:|---|---|
-| FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | In progress — 2 RPM Momentum pages verified; security-deposit article is the strongest |
+| FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | Expanded — Springfield Property Management move-out page scored A- and is the next draft candidate; Hunter B hold; At Home B- defer; Valiant excluded |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
 | FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | In progress — Springfield Storage Solutions contacted once; 417 Downsizing prospect-specific fit reverified but public editorial route unresolved; KO Storage held |
 | FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Exact Family Connection gap, deployed student checklist, Family Programs responsibility, and public author route verified; one tailored message sent once; monitoring only |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
 Full named findings and page-level evidence: `docs/free-backlink-prospect-research-2026-07-24.md`.
+
+Property-management batch 2 findings and route cautions: `docs/free-backlink-property-management-research-2026-07-25.md`.
+
+## Property-management research batch 2
+
+| Priority | Exact prospect page | Best resource fit | Classification | Current action |
+|---:|---|---|---|---|
+| 1 | Springfield Property Management LLC — Move Out Info | Student/renter move-out checklist or disposal guide | A- | Best next draft candidate; reverify the operational general route before drafting; no contact |
+| 2 | Hunter Property Management — rental-property inspections article | Rental-turnover or renter move-out checklist | B | Hold until a suitable editorial route is verified; do not target multiple Hunter pages |
+| 3 | At Home Real Estate Services — move-out letter PDF | Renter move-out checklist or disposal guide | B- | Defer; old PDF and operational tenant routes reduce actionability |
+| 4 | Valiant Group — Property Management Executive Handbook | None recommended | C | Exclude; internal/vendor workflow is not a natural consumer-resource target |
 
 ## First free prospect batch
 
@@ -118,4 +129,8 @@ For every later approved attempt, record contact date, recipient, target page, p
 
 ## Current decision
 
-The first named prospect batch is researched, prioritized, and executed at one approved attempt per prospect. RPM Momentum, Graddy Real Estate, and Springfield Storage Solutions each received one approved message, and no follow-up is authorized. The next step is monitoring only: record any response or live editorial link, but do not resubmit, follow up, or contact another facility or person without separate owner approval. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
+The first named prospect batch is researched, prioritized, and executed at one approved attempt per contacted prospect. RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, and Missouri State Family Programs each received one approved message, and no follow-up is authorized.
+
+The second property-management research batch verified four additional exact resources. Springfield Property Management LLC's move-out page is the only recommended next draft candidate. Hunter remains on hold, At Home is deferred, and Valiant is excluded. No contact with any of these four prospects is authorized. The next gate is a separately approved, unsent Springfield Property Management draft-verification pass.
+
+Continue monitoring prior attempts for responses or live editorial links, but do not resubmit or follow up. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
