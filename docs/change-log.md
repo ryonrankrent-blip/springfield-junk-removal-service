@@ -1424,3 +1424,15 @@
 - Classified Christina & Co To The Rescue **C / exclude** because its estate-dispersal, donation, and junk-removal services overlap the Springfield asset.
 - Added `docs/free-backlink-moving-estate-senior-research-2026-07-25.md` and updated the free backlink opportunity tracker.
 - No email, form, call, message, outreach, follow-up, listing, publication, payment, link submission, production change, indexing action, or external-system change occurred.
+
+## 2026-07-25 — Help Give Hope route verification and unsent draft
+
+- Reverified Help Give Hope's exact Springfield garage-sale page, including its appliance-condition guidance, removal-cost concern, and published list of items it does not take.
+- Reverified the Springfield junk disposal guide as the primary destination; the extensionless production URL returned HTTP 200 and remained an official-source-led local research page.
+- Verified the organization's public general contact form with name, phone, email, and message fields.
+- Excluded the garage-sale donation-pickup phone, general and sponsor phone numbers, and any address available only through a third-party directory.
+- Recorded that the site's footer email destination could not be independently verified during the pass and must not be guessed or replaced with a stale third-party address.
+- Prepared one nonprofit-sensitive, unsent general-form draft for the exact garage-sale page.
+- The draft asks only for optional editorial review, does not ask the nonprofit to change donation policies or direct donors to a commercial provider, and makes no payment, reciprocal-link, partnership, endorsement, pickup, or vendor request.
+- Updated the moving/estate/senior research record, opportunity tracker, and outreach draft register.
+- No email, form, call, message, outreach, follow-up, listing, publication, payment, link submission, production change, indexing action, or external-system change occurred.

@@ -71,7 +71,7 @@ No paid option is approved now. After a client/operator is established, evaluate
 |---|---|---:|---|---|
 | FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | Expanded — Springfield Property Management contacted once; Hunter B hold; At Home B- defer; Valiant excluded |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
-| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | Expanded — Springfield Storage Solutions contacted once; SpringHouse Village A- route unresolved; Help Give Hope B+ draft candidate after route recheck; DIYAuctions B hold; 417 Downsizing route unresolved; Christina & Co excluded |
+| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | Expanded — Springfield Storage Solutions contacted once; SpringHouse Village A- route unresolved; Help Give Hope B+ general-form draft prepared and unsent; DIYAuctions B hold; 417 Downsizing route unresolved; Christina & Co excluded |
 | FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Exact Family Connection gap, deployed student checklist, Family Programs responsibility, and public author route verified; one tailored message sent once; monitoring only |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
@@ -86,7 +86,7 @@ Moving, estate, senior-transition, and donation batch findings: `docs/free-backl
 | Priority | Exact prospect page | Best resource fit | Classification | Current action |
 |---:|---|---|---|---|
 | 1 | SpringHouse Village — downsizing for senior living guide | Springfield disposal guide | A- | Hold until a suitable editorial/community-relations route is verified; do not use the sales form or phone |
-| 2 | Help Give Hope — garage sale donation page | Disposal guide or accepted-items guide | B+ | Reverify general route and prepare a nonprofit-sensitive draft only after separate approval; do not use donation-pickup phone |
+| 2 | Help Give Hope — garage sale donation page | Springfield disposal guide | B+ | General form verified and nonprofit-sensitive draft prepared; unsent; do not use donation-pickup phone or unverified email |
 | 3 | DIYAuctions — Springfield estate-sales guide | Springfield disposal guide | B | Secondary fallback; multi-market commercial publisher and no named editor |
 | 4 | Veterans Clearance Outlet — donation/home-furnishings page | Accepted-items or disposal guide | B- | Defer; no exact editorial article and visible form is donation intake |
 | 5 | Christina & Co To The Rescue — senior-transition resources | None | C / exclude | Adjacent provider offers estate dispersal, donations, and junk-removal handling |
@@ -115,7 +115,7 @@ Moving, estate, senior-transition, and donation batch findings: `docs/free-backl
 
 ## Draft status
 
-Six individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
+Seven individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2026-07-24.md`:
 
 | Prospect | Draft status | Public route status | Send status |
 |---|---|---|---|
@@ -125,8 +125,9 @@ Six individualized drafts are recorded in `docs/free-backlink-outreach-drafts-20
 | 417 Downsizing | Tailored draft prepared for the exact item-sorting guide | No suitable public editorial route verified; customer questionnaire and service phone excluded | Unsent; route unresolved |
 | Missouri State Family Programs | Sent once for the April 11, 2026 donation-station article at `2026-07-25T05:39:04Z` | Sent by project Gmail to the verified public official author route; Gmail message ID `19f97c8c2d62d60d` verified with `SENT` label | Sent once; no follow-up authorized |
 | Springfield Property Management LLC | Sent once for the exact Move Out Info page at `2026-07-25T06:21:12Z` | Sent by project Gmail to `info@springfieldpm.com`; Gmail message ID `19f97ef544821314` verified with `SENT` label | Sent once; no form submission or follow-up authorized |
+| Help Give Hope | Nonprofit-sensitive draft prepared for the exact garage-sale donation page | Public general form verified; donation-pickup phone excluded; footer email destination unresolved | Unsent; separate approval required |
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, and Springfield Property Management have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the five prospects. The 417 Downsizing draft remains unsent.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, and Springfield Property Management have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the five prospects. The 417 Downsizing and Help Give Hope drafts remain unsent.
 
 ## Outreach and measurement gate
 

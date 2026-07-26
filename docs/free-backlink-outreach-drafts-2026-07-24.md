@@ -310,6 +310,61 @@ Ryon O’Neill
 - **Delivery controls:** No CC, BCC, attachment, tracking parameter, form submission, alternate route, second message, or follow-up.
 - **Follow-up status:** Not authorized. Do not resubmit through the form, email another address, call, or follow up without separate approval.
 
+## Draft 7 — Help Give Hope
+
+**Target page:**
+`https://helpgivehope.org/garage-sale/`
+
+**Exact gap:**
+The current garage-sale page asks donors to describe appliance condition accurately, explains that unusable donations can create removal costs, and identifies mattresses, office desks, entertainment centers, box TVs, hide-a-beds, and china cabinets as items the organization does not take. It does not provide donors with a neutral Springfield lookup path for those items or for broken appliances, electronics, household chemicals, bulky materials, and other facility-dependent items.
+
+**Proposed destination:**
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+**Destination verification:**
+The extensionless production URL returned HTTP 200 during the route-verification pass. Its title, canonical, and visible content identify it as a Springfield disposal and recycling research guide, and it links readers to current City of Springfield and Missouri item-specific resources.
+
+**Preferred public route:**
+`https://helpgivehope.org/contact-us/`
+
+The public general form accepts name, phone, email, and message fields. The page specifically says assistance requests submitted there are not reviewed, but this draft is an editorial resource suggestion rather than an assistance request.
+
+**Excluded routes:**
+
+- Do not use the garage-sale phone number, which is published for scheduling donation pickup.
+- Do not call the organization's general, sponsor, board, or staff phone numbers.
+- Do not use the footer email unless its exact current destination can be independently verified from the organization's own site.
+- Do not substitute an address found only in a third-party directory.
+- Do not send both a form and an email.
+
+**Suggested subject if a verified email route later becomes available:** Springfield disposal lookup for your garage-sale donation page
+
+**General-form message:**
+
+Hello,
+
+I was reviewing your Garage Sale page and appreciated how clearly it explains which donations may not work, especially mattresses, office desks, entertainment centers, box TVs, hide-a-beds, and china cabinets. The note that unusable donations can create removal costs is especially helpful.
+
+For donors who still need to decide what to do with an item that cannot be used, I help maintain a Springfield disposal guide that organizes current City of Springfield and Missouri resources by item type:
+
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+If it would be useful to donors, you are welcome to review it as an optional supporting link for the page. It does not change your donation policies or imply that Help Give Hope accepts those items. This is not a paid-placement, advertising, reciprocal-link, partnership, endorsement, pickup, or vendor request.
+
+Thank you,
+
+Ryon O’Neill
+
+### Draft assessment
+
+- **Personalized:** Yes; references the exact unaccepted-item list and removal-cost concern.
+- **Reader value:** Gives donors an official-source-led Springfield research path when an item cannot be used.
+- **Nonprofit sensitivity:** The message does not ask Help Give Hope to direct donors to a commercial provider, alter its policies, accept additional items, or enter a partnership.
+- **Commercial pressure:** Low; the proposed page is presented as an optional research link.
+- **Route status:** General contact form verified; donation-pickup phone excluded; footer email unresolved.
+- **Execution status:** Draft only; no form, email, call, or message submitted.
+- **Follow-up status:** Not applicable; no initial message has been sent.
+
 ## Sending controls
 
 If one or more drafts later receive send approval:
@@ -326,4 +381,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, and Springfield Property Management were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, and Springfield Property Management were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The Help Give Hope message is draft-only for the verified general form and has not been submitted. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
