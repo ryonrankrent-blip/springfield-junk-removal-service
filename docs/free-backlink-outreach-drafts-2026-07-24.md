@@ -366,6 +366,52 @@ Ryon O’Neill
 - **Delivery controls:** No email, phone call, second form submission, attachment, tracking parameter, payment, reciprocal-link offer, partnership claim, endorsement request, pickup request, or vendor request.
 - **Follow-up status:** Not authorized. Do not resubmit, use another contact route, call, email, or follow up without separate approval.
 
+## Draft 8 — DIYAuctions
+
+**Target page:**
+`https://www.diyauctions.com/learn/estate-sales-in-springfield-mo`
+
+**Exact gap:**
+The current Springfield estate-sale guide tells readers to plan for donation, consignment, or disposal after the sale and discusses a one-to-three-day post-sale clean-out. It names several donation options but does not give readers a current Springfield item-by-item lookup path for electronics, appliances, household chemicals, tires, bulky items, or other facility-dependent materials.
+
+**Proposed destination:**
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+**Preferred public route:**
+`business@diyauctions.com`
+
+DIYAuctions' official contact page lists this address for partnerships, media requests, and business development. The message must remain an editorial resource suggestion, not a partnership or platform proposal. No named editor is published.
+
+**Subject:** Springfield disposal reference for your estate-sale guide
+
+**Email draft:**
+
+Hello DIYAuctions team,
+
+I was reviewing your guide to estate sales in Springfield, Missouri and noticed the useful post-sale section covering donation, consignment, disposal, and the final clean-out.
+
+For readers deciding what to do with leftover items that cannot be sold or donated, I help maintain a Springfield disposal guide organized around current City of Springfield and Missouri resources:
+
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+If it would improve that section for Springfield readers, you are welcome to review it as an optional supporting reference. It may be especially useful for electronics, appliances, household chemicals, tires, bulky items, and other materials whose options depend on current facility rules.
+
+This is an editorial resource suggestion only—not a paid-placement, partnership, affiliate, reciprocal-link, platform-signup, or local-provider request.
+
+Thank you,
+
+Ryon O'Neill
+
+### Draft assessment
+
+- **Personalized:** Yes; references the exact Springfield article, its post-sale clean-out section, and its donation/consignment/disposal sequence.
+- **Reader value:** Adds an official-source-led Springfield lookup path for leftover items requiring item-specific decisions.
+- **Commercial pressure:** Low; the destination is proposed only as an optional supporting reference.
+- **Publisher risk:** Moderate; the site publishes high-volume, commercially promotional local guides and provides no named editor.
+- **Route status:** Official business/media email verified on the publisher's contact page.
+- **Execution status:** Draft only. No email, form, call, message, signup, partnership request, or other contact has occurred.
+- **Follow-up status:** Not applicable. A first send requires separate approval of the exact recipient, sender identity, subject, body, and action.
+
 ## Sending controls
 
 If one or more drafts later receive send approval:
@@ -382,4 +428,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, and Help Give Hope were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, and Help Give Hope were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The DIYAuctions message is draft-only for the verified official business/media route and has not been sent. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.

@@ -1446,3 +1446,14 @@
 - The site displayed the confirmation: “Thanks for contacting us! We will email you back shortly.”
 - No email, phone call, second form submission, alternate contact route, follow-up, listing, publication, spending, production change, indexing action, or other external-system change occurred.
 - Status: submitted once and monitoring only. No resubmission or follow-up is authorized.
+
+## 2026-07-27 — DIYAuctions route verification and unsent draft
+
+- Reverified DIYAuctions' exact Springfield estate-sale article and its post-sale donation, consignment, disposal, and clean-out section.
+- Confirmed the article still lacks a current Springfield item-by-item path for electronics, appliances, household chemicals, tires, bulky items, and other facility-dependent materials.
+- Reverified the Springfield junk disposal guide as the proposed official-source-led destination.
+- Verified `business@diyauctions.com` on the publisher's official contact page as its route for business and media inquiries; no named editor was published.
+- Kept the prospect at **B** because the exact article and content gap are relevant, while the high-volume commercial publishing model and promotional purpose reduce editorial quality and expected link value.
+- Prepared one individualized, unsent email draft that asks only for optional editorial review and expressly excludes paid placement, partnership, affiliate, reciprocal-link, platform-signup, and local-provider requests.
+- Updated the moving/estate/senior research record, free backlink opportunity tracker, and outreach draft register.
+- No email, form, call, message, signup, publication, payment, link submission, production change, indexing action, or other external-system change occurred.
