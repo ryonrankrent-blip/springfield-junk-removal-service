@@ -1436,3 +1436,13 @@
 - The draft asks only for optional editorial review, does not ask the nonprofit to change donation policies or direct donors to a commercial provider, and makes no payment, reciprocal-link, partnership, endorsement, pickup, or vendor request.
 - Updated the moving/estate/senior research record, opportunity tracker, and outreach draft register.
 - No email, form, call, message, outreach, follow-up, listing, publication, payment, link submission, production change, indexing action, or external-system change occurred.
+
+## 2026-07-26 — Help Give Hope free editorial-resource outreach
+
+- Reverified the exact Help Give Hope garage-sale page and the live Springfield junk disposal guide immediately before submission.
+- Submitted the approved nonprofit-sensitive message once through the public general contact form using Ryon O'Neill, `ryon.rankrent@gmail.com`, and `(417) 242-5370`.
+- Proposed `https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide` only as an optional supporting resource for donors reviewing items that Help Give Hope cannot use.
+- The exact approved message was used without an attachment, tracking parameter, payment, reciprocal-link offer, partnership claim, endorsement request, pickup request, or vendor request.
+- The site displayed the confirmation: “Thanks for contacting us! We will email you back shortly.”
+- No email, phone call, second form submission, alternate contact route, follow-up, listing, publication, spending, production change, indexing action, or other external-system change occurred.
+- Status: submitted once and monitoring only. No resubmission or follow-up is authorized.
