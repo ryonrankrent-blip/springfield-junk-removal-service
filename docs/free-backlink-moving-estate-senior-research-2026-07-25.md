@@ -1,7 +1,7 @@
 # Springfield Free Moving, Estate, Senior-Transition, and Donation Backlink Research
 
 **Date:** 2026-07-25
-**Status:** Research active; SpringHouse Village was contacted once through the verified corporate communications route and is monitoring only; prior contacted prospects remain monitoring only
+**Status:** Research active; 2026-07-28 outcome audit found SpringHouse Village pending, Help Give Hope backlink declined with a separate phone-referral offer, DIYAuctions failed delivery, and zero live links across this batch
 **Cost policy:** Consider only legitimate `$0` editorial/resource opportunities. Paid placements, reciprocal links, sponsorships, vendor profiles, and operating-provider representations remain excluded.
 
 ## Decision summary
@@ -9,8 +9,8 @@
 | Priority | Prospect and exact page | Score | Best destination | Route status | Decision |
 |---:|---|---|---|---|---|
 | 1 | SpringHouse Village — [Downsizing for Senior Living: A Family's Guide](https://springhousevillageseniorliving.com/blog/how-to-help-your-parent-downsize-for-a-move-to-senior-living) | A- | Springfield junk disposal guide | Verified Discovery Senior Living corporate communications route used once; local sales form and phones remain excluded | Sent once; monitoring only; no alternate route or follow-up authorized |
-| 2 | Help Give Hope — [Garage Sale](https://helpgivehope.org/garage-sale/) | B+ | Springfield junk disposal guide | Public general contact form used once with owner approval; donation-pickup phone and email excluded | Submitted once; confirmation received; monitoring only |
-| 3 | DIYAuctions — [Your Guide to Successful Estate Sales in Springfield MO](https://www.diyauctions.com/learn/estate-sales-in-springfield-mo) | B | Springfield junk disposal guide | Official contact page lists `business@diyauctions.com` for business and media inquiries; used once with owner approval | Sent once by approved editorial-only email on 2026-07-27; monitoring only; no follow-up authorized |
+| 2 | Help Give Hope — [Garage Sale](https://helpgivehope.org/garage-sale/) | B+ | Springfield junk disposal guide | Public general contact form used once with owner approval; donation-pickup phone and email excluded | Backlink declined; separate phone-referral offer pending guarded review; no live link or reply authorized |
+| 3 | DIYAuctions — [Your Guide to Successful Estate Sales in Springfield MO](https://www.diyauctions.com/learn/estate-sales-in-springfield-mo) | B | Springfield junk disposal guide | Published `business@diyauctions.com` route returned an address-not-found failure | Failed delivery; no live link; do not retry without separate route research and approval |
 | 4 | Veterans Clearance Outlet — [Home furnishings and donation page](https://veteransclearanceoutlet.org/) | B- | Accepted-items guide or Springfield junk disposal guide | Public general email and donation-oriented contact form exist | Local and legitimate, but no exact editorial article and the public form is donation intake; defer |
 | 5 | Christina & Co To The Rescue — [Senior-transition resources](https://christinatotherescue.com/blog) | C / exclude | None recommended | Customer-service form and phone; no verified editorial route | Adjacent provider directly offers estate dispersal, donation, and junk-removal handling; do not pitch |
 
@@ -54,7 +54,9 @@ The nonprofit-sensitive message was submitted once through the verified public g
 
 The site displayed: **“Thanks for contacting us! We will email you back shortly.”** No email, phone call, second submission, attachment, tracking parameter, payment, reciprocal-link offer, partnership claim, endorsement request, pickup request, vendor request, or follow-up occurred.
 
-Score remains **B+**. Status is monitoring only. Do not resubmit, use another contact route, or follow up without separate owner approval.
+At `2026-07-28T17:17:22`, Help Give Hope replied that it was not willing to add a website link. It separately offered to share `(417) 242-5370` with donors whose items it cannot accept. The 2026-07-28 page audit found no live link.
+
+The backlink outcome is closed/declined. The phone-referral offer is a materially different relationship and is not accepted by this record. Do not reply until truthful service positioning, call routing, and lead handling are separately reviewed and approved. Do not resubmit, use another route, or follow up without separate owner approval.
 
 ## 3. DIYAuctions
 
@@ -70,9 +72,9 @@ DIYAuctions publishes hundreds of local-market guides and operates a commercial 
 
 ### Recommendation
 
-The official business route, exact Springfield article, and destination were reverified on 2026-07-27. One individualized editorial-only email was sent once with owner approval at `2026-07-27T06:42:17` from the project Gmail account `ryon.rankrent@gmail.com` to `business@diyauctions.com`. Gmail message ID `19fa24f5c7cbeeff` was read back with the `SENT` label. No CC, BCC, attachment, tracking parameter, form submission, call, second message, or follow-up occurred.
+The official business route, exact Springfield article, and destination were reverified on 2026-07-27. One individualized editorial-only email was attempted once with owner approval at `2026-07-27T06:42:17` from the project Gmail account `ryon.rankrent@gmail.com` to `business@diyauctions.com`. Gmail message ID `19fa24f5c7cbeeff` was read back with the `SENT` label, but a delivery-failure notice arrived at `2026-07-27T06:42:19`: the recipient did not exist or could not receive mail. No CC, BCC, attachment, tracking parameter, form submission, call, second message, or follow-up occurred.
 
-Keep the score at **B** and monitor only. The sent proposal suggested the Springfield junk disposal guide only as an optional official-source-led reference for the article's post-sale clean-out section. It did not offer a partnership, reciprocal link, affiliate arrangement, paid placement, promotion, platform signup, or local-provider relationship. Do not resend, use another route, or follow up without separate owner approval.
+Record **B / failed delivery**. The proposal was not delivered, no live link was found, and this is not a pending publisher response. Do not resend, research or use another route, or follow up without separate owner approval.
 
 ## 4. Veterans Clearance Outlet
 
@@ -109,4 +111,4 @@ Classify **C / exclude**. Do not seek a link, partnership, vendor relationship, 
 
 Do not contact or follow up with Help Give Hope again. No other prospect in this batch is approved for contact.
 
-SpringHouse Village, Help Give Hope, and DIYAuctions remain monitoring only; no resend, alternate route, or follow-up is authorized. Do not use the SpringHouse local sales form or phones. Veterans Clearance Outlet is deferred, and Christina & Co is excluded.
+SpringHouse Village remains pending with no live link. Help Give Hope declined the backlink; its separate phone-referral offer awaits a guarded decision and does not authorize a reply. DIYAuctions failed delivery and must not be retried without new research and approval. Do not use the SpringHouse local sales form or phones. Veterans Clearance Outlet is deferred, and Christina & Co is excluded.

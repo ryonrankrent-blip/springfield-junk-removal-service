@@ -1485,3 +1485,14 @@
 - Read back Gmail message ID `19fa9b47fec26a17` and verified the `SENT` label, exact recipient, subject, body, sender, and absence of attachments.
 - No CC, BCC, attachment, tracking parameter, second send, local sales-form submission, phone call, payment, paid-placement request, partnership, referral, reciprocal-link offer, vendor proposal, publication, production change, indexing action, or other external-system action occurred.
 - Status: sent once and monitoring only. No resend, alternate route, or follow-up is authorized without separate owner approval.
+
+## 2026-07-28 — Eight-prospect outreach outcome audit
+
+- Audited the eight one-time owner-approved outreach attempts: RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, DIYAuctions, and SpringHouse Village.
+- Reviewed the five Gmail send threads and searched the project mailbox for replies, delivery failures, and related messages from July 23 onward.
+- Confirmed six pending outcomes with no detected response or live link: RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, and SpringHouse Village. The four email attempts had no detected bounce; Graddy's original form-delivery confirmation remains unresolved.
+- Recorded the Help Give Hope reply at `2026-07-28T17:17:22`: it declined adding a website link and separately offered to share `(417) 242-5370` with donors whose items it cannot accept.
+- Classified the Help Give Hope backlink outcome as closed/declined. The phone-referral offer is not accepted and requires separate review of truthful service positioning, call routing, and lead handling before any reply.
+- Recorded the DIYAuctions delivery failure at `2026-07-27T06:42:19`: `business@diyauctions.com` did not exist or could not receive mail. The attempt is failed delivery, not pending, and must not be retried without new route research and approval.
+- Rechecked all eight exact target pages. Each returned HTTP 200, and none contained a link to `springfieldjunkremovalservice.com`.
+- No reply, resend, alternate-route research, follow-up, email, form, call, listing, publication, payment, production change, indexing action, DNS, routing, tracking, or other external-system change occurred during the audit.

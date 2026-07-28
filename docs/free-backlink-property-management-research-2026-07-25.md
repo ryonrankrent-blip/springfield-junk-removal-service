@@ -1,14 +1,14 @@
 # Springfield Free Property-Management Backlink Research — Batch 2
 
 **Date:** 2026-07-25
-**Status:** Research and scoring only; no outreach, form submission, email, call, listing, publication, payment, or external-system action authorized
+**Status:** Research and one-time Springfield Property Management outreach complete; 2026-07-28 audit found no reply, bounce, or live link; pending with no follow-up authorized
 **Cost policy:** Consider only legitimate `$0` editorial/resource opportunities. Paid placements and operating-vendor profiles remain deferred until a verified client/operator exists.
 
 ## Decision summary
 
 | Priority | Prospect and exact page | Score | Best destination | Route status | Decision |
 |---:|---|---|---|---|---|
-| 1 | Springfield Property Management LLC — [Move Out Info](https://www.springfieldpm.com/move-out-info) | A- | Student/renter move-out checklist or Springfield disposal guide | Public general form and `info@springfieldpm.com`; operational rather than verified editorial route | Best next draft candidate; reverify page and route before drafting; no contact |
+| 1 | Springfield Property Management LLC — [Move Out Info](https://www.springfieldpm.com/move-out-info) | A- | Student/renter move-out checklist or Springfield disposal guide | Public general form and `info@springfieldpm.com`; operational rather than verified editorial route | Sent once; no reply, bounce, or live link detected on 2026-07-28; pending; no follow-up |
 | 2 | Hunter Property Management — [The Different Types of Rental Property Inspections with Owner Checklists](https://www.hunterpropertymgt.com/blog/the-different-types-of-rental-property-inspections-with-owner-checklists) | B | Rental-turnover checklist or renter move-out checklist | General owner/renter contact form; no verified editorial address | Hold pending route review; no contact |
 | 3 | At Home Real Estate Services — [Move-Out Letter PDF](https://www.athomehere.com/wp-content/uploads/2019/05/move-out-letter.pdf) | B- | Renter move-out checklist or Springfield disposal guide | Named and general operational tenant contacts appear in the PDF; no verified editorial route | Defer because the PDF and fee examples are old and the routes are operational; no contact |
 | 4 | Valiant Group — [Property Management Executive Handbook](https://valiantgroup.com/pm-training-guide) | C | None recommended | Internal/executive operational material rather than a public tenant resource | Exclude from outreach |
@@ -29,7 +29,7 @@ The publisher exposes a general contact form and `info@springfieldpm.com`. The s
 
 ### Recommendation
 
-Advance only this prospect to a separately approved draft-verification gate. Reverify the page, destination, and public route immediately before drafting. Do not send without separate approval.
+One owner-approved email was sent once. The 2026-07-28 outcome audit found no reply, delivery failure, or live link. Keep pending and do not resend, use the public form, use another route, or follow up without separate approval.
 
 ## 2. Hunter Property Management
 
@@ -84,4 +84,4 @@ The following patterns were excluded from this batch:
 
 ## Next approval gate
 
-The only recommended next prospect action is a **draft-verification pass for Springfield Property Management LLC**. That pass may prepare an individualized, unsent editorial-resource message after rechecking the exact page, destination, and public route. It does not authorize sending, form submission, email, calls, listings, payment, publication, or follow-up.
+Springfield Property Management remains pending after one approved email and zero live-link detection on 2026-07-28. No resend, form submission, alternate route, call, listing, payment, publication, or follow-up is authorized.
