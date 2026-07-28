@@ -1457,3 +1457,11 @@
 - Prepared one individualized, unsent email draft that asks only for optional editorial review and expressly excludes paid placement, partnership, affiliate, reciprocal-link, platform-signup, and local-provider requests.
 - Updated the moving/estate/senior research record, free backlink opportunity tracker, and outreach draft register.
 - No email, form, call, message, signup, publication, payment, link submission, production change, indexing action, or other external-system change occurred.
+
+## 2026-07-27 — DIYAuctions free editorial-resource outreach
+
+- Reverified the exact DIYAuctions Springfield estate-sale article, the official `business@diyauctions.com` route, and the proposed Springfield junk disposal guide immediately before sending.
+- Sent the exact owner-approved editorial-resource message once at `2026-07-27T06:42:17` from the project Gmail account `ryon.rankrent@gmail.com` to `business@diyauctions.com`.
+- Read back Gmail message ID `19fa24f5c7cbeeff` and verified the `SENT` label, exact recipient, subject, body, sender, and absence of attachments.
+- No CC, BCC, attachment, tracking parameter, second send, form submission, phone call, payment, reciprocal-link offer, partnership claim, platform-signup request, local-provider request, publication, production change, indexing action, or other external-system action occurred.
+- Status: sent once and monitoring only. No resend, alternate route, or follow-up is authorized without separate owner approval.
