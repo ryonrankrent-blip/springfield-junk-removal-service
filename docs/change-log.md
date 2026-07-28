@@ -1465,3 +1465,15 @@
 - Read back Gmail message ID `19fa24f5c7cbeeff` and verified the `SENT` label, exact recipient, subject, body, sender, and absence of attachments.
 - No CC, BCC, attachment, tracking parameter, second send, form submission, phone call, payment, reciprocal-link offer, partnership claim, platform-signup request, local-provider request, publication, production change, indexing action, or other external-system action occurred.
 - Status: sent once and monitoring only. No resend, alternate route, or follow-up is authorized without separate owner approval.
+
+## 2026-07-28 — SpringHouse Village route verification and unsent draft
+
+- Reverified SpringHouse Village's exact Springfield senior-downsizing article and its keep, give-to-family, donate, discard, donation-pickup, and estate-sale guidance.
+- Confirmed the article still lacks a current Springfield item-specific path for electronics, appliances, household chemicals, bulky items, tires, and other materials that cannot be donated.
+- Reverified the Springfield junk disposal guide as the proposed official-source-led destination.
+- Confirmed that the local SpringHouse contact form and phone numbers are resident, sales, and community operational routes and remain excluded.
+- Confirmed SpringHouse Village identifies Discovery Senior Living as its operating organization.
+- Verified Laura Lepore, Corporate and Investor Communications, and `llepore@discoveryseniorliving.com` through a current official 2026 Discovery Senior Living press release.
+- Kept the prospect at **A-** and prepared one individualized, unsent editorial-resource email draft. The draft asks only that the appropriate article team consider an optional supporting reference and excludes sales, paid placement, partnership, referral, reciprocal-link, and vendor proposals.
+- Updated the moving/estate/senior research record, free backlink opportunity tracker, and outreach draft register.
+- No email, form, call, message, outreach, follow-up, listing, publication, payment, link submission, production change, indexing action, or other external-system change occurred.
