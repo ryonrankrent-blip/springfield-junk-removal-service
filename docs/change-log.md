@@ -1477,3 +1477,11 @@
 - Kept the prospect at **A-** and prepared one individualized, unsent editorial-resource email draft. The draft asks only that the appropriate article team consider an optional supporting reference and excludes sales, paid placement, partnership, referral, reciprocal-link, and vendor proposals.
 - Updated the moving/estate/senior research record, free backlink opportunity tracker, and outreach draft register.
 - No email, form, call, message, outreach, follow-up, listing, publication, payment, link submission, production change, indexing action, or other external-system change occurred.
+
+## 2026-07-28 — SpringHouse Village free editorial-resource outreach
+
+- Immediately reverified the exact SpringHouse Village senior-downsizing article, the official Discovery Senior Living corporate communications route, and the live Springfield junk disposal guide before sending.
+- Sent the exact owner-approved editorial-resource email once at `2026-07-28T17:10:06` from `ryon.rankrent@gmail.com` to Laura Lepore at `llepore@discoveryseniorliving.com`.
+- Read back Gmail message ID `19fa9b47fec26a17` and verified the `SENT` label, exact recipient, subject, body, sender, and absence of attachments.
+- No CC, BCC, attachment, tracking parameter, second send, local sales-form submission, phone call, payment, paid-placement request, partnership, referral, reciprocal-link offer, vendor proposal, publication, production change, indexing action, or other external-system action occurred.
+- Status: sent once and monitoring only. No resend, alternate route, or follow-up is authorized without separate owner approval.
