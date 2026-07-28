@@ -1,7 +1,7 @@
 # Springfield Free Backlink Opportunity Tracker
 
 **Date:** 2026-07-24
-**Status:** Active `$0` research and monitoring tracker; eight owner-approved outreach attempts have been submitted once; no follow-up, paid placement, listing, signup, publication, or account action authorized
+**Status:** Active `$0` research and monitoring tracker; eight one-time owner-approved attempts were audited on 2026-07-28: six pending, one declined backlink with a separate phone-referral offer, one failed delivery, and zero live links; no follow-up, paid placement, listing, signup, publication, or account action authorized
 **Policy:** Pursue only legitimate `$0` opportunities until a verified client/operator is established. Paid advertising, memberships, sponsorships, directories, and backlinks remain deferred for a later cost/benefit review.
 
 ## Eligibility rule
@@ -71,7 +71,7 @@ No paid option is approved now. After a client/operator is established, evaluate
 |---|---|---:|---|---|
 | FREE-01 | Property-manager/landlord resource pages | 5 | Exact page, current topic gap, editorial owner, relevant outbound links, no vendor claim required | Expanded — Springfield Property Management contacted once; Hunter B hold; At Home B- defer; Valiant excluded |
 | FREE-02 | Realtor seller/downsizing resources | 5 | Exact article/resource gap; exclude personally vetted vendor directories | In progress — Graddy downsizing page verified; AREG/Home Is Everything vendor placements remain excluded |
-| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | Expanded — Springfield Storage Solutions, Help Give Hope, DIYAuctions, and SpringHouse Village each contacted once; monitoring only; 417 Downsizing route unresolved; Christina & Co excluded |
+| FREE-03 | Moving/storage/estate/senior-transition resources | 5 | Local audience, live indexed page, educational fit, natural destination | Expanded — Springfield Storage Solutions and SpringHouse Village pending; Help Give Hope declined the backlink but offered to share the phone number; DIYAuctions failed delivery; zero live links; 417 Downsizing route unresolved; Christina & Co excluded |
 | FREE-04 | Missouri State move-out/sustainability resources | 2–3 | Responsible office, current page, missing Springfield-specific resource | Exact Family Connection gap, deployed student checklist, Family Programs responsibility, and public author route verified; one tailored message sent once; monitoring only |
 | FREE-05 | Local editorial monitoring | 4 outlets | Current policy/news gap; no generic promotional pitch | Monitor |
 
@@ -86,8 +86,8 @@ Moving, estate, senior-transition, and donation batch findings: `docs/free-backl
 | Priority | Exact prospect page | Best resource fit | Classification | Current action |
 |---:|---|---|---|---|
 | 1 | SpringHouse Village — downsizing for senior living guide | Springfield disposal guide | A- | Sent once through the verified Discovery corporate communications route on 2026-07-28; monitoring only; local sales form and phones excluded; no alternate route or follow-up authorized |
-| 2 | Help Give Hope — garage sale donation page | Springfield disposal guide | B+ | Submitted once through the verified general form on 2026-07-26; confirmation received; monitoring only; no alternate route or follow-up authorized |
-| 3 | DIYAuctions — Springfield estate-sales guide | Springfield disposal guide | B | Sent once by approved editorial-only email on 2026-07-27; monitoring only; no alternate route or follow-up authorized |
+| 2 | Help Give Hope — garage sale donation page | Springfield disposal guide | B+ | Backlink declined by email on 2026-07-28; publisher separately offered to share `(417) 242-5370` with donors; no live link and no reply, acceptance, referral arrangement, alternate route, or follow-up authorized |
+| 3 | DIYAuctions — Springfield estate-sales guide | Springfield disposal guide | B | Delivery failed on 2026-07-27 because `business@diyauctions.com` did not exist or could not receive mail; no live link; do not retry or research another route without separate approval |
 | 4 | Veterans Clearance Outlet — donation/home-furnishings page | Accepted-items or disposal guide | B- | Defer; no exact editorial article and visible form is donation intake |
 | 5 | Christina & Co To The Rescue — senior-transition resources | None | C / exclude | Adjacent provider offers estate dispersal, donations, and junk-removal handling |
 
@@ -125,11 +125,11 @@ Nine individualized drafts are recorded in `docs/free-backlink-outreach-drafts-2
 | 417 Downsizing | Tailored draft prepared for the exact item-sorting guide | No suitable public editorial route verified; customer questionnaire and service phone excluded | Unsent; route unresolved |
 | Missouri State Family Programs | Sent once for the April 11, 2026 donation-station article at `2026-07-25T05:39:04Z` | Sent by project Gmail to the verified public official author route; Gmail message ID `19f97c8c2d62d60d` verified with `SENT` label | Sent once; no follow-up authorized |
 | Springfield Property Management LLC | Sent once for the exact Move Out Info page at `2026-07-25T06:21:12Z` | Sent by project Gmail to `info@springfieldpm.com`; Gmail message ID `19f97ef544821314` verified with `SENT` label | Sent once; no form submission or follow-up authorized |
-| Help Give Hope | Submitted once for the exact garage-sale donation page on 2026-07-26 | Public general form; confirmation received; donation-pickup phone and email not used | Sent once; no follow-up or alternate contact authorized |
-| DIYAuctions | Sent once for the exact Springfield estate-sale article at `2026-07-27T06:42:17` | Sent by project Gmail from `ryon.rankrent@gmail.com` to `business@diyauctions.com`; Gmail message ID `19fa24f5c7cbeeff` verified with `SENT` label | Sent once; no alternate route or follow-up authorized |
+| Help Give Hope | Submitted once for the exact garage-sale donation page on 2026-07-26 | Public general form; confirmation received; backlink declined by reply at `2026-07-28T17:17:22`; publisher offered to share the project phone number with donors | Backlink closed/declined; referral offer requires separate truthfulness, routing, and lead-handling review; no reply authorized |
+| DIYAuctions | Attempted once for the exact Springfield estate-sale article at `2026-07-27T06:42:17` | Gmail message ID `19fa24f5c7cbeeff` received a delivery-failure notice at `2026-07-27T06:42:19`; recipient did not exist or could not receive mail | Failed delivery; do not resend or use another route without separate research and approval |
 | SpringHouse Village | Sent once for the exact senior-downsizing guide at `2026-07-28T17:10:06` | Sent by project Gmail from `ryon.rankrent@gmail.com` to `llepore@discoveryseniorliving.com`; Gmail message ID `19fa9b47fec26a17` verified with `SENT` label; local sales form and phones excluded | Sent once; no alternate route or follow-up authorized |
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, DIYAuctions, and SpringHouse Village have each been submitted once and must not be resubmitted. No follow-up or alternate contact route is authorized for any of the eight prospects. The 417 Downsizing draft remains unsent.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, DIYAuctions, and SpringHouse Village each received one approved attempt and must not be resubmitted. DIYAuctions failed delivery, Help Give Hope declined the backlink, and the remaining six are pending. The 2026-07-28 page audit found zero live links. No follow-up or alternate contact route is authorized. The 417 Downsizing draft remains unsent.
 
 ## Outreach and measurement gate
 
@@ -149,6 +149,6 @@ The named prospect batches are researched, prioritized, and executed at one appr
 
 The second property-management research batch verified four additional exact resources. Springfield Property Management LLC received one approved email for its exact Move Out Info page; no form submission, alternate route, second message, or follow-up is authorized. Hunter remains on hold, At Home is deferred, and Valiant is excluded.
 
-Continue monitoring prior attempts for responses or live editorial links, but do not resubmit or follow up. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
+Continue monitoring the six pending attempts for responses or live editorial links, but do not resubmit or follow up. DIYAuctions is a failed-delivery outcome, not a pending response. Help Give Hope's backlink decision is closed; its separate phone-referral offer requires a guarded review of truthful service positioning, call routing, and lead handling before any reply or acceptance. Do not submit a free listing merely because it costs nothing. “Free” does not override entity accuracy, relationship, quality, or approval requirements.
 
 SpringHouse Village received one approved email through the verified corporate communications route and is monitoring only. Do not resend, use an alternate route, or follow up without separate owner approval.

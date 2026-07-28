@@ -1,7 +1,7 @@
 # Springfield Free Backlink Outreach Drafts — Batch 1
 
 **Date:** 2026-07-24
-**Status:** RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, DIYAuctions, and SpringHouse Village each submitted once with owner approval; no follow-up authorized
+**Status:** Eight one-time owner-approved attempts recorded; 2026-07-28 audit found six pending, Help Give Hope backlink declined with a separate phone-referral offer, DIYAuctions failed delivery, and zero live links; no follow-up authorized
 **Policy:** These are individualized `$0` editorial resource suggestions. They do not request a vendor listing, paid placement, reciprocal link, endorsement, partnership, or guaranteed link.
 
 ## Required sender decision
@@ -363,6 +363,8 @@ Ryon O’Neill
 - **Commercial pressure:** Low; the proposed page is presented as an optional research link.
 - **Route status:** The verified public general contact form was used once; donation-pickup phone and email were not used.
 - **Execution status:** **Submitted once with owner approval** on 2026-07-26 using Ryon O'Neill, `ryon.rankrent@gmail.com`, and `(417) 242-5370`. The site confirmed: “Thanks for contacting us! We will email you back shortly.”
+- **Outcome status:** Help Give Hope replied at `2026-07-28T17:17:22`. It declined adding a website link and separately offered to share `(417) 242-5370` with donors whose items it cannot accept. No live link was found during the same-day page audit.
+- **Referral control:** The phone-referral offer is not accepted or authorized by this record. No reply may be sent until truthful service positioning, call routing, and lead handling are separately reviewed and approved.
 - **Delivery controls:** No email, phone call, second form submission, attachment, tracking parameter, payment, reciprocal-link offer, partnership claim, endorsement request, pickup request, or vendor request.
 - **Follow-up status:** Not authorized. Do not resubmit, use another contact route, call, email, or follow up without separate approval.
 
@@ -409,7 +411,8 @@ Ryon O'Neill
 - **Commercial pressure:** Low; the destination is proposed only as an optional supporting reference.
 - **Publisher risk:** Moderate; the site publishes high-volume, commercially promotional local guides and provides no named editor.
 - **Route status:** Official business/media email verified on the publisher's contact page and used once with owner approval.
-- **Execution status:** Sent once with owner approval at `2026-07-27T06:42:17` from `ryon.rankrent@gmail.com` to `business@diyauctions.com`. Gmail message ID `19fa24f5c7cbeeff` was read back with the `SENT` label. The approved subject and body were preserved exactly.
+- **Execution status:** Attempted once with owner approval at `2026-07-27T06:42:17` from `ryon.rankrent@gmail.com` to `business@diyauctions.com`. Gmail message ID `19fa24f5c7cbeeff` was read back with the `SENT` label, but a delivery-failure notice arrived at `2026-07-27T06:42:19`: the recipient did not exist or could not receive mail.
+- **Outcome status:** Failed delivery; no recipient response and no live link. Do not describe this as delivered or pending.
 - **Delivery controls:** No CC, BCC, attachment, tracking parameter, form submission, call, second message, payment, reciprocal-link offer, partnership request, platform signup, local-provider request, or other contact occurred.
 - **Follow-up status:** Not authorized. Do not resend, use another contact route, call, submit a form, or follow up without separate approval.
 
@@ -477,4 +480,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, DIYAuctions, and SpringHouse Village were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, DIYAuctions, and SpringHouse Village each received one owner-approved attempt and must not be resubmitted. The 2026-07-28 audit found six pending outcomes, one declined backlink with a separate unaccepted phone-referral offer, one failed delivery, and zero live links. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes a reply, referral acceptance, follow-up, alternate contact route, or outreach to another prospect.
