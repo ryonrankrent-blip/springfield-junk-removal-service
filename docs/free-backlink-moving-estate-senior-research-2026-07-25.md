@@ -1,14 +1,14 @@
 # Springfield Free Moving, Estate, Senior-Transition, and Donation Backlink Research
 
 **Date:** 2026-07-25
-**Status:** Research complete; one owner-approved Help Give Hope general-form submission completed 2026-07-26; no follow-up or alternate contact route authorized
+**Status:** Research active; SpringHouse Village corporate communications route verified and one individualized draft prepared but unsent; prior contacted prospects remain monitoring only
 **Cost policy:** Consider only legitimate `$0` editorial/resource opportunities. Paid placements, reciprocal links, sponsorships, vendor profiles, and operating-provider representations remain excluded.
 
 ## Decision summary
 
 | Priority | Prospect and exact page | Score | Best destination | Route status | Decision |
 |---:|---|---|---|---|---|
-| 1 | SpringHouse Village — [Downsizing for Senior Living: A Family's Guide](https://springhousevillageseniorliving.com/blog/how-to-help-your-parent-downsize-for-a-move-to-senior-living) | A- | Springfield junk disposal guide | Public contact form exists, but it is a sales/community inquiry form requiring move-related fields; no verified editorial route | Best page-level fit; hold until a suitable editorial or community-relations route is verified |
+| 1 | SpringHouse Village — [Downsizing for Senior Living: A Family's Guide](https://springhousevillageseniorliving.com/blog/how-to-help-your-parent-downsize-for-a-move-to-senior-living) | A- | Springfield junk disposal guide | Current Discovery Senior Living corporate press release lists Laura Lepore, Corporate and Investor Communications, at `llepore@discoveryseniorliving.com`; local sales form and phones remain excluded | Best page-level fit; individualized editorial-only draft prepared but unsent |
 | 2 | Help Give Hope — [Garage Sale](https://helpgivehope.org/garage-sale/) | B+ | Springfield junk disposal guide | Public general contact form used once with owner approval; donation-pickup phone and email excluded | Submitted once; confirmation received; monitoring only |
 | 3 | DIYAuctions — [Your Guide to Successful Estate Sales in Springfield MO](https://www.diyauctions.com/learn/estate-sales-in-springfield-mo) | B | Springfield junk disposal guide | Official contact page lists `business@diyauctions.com` for business and media inquiries; used once with owner approval | Sent once by approved editorial-only email on 2026-07-27; monitoring only; no follow-up authorized |
 | 4 | Veterans Clearance Outlet — [Home furnishings and donation page](https://veteransclearanceoutlet.org/) | B- | Accepted-items guide or Springfield junk disposal guide | Public general email and donation-oriented contact form exist | Local and legitimate, but no exact editorial article and the public form is donation intake; defer |
@@ -26,9 +26,11 @@ The Springfield junk disposal guide would add a practical local reference withou
 
 The public contact page is designed for sales and community inquiries and requires fields about the prospective resident, move timing, senior-living familiarity, and lifestyle options. That form is not suitable for an editorial-resource suggestion. Sales and community phone numbers are also operational routes and should not be used for a link proposal.
 
+SpringHouse Village's footer identifies Discovery Senior Living as the operating organization. A current 2026 Discovery Senior Living corporate press release lists Laura Lepore, Corporate and Investor Communications, at `llepore@discoveryseniorliving.com` for media and investor inquiries. That official corporate communications address is a materially better route for asking that the appropriate editorial team review a page-specific resource suggestion. It is not evidence of a relationship, endorsement, or willingness to accept link requests.
+
 ### Recommendation
 
-Keep at **A- / route unresolved**. This is the strongest exact content fit in the batch, but no outreach draft should advance until a genuine editorial, marketing, or community-relations route is verified.
+Keep at **A- / draft prepared, unsent**. The article and destination are the strongest exact content fit in the batch, and the verified corporate communications route is appropriate for a carefully framed editorial-resource suggestion. One individualized draft is recorded for owner review. Do not use the local sales form, community or sales phone numbers, or any resident-inquiry route. No email or other contact is authorized by this research update.
 
 ## 2. Help Give Hope
 
@@ -105,9 +107,6 @@ Classify **C / exclude**. Do not seek a link, partnership, vendor relationship, 
 
 Do not contact or follow up with Help Give Hope again. No other prospect in this batch is approved for contact.
 
-The best next action is to preserve this research, then perform a narrow route-verification pass for:
+The SpringHouse Village corporate communications route is verified and one individualized editorial-only draft is prepared but unsent. Any first send requires separate owner approval of the recipient, sender identity, subject, body, destination, and send action. Do not use the local sales form or phone.
 
-1. **SpringHouse Village** — look only for a legitimate editorial, marketing, or community-relations route; do not use the sales form or phone.
-2. **Help Give Hope** — monitor the single approved submission; no follow-up or alternate route is authorized.
-
-DIYAuctions received one approved editorial-only email and is now monitoring only; no resend, alternate route, or follow-up is authorized. Veterans Clearance Outlet is deferred, and Christina & Co is excluded.
+Help Give Hope and DIYAuctions remain monitoring only; no resend, alternate route, or follow-up is authorized. Veterans Clearance Outlet is deferred, and Christina & Co is excluded.

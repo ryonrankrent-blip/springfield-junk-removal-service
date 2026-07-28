@@ -413,6 +413,53 @@ Ryon O'Neill
 - **Delivery controls:** No CC, BCC, attachment, tracking parameter, form submission, call, second message, payment, reciprocal-link offer, partnership request, platform signup, local-provider request, or other contact occurred.
 - **Follow-up status:** Not authorized. Do not resend, use another contact route, call, submit a form, or follow up without separate approval.
 
+## Draft 9 — SpringHouse Village
+
+**Target page:**
+`https://springhousevillageseniorliving.com/blog/how-to-help-your-parent-downsize-for-a-move-to-senior-living`
+
+**Exact gap:**
+The Springfield-focused guide recommends sorting belongings into keep, give to family, donate, and discard categories and planning donation pickups and estate sales. It does not provide families with a current Springfield lookup path for electronics, appliances, household chemicals, bulky items, tires, or other materials that cannot be donated or require item-specific handling.
+
+**Proposed destination:**
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+**Preferred public route:**
+Laura Lepore, Corporate and Investor Communications
+
+`llepore@discoveryseniorliving.com`
+
+SpringHouse Village identifies Discovery Senior Living as its operating organization. A current 2026 Discovery Senior Living press release lists this address for media and investor inquiries. The local SpringHouse contact form and phone numbers remain excluded because they are resident, sales, and community operational routes.
+
+**Subject:** Springfield disposal reference for your downsizing guide
+
+**Email draft:**
+
+Hello Ms. Lepore,
+
+I was reviewing SpringHouse Village's guide on helping a parent downsize for a move to senior living. Its keep, give to family, donate, and discard framework is a useful way to organize a difficult transition.
+
+For Springfield families deciding what to do with items that cannot be donated or need item-specific handling, I help maintain a local disposal guide organized around current City of Springfield and Missouri resources:
+
+`https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide`
+
+If it would improve the guide for local readers, you are welcome to pass it to the team responsible for the article as an optional supporting reference. It may be useful for electronics, appliances, household chemicals, bulky items, tires, and other materials whose options depend on current facility rules.
+
+This is an editorial resource suggestion only—not a sales inquiry, paid-placement request, partnership, referral, reciprocal-link offer, or vendor proposal.
+
+Thank you,
+
+Ryon O'Neill
+
+### Draft assessment
+
+- **Personalized:** Yes; references the exact SpringHouse article and its four-category downsizing framework.
+- **Reader value:** Adds an official-source-led Springfield decision path for items that cannot be donated or require special confirmation.
+- **Commercial pressure:** Low; the destination is offered only as an optional supporting reference for the responsible editorial team.
+- **Route status:** Current official Discovery Senior Living corporate communications address verified; local sales form and phone numbers excluded.
+- **Execution status:** Draft only. No email, form, call, message, signup, or other contact has occurred.
+- **Follow-up status:** Not applicable. A first send requires separate approval of the exact recipient, sender identity, subject, body, destination, and action.
+
 ## Sending controls
 
 If one or more drafts later receive send approval:
@@ -429,4 +476,4 @@ If one or more drafts later receive send approval:
 
 ## Current decision
 
-RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, and DIYAuctions were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
+RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, Help Give Hope, and DIYAuctions were each submitted once with owner approval and must not be resubmitted. The 417 Downsizing message remains draft-only because no appropriate public editorial route was verified. The SpringHouse Village message is draft-only for the verified Discovery corporate communications route and has not been sent. Nothing in this file authorizes follow-up, alternate contact routes, or outreach to another prospect.
