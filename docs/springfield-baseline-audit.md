@@ -80,6 +80,17 @@ Full record: `production-baseline-2026-07-11.md`, `indexing-priority-tracker.md`
 
 Proof-of-life: technically live, indexed, receiving impressions/clicks, early rankings visible. **Not yet renter-ready** — call/form conversion verification and authority/citation work incomplete.
 
+## August 1, 2026 proof-of-life update
+
+- GSC 28-day performance increased to **5,697 impressions and 8 clicks**, with **0.1% CTR** and **37.8 average position**.
+- Against the July 11 baseline, impressions increased **22.8%**, clicks increased **33.3%**, and average position improved by **3.6 positions**.
+- GSC Page Indexing reported **33 indexed** and **66 not indexed**: 43 page-with-redirect, 17 alternate-canonical, 5 redirect-error, and 1 Google-selected-canonical mismatch cases.
+- GA4 reported **16 active users, 21 views, 69 events, 1 key event, and 1 `click_quote_button` event** over the last seven days.
+- CallRail reported **0 Springfield calls** from July 25 through August 1. Formspree contained **0 real leads**; current inbox entries remained known tests, while three entries were classified as obvious spam/solicitations.
+- GSC Links reported **0 external links** and **380 internal links**. Six outreach prospects remained pending with no newly detected reply or live link.
+- Status: **search proof-of-life confirmed and improving; technically lead-ready; not renter-ready** because confirmed lead volume, live backlinks, and an approved operator/lead-handoff arrangement remain incomplete.
+- No call, form submission, indexing request, sitemap resubmission, outreach, follow-up, deployment, DNS, routing, tracking, listing, publication, or spending change occurred during the audit.
+
 ## Outstanding watch items
 
 - Meta keywords still include SEO terms like `hoarding`, `demolition` — intentional for URL/search targeting, not body operator claims

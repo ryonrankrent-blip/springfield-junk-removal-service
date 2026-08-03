@@ -5,7 +5,7 @@ Run after deployment to confirm the live site is functional.
 **Production deploy:** 2026-07-11 (PR #11 `2006f8b`; PR #12 `57b7b8c` URL alignment; PR #13 `ef037f3` hub JSON-LD fix)  
 **GSC baseline:** 2026-07-11 (verified)  
 **Conversion verification:** 2026-07-11 — **live tests PASS**  
-**Recheck window:** July 18–25, 2026  
+**Latest proof-of-life audit:** 2026-08-01 — **search visibility growing; no confirmed real leads or backlinks**
 **Weekly tracking:** `proof-of-life-weekly-tracker.md`  
 **Conversion tests:** `conversion-verification-checklist.md`
 
@@ -74,8 +74,31 @@ Run after deployment to confirm the live site is functional.
 - [x] Hub JSON-LD unparsable structured data fixed (PR #13) and live-verified
 - [x] Indexing requests submitted for eight approved URLs (2026-07-11) — see tracker
 - [x] Week-1 metrics recorded in `proof-of-life-weekly-tracker.md`
-- [ ] Recheck indexing status — **July 18–25, 2026**
+- [x] Recheck indexing status — **2026-08-01**: 33 indexed; 66 not indexed
 - [ ] Additional indexing requests — **not performed; requires separate approval**
+
+## Proof-of-life audit (2026-08-01)
+
+| Signal | Verified result |
+|---|---|
+| GSC performance (28d) | 5,697 impressions; 8 clicks; 0.1% CTR; average position 37.8 |
+| Change from 2026-07-11 baseline | Impressions +22.8%; clicks +33.3%; average position improved from 41.4 to 37.8 |
+| Page indexing | 33 indexed; 66 not indexed |
+| Exclusion mix | 43 page with redirect; 17 alternate page with proper canonical; 5 redirect errors; 1 duplicate where Google chose another canonical; 0 discovered-not-indexed; 0 crawled-not-indexed |
+| GA4 (last 7d) | 16 active users; 21 views; 69 events; 1 key event; 1 `click_quote_button` event; 2 organic-search sessions; 2 AI-assistant sessions |
+| CallRail (Jul 25-Aug 1) | 0 calls for `Springfield Junk Removal - Website Calls`; no test call placed and no settings changed |
+| Formspree | 0 real leads; newest inbox submissions remain known tests; 3 spam entries are obvious solicitations/spam |
+| Backlinks | GSC Links reports 0 external links; 380 internal links; no new outreach reply or live link detected |
+| Outreach monitoring | RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, and SpringHouse Village remain pending; no follow-up authorized |
+
+### August 1 assessment
+
+- Search proof-of-life is established and improving.
+- Conversion infrastructure remains technically verified, but the audit found no confirmed real call or form lead.
+- The site is not renter-ready because lead volume, live backlinks, and a verified operator/lead-handoff arrangement remain incomplete.
+- Read-only follow-up priority: inspect the five redirect errors and one Google-selected canonical mismatch before changing indexing controls.
+- CTR opportunity: the homepage had 1,866 impressions with 0 clicks, and the primary junk-removal page had 715 impressions with 0 clicks during the 28-day window.
+- No indexing request, sitemap resubmission, call, form submission, follow-up, deployment, routing, tracking, listing, publication, or spending action occurred during this audit.
 
 ## Proof-of-life assessment (2026-07-11)
 

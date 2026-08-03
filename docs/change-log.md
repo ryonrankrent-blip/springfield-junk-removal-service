@@ -1508,3 +1508,17 @@
 - The response asked Help Give Hope to hold off on sharing the number, stated that referrals are not currently accepted, and made no service, availability, partnership, operator, pickup, or future-commitment claim.
 - No CC, BCC, attachment, second reply, call, form submission, routing change, referral acceptance, payment, publication, production change, indexing action, or other external-system action occurred.
 - Status: backlink closed/declined; referral offer deferred; hold response complete. No further reply, number sharing, or referral arrangement is authorized without separate guarded review and owner approval.
+
+## 2026-08-01 — Springfield proof-of-life audit
+
+- Completed a read-only proof-of-life audit across Google Search Console, GA4, CallRail, Formspree, Gmail outreach monitoring, and GSC Links.
+- GSC 28-day performance was 5,697 impressions, 8 clicks, 0.1% CTR, and 37.8 average position. Compared with the July 11 baseline, impressions increased 22.8%, clicks increased 33.3%, and average position improved by 3.6 positions.
+- Top clicked landing pages included yard waste (3 clicks), garage cleanout (2), eviction cleanout (1), mattress removal (1), and shed removal (1). The homepage had 1,866 impressions and the primary junk-removal page had 715 impressions, both with zero clicks.
+- Page Indexing reported 33 indexed and 66 not indexed: 43 page-with-redirect, 17 alternate-canonical, 5 redirect-error, and 1 Google-selected-canonical mismatch cases.
+- GA4 for Springfield reported 16 active users, 21 views, 69 events, 1 key event, and 1 `click_quote_button` event over the last seven days. Traffic included 2 organic-search sessions and 2 AI-assistant sessions.
+- CallRail's Springfield website-call filter showed zero calls from July 25 through August 1. No call was placed and no routing or account setting was changed.
+- Formspree showed no real leads; the newest inbox submissions remained known tests. Three spam-folder entries were obvious unsolicited marketing/spam. No form was submitted and no inbox state was changed.
+- GSC Links reported zero external links and 380 internal links. Gmail monitoring found no newly detected response from the six pending prospects: RPM Momentum, Graddy Real Estate, Springfield Storage Solutions, Missouri State Family Programs, Springfield Property Management, and SpringHouse Village.
+- Assessment: search proof-of-life is established and improving, and conversion infrastructure remains technically lead-ready. The asset is not renter-ready because it lacks confirmed real lead volume, detected live backlinks, and an approved operator/lead-handoff arrangement.
+- Recommended next read-only review: inspect the five redirect errors and one canonical mismatch, then prepare a CTR brief for the high-impression/zero-click homepage and primary service page.
+- No file or production change, commit, push, deployment, indexing request, sitemap resubmission, outreach, follow-up, call, form submission, DNS, routing, tracking, listing, publication, or spending action occurred during the audit itself.
