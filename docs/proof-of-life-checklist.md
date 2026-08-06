@@ -75,6 +75,9 @@ Run after deployment to confirm the live site is functional.
 - [x] Indexing requests submitted for eight approved URLs (2026-07-11) — see tracker
 - [x] Week-1 metrics recorded in `proof-of-life-weekly-tracker.md`
 - [x] Recheck indexing status — **2026-08-01**: 33 indexed; 66 not indexed
+- [x] Redirect/canonical follow-up — five legacy `.html` examples verified as one-hop HTTP 308 redirects to healthy extensionless pages; the single reported canonical mismatch was resolved in fresh URL inspection
+- [x] GSC redirect-error validation requested once — **Validation Started 2026-08-06** for the five-item group
+- [ ] Monitor Google’s redirect-error validation outcome; no repeat validation, URL-indexing request, or sitemap resubmission while it is pending
 - [ ] Additional indexing requests — **not performed; requires separate approval**
 
 ## Proof-of-life audit (2026-08-01)
@@ -99,6 +102,15 @@ Run after deployment to confirm the live site is functional.
 - Read-only follow-up priority: inspect the five redirect errors and one Google-selected canonical mismatch before changing indexing controls.
 - CTR opportunity: the homepage had 1,866 impressions with 0 clicks, and the primary junk-removal page had 715 impressions with 0 clicks during the 28-day window.
 - No indexing request, sitemap resubmission, call, form submission, follow-up, deployment, routing, tracking, listing, publication, or spending action occurred during this audit.
+
+## Redirect-error validation checkpoint (2026-08-06)
+
+- Confirmed the correct `springfieldjunkremovalservice.com` Search Console property and opened only the **Redirect error** group.
+- The group contained five legacy `.html` examples: couch removal, estate cleanout, house cleanout, appliance removal, and junk-removal cost.
+- Before validation, all five had been verified live as one-hop HTTP 308 redirects to their extensionless HTTP 200 pages, with correct extensionless canonicals and no `.html` sitemap or internal-link entries.
+- Submitted **Validate Fix** exactly once. Google changed the issue from **Not Started** to **Validation Started** and showed **Started: 8/6/26**.
+- No URL-indexing request, sitemap resubmission, validation of the already-resolved canonical issue, file change, deployment, or other external-system change occurred.
+- Next action: monitor the validation result only; do not submit another validation while this one is active.
 
 ## Proof-of-life assessment (2026-07-11)
 

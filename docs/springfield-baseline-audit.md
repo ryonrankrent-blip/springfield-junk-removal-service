@@ -96,8 +96,8 @@ Proof-of-life: technically live, indexed, receiving impressions/clicks, early ra
 - Meta keywords still include SEO terms like `hoarding`, `demolition` — intentional for URL/search targeting, not body operator claims
 - Same-day page retains FAQ question "Is same-day service guaranteed?" with explicit **No** answer
 - Static HTML duplicates CSS per page — acceptable for current repo pattern; future refactor could extract shared stylesheet
-- Recheck GSC indexing for eight requested URLs — **July 18–25, 2026**
-- Monitor legacy `.html` redirect-error coverage clearing after PR #12 recrawl
+- GSC redirect/canonical follow-up completed: the canonical mismatch resolved, and the five reported `.html` URLs currently redirect cleanly in one hop to extensionless canonical pages
+- GSC **Redirect error** validation started once on **August 6, 2026** for the five-item group; monitor the result without repeating validation or requesting indexing
 - Conversion tests (call/form) not yet run live — awaiting separate approval
 - Citations: research prepared, zero live listings
 - Additional indexing requests — **require separate approval**

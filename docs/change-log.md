@@ -1522,3 +1522,12 @@
 - Assessment: search proof-of-life is established and improving, and conversion infrastructure remains technically lead-ready. The asset is not renter-ready because it lacks confirmed real lead volume, detected live backlinks, and an approved operator/lead-handoff arrangement.
 - Recommended next read-only review: inspect the five redirect errors and one canonical mismatch, then prepare a CTR brief for the high-impression/zero-click homepage and primary service page.
 - No file or production change, commit, push, deployment, indexing request, sitemap resubmission, outreach, follow-up, call, form submission, DNS, routing, tracking, listing, publication, or spending action occurred during the audit itself.
+
+## 2026-08-06 — GSC redirect-error validation started
+
+- Reverified the correct `springfieldjunkremovalservice.com` Search Console property and opened only the **Redirect error** issue group.
+- The issue remained **Not Started** with five affected legacy `.html` URLs: couch removal, estate cleanout, house cleanout, appliance removal, and junk-removal cost.
+- Prior live verification showed all five return a one-hop HTTP 308 redirect to the correct extensionless HTTP 200 URL, preserve HTTPS and query strings, and do not create duplicate 200 content. The extensionless URLs use the correct canonical and remain the only sitemap/internal-link targets.
+- Submitted **Validate Fix** exactly once. Google confirmed **Validation Started** with **Started: 8/6/26**.
+- Did not request URL indexing, resubmit the sitemap, validate the already-resolved canonical issue, or make any file, production, DNS, routing, tracking, listing, outreach, or spending change during the GSC action.
+- Monitoring only: do not submit a second validation while Google’s validation is active.
