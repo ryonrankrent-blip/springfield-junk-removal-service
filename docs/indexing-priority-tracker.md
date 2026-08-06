@@ -185,8 +185,10 @@ Search Console property for `springfieldjunkremovalservice.com` is **verified** 
 - [x] Record status: indexed / indexing requested
 - [x] Fix hub JSON-LD unparsable structured data (PR #13) and verify live
 - [x] Submit indexing requests for eight approved URLs (2026-07-11)
-- [ ] Recheck indexing status — **July 18–25, 2026**
-- [ ] Monitor coverage for redirect/canonical warnings (legacy `.html` redirect errors expected to clear on recrawl)
+- [x] Recheck indexing status — **August 1, 2026**: 33 indexed / 66 not indexed
+- [x] Inspect the five legacy `.html` redirect errors and the one canonical mismatch — live redirects were healthy; the canonical mismatch was resolved in fresh URL inspection
+- [x] Start one GSC validation for the five-URL **Redirect error** group — **Validation Started August 6, 2026**
+- [ ] Monitor the redirect-error validation result; do not start a second validation or request URL indexing while validation is in progress
 - [ ] Monitor impressions for `junk removal springfield mo` and related terms
 - [ ] Request additional indexing **only after separate approval**
 
