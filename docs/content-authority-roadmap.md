@@ -270,6 +270,15 @@
 
 *Construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, eviction-cleanout, and the student move-out checklist are deployed and indexing was requested once for each exact approved URL. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
 
+## 2026-08-06 homepage and main-page CTR draft
+
+- GSC 28-day evidence showed 0 clicks / 1,821 impressions for the homepage and 0 clicks / 744 impressions for the main junk-removal page.
+- The homepage is designated as the broad Springfield market and service-discovery page.
+- `/junk-removal-springfield-mo` is designated as the detailed household/business request, scope, access, and quote-preparation page.
+- A focused local draft updates titles, descriptions, Open Graph descriptions, LocalBusiness descriptions, and selected visible copy without changing URLs, canonicals, H1s, tracking, forms, or the sitemap.
+- Measurement and cannibalization controls are documented in `content-brief-homepage-money-page-ctr.md`.
+- Commit, push, deployment, and indexing remain unapproved.
+
 ## 2026-07-22–23 apartment-cleanout production status
 
 - Existing `apartment-cleanout-springfield-mo.html` selected as the first property-manager/rental cluster update.

@@ -1531,3 +1531,14 @@
 - Submitted **Validate Fix** exactly once. Google confirmed **Validation Started** with **Started: 8/6/26**.
 - Did not request URL indexing, resubmit the sitemap, validate the already-resolved canonical issue, or make any file, production, DNS, routing, tracking, listing, outreach, or spending change during the GSC action.
 - Monitoring only: do not submit a second validation while Google’s validation is active.
+
+## 2026-08-06 — Homepage and main-page CTR draft
+
+- Reviewed the latest complete 28-day GSC window, July 8-August 4, 2026.
+- Homepage: 0 clicks, 1,821 impressions, 0% CTR, and 31.2 average position.
+- Main junk-removal page: 0 clicks, 744 impressions, 0% CTR, and 60.8 average position.
+- Assigned the homepage the broad Springfield market/service-discovery role and the main page the detailed request, scope, access, and quote-preparation role.
+- Drafted focused title, meta-description, Open Graph, LocalBusiness-description, and selected visible-copy improvements in `index.html` and `junk-removal-springfield-mo.html`.
+- Corrected malformed main-page metadata and removed direct loading, hauling, one-visit, and market-leadership implications from the edited sections.
+- Added `docs/content-brief-homepage-money-page-ctr.md` with the GSC baseline, query evidence, page-role decision, draft details, measurement plan, and guardrails.
+- No commit, push, deployment, indexing request, sitemap resubmission, DNS, routing, tracking, listing, outreach, or spending action occurred.
