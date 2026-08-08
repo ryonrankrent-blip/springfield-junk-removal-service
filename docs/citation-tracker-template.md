@@ -15,6 +15,8 @@
 **ShowMeLocal creation review:** `showmelocal-creation-review.md` (2026-07-17 — research/draft complete; creation deferred)  
 **Status:** Identity configuration approved — **Brownbook live and claimed** — Bing Places creation **deferred** — Yelp creation **deferred** — ShowMeLocal creation **deferred**
 
+**2026-08-07 reconciliation:** Brownbook remains owner-confirmed live and claimed, but its public listing URL has not been recorded. Portfolio reporting must distinguish **1 owner-confirmed live citation** from **0 independently URL-reverified live citations** until the public URL is captured and checked read-only. No other citation is live or approved for creation.
+
 ---
 
 ## Tier A — First approved batch (inspect only)

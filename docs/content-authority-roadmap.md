@@ -270,6 +270,17 @@
 
 *Construction-debris, yard-waste, commercial, junk-removal-cost, apartment-cleanout, eviction-cleanout, and the student move-out checklist are deployed and indexing was requested once for each exact approved URL. Accepted-items is deployed with a documented indexing-URL variance. Do not repeat indexing requests for these pages now; await crawl/index processing and refreshed search data. Remaining execution steps require separate approval.*
 
+## 2026-08-07 hybrid authority/proof and page-two review
+
+- Latest GSC 28-day view: 5,837 impressions, 8 clicks, 0.1% CTR, and average position 37.1.
+- Manual Actions: no issues detected. GSC Links: 0 external links and 380 internal links.
+- Strongest current page-two commercial opportunity: `commercial junk removal` at 151 impressions, position 11.1, and zero clicks. The page was already improved and indexed; support with authority/proof and measure rather than rewrite again now.
+- Protected signals: construction debris position 5.6; garage query position 7.5; mattress page 2 clicks / 79 impressions / position 19.7; shed query position 11.0 on only 2 impressions.
+- Brownbook is owner-confirmed live but not independently URL-reverified. Six outreach attempts remain pending, one was declined, one failed delivery, and zero live links were verified.
+- Verified operator, fulfillment, job imagery, reviews, disposal practices, and real lead proof remain incomplete. The site is not renter-ready.
+- Full review and prioritized plan: `springfield-hybrid-authority-proof-review-2026-08-07.md`.
+- Immediate next gate: approve the seven-file hybrid review documentation commit only. After documentation closeout, homepage/main-page CTR PR creation is the next execution candidate and remains separately gated.
+
 ## 2026-07-22–23 apartment-cleanout production status
 
 - Existing `apartment-cleanout-springfield-mo.html` selected as the first property-manager/rental cluster update.
