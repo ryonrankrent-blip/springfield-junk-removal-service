@@ -80,6 +80,20 @@ Run after deployment to confirm the live site is functional.
 - [ ] Monitor Google’s redirect-error validation outcome; no repeat validation, URL-indexing request, or sitemap resubmission while it is pending
 - [ ] Additional indexing requests — **not performed; requires separate approval**
 
+## Hybrid authority/proof checkpoint (2026-08-07)
+
+- [x] GSC Manual Actions checked read-only — **No issues detected**
+- [x] GSC Links checked read-only — **0 external links; 380 internal links**
+- [x] Latest 28-day performance recorded — **5,837 impressions; 8 clicks; 0.1% CTR; position 37.1**
+- [x] Citation status reconciled — Brownbook is owner-confirmed live/claimed, but its public URL is not recorded; count as **1 owner-confirmed / 0 independently URL-reverified**
+- [x] Outreach outcomes reconciled — six pending, one declined, one failed delivery, zero live links at last audit
+- [x] Commercial page-two opportunity identified — `commercial junk removal`: 151 impressions, position 11.1, zero clicks
+- [x] Existing winners protected — construction debris position 5.6; garage query position 7.5; mattress page 2 clicks / position 19.7; shed query position 11.0 on low volume
+- [ ] Verified operator, fulfillment, job imagery, reviews, disposal practices, and lead-handoff proof — **not established**
+- [ ] Homepage/main-page CTR branch — pushed at `a8c237b`; PR creation, merge, deployment, and indexing remain separately gated
+
+Full review: `springfield-hybrid-authority-proof-review-2026-08-07.md`.
+
 ## Proof-of-life audit (2026-08-01)
 
 | Signal | Verified result |

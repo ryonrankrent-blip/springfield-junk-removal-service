@@ -2,6 +2,17 @@
 
 **Status:** LinkMiner competitor research and named prospect research populated 2026-07-23; free-only acquisition policy added 2026-07-24; no outreach or acquisition authorized.
 
+## Hybrid quality checkpoint — 2026-08-07
+
+- GSC reports **0 external links** and **380 internal links**; Manual Actions reports **No issues detected**.
+- Mangools detected 16–18 referring domains and 20–22 active backlinks across the July 23 and August 6 snapshots, but the visible profile was dominated by unsolicited SEO-spam, automated index pages, syndication, irrelevant sources, or other non-defensible patterns.
+- Current defensible live-link count is **0**. Brownbook is an owner-confirmed citation whose public URL is still missing; do not treat it as a verified Google-recognized backlink.
+- Quality classification: legitimate/defensible = none verified; unknown/neutral = provenance or live/index status unverified; reject = PBN/premium-link, syndication, automated index, irrelevant/hacked, exact-match campaign, reciprocal badge, and bulk low-value directory patterns.
+- No disavow is recommended: there is no manual action, GSC recognizes no external links, provenance is incomplete, and a disavow requires a separate high-risk approval.
+- Outreach reconciliation: six attempts pending, Help Give Hope declined, DIYAuctions failed delivery, and zero live links were found in the last completed page audit. No follow-up or alternate route is authorized.
+
+Full evidence and priority plan: `springfield-hybrid-authority-proof-review-2026-08-07.md`.
+
 ## Free-only policy — 2026-07-24
 
 - Until a verified client/operator is established, research only legitimate `$0` editorial and resource-link opportunities.
