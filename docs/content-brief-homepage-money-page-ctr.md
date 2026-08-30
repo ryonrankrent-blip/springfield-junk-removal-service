@@ -2,7 +2,7 @@
 
 **Prepared:** 2026-08-06
 **Renter-neutral correction:** 2026-08-26
-**Status:** Draft implemented locally; commit, push, deployment, and indexing require separate approval.
+**Status:** Five-file proposal committed locally at `19b5c44c1c320a1a57f6a3aa55b6197ca1731689` on `cursor/springfield-renter-neutral-ctr-update`; push, PR, deployment, and indexing require separate approval.
 
 ## Scope
 
@@ -51,6 +51,8 @@ Window: July 8-August 4, 2026 (28 days)
 
 - Homepage: primary broad Springfield market page for `junk removal`, `junk hauling`, near-me intent, service discovery, and conversion entry.
 - Main page: detailed Springfield service-request page for project scope, household/business use, quote preparation, access, loading requirements, and scheduling confirmation.
+- Supported near-me evidence is limited to `junk removal near me` at 51 impressions / 0 clicks / position 19.4 and `junk haulers near me` at 32 impressions / 0 clicks / position 16.2.
+- The combined 83-impression near-me cohort remains assigned to the existing homepage. Do not create a new near-me route or page.
 - Preserve both extensionless URLs and their existing canonical tags.
 - Preserve one H1 per page. The shared H1 remains unchanged during this focused snippet pass; page-role differentiation is established through title, description, opening copy, and supporting headings.
 
@@ -75,8 +77,10 @@ Window: July 8-August 4, 2026 (28 days)
 
 - Establish the deployment date as the measurement boundary if this draft is approved and deployed.
 - Do not request indexing automatically; inspect each exact extensionless URL first and obtain separate approval for any request.
-- Compare the next complete 28-day period with this baseline.
-- Primary measures: impressions, clicks, CTR, average position, query mix, and whether both URLs continue competing for the same core queries.
+- Compare the first complete 28-day period after production deployment with this baseline. Review homepage/main-page clicks, impressions, CTR, average position, query mix, near-me cohort performance, page allocation, and technical/conversion regressions.
+- At the complete 84-day checkpoint, compare three complete 28-day blocks and the aggregate 84-day window for direction, stability, page allocation, protected-query effects, and available aggregate qualified-call/form indicators.
+- Keep this CTR treatment isolated from authority, citation, backlink, verified-proof, routing, analytics-configuration, indexing, new-page, major internal-link, and additional content work. If any such change occurs, log it as contamination and do not attribute results solely to the CTR correction.
+- Primary measures: impressions, clicks, CTR, average position, query mix, near-me query allocation, and whether both URLs continue competing for the same core queries.
 - Avoid further title changes until enough post-deployment data exists unless a technical or claim-safety defect is found.
 
 ## Guardrails

@@ -289,7 +289,9 @@
 - A focused local draft updates titles, descriptions, Open Graph descriptions, neutral WebSite/WebPage schema descriptions, and selected visible copy without changing URLs, canonicals, H1s, tracking, forms, or the sitemap.
 - Measurement and cannibalization controls are documented in `content-brief-homepage-money-page-ctr.md`.
 - Commit, push, deployment, and indexing remain unapproved.
-- The 2026-08-26 renter-neutral correction removes unsupported business schema and direct fulfillment implications; pricing, acceptance, and timing require provider confirmation. The draft remains local and uncommitted.
+- The 2026-08-26 renter-neutral correction removes unsupported business schema and direct fulfillment implications; pricing, acceptance, and timing require provider confirmation. The five-file proposal is committed locally at `19b5c44c1c320a1a57f6a3aa55b6197ca1731689` on `cursor/springfield-renter-neutral-ctr-update`; push, PR, deployment, and indexing remain separately gated.
+- The homepage owns near-me discovery intent; `/junk-removal-springfield-mo` retains the detailed request-scope role. Do not create a new near-me route or page.
+- If deployed later, measure the CTR correction alone at complete 28-day and 84-day checkpoints. Authority, citation, verified-proof, routing, or additional content changes during the window must be logged as contamination and must not be attributed to the CTR treatment.
 
 ## 2026-07-22–23 apartment-cleanout production status
 
