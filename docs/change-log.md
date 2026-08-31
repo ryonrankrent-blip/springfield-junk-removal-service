@@ -1543,3 +1543,17 @@
 - Recorded verified-proof gaps and the dependency on pushed CTR branch `a8c237b`; PR creation, merge, deployment, and indexing remain separately gated.
 - Added `docs/springfield-hybrid-authority-proof-review-2026-08-07.md` and updated existing proof, citation, authority, roadmap, and change-log records.
 - No outreach, follow-up, link/citation creation, disavow, publication, deployment, indexing, analytics, routing, spending, provider selection, prospect contact, or other live external-system action occurred.
+
+## 2026-08-06 — Homepage and main-page CTR draft
+
+- Reviewed the latest complete 28-day GSC window, July 8-August 4, 2026.
+- Homepage: 0 clicks, 1,821 impressions, 0% CTR, and 31.2 average position.
+- Main junk-removal page: 0 clicks, 744 impressions, 0% CTR, and 60.8 average position.
+- Assigned the homepage the broad Springfield market/service-discovery role and the main page the detailed request, scope, access, and quote-preparation role.
+- Drafted focused title, meta-description, Open Graph, neutral WebSite/WebPage schema descriptions, and selected visible-copy improvements in `index.html` and `junk-removal-springfield-mo.html`.
+- Corrected malformed main-page metadata and removed direct loading, hauling, one-visit, and market-leadership implications from the edited sections.
+- Added `docs/content-brief-homepage-money-page-ctr.md` with the GSC baseline, query evidence, page-role decision, draft details, measurement plan, and guardrails.
+- No commit, push, deployment, indexing request, sitemap resubmission, DNS, routing, tracking, listing, outreach, or spending action occurred.
+- Renter-neutral correction on 2026-08-26 replaced unsupported business schema, removed free-quote and fulfillment implications, made pricing/provider factors conditional, and preserved conversion and routing controls. The five-file proposal is committed locally at `19b5c44c1c320a1a57f6a3aa55b6197ca1731689` on `cursor/springfield-renter-neutral-ctr-update`; push, PR, deployment, and indexing remain separately gated.
+- The accepted measurement control isolates this CTR correction from authority, citation, proof, routing, and additional content work. Review the first complete 28-day period and the complete 84-day period from the actual production deployment timestamp if deployment is later approved.
+- Near-me intent remains assigned to the existing homepage. No new near-me route or page is proposed; `/junk-removal-springfield-mo` retains the detailed request-scope role.
