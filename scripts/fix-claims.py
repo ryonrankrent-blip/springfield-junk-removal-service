@@ -8,6 +8,12 @@ the full git diff. Intended for new markets/niches or controlled batch updates.
 import re
 import glob
 import os
+import sys
+
+sys.exit(
+    "Retired. fix-claims.py rewrote the old request-intake pages. "
+    "The business site is built by scripts/build-site.py. Do not run this."
+)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

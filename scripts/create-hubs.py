@@ -6,6 +6,12 @@ production without reviewing output. Update PAGES/SERVICES_GRID constants per ma
 """
 
 import os
+import sys
+
+sys.exit(
+    "Retired. create-hubs.py generated the old hub pages. "
+    "The business site is built by scripts/build-site.py. Do not run this."
+)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
