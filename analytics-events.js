@@ -1,17 +1,20 @@
 /*
- * Springfield Junk Removal Service - lead event tracking
+ * Springfield Junk Removal Service — lead event tracking
  *
- * Tracks: click_call, click_quote_button, submit_lead_form
+ * Events:
+ *   click_call          tel: click on (417) 242-5370
+ *   click_quote_button  quote CTA (#quote)
+ *   submit_lead_form    Formspree form submit
  *
- * Analytics-agnostic by design:
- *   - If GTM is detected, events are sent via dataLayer.push (preferred).
- *   - Else if gtag (GA4) is detected, events are sent via gtag('event', ...).
- *   - If neither is installed yet, events are queued on window.dataLayer so they
- *     flush automatically once a GTM container is added later.
+ * Delivery:
+ *   - dataLayer push for the existing GTM container GTM-GDJF54DV
+ *   - gtag, only after GA4_MEASUREMENT_ID_PROPERTY_541475893 is a real G- ID
  *
- * NOTE: This file does NOT install GA4 or GTM and does NOT contain a Measurement
- * ID or container ID. Add your GA4 (gtag.js) or GTM snippet in each page <head>
- * for these events to be delivered to your analytics property.
+ * GA4 PLACEHOLDER
+ *   Property 541475893 measurement ID was not found in this repo or git history.
+ *   Leave the string empty. Do not guess.
+ *   Docs mention GTM destination G-GWT8GR7QJC. That ID is not recorded as
+ *   property 541475893, so it is not installed here as a direct GA4 tag.
  */
 (function () {
   "use strict";
@@ -20,21 +23,34 @@
   var NICHE = "Junk Removal";
   var PHONE = "4172425370";
 
+  // PLACEHOLDER: GA4 measurement ID for property 541475893. Not found. Do not guess.
+  var GA4_MEASUREMENT_ID_PROPERTY_541475893 = "";
+
+  var directGa4 = false;
+
+  function installGa4(measurementId) {
+    if (!/^G-[A-Z0-9]+$/.test(measurementId)) return;
+    var script = document.createElement("script");
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=" + measurementId;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () {
+      window.dataLayer.push(arguments);
+    };
+    window.gtag("js", new Date());
+    window.gtag("config", measurementId);
+    directGa4 = true;
+  }
+
+  installGa4(GA4_MEASUREMENT_ID_PROPERTY_541475893);
+
   function sendEvent(name, params) {
     params = params || {};
-    var hasGtm = typeof window.google_tag_manager !== "undefined";
-    var hasGtag = typeof window.gtag === "function";
-
-    if (hasGtm) {
-      // Preferred path for GTM compatibility.
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push(merge({ event: name }, params));
-    } else if (hasGtag) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(merge({ event: name }, params));
+    if (directGa4 && typeof window.gtag === "function") {
       window.gtag("event", name, params);
-    } else {
-      // Neither installed yet: queue on dataLayer so GTM can pick it up later.
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push(merge({ event: name }, params));
     }
   }
 
@@ -57,7 +73,6 @@
   }
 
   document.addEventListener("click", function (e) {
-    // 1) Phone clicks (any tel: link to the business number)
     var telLink = closestEl(e.target, 'a[href^="tel:"]');
     if (telLink) {
       var href = telLink.getAttribute("href") || "";
@@ -72,40 +87,33 @@
       return;
     }
 
-    // 2) Quote / contact buttons or links pointing at the form/contact section
-    var quoteLink = closestEl(e.target, 'a[href*="#quote"], a[href*="#contact"]');
+    var quoteLink = closestEl(e.target, 'a[href*="#quote"]');
     if (quoteLink) {
-      var dest = quoteLink.getAttribute("href") || "";
       sendEvent("click_quote_button", {
         page_path: location.pathname,
         link_text: (quoteLink.textContent || "").trim(),
-        destination: dest
+        destination: quoteLink.getAttribute("href") || ""
       });
     }
   });
 
-  // 3) Formspree lead form submissions
   document.addEventListener(
     "submit",
     function (e) {
       var form = e.target;
       if (!form || form.tagName !== "FORM") return;
       var action = form.getAttribute("action") || "";
-      if (action.indexOf("formspree.io") === -1) return;
+      if (action.indexOf("formspree.io/f/mojzdkvg") === -1) return;
 
       var params = {
         page_path: location.pathname,
         market: MARKET,
         niche: NICHE
       };
-
       var serviceField = form.querySelector('[name="service"]');
-      if (serviceField && serviceField.value) {
-        params.service = serviceField.value;
-      }
-
+      if (serviceField && serviceField.value) params.service = serviceField.value;
       sendEvent("submit_lead_form", params);
     },
-    true // capture so it runs before the form navigates away
+    true
   );
 })();
