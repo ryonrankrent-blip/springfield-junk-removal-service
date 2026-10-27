@@ -41,13 +41,34 @@ class Handler(SimpleHTTPRequestHandler):
                 return True
         return False
 
+    def _is_missing(self):
+        path = self.translate_path(self.path)
+        return not os.path.isfile(path)
+
+    def _serve_404(self):
+        body_path = os.path.join(ROOT, "404.html")
+        with open(body_path, "rb") as handle:
+            data = handle.read()
+        self.send_response(404)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(data)))
+        self.end_headers()
+        if self.command != "HEAD":
+            self.wfile.write(data)
+
     def do_HEAD(self):
         if self._redirect():
+            return
+        if self._is_missing():
+            self._serve_404()
             return
         super().do_HEAD()
 
     def do_GET(self):
         if self._redirect():
+            return
+        if self._is_missing():
+            self._serve_404()
             return
         super().do_GET()
 

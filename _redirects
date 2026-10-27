@@ -1,5 +1,8 @@
 # 301 redirects for retired Springfield Junk Removal URLs.
 # Cloudflare Pages reads this file. It does not change the production branch or project settings.
+# Restored pages are real HTML and must stay out of this file:
+# apartment, estate, house, and garage cleanouts; shed removal;
+# construction debris; Battlefield; Nixa.
 
 /junk-removal-services-springfield-mo / 301
 /junk-removal-services-springfield-mo.html / 301
@@ -28,21 +31,9 @@
 /what-items-can-be-removed-springfield-mo /residential-junk-removal-springfield-mo 301
 /what-items-can-be-removed-springfield-mo.html /residential-junk-removal-springfield-mo 301
 /what-items-can-be-removed-springfield-mo/ /residential-junk-removal-springfield-mo 301
-/estate-cleanout-springfield-mo /cleanouts-springfield-mo 301
-/estate-cleanout-springfield-mo.html /cleanouts-springfield-mo 301
-/estate-cleanout-springfield-mo/ /cleanouts-springfield-mo 301
 /eviction-cleanout-springfield-mo /cleanouts-springfield-mo 301
 /eviction-cleanout-springfield-mo.html /cleanouts-springfield-mo 301
 /eviction-cleanout-springfield-mo/ /cleanouts-springfield-mo 301
-/apartment-cleanout-springfield-mo /cleanouts-springfield-mo 301
-/apartment-cleanout-springfield-mo.html /cleanouts-springfield-mo 301
-/apartment-cleanout-springfield-mo/ /cleanouts-springfield-mo 301
-/garage-cleanout-springfield-mo /cleanouts-springfield-mo 301
-/garage-cleanout-springfield-mo.html /cleanouts-springfield-mo 301
-/garage-cleanout-springfield-mo/ /cleanouts-springfield-mo 301
-/house-cleanout-springfield-mo /cleanouts-springfield-mo 301
-/house-cleanout-springfield-mo.html /cleanouts-springfield-mo 301
-/house-cleanout-springfield-mo/ /cleanouts-springfield-mo 301
 /hoarder-cleanout-springfield-mo /cleanouts-springfield-mo 301
 /hoarder-cleanout-springfield-mo.html /cleanouts-springfield-mo 301
 /hoarder-cleanout-springfield-mo/ /cleanouts-springfield-mo 301
@@ -52,27 +43,15 @@
 /springfield-student-move-out-donation-disposal-checklist /cleanouts-springfield-mo 301
 /springfield-student-move-out-donation-disposal-checklist.html /cleanouts-springfield-mo 301
 /springfield-student-move-out-donation-disposal-checklist/ /cleanouts-springfield-mo 301
-/construction-debris-removal-springfield-mo /commercial-junk-removal-springfield-mo 301
-/construction-debris-removal-springfield-mo.html /commercial-junk-removal-springfield-mo 301
-/construction-debris-removal-springfield-mo/ /commercial-junk-removal-springfield-mo 301
 /hot-tub-removal-springfield-mo /yard-waste-removal-springfield-mo 301
 /hot-tub-removal-springfield-mo.html /yard-waste-removal-springfield-mo 301
 /hot-tub-removal-springfield-mo/ /yard-waste-removal-springfield-mo 301
-/shed-removal-springfield-mo /yard-waste-removal-springfield-mo 301
-/shed-removal-springfield-mo.html /yard-waste-removal-springfield-mo 301
-/shed-removal-springfield-mo/ /yard-waste-removal-springfield-mo 301
-/junk-removal-nixa-mo /junk-removal-service-areas-springfield-mo 301
-/junk-removal-nixa-mo.html /junk-removal-service-areas-springfield-mo 301
-/junk-removal-nixa-mo/ /junk-removal-service-areas-springfield-mo 301
 /junk-removal-ozark-mo /junk-removal-service-areas-springfield-mo 301
 /junk-removal-ozark-mo.html /junk-removal-service-areas-springfield-mo 301
 /junk-removal-ozark-mo/ /junk-removal-service-areas-springfield-mo 301
 /junk-removal-republic-mo /junk-removal-service-areas-springfield-mo 301
 /junk-removal-republic-mo.html /junk-removal-service-areas-springfield-mo 301
 /junk-removal-republic-mo/ /junk-removal-service-areas-springfield-mo 301
-/junk-removal-battlefield-mo /junk-removal-service-areas-springfield-mo 301
-/junk-removal-battlefield-mo.html /junk-removal-service-areas-springfield-mo 301
-/junk-removal-battlefield-mo/ /junk-removal-service-areas-springfield-mo 301
 /junk-removal-willard-mo /junk-removal-service-areas-springfield-mo 301
 /junk-removal-willard-mo.html /junk-removal-service-areas-springfield-mo 301
 /junk-removal-willard-mo/ /junk-removal-service-areas-springfield-mo 301
