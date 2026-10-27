@@ -2,7 +2,8 @@
 # Cloudflare Pages reads this file. It does not change the production branch or project settings.
 # Restored pages are real HTML and must stay out of this file:
 # apartment, estate, house, and garage cleanouts; shed removal;
-# construction debris; Battlefield; Nixa.
+# construction debris; Battlefield; Nixa; Ozark; Republic.
+# Willard still 301s to the service-area hub.
 
 /junk-removal-services-springfield-mo / 301
 /junk-removal-services-springfield-mo.html / 301
@@ -46,12 +47,6 @@
 /hot-tub-removal-springfield-mo /yard-waste-removal-springfield-mo 301
 /hot-tub-removal-springfield-mo.html /yard-waste-removal-springfield-mo 301
 /hot-tub-removal-springfield-mo/ /yard-waste-removal-springfield-mo 301
-/junk-removal-ozark-mo /junk-removal-service-areas-springfield-mo 301
-/junk-removal-ozark-mo.html /junk-removal-service-areas-springfield-mo 301
-/junk-removal-ozark-mo/ /junk-removal-service-areas-springfield-mo 301
-/junk-removal-republic-mo /junk-removal-service-areas-springfield-mo 301
-/junk-removal-republic-mo.html /junk-removal-service-areas-springfield-mo 301
-/junk-removal-republic-mo/ /junk-removal-service-areas-springfield-mo 301
 /junk-removal-willard-mo /junk-removal-service-areas-springfield-mo 301
 /junk-removal-willard-mo.html /junk-removal-service-areas-springfield-mo 301
 /junk-removal-willard-mo/ /junk-removal-service-areas-springfield-mo 301
