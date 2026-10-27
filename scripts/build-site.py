@@ -53,7 +53,6 @@ REMOVED = {
     "rental-turnover-cleanout-checklist-springfield-mo": "/cleanouts-springfield-mo",
     "springfield-student-move-out-donation-disposal-checklist": "/cleanouts-springfield-mo",
     "hot-tub-removal-springfield-mo": "/yard-waste-removal-springfield-mo",
-    "junk-removal-willard-mo": "/junk-removal-service-areas-springfield-mo",
     "how-junk-removal-works-springfield-mo": "/junk-removal-cost-springfield-mo",
     "junk-removal-guides-springfield-mo": "/springfield-junk-disposal-guide",
 }
@@ -813,6 +812,62 @@ def dedicated_pages(phone):
 </section>
 """,
         },
+        {
+            "file": "junk-removal-willard-mo.html",
+            "href": "/junk-removal-willard-mo",
+            "dedicated": True,
+            "parents": area,
+            "nav_href": "/junk-removal-service-areas-springfield-mo",
+            "market": "Willard, MO",
+            "crumb": "Willard",
+            "title": "Junk Removal in Willard, MO",
+            "description": "Junk removal in Willard, MO, northwest of Springfield in Greene County. Homes, rentals, and cleanouts. Call (417) 242-5370 for a quote.",
+            "h1": "Junk Removal in Willard, MO",
+            "lede": f"We haul junk in Willard, Missouri, northwest of Springfield in Greene County. Call {phone} with the Willard address and what needs to go.",
+            "service": "Other",
+            "quote_heading": "Quote a pickup in Willard",
+            "quote_copy": "<p>Include the Willard street, the items, and whether the job is one room, a garage, or a whole cleanout.</p>",
+            "faqs": [
+                (
+                    "Do you offer junk removal in Willard, MO?",
+                    "Yes. Willard is in Greene County, northwest of Springfield. Call (417) 242-5370 with the address and a list of what goes.",
+                ),
+                (
+                    "Do you clean out Willard rentals and garages?",
+                    "Yes. A rental turnover, a garage, or a house can be quoted. Tell us how full it is and who will meet us there. We do not handle lockouts or legal notices.",
+                ),
+                (
+                    "How much does junk removal cost in Willard?",
+                    "Call (417) 242-5370. The quote depends on the amount, the material, and the access. We do not publish a price list for Willard or Springfield.",
+                ),
+            ],
+            "body": """
+<section>
+<div class="wrap">
+<h2>Junk removal northwest of Springfield</h2>
+<p>Willard addresses are northwest of Springfield, in Greene County. Household junk, rental cleanouts, and single items use this page. Republic is a different Greene County town, west of Springfield, and those addresses belong on the <a href="/junk-removal-republic-mo">Republic junk removal</a> page. <a href="/junk-removal-ozark-mo">Ozark</a> is south of Springfield in Christian County. <a href="/junk-removal-nixa-mo">Nixa</a> and <a href="/junk-removal-battlefield-mo">Battlefield</a> have their own pages. The rest of the list is on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page.</p>
+</div>
+</section>
+<section>
+<div class="wrap grid">
+<article class="card"><h3>Homes and rentals</h3><p>Furniture, mattresses, appliances, and leftover household junk from Willard houses and rentals. One piece or a room. Item details are on the <a href="/residential-junk-removal-springfield-mo">residential junk</a> page.</p></article>
+<article class="card"><h3>Cleanouts</h3><p>Garages, move-outs, and houses that need more than a few items hauled. Tell us how full the space is and who will meet us there. <a href="/cleanouts-springfield-mo">Property cleanouts</a> use the same phone number, including <a href="/garage-cleanout-springfield-mo">garage</a> and <a href="/house-cleanout-springfield-mo">house</a> jobs.</p></article>
+<article class="card"><h3>Yards and job sites</h3><p>Brush, <a href="/shed-removal-springfield-mo">sheds</a>, and hot tubs are on the <a href="/yard-waste-removal-springfield-mo">yard and outdoor</a> page. Non-hazardous remodel debris is on the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page.</p></article>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>What to send with a Willard quote</h2>
+<ul>
+<li>The street in Willard</li>
+<li>The items: furniture, appliances, a garage, a rental, or a mix</li>
+<li>Stairs, gates, and whether a vehicle is blocking the load</li>
+</ul>
+<p>The price is a quote for that load. <a href="/junk-removal-cost-springfield-mo">What changes the price</a>. We do not publish a rate card.</p>
+</div>
+</section>
+""",
+        },
     ]
 
 
@@ -890,7 +945,7 @@ def pages():
 <div class="wrap split">
 <div>
 <h2>Service area</h2>
-<p>We haul junk in Springfield and in <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and Willard. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>.</p>
+<p>We haul junk in Springfield and in <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a>. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>.</p>
 </div>
 <div class="panel">
 <h2>What we do not take</h2>
@@ -1102,7 +1157,7 @@ def pages():
 <article class="card"><h3><a href="/junk-removal-nixa-mo">Nixa, MO</a></h3><p>Junk removal south of Springfield. Call with the Nixa address and what needs to go.</p></article>
 <article class="card"><h3><a href="/junk-removal-ozark-mo">Ozark, MO</a></h3><p>Junk removal in Ozark, the Christian County seat south of Springfield. Homes, rentals, and cleanouts use the same phone number.</p></article>
 <article class="card"><h3><a href="/junk-removal-republic-mo">Republic, MO</a></h3><p>Junk removal in Republic, west of Springfield in Greene County. Tell us the street and the size of the load.</p></article>
-<article class="card"><h3>Willard, MO</h3><p>Junk removal in Willard, in northwest Greene County. We quote the job the same way we do in Springfield.</p></article>
+<article class="card"><h3><a href="/junk-removal-willard-mo">Willard, MO</a></h3><p>Junk removal in Willard, northwest of Springfield in Greene County. Homes, rentals, and cleanouts use the same phone number.</p></article>
 </div>
 </section>
 <section>
@@ -1294,6 +1349,7 @@ def pages():
             "junk-removal-nixa-mo.html",
             "junk-removal-ozark-mo.html",
             "junk-removal-republic-mo.html",
+            "junk-removal-willard-mo.html",
         ],
     }
     ordered = []
@@ -1312,8 +1368,7 @@ def write_redirects():
         "# Cloudflare Pages reads this file. It does not change the production branch or project settings.",
         "# Restored pages are real HTML and must stay out of this file:",
         "# apartment, estate, house, and garage cleanouts; shed removal;",
-        "# construction debris; Battlefield; Nixa; Ozark; Republic.",
-        "# Willard still 301s to the service-area hub.",
+        "# construction debris; Battlefield; Nixa; Ozark; Republic; Willard.",
         "",
     ]
     for old, new in REMOVED.items():
@@ -1416,6 +1471,7 @@ Springfield, Battlefield, Nixa, Ozark, Republic, and Willard, Missouri.
 - [Junk removal in Nixa](https://springfieldjunkremovalservice.com/junk-removal-nixa-mo): Nixa, MO, south of Springfield.
 - [Junk removal in Ozark, MO](https://springfieldjunkremovalservice.com/junk-removal-ozark-mo): Christian County, south of Springfield. Homes, rentals, and cleanouts.
 - [Junk removal in Republic, MO](https://springfieldjunkremovalservice.com/junk-removal-republic-mo): Greene County, west of Springfield. Homes, rentals, and remodel debris.
+- [Junk removal in Willard, MO](https://springfieldjunkremovalservice.com/junk-removal-willard-mo): Greene County, northwest of Springfield. Homes, rentals, and cleanouts.
 - [Cost and FAQ](https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo): Call for a quote. What changes the price. How a pickup works.
 - [Springfield disposal guide](https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide): City drop-off links for people hauling junk themselves, plus a pickup option.
 - [Contact](https://springfieldjunkremovalservice.com/contact): Phone and quote form.
@@ -1497,7 +1553,7 @@ def render_404():
 <li><a href="/cleanouts-springfield-mo">Cleanouts</a>, including <a href="/apartment-cleanout-springfield-mo">apartment</a>, <a href="/estate-cleanout-springfield-mo">estate</a>, <a href="/house-cleanout-springfield-mo">house</a>, and <a href="/garage-cleanout-springfield-mo">garage</a></li>
 <li><a href="/commercial-junk-removal-springfield-mo">Commercial junk</a> and <a href="/construction-debris-removal-springfield-mo">construction debris</a></li>
 <li><a href="/yard-waste-removal-springfield-mo">Yard waste</a> and <a href="/shed-removal-springfield-mo">shed removal</a></li>
-<li><a href="/junk-removal-service-areas-springfield-mo">Service area</a>, including <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, and <a href="/junk-removal-republic-mo">Republic</a></li>
+<li><a href="/junk-removal-service-areas-springfield-mo">Service area</a>, including <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a></li>
 <li><a href="/junk-removal-cost-springfield-mo">Cost and FAQ</a></li>
 <li><a href="/springfield-junk-disposal-guide">Disposal guide</a></li>
 <li><a href="/contact">Contact</a></li>
@@ -1543,7 +1599,7 @@ def main():
             raise SystemExit(f"{page['file']} title is {len(page['title'])} chars")
         if page.get("dedicated"):
             h1 = page["h1"]
-            places = ("Springfield, MO", "Battlefield, MO", "Nixa, MO", "Ozark, MO", "Republic, MO")
+            places = ("Springfield, MO", "Battlefield, MO", "Nixa, MO", "Ozark, MO", "Republic, MO", "Willard, MO")
             if not any(place in h1 for place in places):
                 raise SystemExit(f"{page['file']} H1 missing place name")
             if f'href="{page["href"]}"' not in html_out and page["href"] not in html_out:
