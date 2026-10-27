@@ -1,6 +1,6 @@
 # Page Inventory
 
-**Total public pages:** 17  
+**Total public pages:** 19  
 **Last updated:** 2026-10-27
 
 The site is the business site for Springfield Junk Removal Service. Retired URLs 301 to the page in `_redirects`. Restored high-impression URLs are real pages again.
@@ -18,7 +18,9 @@ The site is the business site for Springfield Junk Removal Service. Retired URLs
 | `construction-debris-removal-springfield-mo.html` | `/construction-debris-removal-springfield-mo` | Non-hazardous remodel debris |
 | `yard-waste-removal-springfield-mo.html` | `/yard-waste-removal-springfield-mo` | Yard waste and hot tub removal. Links to shed removal |
 | `shed-removal-springfield-mo.html` | `/shed-removal-springfield-mo` | Wood and metal shed removal |
-| `junk-removal-service-areas-springfield-mo.html` | `/junk-removal-service-areas-springfield-mo` | Hub for Springfield plus Battlefield, Nixa, Ozark, Republic, Willard. Nixa, Battlefield, and Willard stay on this hub |
+| `junk-removal-service-areas-springfield-mo.html` | `/junk-removal-service-areas-springfield-mo` | Hub for Springfield plus Battlefield, Nixa, Ozark, Republic, and Willard. Willard stays on this hub |
+| `junk-removal-battlefield-mo.html` | `/junk-removal-battlefield-mo` | Battlefield town page |
+| `junk-removal-nixa-mo.html` | `/junk-removal-nixa-mo` | Nixa town page |
 | `junk-removal-ozark-mo.html` | `/junk-removal-ozark-mo` | Ozark, MO. Christian County, south of Springfield |
 | `junk-removal-republic-mo.html` | `/junk-removal-republic-mo` | Republic, MO. Greene County, west of Springfield |
 | `junk-removal-cost-springfield-mo.html` | `/junk-removal-cost-springfield-mo` | Cost and FAQ. Call for a quote |

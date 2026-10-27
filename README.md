@@ -12,7 +12,7 @@ Static business site for junk removal in Springfield, MO. Cloudflare Pages deplo
 
 ## Pages
 
-Seventeen public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. Apartment, estate, house, and garage cleanouts, shed removal, construction debris, Ozark, and Republic are real pages and must not be redirected. Nixa, Battlefield, and Willard still 301 to the service-area hub.
+Nineteen public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. Apartment, estate, house, and garage cleanouts, shed removal, construction debris, Battlefield, Nixa, Ozark, and Republic are real pages and must not be redirected. Willard still 301s to the service-area hub.
 
 - `/` — Junk Removal in Springfield, MO
 - `/residential-junk-removal-springfield-mo`
@@ -26,6 +26,8 @@ Seventeen public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_
 - `/yard-waste-removal-springfield-mo`
 - `/shed-removal-springfield-mo`
 - `/junk-removal-service-areas-springfield-mo`
+- `/junk-removal-battlefield-mo`
+- `/junk-removal-nixa-mo`
 - `/junk-removal-ozark-mo`
 - `/junk-removal-republic-mo`
 - `/junk-removal-cost-springfield-mo`

@@ -53,8 +53,6 @@ REMOVED = {
     "rental-turnover-cleanout-checklist-springfield-mo": "/cleanouts-springfield-mo",
     "springfield-student-move-out-donation-disposal-checklist": "/cleanouts-springfield-mo",
     "hot-tub-removal-springfield-mo": "/yard-waste-removal-springfield-mo",
-    "junk-removal-nixa-mo": "/junk-removal-service-areas-springfield-mo",
-    "junk-removal-battlefield-mo": "/junk-removal-service-areas-springfield-mo",
     "junk-removal-willard-mo": "/junk-removal-service-areas-springfield-mo",
     "how-junk-removal-works-springfield-mo": "/junk-removal-cost-springfield-mo",
     "junk-removal-guides-springfield-mo": "/springfield-junk-disposal-guide",
@@ -610,6 +608,105 @@ def dedicated_pages(phone):
 """,
         },
         {
+            "file": "junk-removal-battlefield-mo.html",
+            "href": "/junk-removal-battlefield-mo",
+            "dedicated": True,
+            "parents": area,
+            "crumb": "Battlefield",
+            "title": "Junk Removal Battlefield, MO | Southwest Metro",
+            "description": "Junk removal in Battlefield, MO. Household junk, cleanouts, job-site debris, and yard waste southwest of Springfield. Call (417) 242-5370.",
+            "h1": "Junk Removal in Battlefield, MO",
+            "lede": f"We haul junk at Battlefield, Missouri addresses, southwest of Springfield. Call {phone} with the street address. Household junk, cleanouts, job-site debris, and yard waste use that same number.",
+            "service": "Other",
+            "quote_heading": "Quote a Battlefield pickup",
+            "quote_copy": "<p>Use the Battlefield address, not a Springfield landmark. Include the items, the amount, and any gate or stairs.</p>",
+            "faqs": [
+                (
+                    "Do you do junk removal in Battlefield, MO?",
+                    "Yes. We haul household junk, cleanouts, non-hazardous construction debris, and yard waste at Battlefield addresses, southwest of Springfield. Call (417) 242-5370 with the street address.",
+                ),
+                (
+                    "Is this the same page as the Springfield service-area list?",
+                    "No. This page is for Battlefield jobs. Nixa, Ozark, and Republic have their own pages. Willard is listed on the service area page.",
+                ),
+                (
+                    "Do you publish a Battlefield street address?",
+                    "No. We do not publish a street address. Call (417) 242-5370 or send the quote form with the pickup address in Battlefield.",
+                ),
+            ],
+            "body": f"""
+<section>
+<div class="wrap">
+<h2>Junk removal for Battlefield addresses</h2>
+<p>Battlefield sits southwest of Springfield. We pick up at Battlefield houses, rentals, and small job sites. The phone number is the Springfield business number, {phone}. We do not publish a shop address in Battlefield or in Springfield. Give us the pickup address and what has to go.</p>
+</div>
+</section>
+<section>
+<div class="wrap grid">
+<article class="card"><h3>Homes and rentals</h3><p>Furniture, appliances, garage clutter, and move-out piles in Battlefield. A single room can be a <a href="/residential-junk-removal-springfield-mo">residential pickup</a>. A full property is a <a href="/cleanouts-springfield-mo">cleanout</a>, including <a href="/house-cleanout-springfield-mo">house</a> and <a href="/garage-cleanout-springfield-mo">garage</a> jobs.</p></article>
+<article class="card"><h3>Job sites in Battlefield</h3><p>Drywall, lumber, cabinets, and other non-hazardous remodel debris. Limits are on the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page. We do not take asbestos or hazardous waste.</p></article>
+<article class="card"><h3>Yards and outbuildings</h3><p>Brush, bagged yard waste, and <a href="/shed-removal-springfield-mo">shed removal</a> when a wood or metal shed has to go. Hot tubs are quoted from the <a href="/yard-waste-removal-springfield-mo">yard and outdoor</a> page.</p></article>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>Battlefield and the other towns</h2>
+<p>Nixa, Ozark, Republic, and Willard are covered from the same phone number. Nixa, south of Springfield, has its own page: <a href="/junk-removal-nixa-mo">junk removal in Nixa</a>. <a href="/junk-removal-ozark-mo">Ozark</a> and <a href="/junk-removal-republic-mo">Republic</a> do too. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page. If the address is outside those towns, call and ask. We will tell you yes or no. The quote still depends on volume, weight, material, and access. <a href="/junk-removal-cost-springfield-mo">What changes the price</a>.</p>
+</div>
+</section>
+""",
+        },
+        {
+            "file": "junk-removal-nixa-mo.html",
+            "href": "/junk-removal-nixa-mo",
+            "dedicated": True,
+            "parents": area,
+            "crumb": "Nixa",
+            "title": "Junk Removal Nixa, MO | South Springfield",
+            "description": "Junk removal in Nixa, MO, south of Springfield. Homes, rentals, cleanouts, and job sites. Call (417) 242-5370 for a quote.",
+            "h1": "Junk Removal in Nixa, MO",
+            "lede": f"We haul junk at Nixa, Missouri addresses, south of Springfield. Call {phone} with the Nixa street, the items, and about how much there is.",
+            "service": "Other",
+            "quote_heading": "Quote a Nixa pickup",
+            "quote_copy": "<p>Put the Nixa address in the message. Say whether the stop is a house, an apartment, a garage, or a job site.</p>",
+            "faqs": [
+                (
+                    "Do you do junk removal in Nixa, MO?",
+                    "Yes. We haul junk at Nixa addresses south of Springfield. Call (417) 242-5370 with the street, the items, and about how much there is.",
+                ),
+                (
+                    "Which Nixa jobs can you quote?",
+                    "Household junk, apartment and house cleanouts, garage piles, non-hazardous remodel debris, yard waste, and sheds. Hazardous waste, asbestos, fuel, ammunition, and medical waste are not hauled.",
+                ),
+                (
+                    "Is Nixa junk removal priced on this page?",
+                    "No price is published for Nixa or for Springfield. The quote depends on volume, weight, material, and access at the address you give us.",
+                ),
+            ],
+            "body": f"""
+<section>
+<div class="wrap">
+<h2>Junk removal for Nixa addresses</h2>
+<p>Nixa is south of Springfield, and this page is only for Nixa pickups. Battlefield, southwest of Springfield, is a different town. Call {phone} and use the Nixa street address. We do not publish a Nixa shop address or a price list.</p>
+</div>
+</section>
+<section>
+<div class="wrap grid">
+<article class="card"><h3>Nixa houses and apartments</h3><p>Move-outs, leftover furniture, and garage piles. Name the property type. Apartment details are on the <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a> page. A whole house is a <a href="/house-cleanout-springfield-mo">house cleanout</a>. One couch or appliance, with the rest staying, is <a href="/residential-junk-removal-springfield-mo">residential junk removal</a>.</p></article>
+<article class="card"><h3>Job sites south of Springfield</h3><p>Remodel debris in Nixa is quoted from the material, not from a Nixa rate card. Drywall, lumber, cabinets, and flooring are the usual items. Concrete, roofing, and dirt need a description. Read the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page before you book a job site. Hazardous waste and asbestos are not hauled.</p></article>
+<article class="card"><h3>Outdoor loads in Nixa</h3><p>Branches, bagged yard waste, and sheds on Nixa lots. Shed size and the path out of the yard are on the <a href="/shed-removal-springfield-mo">shed removal</a> page. City of Springfield drop-off sites are in Springfield, not in Nixa, and their fees are not our prices. Links are in the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p></article>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>How Nixa fits the service area</h2>
+<p>We also serve Springfield, <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and Willard. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> hub. A Nixa quote uses the address, gates, stairs, and parking you describe. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
+</div>
+</section>
+""",
+        },
+
+        {
             "file": "junk-removal-ozark-mo.html",
             "href": "/junk-removal-ozark-mo",
             "dedicated": True,
@@ -642,7 +739,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap">
 <h2>Junk removal south of Springfield</h2>
-<p>Ozark jobs are the same kinds of hauls we do in Springfield: household junk, rental cleanouts, and single items. The address is what changes. Downtown Ozark, neighborhoods on the north side toward Springfield, and the south side of town all use this page. Nixa, Battlefield, and Willard stay on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page. <a href="/junk-removal-republic-mo">Republic</a> is west of Springfield and has its own page.</p>
+<p>Ozark jobs are the same kinds of hauls we do in Springfield: household junk, rental cleanouts, and single items. The address is what changes. Downtown Ozark, neighborhoods on the north side toward Springfield, and the south side of town all use this page. <a href="/junk-removal-nixa-mo">Nixa</a> and <a href="/junk-removal-battlefield-mo">Battlefield</a> have their own pages. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page. <a href="/junk-removal-republic-mo">Republic</a> is west of Springfield and has its own page.</p>
 </div>
 </section>
 <section>
@@ -698,7 +795,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap">
 <h2>Junk removal west of Springfield</h2>
-<p>Republic addresses are west of Springfield, in Greene County. We quote streets near the center of town and subdivisions toward the edge of the city from the same details: what the junk is, how much there is, and how we get to it. Ozark is a different town, south of Springfield in Christian County. Those addresses belong on the <a href="/junk-removal-ozark-mo">Ozark junk removal</a> page. Nixa, Battlefield, and Willard stay on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> hub.</p>
+<p>Republic addresses are west of Springfield, in Greene County. We quote streets near the center of town and subdivisions toward the edge of the city from the same details: what the junk is, how much there is, and how we get to it. Ozark is a different town, south of Springfield in Christian County. Those addresses belong on the <a href="/junk-removal-ozark-mo">Ozark junk removal</a> page. <a href="/junk-removal-nixa-mo">Nixa</a> and <a href="/junk-removal-battlefield-mo">Battlefield</a> have their own pages. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> hub.</p>
 </div>
 </section>
 <section>
@@ -793,7 +890,7 @@ def pages():
 <div class="wrap split">
 <div>
 <h2>Service area</h2>
-<p>We haul junk in Springfield and in Battlefield, Nixa, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and Willard. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>.</p>
+<p>We haul junk in Springfield and in <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and Willard. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>.</p>
 </div>
 <div class="panel">
 <h2>What we do not take</h2>
@@ -986,11 +1083,11 @@ def pages():
             "faqs": [
                 (
                     "Do you do junk removal in Battlefield, MO?",
-                    "Yes. We haul junk in Battlefield, southwest of Springfield. Household junk, cleanouts, commercial debris, and yard waste are the same services we offer in Springfield. Call (417) 242-5370 with the Battlefield address.",
+                    'Yes. We haul junk in Battlefield, southwest of Springfield. Household junk, cleanouts, commercial debris, and yard waste are the same services we offer in Springfield. Call (417) 242-5370 with the Battlefield address. Details are on the <a href="/junk-removal-battlefield-mo">Battlefield junk removal</a> page.',
                 ),
                 (
                     "Do you do junk removal in Nixa, MO?",
-                    "Yes. We haul junk in Nixa, south of Springfield. Call (417) 242-5370 with the Nixa address.",
+                    'Yes. We haul junk in Nixa, south of Springfield. Call (417) 242-5370 with the Nixa address. Details are on the <a href="/junk-removal-nixa-mo">Nixa junk removal</a> page.',
                 ),
                 (
                     "Which towns do you cover?",
@@ -1001,8 +1098,8 @@ def pages():
 <section>
 <div class="wrap grid">
 <article class="card"><h3>Springfield, MO</h3><p>Our home base for junk removal. Homes, rentals, businesses, and job sites across Springfield.</p></article>
-<article class="card"><h3>Battlefield, MO</h3><p>Battlefield junk removal covers the southwest Springfield metro. We haul household junk, cleanouts, commercial debris, yard waste, sheds, and hot tubs in Battlefield.</p></article>
-<article class="card"><h3>Nixa, MO</h3><p>Junk removal south of Springfield. Call with the Nixa address and what needs to go.</p></article>
+<article class="card"><h3><a href="/junk-removal-battlefield-mo">Battlefield, MO</a></h3><p>Battlefield junk removal covers the southwest Springfield metro. We haul household junk, cleanouts, commercial debris, yard waste, sheds, and hot tubs in Battlefield.</p></article>
+<article class="card"><h3><a href="/junk-removal-nixa-mo">Nixa, MO</a></h3><p>Junk removal south of Springfield. Call with the Nixa address and what needs to go.</p></article>
 <article class="card"><h3><a href="/junk-removal-ozark-mo">Ozark, MO</a></h3><p>Junk removal in Ozark, the Christian County seat south of Springfield. Homes, rentals, and cleanouts use the same phone number.</p></article>
 <article class="card"><h3><a href="/junk-removal-republic-mo">Republic, MO</a></h3><p>Junk removal in Republic, west of Springfield in Greene County. Tell us the street and the size of the load.</p></article>
 <article class="card"><h3>Willard, MO</h3><p>Junk removal in Willard, in northwest Greene County. We quote the job the same way we do in Springfield.</p></article>
@@ -1193,6 +1290,8 @@ def pages():
             "shed-removal-springfield-mo.html",
         ],
         "junk-removal-service-areas-springfield-mo.html": [
+            "junk-removal-battlefield-mo.html",
+            "junk-removal-nixa-mo.html",
             "junk-removal-ozark-mo.html",
             "junk-removal-republic-mo.html",
         ],
@@ -1213,8 +1312,8 @@ def write_redirects():
         "# Cloudflare Pages reads this file. It does not change the production branch or project settings.",
         "# Restored pages are real HTML and must stay out of this file:",
         "# apartment, estate, house, and garage cleanouts; shed removal;",
-        "# construction debris; Ozark; Republic.",
-        "# Nixa, Battlefield, and Willard still 301 to the service-area hub.",
+        "# construction debris; Battlefield; Nixa; Ozark; Republic.",
+        "# Willard still 301s to the service-area hub.",
         "",
     ]
     for old, new in REMOVED.items():
@@ -1313,6 +1412,8 @@ Springfield, Battlefield, Nixa, Ozark, Republic, and Willard, Missouri.
 - [Yard waste and hot tubs](https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo): Brush, yard waste, and hot tubs.
 - [Shed removal](https://springfieldjunkremovalservice.com/shed-removal-springfield-mo): Wood and metal shed removal and teardown when needed.
 - [Service area](https://springfieldjunkremovalservice.com/junk-removal-service-areas-springfield-mo): Hub for Springfield plus Battlefield, Nixa, Ozark, Republic, and Willard.
+- [Junk removal in Battlefield](https://springfieldjunkremovalservice.com/junk-removal-battlefield-mo): Battlefield, MO, southwest of Springfield.
+- [Junk removal in Nixa](https://springfieldjunkremovalservice.com/junk-removal-nixa-mo): Nixa, MO, south of Springfield.
 - [Junk removal in Ozark, MO](https://springfieldjunkremovalservice.com/junk-removal-ozark-mo): Christian County, south of Springfield. Homes, rentals, and cleanouts.
 - [Junk removal in Republic, MO](https://springfieldjunkremovalservice.com/junk-removal-republic-mo): Greene County, west of Springfield. Homes, rentals, and remodel debris.
 - [Cost and FAQ](https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo): Call for a quote. What changes the price. How a pickup works.
@@ -1396,7 +1497,7 @@ def render_404():
 <li><a href="/cleanouts-springfield-mo">Cleanouts</a>, including <a href="/apartment-cleanout-springfield-mo">apartment</a>, <a href="/estate-cleanout-springfield-mo">estate</a>, <a href="/house-cleanout-springfield-mo">house</a>, and <a href="/garage-cleanout-springfield-mo">garage</a></li>
 <li><a href="/commercial-junk-removal-springfield-mo">Commercial junk</a> and <a href="/construction-debris-removal-springfield-mo">construction debris</a></li>
 <li><a href="/yard-waste-removal-springfield-mo">Yard waste</a> and <a href="/shed-removal-springfield-mo">shed removal</a></li>
-<li><a href="/junk-removal-service-areas-springfield-mo">Service area</a>, including <a href="/junk-removal-ozark-mo">Ozark</a> and <a href="/junk-removal-republic-mo">Republic</a></li>
+<li><a href="/junk-removal-service-areas-springfield-mo">Service area</a>, including <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, and <a href="/junk-removal-republic-mo">Republic</a></li>
 <li><a href="/junk-removal-cost-springfield-mo">Cost and FAQ</a></li>
 <li><a href="/springfield-junk-disposal-guide">Disposal guide</a></li>
 <li><a href="/contact">Contact</a></li>
@@ -1442,7 +1543,7 @@ def main():
             raise SystemExit(f"{page['file']} title is {len(page['title'])} chars")
         if page.get("dedicated"):
             h1 = page["h1"]
-            places = ("Springfield, MO", "Ozark, MO", "Republic, MO")
+            places = ("Springfield, MO", "Battlefield, MO", "Nixa, MO", "Ozark, MO", "Republic, MO")
             if not any(place in h1 for place in places):
                 raise SystemExit(f"{page['file']} H1 missing place name")
             if f'href="{page["href"]}"' not in html_out and page["href"] not in html_out:

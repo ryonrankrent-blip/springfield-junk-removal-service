@@ -26,6 +26,8 @@ EXPECTED_HTML=(
   yard-waste-removal-springfield-mo.html
   shed-removal-springfield-mo.html
   junk-removal-service-areas-springfield-mo.html
+  junk-removal-battlefield-mo.html
+  junk-removal-nixa-mo.html
   junk-removal-ozark-mo.html
   junk-removal-republic-mo.html
   junk-removal-cost-springfield-mo.html
@@ -37,7 +39,7 @@ EXPECTED_HTML=(
 echo
 echo "--- Page inventory ---"
 HTML_COUNT=$(ls -1 *.html 2>/dev/null | wc -l | tr -d ' ')
-if [ "$HTML_COUNT" -eq 18 ]; then ok "18 HTML pages"; else bad "Expected 18 HTML pages, found $HTML_COUNT"; fi
+if [ "$HTML_COUNT" -eq 20 ]; then ok "20 HTML pages"; else bad "Expected 20 HTML pages, found $HTML_COUNT"; fi
 for f in "${EXPECTED_HTML[@]}"; do
   if [ -f "$f" ]; then ok "present $f"; else bad "missing $f"; fi
 done
@@ -45,7 +47,7 @@ done
 echo
 echo "--- Sitemap, robots, llms, redirects ---"
 SITEMAP_COUNT=$(grep -c '<loc>' sitemap.xml || true)
-if [ "$SITEMAP_COUNT" -eq 17 ]; then ok "sitemap has 17 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
+if [ "$SITEMAP_COUNT" -eq 19 ]; then ok "sitemap has 19 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
 if grep -q '404.html' sitemap.xml; then bad "sitemap includes 404"; else ok "sitemap omits 404"; fi
 if grep -q 'Allow: /' robots.txt && grep -q 'GPTBot' robots.txt && grep -q 'sitemap.xml' robots.txt; then
   ok "robots.txt allows search and AI crawlers"
@@ -85,6 +87,8 @@ RESTORED=(
   garage-cleanout-springfield-mo
   shed-removal-springfield-mo
   construction-debris-removal-springfield-mo
+  junk-removal-battlefield-mo
+  junk-removal-nixa-mo
   junk-removal-ozark-mo
   junk-removal-republic-mo
 )
@@ -97,10 +101,8 @@ for slug in "${RESTORED[@]}"; do
     bad "$slug canonical is not itself"
   fi
 done
-for slug in junk-removal-nixa-mo junk-removal-battlefield-mo junk-removal-willard-mo; do
-  if grep -q "^/${slug} " _redirects; then ok "hub redirect $slug"; else bad "missing hub redirect $slug"; fi
-  if [ -f "${slug}.html" ]; then bad "hub town still has HTML: ${slug}.html"; else ok "no HTML for $slug"; fi
-done
+if grep -q '^/junk-removal-willard-mo ' _redirects; then ok "hub redirect junk-removal-willard-mo"; else bad "missing Willard hub redirect"; fi
+if [ -f junk-removal-willard-mo.html ]; then bad "Willard still has HTML"; else ok "no HTML for Willard"; fi
 
 echo
 echo "--- Per-page technical ---"
