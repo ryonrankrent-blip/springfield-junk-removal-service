@@ -17,18 +17,27 @@ EXPECTED_HTML=(
   index.html
   residential-junk-removal-springfield-mo.html
   cleanouts-springfield-mo.html
+  apartment-cleanout-springfield-mo.html
+  estate-cleanout-springfield-mo.html
+  house-cleanout-springfield-mo.html
+  garage-cleanout-springfield-mo.html
   commercial-junk-removal-springfield-mo.html
+  construction-debris-removal-springfield-mo.html
   yard-waste-removal-springfield-mo.html
+  shed-removal-springfield-mo.html
   junk-removal-service-areas-springfield-mo.html
+  junk-removal-battlefield-mo.html
+  junk-removal-nixa-mo.html
   junk-removal-cost-springfield-mo.html
   springfield-junk-disposal-guide.html
   contact.html
+  404.html
 )
 
 echo
 echo "--- Page inventory ---"
 HTML_COUNT=$(ls -1 *.html 2>/dev/null | wc -l | tr -d ' ')
-if [ "$HTML_COUNT" -eq 9 ]; then ok "9 HTML pages"; else bad "Expected 9 HTML pages, found $HTML_COUNT"; fi
+if [ "$HTML_COUNT" -eq 18 ]; then ok "18 HTML pages"; else bad "Expected 18 HTML pages, found $HTML_COUNT"; fi
 for f in "${EXPECTED_HTML[@]}"; do
   if [ -f "$f" ]; then ok "present $f"; else bad "missing $f"; fi
 done
@@ -36,7 +45,8 @@ done
 echo
 echo "--- Sitemap, robots, llms, redirects ---"
 SITEMAP_COUNT=$(grep -c '<loc>' sitemap.xml || true)
-if [ "$SITEMAP_COUNT" -eq 9 ]; then ok "sitemap has 9 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
+if [ "$SITEMAP_COUNT" -eq 17 ]; then ok "sitemap has 17 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
+if grep -q '404.html' sitemap.xml; then bad "sitemap includes 404"; else ok "sitemap omits 404"; fi
 if grep -q 'Allow: /' robots.txt && grep -q 'GPTBot' robots.txt && grep -q 'sitemap.xml' robots.txt; then
   ok "robots.txt allows search and AI crawlers"
 else
@@ -68,11 +78,40 @@ while read -r src dest code; do
 done < _redirects
 ok "redirect file parsed"
 
+RESTORED=(
+  apartment-cleanout-springfield-mo
+  estate-cleanout-springfield-mo
+  house-cleanout-springfield-mo
+  garage-cleanout-springfield-mo
+  shed-removal-springfield-mo
+  construction-debris-removal-springfield-mo
+  junk-removal-battlefield-mo
+  junk-removal-nixa-mo
+)
+for slug in "${RESTORED[@]}"; do
+  if grep -q "/${slug}" _redirects; then bad "restored URL still redirected: $slug"; else ok "no redirect for $slug"; fi
+  if grep -q "https://springfieldjunkremovalservice.com/${slug}" sitemap.xml; then ok "sitemap lists $slug"; else bad "sitemap missing $slug"; fi
+  if grep -q "href=\"https://springfieldjunkremovalservice.com/${slug}\"" "${slug}.html"; then
+    ok "$slug self canonical"
+  else
+    bad "$slug canonical is not itself"
+  fi
+done
+
 echo
 echo "--- Per-page technical ---"
 TITLES=""
 H1S=""
 for f in *.html; do
+  if [ "$f" = "404.html" ]; then
+    grep -q 'noindex' "$f" && ok "404 noindex" || bad "404 missing noindex"
+    if grep -q 'rel="canonical"' "$f"; then bad "404 has a canonical"; else ok "404 has no canonical"; fi
+    grep -q 'tel:4172425370' "$f" && ok "404 tel" || bad "404 missing tel"
+    grep -q 'GTM-GDJF54DV' "$f" && ok "404 GTM" || bad "404 missing GTM"
+    h1=$(grep -c '<h1>' "$f" || true)
+    if [ "$h1" -eq 1 ]; then ok "404 one H1"; else bad "404 H1 count=$h1"; fi
+    continue
+  fi
   gtm=$(grep -c 'GTM-GDJF54DV' "$f" || true)
   if [ "$gtm" -ge 2 ]; then ok "$f GTM"; else bad "$f GTM hits=$gtm"; fi
   grep -q 'tel:4172425370' "$f" && ok "$f tel" || bad "$f missing tel"

@@ -12,17 +12,27 @@ Static business site for junk removal in Springfield, MO. Cloudflare Pages deplo
 
 ## Pages
 
-Nine public URLs. Retired URLs 301 in `_redirects`.
+Seventeen public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. Apartment, estate, house, and garage cleanouts, shed removal, construction debris, Battlefield, and Nixa are real pages again and must not be redirected.
 
 - `/` — Junk Removal in Springfield, MO
 - `/residential-junk-removal-springfield-mo`
 - `/cleanouts-springfield-mo`
+- `/apartment-cleanout-springfield-mo`
+- `/estate-cleanout-springfield-mo`
+- `/house-cleanout-springfield-mo`
+- `/garage-cleanout-springfield-mo`
 - `/commercial-junk-removal-springfield-mo`
+- `/construction-debris-removal-springfield-mo`
 - `/yard-waste-removal-springfield-mo`
+- `/shed-removal-springfield-mo`
 - `/junk-removal-service-areas-springfield-mo`
+- `/junk-removal-battlefield-mo`
+- `/junk-removal-nixa-mo`
 - `/junk-removal-cost-springfield-mo`
 - `/springfield-junk-disposal-guide`
 - `/contact`
+
+Unknown paths serve `404.html` with HTTP 404. Cloudflare Pages does that when a top-level `404.html` exists. Without that file, Pages serves the homepage with HTTP 200.
 
 ## Local QA
 
