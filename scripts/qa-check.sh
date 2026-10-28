@@ -34,13 +34,23 @@ EXPECTED_HTML=(
   junk-removal-cost-springfield-mo.html
   springfield-junk-disposal-guide.html
   contact.html
+  junk-removal-springfield-mo.html
+  junk-removal-services-springfield-mo.html
+  same-day-junk-removal-springfield-mo.html
+  furniture-removal-springfield-mo.html
+  mattress-removal-springfield-mo.html
+  appliance-removal-springfield-mo.html
+  trash-removal-springfield-mo.html
+  eviction-cleanout-springfield-mo.html
+  hoarder-cleanout-springfield-mo.html
+  hot-tub-removal-springfield-mo.html
   404.html
 )
 
 echo
 echo "--- Page inventory ---"
 HTML_COUNT=$(ls -1 *.html 2>/dev/null | wc -l | tr -d ' ')
-if [ "$HTML_COUNT" -eq 21 ]; then ok "21 HTML pages"; else bad "Expected 21 HTML pages, found $HTML_COUNT"; fi
+if [ "$HTML_COUNT" -eq 31 ]; then ok "31 HTML pages"; else bad "Expected 31 HTML pages, found $HTML_COUNT"; fi
 for f in "${EXPECTED_HTML[@]}"; do
   if [ -f "$f" ]; then ok "present $f"; else bad "missing $f"; fi
 done
@@ -48,7 +58,7 @@ done
 echo
 echo "--- Sitemap, robots, llms, redirects ---"
 SITEMAP_COUNT=$(grep -c '<loc>' sitemap.xml || true)
-if [ "$SITEMAP_COUNT" -eq 20 ]; then ok "sitemap has 20 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
+if [ "$SITEMAP_COUNT" -eq 30 ]; then ok "sitemap has 30 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
 if grep -q '404.html' sitemap.xml; then bad "sitemap includes 404"; else ok "sitemap omits 404"; fi
 if grep -q 'Allow: /' robots.txt && grep -q 'GPTBot' robots.txt && grep -q 'sitemap.xml' robots.txt; then
   ok "robots.txt allows search and AI crawlers"
@@ -93,6 +103,16 @@ RESTORED=(
   junk-removal-ozark-mo
   junk-removal-republic-mo
   junk-removal-willard-mo
+  junk-removal-springfield-mo
+  junk-removal-services-springfield-mo
+  same-day-junk-removal-springfield-mo
+  furniture-removal-springfield-mo
+  mattress-removal-springfield-mo
+  appliance-removal-springfield-mo
+  trash-removal-springfield-mo
+  eviction-cleanout-springfield-mo
+  hoarder-cleanout-springfield-mo
+  hot-tub-removal-springfield-mo
 )
 for slug in "${RESTORED[@]}"; do
   if grep -q "/${slug}" _redirects; then bad "restored URL still redirected: $slug"; else ok "no redirect for $slug"; fi
