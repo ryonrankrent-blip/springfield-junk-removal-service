@@ -12,19 +12,29 @@ Static business site for junk removal in Springfield, MO. Cloudflare Pages deplo
 
 ## Pages
 
-Twenty public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. Apartment, estate, house, and garage cleanouts, shed removal, construction debris, Battlefield, Nixa, Ozark, Republic, and Willard are real pages and must not be redirected.
+Thirty public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. These paths are real pages and must not be redirected: apartment, estate, house, garage, eviction, and hoarder cleanouts; furniture, mattress, appliance, trash, same-day, and hot tub removal; `/junk-removal-springfield-mo` and `/junk-removal-services-springfield-mo`; shed removal; construction debris; Battlefield, Nixa, Ozark, Republic, and Willard.
 
 - `/` — Junk Removal in Springfield, MO
+- `/junk-removal-springfield-mo`
+- `/junk-removal-services-springfield-mo`
+- `/same-day-junk-removal-springfield-mo`
 - `/residential-junk-removal-springfield-mo`
+- `/furniture-removal-springfield-mo`
+- `/mattress-removal-springfield-mo`
+- `/appliance-removal-springfield-mo`
+- `/trash-removal-springfield-mo`
 - `/cleanouts-springfield-mo`
 - `/apartment-cleanout-springfield-mo`
 - `/estate-cleanout-springfield-mo`
 - `/house-cleanout-springfield-mo`
 - `/garage-cleanout-springfield-mo`
+- `/eviction-cleanout-springfield-mo`
+- `/hoarder-cleanout-springfield-mo`
 - `/commercial-junk-removal-springfield-mo`
 - `/construction-debris-removal-springfield-mo`
 - `/yard-waste-removal-springfield-mo`
 - `/shed-removal-springfield-mo`
+- `/hot-tub-removal-springfield-mo`
 - `/junk-removal-service-areas-springfield-mo`
 - `/junk-removal-battlefield-mo`
 - `/junk-removal-nixa-mo`
