@@ -60,10 +60,22 @@ echo "--- Sitemap, robots, llms, redirects ---"
 SITEMAP_COUNT=$(grep -c '<loc>' sitemap.xml || true)
 if [ "$SITEMAP_COUNT" -eq 30 ]; then ok "sitemap has 30 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
 if grep -q '404.html' sitemap.xml; then bad "sitemap includes 404"; else ok "sitemap omits 404"; fi
-if grep -q 'Allow: /' robots.txt && grep -q 'GPTBot' robots.txt && grep -q 'sitemap.xml' robots.txt; then
-  ok "robots.txt allows search and AI crawlers"
+if grep -q 'Allow: /' robots.txt && grep -q 'sitemap.xml' robots.txt; then
+  ok "robots.txt allows crawling and lists the sitemap"
 else
-  bad "robots.txt missing Allow, GPTBot, or sitemap"
+  bad "robots.txt missing Allow or sitemap"
+fi
+for bot in Googlebot Bingbot GPTBot OAI-SearchBot ClaudeBot Claude-SearchBot PerplexityBot Google-Extended; do
+  if grep -A1 "User-agent: ${bot}$" robots.txt | grep -q 'Allow: /'; then
+    ok "robots allows $bot"
+  else
+    bad "robots missing Allow for $bot"
+  fi
+done
+if grep -c '<lastmod>' sitemap.xml | grep -qx "$SITEMAP_COUNT" && grep -q '<lastmod>2026-11-16</lastmod>' sitemap.xml; then
+  ok "sitemap lastmod on every URL"
+else
+  bad "sitemap lastmod missing or not current"
 fi
 if [ -f llms.txt ] && grep -q 'Springfield Junk Removal Service' llms.txt; then
   ok "llms.txt present"
@@ -147,7 +159,14 @@ for f in *.html; do
   grep -q 'formspree.io/f/mojzdkvg' "$f" && ok "$f Formspree" || bad "$f missing Formspree"
   grep -q '"@type": "LocalBusiness"' "$f" && ok "$f LocalBusiness" || bad "$f missing LocalBusiness"
   grep -q 'areaServed' "$f" && ok "$f areaServed" || bad "$f missing areaServed"
+  grep -q 'Strafford' "$f" && grep -q 'Rogersville' "$f" && ok "$f Strafford and Rogersville" || bad "$f missing Strafford or Rogersville"
   grep -q '"@type": "FAQPage"' "$f" && ok "$f FAQPage" || bad "$f missing FAQPage"
+  grep -q 'What do you take for' "$f" && grep -q 'What changes the price for' "$f" && grep -q 'the same day?' "$f" && grep -q 'donate or recycle' "$f" && grep -q 'What can you not take for' "$f" && ok "$f answer FAQs" || bad "$f missing answer FAQs"
+  if [ "$f" = "contact.html" ]; then
+    if grep -q '"@type": "Service"' "$f"; then bad "$f unexpected Service schema"; else ok "$f no Service schema"; fi
+  else
+    grep -q '"@type": "Service"' "$f" && ok "$f Service" || bad "$f missing Service"
+  fi
   h1=$(grep -c '<h1>' "$f" || true)
   if [ "$h1" -eq 1 ]; then ok "$f one H1"; else bad "$f H1 count=$h1"; fi
   if grep -q 'streetAddress\|PostalAddress\|AggregateRating' "$f"; then bad "$f has forbidden schema"; else ok "$f no address/rating schema"; fi
@@ -157,11 +176,34 @@ for f in *.html; do
   H1S="$H1S|$h1text"
 done
 
-# Homepage must name Springfield, MO in title and H1
-if grep -q '<title>Junk Removal in Springfield, MO' index.html && grep -q '<h1>Junk Removal in Springfield, MO</h1>' index.html; then
-  ok "homepage title and H1 include Springfield, MO"
+# Homepage title leads with the query. H1 stays a readable sentence.
+if grep -q '<title>Junk Removal Springfield MO' index.html && grep -q '<h1>Junk Removal in Springfield, MO</h1>' index.html; then
+  ok "homepage title leads with Junk Removal Springfield MO"
 else
-  bad "homepage title or H1 missing Springfield, MO"
+  bad "homepage title or H1 missing the Springfield query"
+fi
+if grep -q '<title>Apartment Cleanout Springfield MO | Junk Removal</title>' apartment-cleanout-springfield-mo.html \
+  && grep -q 'junk removal' apartment-cleanout-springfield-mo.html \
+  && grep -q 'Springfield, MO' apartment-cleanout-springfield-mo.html; then
+  ok "apartment title includes junk removal and Springfield"
+else
+  bad "apartment title or description missing junk removal or Springfield"
+fi
+if grep -q '<title>Commercial Junk Removal Springfield MO' commercial-junk-removal-springfield-mo.html; then
+  ok "commercial title leads with Commercial Junk Removal Springfield MO"
+else
+  bad "commercial title missing Springfield query"
+fi
+if grep -q '<title>Junk Removal Battlefield MO | Springfield Area</title>' junk-removal-battlefield-mo.html; then
+  ok "battlefield title includes Springfield"
+else
+  bad "battlefield title missing Springfield"
+fi
+if grep -q '<h1>Junk Pickup in Springfield, MO</h1>' springfield-junk-disposal-guide.html \
+  && ! grep -q 'Guide' springfield-junk-disposal-guide.html; then
+  ok "pickup page is not titled as a guide"
+else
+  bad "pickup page still reads as a guide"
 fi
 
 python3 - << 'PY'

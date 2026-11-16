@@ -19,12 +19,38 @@ FORM = "https://formspree.io/f/mojzdkvg"
 
 CITIES = [
     ("Springfield", "Missouri"),
-    ("Battlefield", "Missouri"),
     ("Nixa", "Missouri"),
     ("Ozark", "Missouri"),
     ("Republic", "Missouri"),
+    ("Battlefield", "Missouri"),
     ("Willard", "Missouri"),
+    ("Strafford", "Missouri"),
+    ("Rogersville", "Missouri"),
 ]
+
+# Towns with their own pages. Strafford and Rogersville are served, with no separate URL.
+TOWN_PAGES = [
+    ("/junk-removal-battlefield-mo", "Battlefield"),
+    ("/junk-removal-nixa-mo", "Nixa"),
+    ("/junk-removal-ozark-mo", "Ozark"),
+    ("/junk-removal-republic-mo", "Republic"),
+    ("/junk-removal-willard-mo", "Willard"),
+]
+
+SERVICE_CROSS = [
+    ("/junk-removal-springfield-mo", "Springfield junk removal"),
+    ("/apartment-cleanout-springfield-mo", "apartment cleanout"),
+    ("/commercial-junk-removal-springfield-mo", "commercial junk removal"),
+    ("/residential-junk-removal-springfield-mo", "residential junk"),
+    ("/furniture-removal-springfield-mo", "furniture removal"),
+    ("/cleanouts-springfield-mo", "cleanouts"),
+    ("/construction-debris-removal-springfield-mo", "construction debris"),
+    ("/yard-waste-removal-springfield-mo", "yard waste"),
+    ("/same-day-junk-removal-springfield-mo", "same-day requests"),
+    ("/springfield-junk-disposal-guide", "pickup or drop-off"),
+]
+
+LASTMOD = "2026-11-16"
 
 NAV = [
     ("/", "Home", "index.html"),
@@ -34,7 +60,7 @@ NAV = [
     ("/yard-waste-removal-springfield-mo", "Yard & Outdoor", "yard-waste-removal-springfield-mo.html"),
     ("/junk-removal-service-areas-springfield-mo", "Service Area", "junk-removal-service-areas-springfield-mo.html"),
     ("/junk-removal-cost-springfield-mo", "Cost & FAQ", "junk-removal-cost-springfield-mo.html"),
-    ("/springfield-junk-disposal-guide", "Disposal Guide", "springfield-junk-disposal-guide.html"),
+    ("/springfield-junk-disposal-guide", "Pickup or Drop-Off", "springfield-junk-disposal-guide.html"),
     ("/contact", "Contact", "contact.html"),
 ]
 
@@ -64,6 +90,17 @@ def strip_tags(text):
     return re.sub(r"<[^>]+>", "", text)
 
 
+def area_served_ld():
+    return [
+        {
+            "@type": "City",
+            "name": name,
+            "containedInPlace": {"@type": "State", "name": state},
+        }
+        for name, state in CITIES
+    ]
+
+
 def business_ld():
     return {
         "@context": "https://schema.org",
@@ -77,14 +114,7 @@ def business_ld():
             "Junk removal in Springfield, Missouri. We haul household junk, "
             "cleanouts, commercial junk, construction debris, yard waste, sheds, and hot tubs."
         ),
-        "areaServed": [
-            {
-                "@type": "City",
-                "name": name,
-                "containedInPlace": {"@type": "State", "name": state},
-            }
-            for name, state in CITIES
-        ],
+        "areaServed": area_served_ld(),
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+1-417-242-5370",
@@ -93,6 +123,109 @@ def business_ld():
             "availableLanguage": "English",
         },
     }
+
+
+def service_ld(page):
+    href = page["href"]
+    canonical = DOMAIN + "/" if href == "/" else DOMAIN + href
+    name = page.get("service_name") or page["h1"]
+    return {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": name,
+        "serviceType": name,
+        "url": canonical,
+        "provider": {"@id": DOMAIN + "/#business"},
+        "areaServed": area_served_ld(),
+        "description": page["description"],
+    }
+
+
+def faq_subject(page):
+    if page.get("faq_noun"):
+        return page["faq_noun"]
+    text = page["h1"].lower()
+    for word in (
+        "Springfield",
+        "Missouri",
+        "Battlefield",
+        "Nixa",
+        "Ozark",
+        "Republic",
+        "Willard",
+        "Strafford",
+        "Rogersville",
+    ):
+        text = re.sub(rf"\b{word.lower()}\b", word, text)
+    text = re.sub(r"\bmo\b", "MO", text)
+    return text
+
+
+def answer_faqs(page):
+    """Direct answers for the questions people ask before they call."""
+    noun = faq_subject(page)
+    return [
+        (
+            f"What do you take for {noun}?",
+            f"For {noun}, we take household junk, furniture, mattresses, appliances, bagged trash, and non-hazardous cleanout or remodel debris when you describe those items. Call (417) 242-5370 and list what has to go.",
+        ),
+        (
+            f"What changes the price for {noun}?",
+            "Volume, weight, the material, and access such as stairs, gates, or parking. We do not publish a price list. Call (417) 242-5370 and we quote that load.",
+        ),
+        (
+            f"Can you do {noun} the same day?",
+            "Call (417) 242-5370 and name the day. We will tell you the first opening. We do not promise same-day service.",
+        ),
+        (
+            f"Do you donate or recycle items from {noun}?",
+            "We do not promise donation or recycling. If you want usable items donated, arrange that with the organization before pickup day. We haul what is left, and we do not issue a recycling certificate.",
+        ),
+        (
+            f"What can you not take for {noun}?",
+            "We do not take hazardous waste, asbestos, fuel, ammunition, or medical waste. Paint, chemicals, and propane stay off the truck.",
+        ),
+    ]
+
+
+def anchor_list(pairs):
+    return ", ".join(f'<a href="{href}">{esc(label)}</a>' for href, label in pairs)
+
+
+def related_section(page):
+    """Real links between service pages and town pages. No new town URLs."""
+    href = page["href"]
+    if href in ("/contact", "/junk-removal-service-areas-springfield-mo"):
+        return ""
+    town_map = dict(TOWN_PAGES)
+    if href in town_map:
+        town = town_map[href]
+        others = [(path, name) for path, name in TOWN_PAGES if path != href]
+        return f"""<section>
+<div class="wrap">
+<h2>Book a {esc(town)} job by type</h2>
+<p>Use the service page that matches the load, then give us the {esc(town)} address: {anchor_list(SERVICE_CROSS)}.</p>
+<p>Other town pages: {anchor_list(others)}. <a href="/junk-removal-service-areas-springfield-mo">Service area</a>. Strafford and Rogersville are in the area we cover. Call with that address. We do not publish a separate page for those two towns.</p>
+</div>
+</section>
+"""
+    if all(path in page["body"] for path, _name in TOWN_PAGES) and "Strafford" in page["body"]:
+        return ""
+    if all(path in page["body"] for path, _name in TOWN_PAGES):
+        return """<section>
+<div class="wrap">
+<p>Strafford and Rogersville are in the area we cover. Call with that address. We do not publish a separate page for those two towns. <a href="/junk-removal-service-areas-springfield-mo">Service area</a>.</p>
+</div>
+</section>
+"""
+    label = page["crumb"] if href != "/" else "Junk removal"
+    return f"""<section>
+<div class="wrap">
+<h2>{esc(label)} outside Springfield</h2>
+<p>{esc(page["h1"])} is available in {anchor_list(TOWN_PAGES)}. Strafford and Rogersville are in the area we cover. Call with that address. We do not publish a separate page for those two towns. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>.</p>
+</div>
+</section>
+"""
 
 
 def faq_ld(faqs):
@@ -210,9 +343,15 @@ def crumbs(page):
 def render(page):
     href = page["href"]
     canonical = DOMAIN + "/" if href == "/" else DOMAIN + href
-    faqs = page["faqs"]
+    faqs = list(page["faqs"]) + answer_faqs(page)
     title = page["title"]
     description = page["description"]
+    service_script = ""
+    if page.get("service_schema", True):
+        service_script = f"""<script type="application/ld+json">
+{json_ld(service_ld(page))}
+</script>
+"""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -238,7 +377,7 @@ def render(page):
 <script type="application/ld+json">
 {json_ld(business_ld())}
 </script>
-<script type="application/ld+json">
+{service_script}<script type="application/ld+json">
 {json_ld(faq_ld(faqs))}
 </script>
 </head>
@@ -270,6 +409,7 @@ def render(page):
 </div>
 </section>
 {page["body"]}
+{related_section(page)}
 <section>
 <div class="wrap split">
 <div>
@@ -306,10 +446,10 @@ def dedicated_pages(phone):
             "dedicated": True,
             "parents": cleanouts,
             "crumb": "Apartment cleanout",
-            "title": "Apartment Cleanout Springfield, MO | Move-Outs",
-            "description": "Apartment cleanouts in Springfield, MO for move-outs and rental turnovers. We haul furniture, trash, and leftover belongings. Call (417) 242-5370.",
+            "title": "Apartment Cleanout Springfield MO | Junk Removal",
+            "description": "Apartment cleanout and junk removal in Springfield, MO. We haul furniture, trash, and leftovers from move-outs. Call (417) 242-5370.",
             "h1": "Apartment Cleanout in Springfield, MO",
-            "lede": f"We clean out apartments in Springfield, Missouri. Tenants, landlords, and property managers call {phone} when furniture, trash, and leftover belongings have to leave a unit.",
+            "lede": f"Apartment junk removal in Springfield, MO is a unit job: move-outs and rental turnovers. Tenants, landlords, and property managers call {phone} when furniture, trash, and leftover belongings have to leave.",
             "service": cleanout_service,
             "quote_heading": "Quote an apartment cleanout",
             "quote_copy": "<p>Include the unit number, the floor, stairs or an elevator, and what must stay. A one-room pile and a full unit are different quotes.</p>",
@@ -338,7 +478,7 @@ def dedicated_pages(phone):
 <div class="wrap grid">
 <article class="card"><h3>What usually goes</h3><p>Furniture, mattresses, kitchen leftovers, and boxes from a move-out. A single couch or mattress, with the rest of the unit staying, is a <a href="/residential-junk-removal-springfield-mo">residential pickup</a>, not a full cleanout.</p></article>
 <article class="card"><h3>Access in the building</h3><p>Unit number, floor, stairs or an elevator, parking, and any gate or building code. Carrying distance from the unit to where we can load changes the quote. Say what must stay in the unit.</p></article>
-<article class="card"><h3>Appliances and problem items</h3><p>Tell us if a refrigerator, washer, or other appliance is part of the job and whether it is still connected. Paint, chemicals, fuel, and anything hazardous stay off the truck. See the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p></article>
+<article class="card"><h3>Appliances and problem items</h3><p>Tell us if a refrigerator, washer, or other appliance is part of the job and whether it is still connected. Paint, chemicals, fuel, and anything hazardous stay off the truck. See the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>.</p></article>
 </div>
 </section>
 <section>
@@ -472,7 +612,7 @@ def dedicated_pages(phone):
                 ),
                 (
                     "Do you take paint and fuel from a garage?",
-                    "No. Paint, fuel, solvents, and other hazardous chemicals are not junk we haul. Use the Springfield disposal guide for the city's household chemical drop-off.",
+                    "No. Paint, fuel, solvents, and other hazardous chemicals are not junk we haul. Use the Springfield pickup or drop-off page for the city's household chemical drop-off.",
                 ),
             ],
             "body": f"""
@@ -485,7 +625,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap grid">
 <article class="card"><h3>What we haul from a garage</h3><p>Cardboard, bins, shelves, junk lawn equipment, and furniture that was stored out of the weather. Items you want to keep stay put. Tell us if a car is still parked inside so the working space is clear in the quote.</p></article>
-<article class="card"><h3>Chemicals stay off the truck</h3><p>Paint, solvents, fuel, and propane are not garage junk we haul. Springfield's household chemical drop-off is listed in the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p></article>
+<article class="card"><h3>Chemicals stay off the truck</h3><p>Paint, solvents, fuel, and propane are not garage junk we haul. Springfield's household chemical drop-off is listed in the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>.</p></article>
 <article class="card"><h3>A shed is not a garage</h3><p>A backyard shed is <a href="/shed-removal-springfield-mo">shed removal</a>. Branches and bagged leaves are <a href="/yard-waste-removal-springfield-mo">yard waste</a>. Mention them only if they are mixed into the same visit.</p></article>
 </div>
 </section>
@@ -542,7 +682,7 @@ def dedicated_pages(phone):
 <div class="wrap">
 <h2>Springfield disposal context for debris</h2>
 <p>If you haul debris yourself, the City of Springfield publishes <a href="https://www.springfieldmo.gov/5918/Material-Know-How">Material Know How</a> and <a href="https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill">Noble Hill Sanitary Landfill</a>. Those pages describe landfill limits and examples of clean fill, such as uncontaminated soil, concrete, and brick, and they say facility staff verify what they will accept. Hours and fees change. We are not the landfill, and a city tipping fee is not our price.</p>
-<p>Mixed remodel debris, including drywall, lumber, and roofing, is a different load from clean fill. Describe shingles, sheet rock, and mixed construction waste as mixed debris. More city links are on the <a href="/springfield-junk-disposal-guide">disposal guide</a>. <a href="/junk-removal-cost-springfield-mo">What changes a quote</a>.</p>
+<p>Mixed remodel debris, including drywall, lumber, and roofing, is a different load from clean fill. Describe shingles, sheet rock, and mixed construction waste as mixed debris. More city links are on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. <a href="/junk-removal-cost-springfield-mo">What changes a quote</a>.</p>
 </div>
 </section>
 """,
@@ -602,10 +742,10 @@ def dedicated_pages(phone):
             "dedicated": True,
             "parents": area,
             "crumb": "Battlefield",
-            "title": "Junk Removal Battlefield, MO | Southwest Metro",
-            "description": "Junk removal in Battlefield, MO. Household junk, cleanouts, job-site debris, and yard waste southwest of Springfield. Call (417) 242-5370.",
+            "title": "Junk Removal Battlefield MO | Springfield Area",
+            "description": "Junk removal in Battlefield, MO, southwest of Springfield, MO. Homes, cleanouts, and job sites. Call (417) 242-5370 for a quote.",
             "h1": "Junk Removal in Battlefield, MO",
-            "lede": f"We haul junk at Battlefield, Missouri addresses, southwest of Springfield. Call {phone} with the street address. Household junk, cleanouts, job-site debris, and yard waste use that same number.",
+            "lede": f"Junk removal in Battlefield, MO is a pickup southwest of Springfield, MO. Call {phone} with the street address. Homes, cleanouts, job-site debris, and yard waste use that same number.",
             "service": "Other",
             "quote_heading": "Quote a Battlefield pickup",
             "quote_copy": "<p>Use the Battlefield address, not a Springfield landmark. Include the items, the amount, and any gate or stairs.</p>",
@@ -633,14 +773,14 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap grid">
 <article class="card"><h3>Homes and rentals</h3><p>Furniture, appliances, garage clutter, and move-out piles in Battlefield. A single room can be a <a href="/residential-junk-removal-springfield-mo">residential pickup</a>. A full property is a <a href="/cleanouts-springfield-mo">cleanout</a>, including <a href="/house-cleanout-springfield-mo">house</a> and <a href="/garage-cleanout-springfield-mo">garage</a> jobs.</p></article>
-<article class="card"><h3>Job sites in Battlefield</h3><p>Drywall, lumber, cabinets, and other non-hazardous remodel debris. Limits are on the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page. We do not take asbestos or hazardous waste.</p></article>
+<article class="card"><h3>Job sites in Battlefield</h3><p>Office and store junk is <a href="/commercial-junk-removal-springfield-mo">commercial junk removal</a>. Drywall, lumber, cabinets, and other non-hazardous remodel debris are on the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page. We do not take asbestos or hazardous waste.</p></article>
 <article class="card"><h3>Yards and outbuildings</h3><p>Brush, bagged yard waste, and <a href="/shed-removal-springfield-mo">shed removal</a> when a wood or metal shed has to go. Hot tubs are quoted from the <a href="/yard-waste-removal-springfield-mo">yard and outdoor</a> page.</p></article>
 </div>
 </section>
 <section>
 <div class="wrap">
 <h2>Battlefield and the other towns</h2>
-<p>Nixa, Ozark, Republic, and Willard are covered from the same phone number. Nixa, south of Springfield, has its own page: <a href="/junk-removal-nixa-mo">junk removal in Nixa</a>. <a href="/junk-removal-ozark-mo">Ozark</a> and <a href="/junk-removal-republic-mo">Republic</a> do too. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page. If the address is outside those towns, call and ask. We will tell you yes or no. The quote still depends on volume, weight, material, and access. <a href="/junk-removal-cost-springfield-mo">What changes the price</a>.</p>
+<p>Nixa, Ozark, Republic, and Willard are covered from the same phone number. Nixa, south of Springfield, has its own page: <a href="/junk-removal-nixa-mo">junk removal in Nixa</a>. <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a> do too. If the address is outside those towns, call and ask. We will tell you yes or no. The quote still depends on volume, weight, material, and access. <a href="/junk-removal-cost-springfield-mo">What changes the price</a>.</p>
 </div>
 </section>
 """,
@@ -683,13 +823,13 @@ def dedicated_pages(phone):
 <div class="wrap grid">
 <article class="card"><h3>Nixa houses and apartments</h3><p>Move-outs, leftover furniture, and garage piles. Name the property type. Apartment details are on the <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a> page. A whole house is a <a href="/house-cleanout-springfield-mo">house cleanout</a>. One couch or appliance, with the rest staying, is <a href="/residential-junk-removal-springfield-mo">residential junk removal</a>.</p></article>
 <article class="card"><h3>Job sites south of Springfield</h3><p>Remodel debris in Nixa is quoted from the material, not from a Nixa rate card. Drywall, lumber, cabinets, and flooring are the usual items. Concrete, roofing, and dirt need a description. Read the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page before you book a job site. Hazardous waste and asbestos are not hauled.</p></article>
-<article class="card"><h3>Outdoor loads in Nixa</h3><p>Branches, bagged yard waste, and sheds on Nixa lots. Shed size and the path out of the yard are on the <a href="/shed-removal-springfield-mo">shed removal</a> page. City of Springfield drop-off sites are in Springfield, not in Nixa, and their fees are not our prices. Links are in the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p></article>
+<article class="card"><h3>Outdoor loads in Nixa</h3><p>Branches, bagged yard waste, and sheds on Nixa lots. Shed size and the path out of the yard are on the <a href="/shed-removal-springfield-mo">shed removal</a> page. City of Springfield drop-off sites are in Springfield, not in Nixa, and their fees are not our prices. Links are in the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>.</p></article>
 </div>
 </section>
 <section>
 <div class="wrap">
 <h2>How Nixa fits the service area</h2>
-<p>We also serve Springfield, <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and Willard. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> hub. A Nixa quote uses the address, gates, stairs, and parking you describe. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
+<p>We also serve Springfield, <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a>. A Nixa quote uses the address, gates, stairs, and parking you describe. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
 </div>
 </section>
 """,
@@ -728,7 +868,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap">
 <h2>Junk removal south of Springfield</h2>
-<p>Ozark jobs are the same kinds of hauls we do in Springfield: household junk, rental cleanouts, and single items. The address is what changes. Downtown Ozark, neighborhoods on the north side toward Springfield, and the south side of town all use this page. <a href="/junk-removal-nixa-mo">Nixa</a> and <a href="/junk-removal-battlefield-mo">Battlefield</a> have their own pages. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page. <a href="/junk-removal-republic-mo">Republic</a> is west of Springfield and has its own page.</p>
+<p>Ozark jobs are the same kinds of hauls we do in Springfield: household junk, rental cleanouts, and single items. The address is what changes. Downtown Ozark, neighborhoods on the north side toward Springfield, and the south side of town all use this page. <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a> have their own pages. </p>
 </div>
 </section>
 <section>
@@ -784,7 +924,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap">
 <h2>Junk removal west of Springfield</h2>
-<p>Republic addresses are west of Springfield, in Greene County. We quote streets near the center of town and subdivisions toward the edge of the city from the same details: what the junk is, how much there is, and how we get to it. Ozark is a different town, south of Springfield in Christian County. Those addresses belong on the <a href="/junk-removal-ozark-mo">Ozark junk removal</a> page. <a href="/junk-removal-nixa-mo">Nixa</a> and <a href="/junk-removal-battlefield-mo">Battlefield</a> have their own pages. Willard stays on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> hub.</p>
+<p>Republic addresses are west of Springfield, in Greene County. We quote streets near the center of town and subdivisions toward the edge of the city from the same details: what the junk is, how much there is, and how we get to it. Ozark is a different town, south of Springfield in Christian County. Those addresses belong on the <a href="/junk-removal-ozark-mo">Ozark junk removal</a> page. <a href="/junk-removal-nixa-mo">Nixa</a> and <a href="/junk-removal-battlefield-mo">Battlefield</a> have their own pages. <a href="/junk-removal-willard-mo">Willard</a> has its own page. </p>
 </div>
 </section>
 <section>
@@ -889,7 +1029,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap">
 <h2>A Springfield pickup, not a drop-off</h2>
-<p>This page is for a pickup at a Springfield address. City drop-off sites are a different choice, and their fees are not our price. Those links are on the <a href="/springfield-junk-disposal-guide">disposal guide</a>. Call {phone} if you want the junk loaded and hauled. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
+<p>This page is for a pickup at a Springfield address. City drop-off sites are a different choice, and their fees are not our price. Those links are on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. Call {phone} if you want the junk loaded and hauled. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
 </div>
 </section>
 <section>
@@ -931,7 +1071,7 @@ def dedicated_pages(phone):
                 ),
                 (
                     "Where do you offer these services?",
-                    "Springfield, Battlefield, Nixa, Ozark, Republic, and Willard. Call with the address if your town is not on that list.",
+                    "Springfield, Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville. Call with the address if your town is not on that list.",
                 ),
             ],
             "body": """
@@ -1081,7 +1221,7 @@ def dedicated_pages(phone):
                 ),
                 (
                     "Do you recycle every mattress?",
-                    "No. We do not promise a recycling outcome. Springfield publishes its own mattress program. That city page is linked from our disposal guide. It is not our price and not our process.",
+                    "No. We do not promise a recycling outcome. Springfield publishes its own mattress program. That city page is linked from our pickup or drop-off page. It is not our price and not our process.",
                 ),
             ],
             "body": f"""
@@ -1095,7 +1235,7 @@ def dedicated_pages(phone):
 <div class="wrap grid">
 <article class="card"><h3>Size and condition</h3><p>Name the size and how many. A stained or torn mattress can still be hauled. Describe it. We do not need it bagged unless you already bagged it.</p></article>
 <article class="card"><h3>Bed frames</h3><p>A frame is part of the job only if you list it. Say if it is still attached to the bed. We quote the pieces you name.</p></article>
-<article class="card"><h3>City recycling is separate</h3><p>Springfield's mattress program is a city option if you haul it yourself. The link is on the <a href="/springfield-junk-disposal-guide">disposal guide</a>. We pick the mattress up. We do not promise that it is recycled.</p></article>
+<article class="card"><h3>City recycling is separate</h3><p>Springfield's mattress program is a city option if you haul it yourself. The link is on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. We pick the mattress up. We do not promise that it is recycled.</p></article>
 </div>
 </section>
 <section>
@@ -1151,7 +1291,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap">
 <h2>What we do not take with the appliance</h2>
-<p>Fuel, chemicals, and hazardous waste stay off the truck. Those drop-off links are on the <a href="/springfield-junk-disposal-guide">disposal guide</a>. A remodel that left cabinets and flooring is <a href="/construction-debris-removal-springfield-mo">construction debris</a>, not an appliance pickup. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
+<p>Fuel, chemicals, and hazardous waste stay off the truck. Those drop-off links are on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. A remodel that left cabinets and flooring is <a href="/construction-debris-removal-springfield-mo">construction debris</a>, not an appliance pickup. <a href="/junk-removal-cost-springfield-mo">What changes the quote</a>.</p>
 </div>
 </section>
 """,
@@ -1177,7 +1317,7 @@ def dedicated_pages(phone):
                 ),
                 (
                     "Do you take hazardous waste with the trash?",
-                    "No. Paint, chemicals, fuel, asbestos, ammunition, and medical waste stay off the truck. Use the Springfield disposal guide for city drop-off pages.",
+                    "No. Paint, chemicals, fuel, asbestos, ammunition, and medical waste stay off the truck. Use the Springfield pickup or drop-off page for city drop-off pages.",
                 ),
                 (
                     "Is a pile of furniture called trash removal?",
@@ -1194,7 +1334,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap grid">
 <article class="card"><h3>Bags, boxes, and clutter</h3><p>Bagged trash, broken household goods, and cardboard. Tell us how many bags or how much of the room is full. Loose food waste should be bagged if you can.</p></article>
-<article class="card"><h3>Not the city truck</h3><p>Springfield Junk Removal Service is a private company. City drop-off rules are on the <a href="/springfield-junk-disposal-guide">disposal guide</a>. A city fee is not our price.</p></article>
+<article class="card"><h3>Not the city truck</h3><p>Springfield Junk Removal Service is a private company. City drop-off rules are on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. A city fee is not our price.</p></article>
 <article class="card"><h3>What stays off the truck</h3><p>Paint, chemicals, fuel, asbestos, ammunition, and medical waste. If the pile is mostly those items, we cannot haul it as trash.</p></article>
 </div>
 </section>
@@ -1294,7 +1434,7 @@ def dedicated_pages(phone):
 <section>
 <div class="wrap grid">
 <article class="card"><h3>What we haul</h3><p>Furniture, mattresses, boxes, bagged trash, and broken household goods you mark to go. One room or several. Tell us how full each room is.</p></article>
-<article class="card"><h3>What we do not haul</h3><p>Hazardous chemicals, fuel, asbestos, ammunition, and medical waste. Biohazard and crime-scene cleanup are not this service. City chemical drop-off is on the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p></article>
+<article class="card"><h3>What we do not haul</h3><p>Hazardous chemicals, fuel, asbestos, ammunition, and medical waste. Biohazard and crime-scene cleanup are not this service. City chemical drop-off is on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>.</p></article>
 <article class="card"><h3>Access and pace</h3><p>Say who will meet us and whether pathways are blocked. A large house may be quoted as more than one load. We will say so when we quote. We do not promise a single visit.</p></article>
 </div>
 </section>
@@ -1366,10 +1506,10 @@ def pages():
             "file": "index.html",
             "href": "/",
             "crumb": "Home",
-            "title": "Junk Removal in Springfield, MO | Home & Cleanout Quotes",
-            "description": "We haul junk in Springfield, MO: homes, estate and apartment cleanouts, job sites, and yards. No need to drag it to the curb. Call (417) 242-5370 for a quote.",
+            "title": "Junk Removal Springfield MO | Home & Cleanout Quotes",
+            "description": "Junk removal in Springfield, MO for homes, apartments, offices, and yards. We load it and haul it. Call (417) 242-5370 for a quote.",
             "h1": "Junk Removal in Springfield, MO",
-            "lede": f"We are Springfield Junk Removal Service. We pick up junk from homes and businesses in Springfield, Missouri. Call {phone} or send the form and we will quote the job.",
+            "lede": f"Junk removal in Springfield, MO is what Springfield Junk Removal Service does. We pick up junk from homes and businesses. Call {phone} or send the form and we will quote the job.",
             "service": "Residential junk, furniture, or appliances",
             "quote_heading": "Tell us what needs to go",
             "quote_copy": "<p>List the items, about how much there is, and whether anything is upstairs or behind a gate. We quote from that.</p>",
@@ -1388,7 +1528,7 @@ def pages():
                 ),
                 (
                     "Where do you work?",
-                    "We work in Springfield, MO, and in Battlefield, Nixa, Ozark, Republic, and Willard.",
+                    "We work in Springfield, Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville. Battlefield, Nixa, Ozark, Republic, and Willard have their own pages. Strafford and Rogersville do not. Call with the address.",
                 ),
                 (
                     "Can you come today?",
@@ -1433,11 +1573,11 @@ def pages():
 <div class="wrap split">
 <div>
 <h2>Service area</h2>
-<p>We haul junk in Springfield and in <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a>. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>. The service list is on <a href="/junk-removal-services-springfield-mo">junk removal services</a>. A Springfield pickup request can also start on <a href="/junk-removal-springfield-mo">junk removal in Springfield</a>.</p>
+<p>We haul junk in Springfield and in <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a>. Strafford and Rogersville are in the area we cover. Call with that address. We do not publish a separate page for those two towns. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a>. The service list is on <a href="/junk-removal-services-springfield-mo">junk removal services</a>. A Springfield pickup request can also start on <a href="/junk-removal-springfield-mo">junk removal in Springfield</a>.</p>
 </div>
 <div class="panel">
 <h2>What we do not take</h2>
-<p>Hazardous waste, asbestos, fuel, ammunition, and medical waste are not junk we haul. Paint and chemicals belong at the city's household chemical drop-off. See the <a href="/springfield-junk-disposal-guide">Springfield disposal guide</a>.</p>
+<p>Hazardous waste, asbestos, fuel, ammunition, and medical waste are not junk we haul. Paint and chemicals belong at the city's household chemical drop-off. See the <a href="/springfield-junk-disposal-guide">Springfield pickup or drop-off page</a>.</p>
 </div>
 </div>
 </section>
@@ -1495,7 +1635,7 @@ def pages():
 </section>
 <section>
 <div class="wrap">
-<div class="note"><strong>Not ordinary junk.</strong> Paint, chemicals, asbestos, fuel, ammunition, and medical waste stay off the truck. Use the <a href="/springfield-junk-disposal-guide">Springfield disposal guide</a> for city drop-off pages, or book a <a href="/cleanouts-springfield-mo">cleanout</a> if the job is a whole room or house.</div>
+<div class="note"><strong>Not ordinary junk.</strong> Paint, chemicals, asbestos, fuel, ammunition, and medical waste stay off the truck. Use the <a href="/springfield-junk-disposal-guide">Springfield pickup or drop-off page</a> for city drop-off pages, or book a <a href="/cleanouts-springfield-mo">cleanout</a> if the job is a whole room or house.</div>
 </div>
 </section>
 """,
@@ -1546,10 +1686,10 @@ def pages():
             "file": "commercial-junk-removal-springfield-mo.html",
             "href": "/commercial-junk-removal-springfield-mo",
             "crumb": "Commercial",
-            "title": "Commercial Junk Removal in Springfield, MO",
-            "description": "Commercial junk removal and construction debris removal in Springfield, MO. Offices, stores, and job sites. Call (417) 242-5370 for a quote.",
+            "title": "Commercial Junk Removal Springfield MO | Offices",
+            "description": "Commercial junk removal in Springfield, MO for offices, stores, and job sites. We load it and haul it. Call (417) 242-5370 for a quote.",
             "h1": "Commercial Junk Removal in Springfield, MO",
-            "lede": f"We haul junk from offices, shops, rentals, and job sites in Springfield, Missouri. Commercial junk removal and construction debris removal start with a call. Call {phone} and describe the load.",
+            "lede": f"Commercial junk removal in Springfield, MO covers offices, shops, rentals, and job sites. Call {phone} and describe the load. Construction debris is the same phone call when the pile is remodel material.",
             "service": "Commercial junk or construction debris",
             "quote_heading": "Quote a commercial or debris job",
             "quote_copy": "<p>Tell us the site, the material, and about how much there is. Include parking and the hours we can get in.</p>",
@@ -1566,7 +1706,7 @@ def pages():
             "body": """
 <section>
 <div class="wrap grid">
-<article class="card"><h3>Offices, stores, and rentals</h3><p>Desks, chairs, shelving, fixtures, and boxes from a closeout, a remodel, or a tenant turnover. Property managers booking a unit cleanout can start on the <a href="/cleanouts-springfield-mo">cleanouts page</a> or the <a href="/eviction-cleanout-springfield-mo">eviction cleanout</a> page.</p></article>
+<article class="card"><h3>Offices, stores, and rentals</h3><p>Desks, chairs, shelving, fixtures, and boxes from a closeout, a remodel, or a tenant turnover. Property managers booking a unit can start on the <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a> page, the <a href="/cleanouts-springfield-mo">cleanouts page</a>, or the <a href="/eviction-cleanout-springfield-mo">eviction cleanout</a> page.</p></article>
 <article class="card"><h3><a href="/construction-debris-removal-springfield-mo">Construction debris removal</a></h3><p>We haul drywall, lumber, cabinets, flooring, and other leftover remodel material. Tell us if the pile includes concrete, brick, roofing, dirt, or anything hazardous. We will tell you whether that material is part of the quote.</p></article>
 </div>
 </section>
@@ -1605,7 +1745,7 @@ def pages():
             "body": """
 <section>
 <div class="wrap grid">
-<article class="card"><span class="kicker">Yard waste</span><h3>Yard waste removal</h3><p>We pick up branches, brush, bagged yard debris, and outdoor junk. Springfield's Yardwaste Recycling Center is a city drop-off, not our price. Check the city page if you plan to haul it yourself. Details are in the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p></article>
+<article class="card"><span class="kicker">Yard waste</span><h3>Yard waste removal</h3><p>We pick up branches, brush, bagged yard debris, and outdoor junk. Springfield's Yardwaste Recycling Center is a city drop-off, not our price. Check the city page if you plan to haul it yourself. Details are in the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>.</p></article>
 <article class="card"><span class="kicker">Shed removal</span><h3><a href="/shed-removal-springfield-mo">Shed removal</a></h3><p>We remove wood and metal sheds in Springfield and nearby towns. The quote depends on size, access, and whether the shed has to be taken apart. Tell us what is stored in it.</p></article>
 <article class="card"><span class="kicker">Hot tub removal</span><h3><a href="/hot-tub-removal-springfield-mo">Hot tub removal</a></h3><p>We remove hot tubs from yards, patios, and decks. Tell us the size and the path out. We quote the teardown when the tub cannot come out in one piece.</p></article>
 </div>
@@ -1617,9 +1757,9 @@ def pages():
             "href": "/junk-removal-service-areas-springfield-mo",
             "crumb": "Service Area",
             "title": "Junk Removal Service Area | Springfield, MO",
-            "description": "We haul junk in Springfield, MO, plus Battlefield, Nixa, Ozark, Republic, and Willard. Call (417) 242-5370 for a quote.",
+            "description": "Junk removal in Springfield, MO, plus Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville. Call (417) 242-5370.",
             "h1": "Junk Removal Service Area",
-            "lede": f"We serve Springfield, Missouri, and nearby towns: Battlefield, Nixa, Ozark, Republic, and Willard. The work is the same in each town. Call {phone} and give us the address.",
+            "lede": f"We serve Springfield, Missouri, and nearby towns: Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville. The work is the same in each town. Call {phone} and give us the address.",
             "service": "Other",
             "quote_heading": "Quote a pickup in our service area",
             "quote_copy": "<p>Include the town. We will tell you if the address is in the area we cover.</p>",
@@ -1634,7 +1774,7 @@ def pages():
                 ),
                 (
                     "Which towns do you cover?",
-                    "Springfield, Battlefield, Nixa, Ozark, Republic, and Willard. If your town is not on that list, call and ask. We will tell you yes or no.",
+                    "Springfield, Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville. Battlefield, Nixa, Ozark, Republic, and Willard have their own pages. Strafford and Rogersville do not. If your town is not on that list, call and ask. We will tell you yes or no.",
                 ),
             ],
             "body": """
@@ -1650,7 +1790,8 @@ def pages():
 </section>
 <section>
 <div class="wrap">
-<p>Looking for a job type? Start with <a href="/junk-removal-services-springfield-mo">junk removal services</a>, <a href="/residential-junk-removal-springfield-mo">residential junk</a>, <a href="/cleanouts-springfield-mo">cleanouts</a>, <a href="/commercial-junk-removal-springfield-mo">commercial junk</a>, <a href="/construction-debris-removal-springfield-mo">construction debris</a>, or <a href="/yard-waste-removal-springfield-mo">yard waste, sheds, and hot tubs</a>.</p>
+<p>Strafford and Rogersville are in the area we cover. Call with that address. We do not publish a separate page for those two towns.</p>
+<p>Looking for a job type? Start with <a href="/junk-removal-services-springfield-mo">junk removal services</a>, <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a>, <a href="/residential-junk-removal-springfield-mo">residential junk</a>, <a href="/cleanouts-springfield-mo">cleanouts</a>, <a href="/commercial-junk-removal-springfield-mo">commercial junk</a>, <a href="/construction-debris-removal-springfield-mo">construction debris</a>, or <a href="/yard-waste-removal-springfield-mo">yard waste, sheds, and hot tubs</a>.</p>
 </div>
 </section>
 """,
@@ -1704,7 +1845,7 @@ def pages():
 <div>
 <h2>DIY drop-off or a pickup</h2>
 <p>You can haul some material yourself. Springfield publishes landfill information for Noble Hill and yard-waste information for the Yardwaste Recycling Center. Facility hours, minimums, and accepted materials change. Check the city site before you load a truck. Those fees are the city's, not ours.</p>
-<p>If you want the junk picked up, call for a quote. Links to the city pages are on the <a href="/springfield-junk-disposal-guide">disposal guide</a>.</p>
+<p>If you want the junk picked up, call for a quote. Links to the city pages are on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>.</p>
 </div>
 <div class="panel">
 <h2>How a pickup works</h2>
@@ -1723,6 +1864,8 @@ def pages():
             "file": "contact.html",
             "href": "/contact",
             "crumb": "Contact",
+            "service_schema": False,
+            "faq_noun": "junk removal when you contact us in Springfield, MO",
             "title": "Contact Springfield Junk Removal Service | Springfield, MO",
             "description": "Call Springfield Junk Removal Service at (417) 242-5370 or send a quote request. Serving Springfield, MO. No text line.",
             "h1": "Contact Springfield Junk Removal Service",
@@ -1745,7 +1888,7 @@ def pages():
 <div class="wrap">
 <dl class="facts">
 <div><dt>Phone</dt><dd><a href="tel:4172425370">(417) 242-5370</a></dd></div>
-<div><dt>Area</dt><dd>Springfield, Battlefield, Nixa, Ozark, Republic, Willard</dd></div>
+<div><dt>Area</dt><dd>Springfield, Nixa, Ozark, Republic, Battlefield, Willard, Strafford, Rogersville</dd></div>
 <div><dt>Quote</dt><dd>Call for a quote</dd></div>
 <div><dt>Text</dt><dd>No text line</dd></div>
 </dl>
@@ -1756,26 +1899,27 @@ def pages():
         {
             "file": "springfield-junk-disposal-guide.html",
             "href": "/springfield-junk-disposal-guide",
-            "crumb": "Disposal Guide",
-            "title": "Springfield, MO Junk Disposal Guide | Drop-Off or Pickup",
-            "description": "Springfield, MO junk disposal options: city drop-off pages, and pickup by Springfield Junk Removal Service. Call (417) 242-5370 for a quote.",
-            "h1": "Springfield, MO Junk Disposal Guide",
-            "lede": f"Springfield publishes drop-off and recycling pages if you want to haul junk yourself. If you want it picked up, call {phone}. We are a private junk removal company, not the city landfill.",
+            "crumb": "Pickup or drop-off",
+            "title": "Junk Pickup in Springfield, MO | Or You Drop Off",
+            "description": "We pick up junk in Springfield, MO. If you would rather drop it off, the city sites are linked here. Call (417) 242-5370 for a pickup quote.",
+            "h1": "Junk Pickup in Springfield, MO",
+            "lede": f"We pick up junk in Springfield, Missouri. You do not haul it to a landfill. If you would rather drop it off yourself, the city publishes those pages below. Pickup is the job we do. Call {phone}.",
             "service": "Other",
-            "quote_heading": "Want us to haul it?",
-            "quote_copy": "<p>Describe the items. We will quote a pickup in Springfield or a nearby town we serve.</p>",
+            "service_name": "Junk pickup in Springfield, MO",
+            "quote_heading": "Book a pickup",
+            "quote_copy": "<p>Describe the items. We will quote a pickup in Springfield or a nearby town we serve. A city drop-off fee is not our price.</p>",
             "faqs": [
                 (
-                    "Where do I look up disposal rules in Springfield, Missouri?",
-                    "Start with the City of Springfield Waste Wizard and Material Know How pages. Hours, fees, and accepted materials change, so read the city page before you drive there.",
+                    "Do you pick up junk in Springfield, MO?",
+                    "Yes. Call (417) 242-5370 or send the form. We load the junk and haul it. Dropping it off at a city site is a different choice, and those fees are the city's.",
                 ),
                 (
-                    "Can Springfield Junk Removal Service haul it instead?",
-                    "Yes. Call (417) 242-5370 or send the form. We quote the pickup. We do not take hazardous waste, asbestos, fuel, ammunition, or medical waste.",
+                    "What if I want to drop the junk off myself?",
+                    "Use the City of Springfield pages linked on this page. Hours, fees, and accepted materials change, so read the city page before you drive there. We are not the operator of those sites.",
                 ),
                 (
                     "Where do paint, chemicals, and batteries go?",
-                    "Not on our truck. Springfield publishes Household Chemical Collection Center guidance, and Missouri DNR publishes household hazardous-waste information. Check those pages for current rules.",
+                    "Not on our truck. Springfield publishes Household Chemical Collection Center information, and Missouri DNR publishes household hazardous-waste information. Check those pages for current rules.",
                 ),
                 (
                     "Are you the City of Springfield?",
@@ -1785,14 +1929,23 @@ def pages():
             "body": """
 <section>
 <div class="wrap">
-<div class="note"><strong>Check the city page before you go.</strong> Hours, fees, appointments, and accepted materials change. We link these pages for research. We are not the operator of any city facility.</div>
+<h2>Pickup versus drop-off</h2>
+<p>Pickup means we come to the address, load the junk, and haul it. That is the service on this page. Drop-off means you haul the material yourself to a city site. We do not operate those sites, and a city fee is not our quote. <a href="/junk-removal-springfield-mo">Book a Springfield pickup</a> or call if the address is in a town we serve.</p>
+</div>
+</section>
+<section>
+<div class="wrap grid">
+<article class="card"><h3>We pick it up</h3><p>Furniture, appliances, mattresses, cleanouts, commercial junk, and yard waste. Start with <a href="/furniture-removal-springfield-mo">furniture removal</a>, <a href="/appliance-removal-springfield-mo">appliance removal</a>, <a href="/mattress-removal-springfield-mo">mattress removal</a>, <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a>, <a href="/commercial-junk-removal-springfield-mo">commercial junk removal</a>, or <a href="/construction-debris-removal-springfield-mo">construction debris</a>.</p></article>
+<article class="card"><h3>You drop it off</h3><p>The City of Springfield publishes the rules for its landfill, yard-waste site, and household chemical drop-off. Check the current page before you go. Hours, fees, appointments, and accepted materials change.</p></article>
+<article class="card"><h3>Donation is a separate call</h3><p>If you want usable items donated, contact that organization and confirm they will take them before pickup day. We are not a donation center. We haul what is left. We do not promise a recycling outcome.</p></article>
+<article class="card"><h3>Paint, fuel, and chemicals</h3><p>We do not haul these. Use the household chemical pages below.</p></article>
 </div>
 </section>
 <section>
 <div class="wrap">
-<h2>City and state pages</h2>
+<h2>City and state drop-off pages</h2>
 <ul>
-<li><a href="https://www.springfieldmo.gov/5532/Waste-Wizard">Springfield Waste Wizard</a> for item-by-item disposal lookup.</li>
+<li><a href="https://www.springfieldmo.gov/5532/Waste-Wizard">Springfield Waste Wizard</a> for item-by-item drop-off lookup.</li>
 <li><a href="https://www.springfieldmo.gov/5918/Material-Know-How">Material Know How</a> for landfill limits.</li>
 <li><a href="https://www.springfieldmo.gov/486/Noble-Hill-Sanitary-Landfill">Noble Hill Sanitary Landfill</a> for self-haul rules.</li>
 <li><a href="https://www.springfieldmo.gov/yardwaste">Yardwaste Recycling Center</a> for brush and yard waste.</li>
@@ -1800,19 +1953,7 @@ def pages():
 <li><a href="https://www.springfieldmo.gov/5939/Mattress-Recycling">Mattress recycling</a> for the city's mattress program.</li>
 <li><a href="https://dnr.mo.gov/waste-recycling/reduce-reuse-recycle/what-to-do-with-specific/household-hazardous">Missouri DNR household hazardous waste</a>.</li>
 </ul>
-</div>
-</section>
-<section>
-<div class="wrap grid">
-<article class="card"><h3>Furniture and household goods</h3><p>Donate usable items only if the organization agrees to take them. Otherwise we can haul them. See <a href="/furniture-removal-springfield-mo">furniture removal</a> and <a href="/residential-junk-removal-springfield-mo">residential junk removal</a>.</p></article>
-<article class="card"><h3>Appliances and mattresses</h3><p>Refrigerators and mattresses have extra disposal rules in Springfield. We can pick them up. We do not promise a recycling outcome. Start with <a href="/appliance-removal-springfield-mo">appliance removal</a> or <a href="/mattress-removal-springfield-mo">mattress removal</a>.</p></article>
-<article class="card"><h3>Yard waste and debris</h3><p>Brush can go to the city yard-waste site or on our truck. Remodel debris is on the <a href="/construction-debris-removal-springfield-mo">construction debris</a> page. Office and store junk is on the <a href="/commercial-junk-removal-springfield-mo">commercial</a> page.</p></article>
-<article class="card"><h3>Paint, fuel, and chemicals</h3><p>We do not haul these. Use the household chemical pages above.</p></article>
-</div>
-</section>
-<section>
-<div class="wrap">
-<p>Pricing for a pickup is a quote, not a city tipping fee. <a href="/junk-removal-cost-springfield-mo">Junk removal cost in Springfield</a>.</p>
+<p>A pickup quote is not a city tipping fee. <a href="/junk-removal-cost-springfield-mo">What changes the price</a>. Yard loads are on the <a href="/yard-waste-removal-springfield-mo">yard waste</a> page. Towns outside Springfield are on the <a href="/junk-removal-service-areas-springfield-mo">service area</a> page.</p>
 </div>
 </section>
 """,
@@ -1888,7 +2029,7 @@ def write_sitemap(page_list):
     urls = []
     for page in page_list:
         loc = DOMAIN + "/" if page["href"] == "/" else DOMAIN + page["href"]
-        urls.append(f"  <url><loc>{loc}</loc></url>")
+        urls.append(f"  <url><loc>{loc}</loc><lastmod>{LASTMOD}</lastmod></url>")
     body = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 %s
@@ -1903,22 +2044,31 @@ def write_robots():
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
 User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: ChatGPT-User
+User-agent: ClaudeBot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: ClaudeBot
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: anthropic-ai
@@ -1956,11 +2106,11 @@ def write_llms():
 
 ## Service area
 
-Springfield, Battlefield, Nixa, Ozark, Republic, and Willard, Missouri.
+Springfield, Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville, Missouri. Strafford and Rogersville do not have separate pages.
 
 ## Pages
 
-- [Junk Removal in Springfield, MO](https://springfieldjunkremovalservice.com/): Homepage. Who we are, what we haul, and how a pickup works.
+- [Junk Removal Springfield MO](https://springfieldjunkremovalservice.com/): Homepage. Who we are, what we haul, and how a pickup works.
 - [Junk removal Springfield, MO](https://springfieldjunkremovalservice.com/junk-removal-springfield-mo): Pickup at a Springfield address. Routes to the job-type pages.
 - [Junk removal services](https://springfieldjunkremovalservice.com/junk-removal-services-springfield-mo): List of services we quote.
 - [Same-day junk removal](https://springfieldjunkremovalservice.com/same-day-junk-removal-springfield-mo): Ask for a day. Same-day service is not promised.
@@ -1981,14 +2131,14 @@ Springfield, Battlefield, Nixa, Ozark, Republic, and Willard, Missouri.
 - [Yard waste and hot tubs](https://springfieldjunkremovalservice.com/yard-waste-removal-springfield-mo): Brush, yard waste, sheds, and hot tubs.
 - [Shed removal](https://springfieldjunkremovalservice.com/shed-removal-springfield-mo): Wood and metal shed removal and teardown when needed.
 - [Hot tub removal](https://springfieldjunkremovalservice.com/hot-tub-removal-springfield-mo): Hot tubs and spas. Teardown and utility disconnect are confirmed in the quote.
-- [Service area](https://springfieldjunkremovalservice.com/junk-removal-service-areas-springfield-mo): Hub for Springfield plus Battlefield, Nixa, Ozark, Republic, and Willard.
+- [Service area](https://springfieldjunkremovalservice.com/junk-removal-service-areas-springfield-mo): Hub for Springfield plus Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersville.
 - [Junk removal in Battlefield](https://springfieldjunkremovalservice.com/junk-removal-battlefield-mo): Battlefield, MO, southwest of Springfield.
 - [Junk removal in Nixa](https://springfieldjunkremovalservice.com/junk-removal-nixa-mo): Nixa, MO, south of Springfield.
 - [Junk removal in Ozark, MO](https://springfieldjunkremovalservice.com/junk-removal-ozark-mo): Christian County, south of Springfield. Homes, rentals, and cleanouts.
 - [Junk removal in Republic, MO](https://springfieldjunkremovalservice.com/junk-removal-republic-mo): Greene County, west of Springfield. Homes, rentals, and remodel debris.
 - [Junk removal in Willard, MO](https://springfieldjunkremovalservice.com/junk-removal-willard-mo): Greene County, northwest of Springfield. Homes, rentals, and cleanouts.
 - [Cost and FAQ](https://springfieldjunkremovalservice.com/junk-removal-cost-springfield-mo): Call for a quote. What changes the price. How a pickup works.
-- [Springfield disposal guide](https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide): City drop-off links for people hauling junk themselves, plus a pickup option.
+- [Junk pickup or drop-off](https://springfieldjunkremovalservice.com/springfield-junk-disposal-guide): Pickup is the service. City drop-off pages are linked for people who haul junk themselves. The URL is unchanged.
 - [Contact](https://springfieldjunkremovalservice.com/contact): Phone and quote form.
 
 ## We do not haul
@@ -2072,7 +2222,7 @@ def render_404():
 <li><a href="/yard-waste-removal-springfield-mo">Yard waste</a>, <a href="/shed-removal-springfield-mo">shed removal</a>, and <a href="/hot-tub-removal-springfield-mo">hot tub removal</a></li>
 <li><a href="/junk-removal-service-areas-springfield-mo">Service area</a>, including <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a></li>
 <li><a href="/junk-removal-cost-springfield-mo">Cost and FAQ</a></li>
-<li><a href="/springfield-junk-disposal-guide">Disposal guide</a></li>
+<li><a href="/springfield-junk-disposal-guide">Pickup or drop-off</a></li>
 <li><a href="/contact">Contact</a></li>
 </ul>
 </div>
@@ -2112,8 +2262,20 @@ def main():
             raise SystemExit(f"{page['file']} h1 count != 1")
         if "streetAddress" in html_out or "PostalAddress" in html_out:
             raise SystemExit(f"{page['file']} contains an address schema")
+        if any(token in html_out for token in ("aggregateRating", "reviewCount", "foundingDate", "licenseNumber")):
+            raise SystemExit(f"{page['file']} contains a forbidden schema field")
         if len(page["title"]) > 60:
             raise SystemExit(f"{page['file']} title is {len(page['title'])} chars")
+        if page.get("service_schema", True) and '"@type": "Service"' not in html_out:
+            raise SystemExit(f"{page['file']} missing Service schema")
+        if not page.get("service_schema", True) and '"@type": "Service"' in html_out:
+            raise SystemExit(f"{page['file']} should not have Service schema")
+        for city in ("Strafford", "Rogersville", "Springfield", "Nixa", "Ozark", "Republic", "Battlefield", "Willard"):
+            if city not in html_out:
+                raise SystemExit(f"{page['file']} missing areaServed city {city}")
+        if page["file"] == "springfield-junk-disposal-guide.html":
+            if re.search(r"guide", page["title"], re.I) or re.search(r"guide", page["h1"], re.I):
+                raise SystemExit("disposal URL title or H1 still reads as a guide")
         if page.get("dedicated"):
             h1 = page["h1"]
             places = ("Springfield, MO", "Battlefield, MO", "Nixa, MO", "Ozark, MO", "Republic, MO", "Willard, MO")
