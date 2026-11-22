@@ -337,6 +337,38 @@ footer a { color: #ffc7a3; }
   border-radius: 8px;
 }
 
+.factor-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 8px 0 0;
+}
+
+.factor-table caption {
+  text-align: left;
+  font-weight: 800;
+  padding: 0 0 8px;
+}
+
+.factor-table th,
+.factor-table td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.factor-table th {
+  background: var(--ink);
+  color: #f6f1e8;
+  font-size: 0.85rem;
+}
+
+.factor-table tr:last-child td { border-bottom: 0; }
+
 :focus-visible {
   outline: 3px solid var(--orange-bright);
   outline-offset: 2px;
