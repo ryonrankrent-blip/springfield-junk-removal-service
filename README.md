@@ -12,7 +12,7 @@ Static business site for junk removal in Springfield, MO. Cloudflare Pages deplo
 
 ## Pages
 
-Thirty public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. These paths are real pages and must not be redirected: apartment, estate, house, garage, eviction, and hoarder cleanouts; furniture, mattress, appliance, trash, same-day, and hot tub removal; `/junk-removal-springfield-mo` and `/junk-removal-services-springfield-mo`; shed removal; construction debris; Battlefield, Nixa, Ozark, Republic, and Willard.
+Thirty-four public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_redirects`. These paths are real pages and must not be redirected: apartment, estate, house, garage, storage-unit, basement, attic, eviction, and hoarder cleanouts; office cleanout; furniture, mattress, appliance, trash, same-day, and hot tub removal; `/junk-removal-springfield-mo` and `/junk-removal-services-springfield-mo`; shed removal; construction debris; Battlefield, Nixa, Ozark, Republic, and Willard.
 
 - `/` — Junk Removal in Springfield, MO
 - `/junk-removal-springfield-mo`
@@ -28,9 +28,13 @@ Thirty public URLs, plus `404.html` for unknown paths. Retired URLs 301 in `_red
 - `/estate-cleanout-springfield-mo`
 - `/house-cleanout-springfield-mo`
 - `/garage-cleanout-springfield-mo`
+- `/storage-unit-cleanout-springfield-mo`
+- `/basement-cleanout-springfield-mo`
+- `/attic-cleanout-springfield-mo`
 - `/eviction-cleanout-springfield-mo`
 - `/hoarder-cleanout-springfield-mo`
 - `/commercial-junk-removal-springfield-mo`
+- `/office-cleanout-springfield-mo`
 - `/construction-debris-removal-springfield-mo`
 - `/yard-waste-removal-springfield-mo`
 - `/shed-removal-springfield-mo`

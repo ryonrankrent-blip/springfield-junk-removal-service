@@ -44,13 +44,17 @@ EXPECTED_HTML=(
   eviction-cleanout-springfield-mo.html
   hoarder-cleanout-springfield-mo.html
   hot-tub-removal-springfield-mo.html
+  storage-unit-cleanout-springfield-mo.html
+  basement-cleanout-springfield-mo.html
+  attic-cleanout-springfield-mo.html
+  office-cleanout-springfield-mo.html
   404.html
 )
 
 echo
 echo "--- Page inventory ---"
 HTML_COUNT=$(ls -1 *.html 2>/dev/null | wc -l | tr -d ' ')
-if [ "$HTML_COUNT" -eq 31 ]; then ok "31 HTML pages"; else bad "Expected 31 HTML pages, found $HTML_COUNT"; fi
+if [ "$HTML_COUNT" -eq 35 ]; then ok "35 HTML pages"; else bad "Expected 35 HTML pages, found $HTML_COUNT"; fi
 for f in "${EXPECTED_HTML[@]}"; do
   if [ -f "$f" ]; then ok "present $f"; else bad "missing $f"; fi
 done
@@ -58,7 +62,7 @@ done
 echo
 echo "--- Sitemap, robots, llms, redirects ---"
 SITEMAP_COUNT=$(grep -c '<loc>' sitemap.xml || true)
-if [ "$SITEMAP_COUNT" -eq 30 ]; then ok "sitemap has 30 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
+if [ "$SITEMAP_COUNT" -eq 34 ]; then ok "sitemap has 34 URLs"; else bad "sitemap has $SITEMAP_COUNT URLs"; fi
 if grep -q '404.html' sitemap.xml; then bad "sitemap includes 404"; else ok "sitemap omits 404"; fi
 if grep -q 'Allow: /' robots.txt && grep -q 'sitemap.xml' robots.txt; then
   ok "robots.txt allows crawling and lists the sitemap"
@@ -72,7 +76,7 @@ for bot in Googlebot Bingbot GPTBot OAI-SearchBot ClaudeBot Claude-SearchBot Per
     bad "robots missing Allow for $bot"
   fi
 done
-if grep -c '<lastmod>' sitemap.xml | grep -qx "$SITEMAP_COUNT" && grep -q '<lastmod>2026-11-16</lastmod>' sitemap.xml; then
+if grep -c '<lastmod>' sitemap.xml | grep -qx "$SITEMAP_COUNT" && grep -q '<lastmod>2026-11-22</lastmod>' sitemap.xml; then
   ok "sitemap lastmod on every URL"
 else
   bad "sitemap lastmod missing or not current"
@@ -125,6 +129,10 @@ RESTORED=(
   eviction-cleanout-springfield-mo
   hoarder-cleanout-springfield-mo
   hot-tub-removal-springfield-mo
+  storage-unit-cleanout-springfield-mo
+  basement-cleanout-springfield-mo
+  attic-cleanout-springfield-mo
+  office-cleanout-springfield-mo
 )
 for slug in "${RESTORED[@]}"; do
   if grep -q "/${slug}" _redirects; then bad "restored URL still redirected: $slug"; else ok "no redirect for $slug"; fi
@@ -177,8 +185,8 @@ for f in *.html; do
 done
 
 # Homepage title leads with the query. H1 stays a readable sentence.
-if grep -q '<title>Junk Removal Springfield MO' index.html && grep -q '<h1>Junk Removal in Springfield, MO</h1>' index.html; then
-  ok "homepage title leads with Junk Removal Springfield MO"
+if grep -q '<title>Junk Removal in Springfield, MO | Pickup &amp; Cleanouts</title>' index.html && grep -q '<h1>Junk Removal in Springfield, MO</h1>' index.html; then
+  ok "homepage title and H1 match the on-page brief"
 else
   bad "homepage title or H1 missing the Springfield query"
 fi
