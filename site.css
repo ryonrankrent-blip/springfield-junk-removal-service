@@ -14,6 +14,8 @@
 
 html { scroll-behavior: smooth; }
 
+section[id] { scroll-margin-top: 7.5rem; }
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -375,10 +377,17 @@ footer a { color: #ffc7a3; }
 }
 
 @media (min-width: 960px) {
-  .bar { flex-wrap: nowrap; }
-  .menu { flex: 1 1 auto; }
+  .bar { flex-wrap: wrap; align-items: center; }
+  .logo { flex: 1 1 auto; }
+  .menu { flex: 1 1 100%; }
   .menu summary { display: none; }
-  details.menu > .nav { display: flex !important; }
+  /* Closed <details> hides its contents from painting and hit testing.
+     Keep the desktop nav visible without the Menu control. */
+  details.menu::details-content {
+    content-visibility: visible;
+    display: block;
+  }
+  details.menu > .nav { display: flex !important; font-size: 0.88rem; gap: 6px 12px; }
 }
 
 @media (max-width: 959px) {

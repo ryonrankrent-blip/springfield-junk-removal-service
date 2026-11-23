@@ -76,7 +76,7 @@ for bot in Googlebot Bingbot GPTBot OAI-SearchBot ClaudeBot Claude-SearchBot Per
     bad "robots missing Allow for $bot"
   fi
 done
-if grep -c '<lastmod>' sitemap.xml | grep -qx "$SITEMAP_COUNT" && grep -q '<lastmod>2026-11-22</lastmod>' sitemap.xml; then
+if grep -c '<lastmod>' sitemap.xml | grep -qx "$SITEMAP_COUNT" && grep -q '<lastmod>2026-11-23</lastmod>' sitemap.xml && ! grep -q '<lastmod>2026-11-22</lastmod>' sitemap.xml; then
   ok "sitemap lastmod on every URL"
 else
   bad "sitemap lastmod missing or not current"
@@ -185,10 +185,24 @@ for f in *.html; do
 done
 
 # Homepage title leads with the query. H1 stays a readable sentence.
-if grep -q '<title>Junk Removal in Springfield, MO | Pickup &amp; Cleanouts</title>' index.html && grep -q '<h1>Junk Removal in Springfield, MO</h1>' index.html; then
-  ok "homepage title and H1 match the on-page brief"
+if grep -q '<title>Junk Removal Springfield, MO | Call for a Quote</title>' index.html \
+  && grep -q 'Call (417) 242-5370 or request a quote.' index.html \
+  && grep -q '<h1>Junk Removal in Springfield, MO</h1>' index.html; then
+  ok "homepage title leads with Junk Removal Springfield, MO and asks for a call or quote"
 else
-  bad "homepage title or H1 missing the Springfield query"
+  bad "homepage title, meta CTA, or H1 missing"
+fi
+if grep -q 'id="apartment-garage-cleanout"' cleanouts-springfield-mo.html \
+  && grep -q 'Apartment &amp; garage cleanout in Springfield, MO' cleanouts-springfield-mo.html \
+  && grep -q 'href="/cleanouts-springfield-mo#apartment-garage-cleanout"' index.html \
+  && grep -q '>Apartment &amp; Garage</a>' index.html \
+  && grep -q '"name": "Do you do apartment and garage cleanouts in Springfield, MO?"' cleanouts-springfield-mo.html \
+  && grep -q '<h3>Do you do apartment and garage cleanouts in Springfield, MO?</h3>' cleanouts-springfield-mo.html \
+  && grep -q '"name": "Do you clean out apartments and garages in Springfield?"' index.html \
+  && grep -q '<h3>Do you clean out apartments and garages in Springfield?</h3>' index.html; then
+  ok "apartment and garage section is linked and has matching FAQ JSON-LD"
+else
+  bad "apartment and garage section, nav link, or FAQ JSON-LD missing"
 fi
 if grep -q '<title>Apartment Cleanout Springfield MO | Junk Removal</title>' apartment-cleanout-springfield-mo.html \
   && grep -q 'junk removal' apartment-cleanout-springfield-mo.html \
