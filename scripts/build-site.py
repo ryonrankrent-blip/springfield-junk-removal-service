@@ -52,12 +52,13 @@ SERVICE_CROSS = [
     ("/springfield-junk-disposal-guide", "pickup or drop-off"),
 ]
 
-LASTMOD = "2026-11-22"
+LASTMOD = "2026-11-23"
 
 NAV = [
     ("/", "Home", "index.html"),
     ("/residential-junk-removal-springfield-mo", "Residential", "residential-junk-removal-springfield-mo.html"),
     ("/cleanouts-springfield-mo", "Cleanouts", "cleanouts-springfield-mo.html"),
+    ("/cleanouts-springfield-mo#apartment-garage-cleanout", "Apartment & Garage", "cleanouts-springfield-mo.html"),
     ("/commercial-junk-removal-springfield-mo", "Commercial", "commercial-junk-removal-springfield-mo.html"),
     ("/yard-waste-removal-springfield-mo", "Yard & Outdoor", "yard-waste-removal-springfield-mo.html"),
     ("/junk-removal-service-areas-springfield-mo", "Service Area", "junk-removal-service-areas-springfield-mo.html"),
@@ -468,6 +469,10 @@ def dedicated_pages(phone):
                     "What access details do you need for an apartment?",
                     "The floor, stairs or an elevator, parking, gate or building entry, and anything that must stay in the unit. Those details change the quote.",
                 ),
+                (
+                    "Can the garage assigned to the apartment go on the same visit?",
+                    "Yes, if you say so when you book. The apartment is the unit. The garage is a separate space. Name both, including stairs or an elevator for the unit and whether a car is in the garage. Call (417) 242-5370.",
+                ),
             ],
             "body": f"""
 <section>
@@ -495,6 +500,14 @@ def dedicated_pages(phone):
 <h2>Stairs, elevators, and the end of a lease</h2>
 <p>Springfield apartment buildings differ more by the carry than by the complex name. A second-floor walk-up with a turn at the landing is slower than a freight elevator that fits a couch. Tell us which you have, and whether the elevator has to be reserved. A long walk across a parking lot is a long carry. Put that in the quote request.</p>
 <p>If the lease ends on a date, name the date. We will tell you the first time we can be there. We do not promise same-day service. A tenant who also has a rented storage unit should mention it. That second stop is a <a href="/storage-unit-cleanout-springfield-mo">storage unit cleanout</a>, not part of the apartment unless you describe it. A garage assigned to the unit is a <a href="/garage-cleanout-springfield-mo">garage cleanout</a> on the same visit only when you say so. A family house, rather than a unit, is an <a href="/estate-cleanout-springfield-mo">estate cleanout</a> when people are sorting what to keep.</p>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>A unit, a garage, or both</h2>
+<p>Some Springfield apartments include a garage or a storage bay. The unit and the garage are not the same pile. Tell us about both if both need to be emptied. Stairs or an elevator apply to the unit. A car, a door that will not open, or a loft applies to the garage. We quote the spaces you name. The side-by-side description is <a href="/cleanouts-springfield-mo#apartment-garage-cleanout">apartment and garage cleanout in Springfield, MO</a>. Garage-only jobs stay on the <a href="/garage-cleanout-springfield-mo">garage cleanout</a> page.</p>
+<p>If you manage more than one unit, list each unit number and about how full it is. Two half-empty units are not one full unit. We do not assume the next apartment matches the first. A rental house is still a <a href="/house-cleanout-springfield-mo">house cleanout</a>.</p>
+<p>Call {phone} or use the quote form. Name the complex or the street, the floor, and the day the unit has to be clear. We will tell you the first time we can be there. We do not promise that day.</p>
 </div>
 </section>
 """,
@@ -660,6 +673,10 @@ def dedicated_pages(phone):
                     "What if a car is still in the garage?",
                     "Tell us. A vehicle left inside changes the space we have to work. Move it if you can. If it has to stay, say so before we quote the job.",
                 ),
+                (
+                    "Is a backyard shed part of a garage cleanout?",
+                    "No. A freestanding shed is shed removal. This page is the garage. If you need both, describe each one and we will quote what you listed. Call (417) 242-5370.",
+                ),
             ],
             "body": f"""
 <section>
@@ -696,6 +713,13 @@ def dedicated_pages(phone):
 <h2>Garage, attic, basement, or a storage unit</h2>
 <p>The garage is one of three places a Springfield house stores what did not fit. Boxes above the ceiling are an <a href="/attic-cleanout-springfield-mo">attic cleanout</a>. Junk under the house is a <a href="/basement-cleanout-springfield-mo">basement cleanout</a>. A unit you rent off the property is a <a href="/storage-unit-cleanout-springfield-mo">storage unit cleanout</a>. You can book more than one on the same visit if you describe each space. A backyard building is <a href="/shed-removal-springfield-mo">shed removal</a>, not a garage. Branches and bagged leaves are <a href="/yard-waste-removal-springfield-mo">yard waste</a>.</p>
 <p>Other property types, including apartments and estates, are on the <a href="/cleanouts-springfield-mo">cleanouts</a> page. If you would rather haul a few items yourself, the city landfill and recycling options are on the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. Those fees are the city's.</p>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>Attached garage, detached garage, or an apartment bay</h2>
+<p>An attached garage opens into the house. A detached garage sits behind the house or on the alley. An apartment garage is a bay assigned to a unit, sometimes in a shared row. Tell us which one, because the walk from the pile to the truck is part of the quote. When the unit is also being emptied, start from the <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a> page and name the garage. Both jobs together are described under <a href="/cleanouts-springfield-mo#apartment-garage-cleanout">apartment and garage cleanout in Springfield, MO</a>.</p>
+<p>If the rooms of the house are part of the job, this page is no longer the whole story. Say so, and use the <a href="/house-cleanout-springfield-mo">house cleanout</a> page. A freestanding backyard building is <a href="/shed-removal-springfield-mo">shed removal</a>, not a garage cleanout.</p>
 </div>
 </section>
 """,
@@ -1591,8 +1615,8 @@ def pages():
             "file": "index.html",
             "href": "/",
             "crumb": "Home",
-            "title": "Junk Removal in Springfield, MO | Pickup & Cleanouts",
-            "description": "Junk removal and cleanouts in Springfield, MO, plus Nixa, Ozark, Republic, Battlefield, and Willard. Same-day is often available. Call (417) 242-5370.",
+            "title": "Junk Removal Springfield, MO | Call for a Quote",
+            "description": "Junk Removal Springfield, MO. We haul furniture, appliances, apartment cleanouts, and garage cleanouts. Call (417) 242-5370 or request a quote.",
             "h1": "Junk Removal in Springfield, MO",
             "lede": f"Springfield Junk Removal Service hauls household junk, furniture, appliances, and mattresses in Springfield, MO, and we do <a href=\"/garage-cleanout-springfield-mo\">garage cleanouts</a> and <a href=\"/estate-cleanout-springfield-mo\">estate cleanouts</a>. Pricing depends on the volume of the load, how heavy it is, and how hard it is to carry out. Call {phone} for a quote. Same-day is often available when the schedule is open. We do not promise a same-day time.",
             "service": "Residential junk, furniture, or appliances",
@@ -1627,12 +1651,23 @@ def pages():
                     "Can I donate or recycle instead of booking a pickup?",
                     'We do not promise donation or recycling, and we do not issue a certificate. If you want usable items donated, arrange that yourself before pickup day. People who haul items themselves can use City of Springfield drop-off sites. The city also publishes a <a href="https://www.springfieldmo.gov/5939/Mattress-Recycling">mattress recycling</a> program with its own per-piece fee. Those options are listed on our <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. We haul what is left.',
                 ),
+                (
+                    "Do you clean out apartments and garages in Springfield?",
+                    "Yes. An apartment cleanout is the unit. A garage cleanout is the bay. You can book one or both when you describe each space. Call (417) 242-5370 or use the quote form.",
+                ),
             ],
             "body": f"""
 <section>
 <div class="wrap">
 <h2>Popular cleanouts</h2>
-<p>The jobs people book most often are a <a href="/garage-cleanout-springfield-mo">garage cleanout</a> and an <a href="/estate-cleanout-springfield-mo">estate cleanout</a>. After those, an <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a>, <a href="/shed-removal-springfield-mo">shed removal</a>, or a <a href="/house-cleanout-springfield-mo">house cleanout</a> covers the next common piles. A rented unit is a <a href="/storage-unit-cleanout-springfield-mo">storage unit cleanout</a>. Below-grade storage is a <a href="/basement-cleanout-springfield-mo">basement cleanout</a>. A pull-down stair is an <a href="/attic-cleanout-springfield-mo">attic cleanout</a>. All of them start from the <a href="/cleanouts-springfield-mo">cleanouts</a> page.</p>
+<p>The jobs people book most often are a <a href="/garage-cleanout-springfield-mo">garage cleanout</a> and an <a href="/estate-cleanout-springfield-mo">estate cleanout</a>. After those, an <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a>, <a href="/shed-removal-springfield-mo">shed removal</a>, or a <a href="/house-cleanout-springfield-mo">house cleanout</a> covers the next common piles. A rented unit is a <a href="/storage-unit-cleanout-springfield-mo">storage unit cleanout</a>. Below-grade storage is a <a href="/basement-cleanout-springfield-mo">basement cleanout</a>. A pull-down stair is an <a href="/attic-cleanout-springfield-mo">attic cleanout</a>. Apartment and garage jobs are compared on <a href="/cleanouts-springfield-mo#apartment-garage-cleanout">apartment and garage cleanout in Springfield, MO</a>. All of them start from the <a href="/cleanouts-springfield-mo">cleanouts</a> page.</p>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>Apartment and garage cleanouts</h2>
+<p>We haul both. An apartment cleanout is the unit: furniture, boxes, and trash from a move-out. A garage cleanout is the bay: stored junk you have marked to go. Book one space or both on the same visit when you describe each one. The full description is <a href="/cleanouts-springfield-mo#apartment-garage-cleanout">apartment and garage cleanout in Springfield, MO</a>. Unit-only jobs are on the <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a> page. Bay-only jobs are on the <a href="/garage-cleanout-springfield-mo">garage cleanout</a> page. A freestanding shed is <a href="/shed-removal-springfield-mo">shed removal</a>, not a garage.</p>
+<p>Call {phone} or <a href="#quote">request a quote</a>. Say which spaces are included, who will let us in, and the day you are aiming for. We will tell you the first time we can be there. We do not promise that day.</p>
 </div>
 </section>
 <section>
@@ -1761,7 +1796,7 @@ def pages():
             "title": "Property Cleanouts in Springfield, MO",
             "description": "We clean out houses, garages, apartments, estates, and eviction units in Springfield, MO. Call (417) 242-5370 for a quote.",
             "h1": "Property Cleanouts in Springfield, MO",
-            "lede": f"Start with a <a href=\"/garage-cleanout-springfield-mo\">garage cleanout</a> or an <a href=\"/estate-cleanout-springfield-mo\">estate cleanout</a> in Springfield, Missouri. Apartment, house, eviction, and hoarder cleanouts use the same phone call. Call {phone} and describe the property.",
+            "lede": f"Start with an <a href=\"#apartment-garage-cleanout\">apartment and garage cleanout</a> in Springfield, Missouri, or open the <a href=\"/apartment-cleanout-springfield-mo\">apartment</a> and <a href=\"/garage-cleanout-springfield-mo\">garage</a> pages. Estate, house, eviction, and hoarder cleanouts use the same phone call. Call {phone} and describe the property.",
             "service": "Cleanout (estate, eviction, apartment, or garage)",
             "quote_heading": "Quote a cleanout",
             "quote_copy": "<p>Tell us the property type, about how full it is, and who will let us in. We quote the haul.</p>",
@@ -1778,8 +1813,57 @@ def pages():
                     "Do you clean out garages?",
                     "Yes. We empty garages of boxes, shelving, old tools, and broken equipment. Tell us if a vehicle is still parked inside.",
                 ),
+                (
+                    "Do you do apartment and garage cleanouts in Springfield, MO?",
+                    "Yes. We haul furniture, boxes, and trash from apartments, and we haul the junk you mark in a garage. Call (417) 242-5370 and say which spaces are included.",
+                ),
+                (
+                    "Can an apartment and a garage be cleaned out on the same visit?",
+                    "Yes, when you describe both. An apartment is the unit. A garage is the bay, including a garage assigned to the unit. We quote from the volume, the weight, and the access of each space. We do not publish a combined rate.",
+                ),
+                (
+                    "Is shed removal the same as a garage cleanout?",
+                    "No. A garage cleanout empties a garage of junk you want hauled. Shed removal is a freestanding shed. Tell us which one you have so the quote matches the job.",
+                ),
             ],
-            "body": """
+            "body": f"""
+<section id="apartment-garage-cleanout">
+<div class="wrap">
+<h2>Apartment &amp; garage cleanout in Springfield, MO</h2>
+<p>Springfield Junk Removal Service hauls apartment cleanouts and garage cleanouts in Springfield, MO. An apartment cleanout is the unit: furniture, mattresses, boxes, and bagged trash from a move-out or a turnover. A garage cleanout is the bay: boxes, shelves you are done with, old tools, and stored furniture you have marked to go. Call {phone} or <a href="#quote">request a quote</a> and say which spaces we are emptying. You can book one of them or both.</p>
+<p>These are two different jobs even when they share an address. A second-floor walk-up and a garage on the alley are not the same carry. A freight elevator that has to be reserved is not the same as an overhead door that will not open. We price each space from the volume, the weight, and the access. There is no apartment rate and no price per garage bay on this site. <a href="/junk-removal-cost-springfield-mo">What changes the price</a> is the same list for both.</p>
+</div>
+</section>
+<section>
+<div class="wrap grid">
+<article class="card"><h3>Apartment cleanout</h3><p>Tenants, landlords, and property managers book this when a unit has to be emptied. The person who calls has to let us in and point out what goes. We do not change locks, serve notices, or decide who owns what is left. We do not give legal advice about a lease, a deposit, or abandonment. Tell us the complex or the street, the unit number, the floor, and whether the path is stairs or an elevator. Say what must stay, including appliances that belong to the property. The unit-only page is <a href="/apartment-cleanout-springfield-mo">apartment cleanout</a>.</p></article>
+<article class="card"><h3>Garage cleanout</h3><p>People call when they want to park in the garage again or when stored junk has reached the door. You mark what stays. We load what you marked to go. Tell us one bay or two, how high the pile is, and whether a car is still inside. A loft, a door that will not open, and an alley that the truck cannot enter all change the quote. Paint, fuel, solvents, and propane stay off the truck. The bay-only page is <a href="/garage-cleanout-springfield-mo">garage cleanout</a>.</p></article>
+<article class="card"><h3>Both on one visit</h3><p>Book both when an apartment has an assigned garage, or when a house garage and the rooms are both part of the job. Describe each space. We do not assume the garage matches the unit. A rented storage unit at another address is a <a href="/storage-unit-cleanout-springfield-mo">storage unit cleanout</a>, a separate stop. Rooms of a house, beyond the garage, belong on the <a href="/house-cleanout-springfield-mo">house cleanout</a> page.</p></article>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>What we need in order to quote</h2>
+<p>Call {phone} or send the form. We can quote from a plain description. A photo of the open garage door, or of the apartment room that is fullest, keeps the quote closer to the pile. Have these ready:</p>
+<ul>
+<li>The town and the address, complex, or street. Apartment jobs also need the unit number and the floor.</li>
+<li>Who will let us in. We do not have keys, and we do not handle lockouts.</li>
+<li>Which spaces are included: the unit, the garage, or both. One bay or two. How full each space is.</li>
+<li>Stairs, an elevator that has to be reserved, a gate or building code, alley access, and where a truck can stop.</li>
+<li>Heavy or connected items: a refrigerator, washer, tool chest, or anything still hooked to water, gas, or power.</li>
+<li>What must stay. Mark it, or tell us before we load.</li>
+<li>The date you are working toward, such as the last day of a lease. We will tell you the first time we can be there. We do not promise that day, and we do not promise same-day service.</li>
+</ul>
+<p>A single couch or mattress, with the rest of the apartment staying, is a <a href="/residential-junk-removal-springfield-mo">residential pickup</a>. A freestanding backyard building is <a href="/shed-removal-springfield-mo">shed removal</a>, not a garage. If every room of a house is being sorted by a family, that is an <a href="/estate-cleanout-springfield-mo">estate cleanout</a>.</p>
+</div>
+</section>
+<section>
+<div class="wrap">
+<h2>What stays off the truck</h2>
+<p>Hazardous waste, asbestos, fuel, ammunition, and medical waste are not part of an apartment or garage cleanout. Paint and chemicals belong at the city's household chemical drop-off, linked from the <a href="/springfield-junk-disposal-guide">pickup or drop-off page</a>. We do not promise donation or recycling, and we do not issue a certificate. If you want usable items donated, arrange that with the organization before pickup day. We haul what is left.</p>
+<p>Call {phone} and name the town. <a href="/junk-removal-service-areas-springfield-mo">See the service area</a> for the other towns we cover from the same number.</p>
+</div>
+</section>
 <section>
 <div class="wrap grid">
 <article class="card"><span class="kicker">Garage cleanout</span><h3><a href="/garage-cleanout-springfield-mo">Garage cleanouts</a></h3><p>Boxes, shelving, old tools, and stored furniture. You mark what stays. We sort, load, and haul the rest. A backyard shed is <a href="/shed-removal-springfield-mo">shed removal</a>, not a garage.</p></article>
@@ -2281,7 +2365,7 @@ Springfield, Nixa, Ozark, Republic, Battlefield, Willard, Strafford, and Rogersv
 - [Mattress removal](https://springfieldjunkremovalservice.com/mattress-removal-springfield-mo): Mattresses and box springs. No promised recycling outcome.
 - [Appliance removal](https://springfieldjunkremovalservice.com/appliance-removal-springfield-mo): Refrigerators, washers, dryers, and similar units. No refrigerant recovery claim.
 - [Trash removal](https://springfieldjunkremovalservice.com/trash-removal-springfield-mo): Bagged household trash and junk that will not fit the cart. Not city trash service.
-- [Property cleanouts](https://springfieldjunkremovalservice.com/cleanouts-springfield-mo): Hub for estate, eviction, apartment, garage, house, hoarder, and move-out cleanouts.
+- [Property cleanouts](https://springfieldjunkremovalservice.com/cleanouts-springfield-mo): Hub for estate, eviction, apartment, garage, house, hoarder, and move-out cleanouts. The apartment and garage cleanout section is on this page.
 - [Apartment cleanout](https://springfieldjunkremovalservice.com/apartment-cleanout-springfield-mo): Springfield apartment move-outs and rental turnovers.
 - [Estate cleanout](https://springfieldjunkremovalservice.com/estate-cleanout-springfield-mo): Belongings a family marks to leave a Springfield house. Not an estate sale.
 - [House cleanout](https://springfieldjunkremovalservice.com/house-cleanout-springfield-mo): Whole-home cleanouts, including basements and rental houses.
@@ -2383,7 +2467,7 @@ def render_404():
 <li><a href="/junk-removal-springfield-mo">Junk removal in Springfield, MO</a> and <a href="/junk-removal-services-springfield-mo">services</a></li>
 <li><a href="/same-day-junk-removal-springfield-mo">Same-day junk removal</a>. We do not promise same-day service.</li>
 <li><a href="/residential-junk-removal-springfield-mo">Residential junk removal</a>, including <a href="/furniture-removal-springfield-mo">furniture</a>, <a href="/mattress-removal-springfield-mo">mattresses</a>, <a href="/appliance-removal-springfield-mo">appliances</a>, and <a href="/trash-removal-springfield-mo">trash</a></li>
-<li><a href="/cleanouts-springfield-mo">Cleanouts</a>, including <a href="/garage-cleanout-springfield-mo">garage</a>, <a href="/estate-cleanout-springfield-mo">estate</a>, <a href="/apartment-cleanout-springfield-mo">apartment</a>, <a href="/house-cleanout-springfield-mo">house</a>, <a href="/storage-unit-cleanout-springfield-mo">storage unit</a>, <a href="/basement-cleanout-springfield-mo">basement</a>, <a href="/attic-cleanout-springfield-mo">attic</a>, <a href="/eviction-cleanout-springfield-mo">eviction</a>, and <a href="/hoarder-cleanout-springfield-mo">hoarder</a></li>
+<li><a href="/cleanouts-springfield-mo">Cleanouts</a>, including <a href="/cleanouts-springfield-mo#apartment-garage-cleanout">apartment and garage cleanout</a>, <a href="/garage-cleanout-springfield-mo">garage</a>, <a href="/estate-cleanout-springfield-mo">estate</a>, <a href="/apartment-cleanout-springfield-mo">apartment</a>, <a href="/house-cleanout-springfield-mo">house</a>, <a href="/storage-unit-cleanout-springfield-mo">storage unit</a>, <a href="/basement-cleanout-springfield-mo">basement</a>, <a href="/attic-cleanout-springfield-mo">attic</a>, <a href="/eviction-cleanout-springfield-mo">eviction</a>, and <a href="/hoarder-cleanout-springfield-mo">hoarder</a></li>
 <li><a href="/commercial-junk-removal-springfield-mo">Commercial junk</a>, <a href="/office-cleanout-springfield-mo">office cleanout</a>, and <a href="/construction-debris-removal-springfield-mo">construction debris</a></li>
 <li><a href="/yard-waste-removal-springfield-mo">Yard waste</a>, <a href="/shed-removal-springfield-mo">shed removal</a>, and <a href="/hot-tub-removal-springfield-mo">hot tub removal</a></li>
 <li><a href="/junk-removal-service-areas-springfield-mo">Service area</a>, including <a href="/junk-removal-battlefield-mo">Battlefield</a>, <a href="/junk-removal-nixa-mo">Nixa</a>, <a href="/junk-removal-ozark-mo">Ozark</a>, <a href="/junk-removal-republic-mo">Republic</a>, and <a href="/junk-removal-willard-mo">Willard</a></li>
